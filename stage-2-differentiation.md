@@ -10,9 +10,9 @@
 | Item | Value | Implication |
 |---|---|---|
 | DVS week | **5 of 13** (8 weeks left) | Hero feature must be prototypable by ~Week 8 so it can be piloted in Weeks 9–11 |
-| Budget | **£1,000 / month** → ~£2,000 left [A – confirm it's paid monthly through Week 13] | Kitchen-scale prototypes and pilot only. No co-manufacturer run or Informed Sport testing in programme |
+| Budget | **£1,000 per term** (confirmed 6 Oct) → ~£1k total. Budget table in `findings-report.md` §E | Kitchen-scale prototypes and pilot only. No co-manufacturer run or Informed Sport testing in programme |
 | Pitch | **5 minutes, every Friday** | Each stage should end in something pitchable that Friday. Section 6 below covers this Friday |
-| Customer discovery | **9 interviews done; survey 1 response** | Interviews on track. **Survey is the urgent gap** (see end) |
+| Customer discovery | **9 interviews done; survey 1 response** (Ewan has his own survey) | Interviews on track. **Survey responses are the urgent gap: target ≥30 by Week 7** |
 | Team access | Durham teams in general, no specific squad yet | Pilot plan needs one named squad by Week 7 |
 | Library | No Durham paper access | Mancin et al. 2025 is open access ([PMC12106500](https://pmc.ncbi.nlm.nih.gov/articles/PMC12106500/)). Use open-access sources only |
 | Earlier decisions | No 70 g limit · not vegan · Veloforte Forza is the primary competitor · both solo and team sport | Hero feature must work for a **60 kg runner and a 100 kg forward** |
@@ -81,7 +81,7 @@ Wildcard to test cheaply: **savoury flavour (#5)** as recipe C in the taste pane
 ### What it is
 An ~85–90 g whole-food recovery bar moulded into **4 snap segments**. Each segment carries a fixed dose. The wrapper chart says **how many segments your body weight needs**.
 
-**Per-segment target [A – to be confirmed in Stage 3 recipe maths]:** ~5 g protein · ~11 g carbs · ~1.5 g fibre · ~88 kcal. **Whole bar:** ~20 g P · ~45 g C · ~6 g fibre · ~350 kcal.
+**Per-segment target (updated 6 Oct for higher fibre; see `findings-report.md` §C):** ~5 g protein · ~10 g carbs · **~2.7 g fibre** · ~86 kcal. **Whole bar (~98 g):** ~20 g P · ~42 g C · **~11 g fibre (incl. ~2 g oat beta-glucan)** · ~345 kcal.
 
 ### The dose maths (target 0.25–0.33 g protein/kg, evidence 0.25–0.31) [V for the range; bands are my design]
 
