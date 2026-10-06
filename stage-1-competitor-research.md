@@ -324,7 +324,7 @@ Rough protein maths for a ~80 g bar. Ingredient protein values are typical label
 **Mass-balance reality check [A]:** 20 g protein + 40 g carbs + ~6 g fibre + ~10 g fat ≈ **76 g of solids**, so the bar will weigh **~85–90 g at ~350 kcal**. That is ~20% heavier than Styrkr. **Decided (6 Oct):** no 70 g limit and not vegan, so we **go with Tier 3 (milk powder + egg white) at ~85–90 g**. Working target for Stage 3: **~20 g protein / ~45 g carbs / 5–6 g fibre / ~350 kcal [A]**. A segmented "dose" bar is still a candidate hero feature for Stage 2. It would also let a 60 kg runner eat part of the bar and a 100 kg forward eat all of it. Tier 3 also explains why nobody has done this: it's hard.
 
 ### 7c. Fibre vs fast recovery
-- The paper is real: **Mancin L, Burke LM, Rollo I. "Fibre: The Forgotten Carbohydrate in Sports Nutrition Recommendations." *Sports Medicine*, Jan 2025.** Authors at LJMU, Australian Catholic University and the Gatorade Sports Science Institute. It is an opinion/review piece, not a trial **[V – [summary](https://www.fisiologiadelejercicio.com/la-fibra-el-carbohidrato-olvidado-en-nutricion-deportiva/), [index](https://ngdc.cncb.ac.cn:443/openlb/publication/OLB-PM-39775524)]**. *Get the full text through Durham library before quoting numbers such as "30 g/day".*
+- The paper is real: **Mancin L, Burke LM, Rollo I. "Fibre: The Forgotten Carbohydrate in Sports Nutrition Recommendations." *Sports Medicine*, Jan 2025.** Authors at LJMU, Australian Catholic University and the Gatorade Sports Science Institute. It is an opinion/review piece, not a trial **[V – [summary](https://www.fisiologiadelejercicio.com/la-fibra-el-carbohidrato-olvidado-en-nutricion-deportiva/), [index](https://ngdc.cncb.ac.cn:443/openlb/publication/OLB-PM-39775524)]**. **Full text is open access:** [PMC12106500](https://pmc.ncbi.nlm.nih.gov/articles/PMC12106500/). For athletes who habitually eat <20 g fibre/day, the paper suggests a **ramp to ~30 g/day (including ~2 g beta-glucan) over ~6 weeks** [V – search summary of the paper; read §§ on gut comfort before quoting].
 - **Pushback:** fibre is **not** novel in this category. Forza (7.4 g), Myprotein Flapjack (7.8 g) and Veloforte Crunch (12 g) already have it. Fibre alone can't be your differentiator.
 - **What can be novel is the framing:** "built for the 24-hour recovery window" (e.g. oat beta-glucan, slower dairy protein), not "eat within 30 minutes". Stage 2 scores this against athlete appeal and claim risk.
 - **Working target [A]:** ~5–6 g fibre per bar. Enough for a "source of fibre" claim, low enough to limit gut risk. Gut comfort must be measured in the pilot.
@@ -377,7 +377,7 @@ Full compliance checklist comes in Stage 3 (8a).
 ### Open questions for you
 1. **Still missing:** current DVS week, budget (£), hours per week, pitch length, and interview/survey targets. Stages 3, 6 and 7 depend on them.
 2. **Pilot groups:** which **one** running/cycling club and **one** team squad can you realistically get access to through your network?
-3. Can you get **Mintel** (Durham library) and the **full text** of Mancin et al. (2025)?
+3. ~~Mintel / Mancin full text~~ → answered 6 Oct: no Durham library access. Mancin is open access (§7c). Market size will be built bottom-up.
 4. Do you have a **working brand name**? Run the UK IPO trade mark check (Step 1 action).
 
 ### What this stage adds to the pitch
