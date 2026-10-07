@@ -89,7 +89,7 @@ def back():
       <p><b>Allergy advice:</b> for allergens, including cereals containing gluten, see ingredients in <b>bold</b>. Made in a kitchen that also handles <b>almonds</b>. <span class="ph">[confirm after allergen risk assessment]</span></p>
       <h4>How to eat it</h4>
       <p>For after training. Half after a light session, the whole bar after a hard or long one. Not suitable before or during exercise.</p>
-      <p><b>High protein.</b> Protein contributes to a growth in muscle mass.</p>
+      <p><b>High protein.</b> Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p>
       <p class="small">Store in a cool, dry place. Best before: <span class="ph">[date]</span> · Lot: <span class="ph">[lot]</span><br/><span class="ph">[Business name, UK address]</span> · Made in <span class="ph">[Durham]</span>, UK · <span class="ph">[recycling info]</span></p>
     </div>
   </foreignObject>

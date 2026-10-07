@@ -112,6 +112,8 @@ Full conditions are in the sources (R1–R3). ✅ = qualifies on our calculation
 | "No isolates / no sweeteners / no palm oil" | Must be true and not imply competitors are unsafe | ✅ | ✅ | ✅ | Yes, factual |
 | "Clean", "superfood", "speeds recovery", "reduces soreness", "repairs muscle", "anti-inflammatory" | Not authorised / not defensible | ❌ | ❌ | ❌ | **Never** |
 
+**Mandatory with any health claim:** a statement on the importance of a varied and balanced diet and a healthy lifestyle (Reg. 1924/2006 Art. 10(2)). Added to the back of pack and the landing page.
+
 **Needs a Trading Standards / regulatory check before use:** (1) "recovery" in the product name or tagline; (2) "real food" and "no isolates" comparative wording; (3) the 2-half portion guidance, if it's linked to body weight. Durham County Council Trading Standards (or Newcastle, wherever you register) offers advice; ask about **Primary Authority**.
 
 ### 3e. Sugar (an extra tension I found)
