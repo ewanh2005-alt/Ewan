@@ -1,6 +1,6 @@
 # 00 — Briefing
 
-**Date:** 7 Oct 2026 · **Phase:** 0 (set-up) · **Status:** ⛔ blocked on inputs. See §4.
+**Date:** 7 Oct 2026 · **Phase:** 0 (set-up) · **Status:** ✅ Unblocked 7 Oct. See §7 for the decisions taken.
 
 ---
 
@@ -75,3 +75,30 @@ Their tags (**[V]** verified / **[C]** company claim / **[A]** assumption) will 
 ## 6. What I'll do if you only answer some questions
 
 If you answer **Q1 + Q3** but don't have notes yet, I'll go ahead with Phases 1, 2 and 4. Phase 3 will become a persona *skeleton* full of `[GAP]`s plus the interview questions to fill it. Branding and the landing page will be voiced for the provisional audience and marked as such.
+
+---
+
+## 7. Ewan's answers and the defaults I'm working to (7 Oct 2026)
+
+**Ewan's answers:**
+- Judging criteria = the photos (now `inputs/judging-criteria.md`).
+- Competitor notes: "for you to explore". So I treat the three stage documents as **earlier desk research** to re-verify, not as founder evidence.
+- Interview notes: not accessible right now. "People have said yes to the idea."
+- Contradictions: "not sure".
+
+**How I'm treating "people have said yes":** `[EVIDENCE: founder verbal report, unquantified]`. It's encouraging, but judges and the Mom Test treat a "yes" to an idea as weak: people are polite, and saying yes costs them nothing. It is **not** demand evidence. Phase 3 will be a persona skeleton built to be filled.
+
+**Defaults (override any time; each one says what would change it):**
+
+| # | Default | Change it if… |
+|---|---|---|
+| C1 | **Week 5 now.** Pilot plan runs Weeks 6–13 | You're actually earlier. Then add 1–3 weeks of interviews at the front |
+| C2 | **Primary audience: active UK 18–34s who train 3+ times a week.** Early adopters: **Durham students** (university sport clubs **and** gym-goers). This covers both the prompt and the earlier docs | Your notes show one group clearly cares more |
+| C3 | **Working protein route: whole foods + skimmed milk powder + dried egg white.** I still show a strict whole-food variant | You want a fully vegan or strictly whole-food bar |
+| C4 | Re-spec size and calories **in code** (Phase 4) rather than inherit 98 g / 345 kcal | — |
+| C5 | Snap-segment "dose" bar stays a **testable option** in the pilot. The brand and page don't depend on it | Pilot shows people use it |
+| C6 | Fibre level set from the evidence in Phase 4 (not inherited) | — |
+| C7 | **Budget £1,000 total** | You have more |
+| C8 | Week 13 pitch outline **plus** a 5-minute cut | — |
+
+**Research limitation found today:** in this environment, direct page fetches (gov.uk, legislation.gov.uk, PubMed Central, retailer sites) are blocked; **web search works**. So facts come from search-engine extracts of the cited pages. Every one is tagged as such in `research/sources.md`. Spot-check the 5–6 numbers you'll put on slides against the real pack or page.

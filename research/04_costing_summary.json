@@ -1,0 +1,71 @@
+{
+  "A_cocoa_peanut": {
+    "name": "Cocoa & Peanut",
+    "protein_g": 19.7,
+    "pilot": {
+      "ingredients": 0.861,
+      "unit_cost": 1.074
+    },
+    "scale": {
+      "ingredients": 0.33,
+      "unit_cost": 0.71
+    }
+  },
+  "B_raspberry_almond": {
+    "name": "Raspberry & Almond",
+    "protein_g": 19.5,
+    "pilot": {
+      "ingredients": 1.106,
+      "unit_cost": 1.331
+    },
+    "scale": {
+      "ingredients": 0.462,
+      "unit_cost": 0.846
+    }
+  },
+  "C_honey_oat_salt": {
+    "name": "Honey Oat & Sea Salt",
+    "protein_g": 19.7,
+    "pilot": {
+      "ingredients": 0.814,
+      "unit_cost": 1.025
+    },
+    "scale": {
+      "ingredients": 0.318,
+      "unit_cost": 0.698
+    }
+  },
+  "channels_hero": {
+    "DTC pilot (not VAT-registered, cash/card at events)": {
+      "price_to_brand": 2.7,
+      "cost": 1.07,
+      "gross_margin_gbp": 1.63,
+      "gross_margin_pct": 60.0
+    },
+    "DTC at scale (VAT-registered, multipack 4 for \u00a310)": {
+      "price_to_brand": 2.05,
+      "cost": 1.06,
+      "gross_margin_gbp": 0.99,
+      "gross_margin_pct": 48.0
+    },
+    "Gym/caf\u00e9 wholesale at scale": {
+      "price_to_brand": 1.49,
+      "cost": 0.71,
+      "gross_margin_gbp": 0.78,
+      "gross_margin_pct": 52.0
+    },
+    "Retail via distributor at scale": {
+      "price_to_brand": 1.03,
+      "cost": 0.71,
+      "gross_margin_gbp": 0.32,
+      "gross_margin_pct": 31.0
+    }
+  },
+  "pricing": {
+    "rrp": 2.75,
+    "rrp_ex_vat": 2.29,
+    "price_per_g_protein": 0.14,
+    "labour_per_bar_if_paid": 0.75,
+    "note": "DTC-at-scale cost adds \u00a30.35/bar for postage share [ASSUMPTION]"
+  }
+}

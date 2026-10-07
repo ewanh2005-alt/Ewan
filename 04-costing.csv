@@ -1,0 +1,81 @@
+recipe,scale,item,grams_per_bar,price_per_kg_gbp,cost_per_bar_gbp,basis_or_tag
+Cocoa & Peanut,pilot,dates,20.0,6.90,0.138,Tesco Deglet Nour dates 500 g £3.45
+Cocoa & Peanut,pilot,rolled_oats,14.0,1.35,0.019,Tesco Scottish Oats 1 kg £1.35
+Cocoa & Peanut,pilot,smp,12.0,10.29,0.123,Tesco instant dried skimmed milk 340 g £3.50
+Cocoa & Peanut,pilot,egg_white,12.0,34.99,0.420,Myprotein egg white powder 1 kg full price £34.99 (often £24.49 on promo)
+Cocoa & Peanut,pilot,oat_bran,8.0,3.13,0.025,Mornflake Oatbran 800 g £2.50
+Cocoa & Peanut,pilot,peanut_butter,8.0,5.75,0.046,Meridian 100% peanut butter 1 kg £5.75
+Cocoa & Peanut,pilot,honey,4.0,8.80,0.035,Pasieka multiflower honey 1 kg £8.80
+Cocoa & Peanut,pilot,cocoa,2.0,27.35,0.055,Sephra cocoa powder 1 kg £27.35
+Cocoa & Peanut,pilot,process waste,,,0.043,[ASSUMPTION] 5% loss
+Cocoa & Peanut,pilot,packaging,,,0.170,[ASSUMPTION] see script
+Cocoa & Peanut,pilot,co-man conversion fee,,,0.000,[ASSUMPTION] quote needed
+Cocoa & Peanut,pilot,TOTAL COST PER BAR,,,1.074,"excl. labour, delivery, testing"
+Cocoa & Peanut,scale,dates,20.0,3.00,0.060,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,rolled_oats,14.0,0.70,0.010,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,smp,12.0,3.50,0.042,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,egg_white,12.0,12.00,0.144,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,oat_bran,8.0,1.50,0.012,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,peanut_butter,8.0,3.50,0.028,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,honey,4.0,4.50,0.018,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,cocoa,2.0,8.00,0.016,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut,scale,process waste,,,0.010,[ASSUMPTION] 3% loss
+Cocoa & Peanut,scale,packaging,,,0.070,[ASSUMPTION] see script
+Cocoa & Peanut,scale,co-man conversion fee,,,0.300,[ASSUMPTION] quote needed
+Cocoa & Peanut,scale,TOTAL COST PER BAR,,,0.710,"excl. labour, delivery, testing"
+Raspberry & Almond,pilot,dates,19.0,6.90,0.131,Tesco Deglet Nour dates 500 g £3.45
+Raspberry & Almond,pilot,rolled_oats,14.0,1.35,0.019,Tesco Scottish Oats 1 kg £1.35
+Raspberry & Almond,pilot,smp,13.0,10.29,0.134,Tesco instant dried skimmed milk 340 g £3.50
+Raspberry & Almond,pilot,egg_white,12.0,34.99,0.420,Myprotein egg white powder 1 kg full price £34.99 (often £24.49 on promo)
+Raspberry & Almond,pilot,oat_bran,8.0,3.13,0.025,Mornflake Oatbran 800 g £2.50
+Raspberry & Almond,pilot,ground_almond,8.0,13.09,0.105,Real Foods blanched ground almonds 1 kg £13.09
+Raspberry & Almond,pilot,honey,4.0,8.80,0.035,Pasieka multiflower honey 1 kg £8.80
+Raspberry & Almond,pilot,fd_raspberry,2.0,118.50,0.237,Greencity freeze-dried raspberries 100 g £11.85
+Raspberry & Almond,pilot,process waste,,,0.055,[ASSUMPTION] 5% loss
+Raspberry & Almond,pilot,packaging,,,0.170,[ASSUMPTION] see script
+Raspberry & Almond,pilot,co-man conversion fee,,,0.000,[ASSUMPTION] quote needed
+Raspberry & Almond,pilot,TOTAL COST PER BAR,,,1.331,"excl. labour, delivery, testing"
+Raspberry & Almond,scale,dates,19.0,3.00,0.057,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,rolled_oats,14.0,0.70,0.010,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,smp,13.0,3.50,0.045,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,egg_white,12.0,12.00,0.144,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,oat_bran,8.0,1.50,0.012,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,ground_almond,8.0,7.00,0.056,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,honey,4.0,4.50,0.018,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,fd_raspberry,2.0,60.00,0.120,"[ASSUMPTION] bulk/trade price, quote needed"
+Raspberry & Almond,scale,process waste,,,0.014,[ASSUMPTION] 3% loss
+Raspberry & Almond,scale,packaging,,,0.070,[ASSUMPTION] see script
+Raspberry & Almond,scale,co-man conversion fee,,,0.300,[ASSUMPTION] quote needed
+Raspberry & Almond,scale,TOTAL COST PER BAR,,,0.846,"excl. labour, delivery, testing"
+Honey Oat & Sea Salt,pilot,dates,18.0,6.90,0.124,Tesco Deglet Nour dates 500 g £3.45
+Honey Oat & Sea Salt,pilot,rolled_oats,16.4,1.35,0.022,Tesco Scottish Oats 1 kg £1.35
+Honey Oat & Sea Salt,pilot,smp,12.0,10.29,0.123,Tesco instant dried skimmed milk 340 g £3.50
+Honey Oat & Sea Salt,pilot,egg_white,12.0,34.99,0.420,Myprotein egg white powder 1 kg full price £34.99 (often £24.49 on promo)
+Honey Oat & Sea Salt,pilot,oat_bran,8.0,3.13,0.025,Mornflake Oatbran 800 g £2.50
+Honey Oat & Sea Salt,pilot,pumpkin_seeds,7.0,5.43,0.038,Stock & Prep pumpkin seeds 1 kg £5.43
+Honey Oat & Sea Salt,pilot,honey,6.0,8.80,0.053,Pasieka multiflower honey 1 kg £8.80
+Honey Oat & Sea Salt,pilot,cinnamon,0.4,20.00,0.008,[ASSUMPTION] generic ground cinnamon
+Honey Oat & Sea Salt,pilot,sea_salt,0.2,2.00,0.000,[ASSUMPTION] generic sea salt
+Honey Oat & Sea Salt,pilot,process waste,,,0.041,[ASSUMPTION] 5% loss
+Honey Oat & Sea Salt,pilot,packaging,,,0.170,[ASSUMPTION] see script
+Honey Oat & Sea Salt,pilot,co-man conversion fee,,,0.000,[ASSUMPTION] quote needed
+Honey Oat & Sea Salt,pilot,TOTAL COST PER BAR,,,1.025,"excl. labour, delivery, testing"
+Honey Oat & Sea Salt,scale,dates,18.0,3.00,0.054,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,rolled_oats,16.4,0.70,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,smp,12.0,3.50,0.042,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,egg_white,12.0,12.00,0.144,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,oat_bran,8.0,1.50,0.012,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,pumpkin_seeds,7.0,3.50,0.025,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,honey,6.0,4.50,0.027,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,cinnamon,0.4,8.00,0.003,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,sea_salt,0.2,0.50,0.000,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey Oat & Sea Salt,scale,process waste,,,0.010,[ASSUMPTION] 3% loss
+Honey Oat & Sea Salt,scale,packaging,,,0.070,[ASSUMPTION] see script
+Honey Oat & Sea Salt,scale,co-man conversion fee,,,0.300,[ASSUMPTION] quote needed
+Honey Oat & Sea Salt,scale,TOTAL COST PER BAR,,,0.698,"excl. labour, delivery, testing"
+
+CHANNEL (hero: Cocoa & Peanut),,price_to_brand_gbp,cost_gbp,gross_margin_gbp,gross_margin_pct,RRP £2.75
+"DTC pilot (not VAT-registered, cash/card at events)",,2.7,1.07,1.63,60.0,
+"DTC at scale (VAT-registered, multipack 4 for £10)",,2.05,1.06,0.99,48.0,
+Gym/café wholesale at scale,,1.49,0.71,0.78,52.0,
+Retail via distributor at scale,,1.03,0.71,0.32,31.0,

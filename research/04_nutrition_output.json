@@ -1,0 +1,293 @@
+{
+  "A_cocoa_peanut": {
+    "name": "Cocoa & Peanut",
+    "role": "Hero flavour",
+    "grams": {
+      "dates": 20.0,
+      "rolled_oats": 14.0,
+      "smp": 12.0,
+      "egg_white": 12.0,
+      "oat_bran": 8.0,
+      "peanut_butter": 8.0,
+      "honey": 4.0,
+      "cocoa": 2.0
+    },
+    "per_bar": {
+      "p": 19.735999999999997,
+      "c": 37.06,
+      "s": 23.344,
+      "fb": 5.1800000000000015,
+      "f": 6.352,
+      "sf": 1.3559999999999999,
+      "salt": 0.5558000000000001,
+      "kj": 1241.996,
+      "kcal": 294.712,
+      "weight": 80.0
+    },
+    "per_100g": {
+      "p": 24.669999999999995,
+      "c": 46.325,
+      "s": 29.18,
+      "fb": 6.475000000000001,
+      "f": 7.94,
+      "sf": 1.6949999999999998,
+      "salt": 0.6947500000000001,
+      "kj": 1552.4950000000001,
+      "kcal": 368.39,
+      "weight": 100.0
+    },
+    "claims": {
+      "protein_pct_energy": 26.8,
+      "source_of_protein (>=12% energy)": true,
+      "high_protein (>=20% energy)": true,
+      "fibre_g_per_100g": 6.5,
+      "fibre_g_per_100kcal": 1.76,
+      "source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal)": true,
+      "high_fibre (>=6 g/100 g or >=3 g/100 kcal)": true,
+      "protein_muscle_claim_condition (source of protein)": true,
+      "carb_recovery_claim_condition (metabolisable carbs, no polyols)": true,
+      "carb_recovery_claim_note": "Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise"
+    },
+    "traffic_lights_per_100g": {
+      "f": "MEDIUM (amber)",
+      "sf": "MEDIUM (amber)",
+      "s": "HIGH (red)",
+      "salt": "MEDIUM (amber)"
+    },
+    "allergens": [
+      "cereals containing gluten (oats)",
+      "egg",
+      "milk",
+      "peanuts"
+    ],
+    "ingredients": "Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, **peanut** butter (100% **peanuts**) (10%), honey, cocoa powder (2%).",
+    "batch_1kg": {
+      "dates": 250.0,
+      "rolled_oats": 175.0,
+      "smp": 150.0,
+      "egg_white": 150.0,
+      "oat_bran": 100.0,
+      "peanut_butter": 100.0,
+      "honey": 50.0,
+      "cocoa": 25.0
+    },
+    "bars_per_kg": 12.5
+  },
+  "B_raspberry_almond": {
+    "name": "Raspberry & Almond",
+    "role": "Fruity flavour",
+    "grams": {
+      "dates": 19.0,
+      "rolled_oats": 14.0,
+      "smp": 13.0,
+      "egg_white": 12.0,
+      "oat_bran": 8.0,
+      "ground_almond": 8.0,
+      "honey": 4.0,
+      "fd_raspberry": 2.0
+    },
+    "per_bar": {
+      "p": 19.491,
+      "c": 36.922000000000004,
+      "s": 23.76,
+      "fb": 5.072000000000001,
+      "f": 6.46,
+      "sf": 0.7430000000000001,
+      "salt": 0.5670000000000001,
+      "kj": 1238.6170000000002,
+      "kcal": 293.93600000000004,
+      "weight": 80.0
+    },
+    "per_100g": {
+      "p": 24.36375,
+      "c": 46.1525,
+      "s": 29.700000000000003,
+      "fb": 6.340000000000002,
+      "f": 8.075,
+      "sf": 0.9287500000000002,
+      "salt": 0.7087500000000001,
+      "kj": 1548.2712500000002,
+      "kcal": 367.4200000000001,
+      "weight": 100.0
+    },
+    "claims": {
+      "protein_pct_energy": 26.5,
+      "source_of_protein (>=12% energy)": true,
+      "high_protein (>=20% energy)": true,
+      "fibre_g_per_100g": 6.3,
+      "fibre_g_per_100kcal": 1.73,
+      "source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal)": true,
+      "high_fibre (>=6 g/100 g or >=3 g/100 kcal)": true,
+      "protein_muscle_claim_condition (source of protein)": true,
+      "carb_recovery_claim_condition (metabolisable carbs, no polyols)": true,
+      "carb_recovery_claim_note": "Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise"
+    },
+    "traffic_lights_per_100g": {
+      "f": "MEDIUM (amber)",
+      "sf": "LOW (green)",
+      "s": "HIGH (red)",
+      "salt": "MEDIUM (amber)"
+    },
+    "allergens": [
+      "cereals containing gluten (oats)",
+      "egg",
+      "milk",
+      "nuts (almond)"
+    ],
+    "ingredients": "Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, ground **almonds** (10%), honey, freeze-dried raspberries (2%).",
+    "batch_1kg": {
+      "dates": 237.5,
+      "rolled_oats": 175.0,
+      "smp": 162.5,
+      "egg_white": 150.0,
+      "oat_bran": 100.0,
+      "ground_almond": 100.0,
+      "honey": 50.0,
+      "fd_raspberry": 25.0
+    },
+    "bars_per_kg": 12.5
+  },
+  "C_honey_oat_salt": {
+    "name": "Honey Oat & Sea Salt",
+    "role": "Nut-free flavour (made in a nut-handling kitchen: see allergen notes)",
+    "grams": {
+      "dates": 18.0,
+      "rolled_oats": 16.4,
+      "smp": 12.0,
+      "egg_white": 12.0,
+      "oat_bran": 8.0,
+      "pumpkin_seeds": 7.0,
+      "honey": 6.0,
+      "cinnamon": 0.4,
+      "sea_salt": 0.2
+    },
+    "per_bar": {
+      "p": 19.674,
+      "c": 38.048,
+      "s": 23.447200000000002,
+      "fb": 4.747999999999999,
+      "f": 5.340800000000001,
+      "sf": 1.0281999999999998,
+      "salt": 0.7541600000000002,
+      "kj": 1216.8676,
+      "kcal": 288.4512,
+      "weight": 80.0
+    },
+    "per_100g": {
+      "p": 24.5925,
+      "c": 47.56,
+      "s": 29.309000000000005,
+      "fb": 5.934999999999999,
+      "f": 6.676000000000001,
+      "sf": 1.2852499999999998,
+      "salt": 0.9427000000000002,
+      "kj": 1521.0845,
+      "kcal": 360.56399999999996,
+      "weight": 100.0
+    },
+    "claims": {
+      "protein_pct_energy": 27.3,
+      "source_of_protein (>=12% energy)": true,
+      "high_protein (>=20% energy)": true,
+      "fibre_g_per_100g": 5.9,
+      "fibre_g_per_100kcal": 1.65,
+      "source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal)": true,
+      "high_fibre (>=6 g/100 g or >=3 g/100 kcal)": false,
+      "protein_muscle_claim_condition (source of protein)": true,
+      "carb_recovery_claim_condition (metabolisable carbs, no polyols)": true,
+      "carb_recovery_claim_note": "Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise"
+    },
+    "traffic_lights_per_100g": {
+      "f": "MEDIUM (amber)",
+      "sf": "LOW (green)",
+      "s": "HIGH (red)",
+      "salt": "MEDIUM (amber)"
+    },
+    "allergens": [
+      "cereals containing gluten (oats)",
+      "egg",
+      "milk"
+    ],
+    "ingredients": "Dates, **oats** (20%), skimmed **milk** powder, dried **egg** white, **oat** bran, pumpkin seeds, honey (8%), cinnamon, sea salt.",
+    "batch_1kg": {
+      "dates": 225.0,
+      "rolled_oats": 205.0,
+      "smp": 150.0,
+      "egg_white": 150.0,
+      "oat_bran": 100.0,
+      "pumpkin_seeds": 87.5,
+      "honey": 75.0,
+      "cinnamon": 5.0,
+      "sea_salt": 2.5
+    },
+    "bars_per_kg": 12.5
+  },
+  "S_strict_wholefood": {
+    "name": "Strict whole-food variant (Cocoa & Peanut, no powders)",
+    "role": "Comparison only: shows the protein ceiling",
+    "grams": {
+      "dates": 26.0,
+      "rolled_oats": 22.0,
+      "peanut_butter": 12.0,
+      "oat_bran": 10.0,
+      "pumpkin_seeds": 8.0,
+      "cocoa": 2.0
+    },
+    "per_bar": {
+      "p": 10.57,
+      "c": 37.8,
+      "s": 17.494,
+      "fb": 7.440000000000001,
+      "f": 12.714,
+      "sf": 2.5000000000000004,
+      "salt": 0.0092,
+      "kj": 1352.228,
+      "kcal": 322.786,
+      "weight": 80.0
+    },
+    "per_100g": {
+      "p": 13.2125,
+      "c": 47.25,
+      "s": 21.8675,
+      "fb": 9.3,
+      "f": 15.8925,
+      "sf": 3.1250000000000004,
+      "salt": 0.0115,
+      "kj": 1690.285,
+      "kcal": 403.4825,
+      "weight": 100.0
+    },
+    "claims": {
+      "protein_pct_energy": 13.1,
+      "source_of_protein (>=12% energy)": true,
+      "high_protein (>=20% energy)": false,
+      "fibre_g_per_100g": 9.3,
+      "fibre_g_per_100kcal": 2.3,
+      "source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal)": true,
+      "high_fibre (>=6 g/100 g or >=3 g/100 kcal)": true,
+      "protein_muscle_claim_condition (source of protein)": true,
+      "carb_recovery_claim_condition (metabolisable carbs, no polyols)": true,
+      "carb_recovery_claim_note": "Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise"
+    },
+    "traffic_lights_per_100g": {
+      "f": "MEDIUM (amber)",
+      "sf": "MEDIUM (amber)",
+      "s": "MEDIUM (amber)",
+      "salt": "LOW (green)"
+    },
+    "allergens": [
+      "cereals containing gluten (oats)",
+      "peanuts"
+    ],
+    "ingredients": "Dates, **oats**, **peanut** butter (100% **peanuts**) (15%), **oat** bran, pumpkin seeds, cocoa powder (2%).",
+    "batch_1kg": {
+      "dates": 325.0,
+      "rolled_oats": 275.0,
+      "peanut_butter": 150.0,
+      "oat_bran": 125.0,
+      "pumpkin_seeds": 100.0,
+      "cocoa": 25.0
+    },
+    "bars_per_kg": 12.5
+  }
+}
