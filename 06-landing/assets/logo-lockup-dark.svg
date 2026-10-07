@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434 112" width="434" height="112" role="img" aria-label="fettle">
+  <title>fettle</title>
+  <rect x="8" y="59" width="39.099999999999994" height="25.299999999999997" rx="8.049999999999999" fill="#F0804A"/><rect x="53.99999999999999" y="59" width="39.099999999999994" height="25.299999999999997" rx="8.049999999999999" fill="#F4EFE6"/>
+  <g fill="none" stroke="#F4EFE6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path transform="translate(124 0)" d="M14 100 V30 A18 18 0 0 1 32 12 H40 M2 46 H32"/>
+    <path transform="translate(174 0)" d="M4 70 H54 A26 26 0 1 0 47.9 86.7"/>
+    <path transform="translate(242 0)" d="M14 20 V84 A16 16 0 0 0 30 100 H36 M2 46 H32"/>
+    <path transform="translate(290 0)" d="M14 20 V84 A16 16 0 0 0 30 100 H36 M2 46 H32"/>
+    <path transform="translate(338 0)" d="M6 10 V100"/>
+    <path transform="translate(360 0)" d="M4 70 H54 A26 26 0 1 0 47.9 86.7"/>
+  </g>
+</svg>
