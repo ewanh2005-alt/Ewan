@@ -36,7 +36,7 @@ ING = {
                           ref="CoFID 'Milk, dried, skimmed' (sodium ~0.55 g/100 g)"),
     "egg_white":     dict(label="dried **egg** white", p=80.0, c=4.5, s=4.5, fb=0.0, f=0.3, sf=0.0, salt=3.2, allergen="egg",
                           ref="USDA FDC 'Egg, white, dried' (sodium ~1.28 g/100 g)"),
-    "peanut_butter": dict(label="**peanut** butter (100% **peanuts**)", p=25.0, c=13.0, s=5.0, fb=7.0, f=50.0, sf=9.0, salt=0.02, allergen="peanuts",
+    "peanut_butter": dict(label="**peanut** butter", p=25.0, c=13.0, s=5.0, fb=7.0, f=50.0, sf=9.0, salt=0.02, allergen="peanuts",
                           ref="Typical UK 100% peanut butter label (e.g. Meridian)"),
     "ground_almond": dict(label="ground **almonds**", p=21.0, c=6.9, s=4.2, fb=7.4, f=55.8, sf=4.4, salt=0.01, allergen="nuts (almond)",
                           ref="CoFID 'Almonds, ground' / typical UK pack"),
@@ -123,6 +123,26 @@ def claims(t, h):
     return out
 
 
+def npm_score(h, fvn_points=0):
+    """UK 2004/05 Nutrient Profiling Model (the HFSS test). Score >= 4 = 'less healthy' (food).
+    fvn_points = fruit/veg/nut credit; conservatively 0 here (dates + nuts are ~30-35% of
+    the bar; the credit needs >40%) [ASSUMPTION: check the FVN rules for dried fruit]."""
+    energy = min(10, sum(h["kj"] > t for t in [335 * i for i in range(1, 11)]))
+    sat = min(10, sum(h["sf"] > t for t in range(1, 11)))
+    sugars = min(10, sum(h["s"] > t for t in [4.5 * i for i in range(1, 11)]))
+    sodium_mg = h["salt"] / 2.5 * 1000
+    sodium = min(10, sum(sodium_mg > t for t in [90 * i for i in range(1, 11)]))
+    a = energy + sat + sugars + sodium
+    fibre = sum(h["fb"] > t for t in (0.9, 1.9, 2.8, 3.7, 4.7))  # AOAC thresholds
+    protein = sum(h["p"] > t for t in (1.6, 3.2, 4.8, 6.4, 8.0))
+    if a >= 11 and fvn_points < 5:
+        score = a - (fibre + fvn_points)  # protein can't be counted
+    else:
+        score = a - (fibre + fvn_points + protein)
+    return dict(a_points=a, fibre_points=fibre, protein_points=protein, fvn_points=fvn_points,
+                score=score, hfss_less_healthy=score >= 4)
+
+
 def traffic(h):
     res = {}
     for k, (lo, hi) in TRAFFIC.items():
@@ -188,9 +208,10 @@ def main():
         h = per100(t)
         cl = claims(t, h)
         tl = traffic(h)
+        npm = npm_score(h)
         al = allergens(r["g"])
         results[key] = dict(name=r["name"], role=r["role"], grams=r["g"], per_bar=t, per_100g=h,
-                            claims=cl, traffic_lights_per_100g=tl, allergens=al,
+                            claims=cl, traffic_lights_per_100g=tl, npm=npm, allergens=al,
                             ingredients=ingredients_line(r),
                             batch_1kg={i: round(g / t["weight"] * 1000, 1) for i, g in r["g"].items()},
                             bars_per_kg=round(1000 / t["weight"], 1))
@@ -202,6 +223,9 @@ def main():
         for ck, v in cl.items():
             md.append(f"- {ck}: {'✅' if v is True else ('❌' if v is False else v)}")
         md.append("\n**FSA traffic lights (per 100 g):** " + ", ".join(f"{k} {v}" for k, v in tl.items()) + "\n")
+        md.append(f"**UK nutrient profile (HFSS) score:** {npm['score']} (A {npm['a_points']}, fibre {npm['fibre_points']}, "
+                  f"protein {npm['protein_points']}{' not counted' if npm['a_points'] >= 11 else ''}) → "
+                  f"{'**less healthy (HFSS)**' if npm['hfss_less_healthy'] else 'not HFSS'}\n")
         md.append("**Formulation (g):** per bar / per 1 kg batch\n")
         md.append("| Ingredient | Per bar (g) | Per 1 kg batch (g) | Source of values |\n|---|---|---|---|")
         for i, g in sorted(r["g"].items(), key=lambda kv: -kv[1]):
@@ -211,7 +235,7 @@ def main():
         print(f"{r['name']:<58} {t['weight']:.0f} g | {t['kcal']:.0f} kcal | P {t['p']:.1f} | C {t['c']:.1f} "
               f"(S {t['s']:.1f}) | Fb {t['fb']:.1f} | F {t['f']:.1f} (Sat {t['sf']:.1f}) | Salt {t['salt']:.2f} | "
               f"P%E {cl['protein_pct_energy']} | HighP {cl['high_protein (>=20% energy)']} | "
-              f"HighFb {cl['high_fibre (>=6 g/100 g or >=3 g/100 kcal)']}")
+              f"HighFb {cl['high_fibre (>=6 g/100 g or >=3 g/100 kcal)']} | NPM {npm['score']}")
     Path("04-nutrition-tables.md").write_text("\n".join(md) + "\n")
     Path("research").mkdir(exist_ok=True)
     Path("research/04_nutrition_output.json").write_text(json.dumps(results, indent=2))

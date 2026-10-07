@@ -18,7 +18,7 @@ Ingredient values are typical CoFID/USDA-type values (see script header). **All 
 
 \*Reference intake of an average adult (8400 kJ / 2000 kcal).
 
-**Ingredients:** Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, **peanut** butter (100% **peanuts**) (10%), honey, cocoa powder (2%).
+**Ingredients:** Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, **peanut** butter (10%), honey, cocoa powder (2%).
 
 **Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk, peanuts
 
@@ -36,6 +36,8 @@ Ingredient values are typical CoFID/USDA-type values (see script header). **All 
 - carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
 
 **FSA traffic lights (per 100 g):** f MEDIUM (amber), sf MEDIUM (amber), s HIGH (red), salt MEDIUM (amber)
+
+**UK nutrient profile (HFSS) score:** 9 (A 14, fibre 5, protein 5 not counted) → **less healthy (HFSS)**
 
 **Formulation (g):** per bar / per 1 kg batch
 
@@ -87,6 +89,8 @@ One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
 
 **FSA traffic lights (per 100 g):** f MEDIUM (amber), sf LOW (green), s HIGH (red), salt MEDIUM (amber)
 
+**UK nutrient profile (HFSS) score:** 8 (A 13, fibre 5, protein 5 not counted) → **less healthy (HFSS)**
+
 **Formulation (g):** per bar / per 1 kg batch
 
 | Ingredient | Per bar (g) | Per 1 kg batch (g) | Source of values |
@@ -137,6 +141,8 @@ One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
 
 **FSA traffic lights (per 100 g):** f MEDIUM (amber), sf LOW (green), s HIGH (red), salt MEDIUM (amber)
 
+**UK nutrient profile (HFSS) score:** 10 (A 15, fibre 5, protein 5 not counted) → **less healthy (HFSS)**
+
 **Formulation (g):** per bar / per 1 kg batch
 
 | Ingredient | Per bar (g) | Per 1 kg batch (g) | Source of values |
@@ -169,7 +175,7 @@ One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
 
 \*Reference intake of an average adult (8400 kJ / 2000 kcal).
 
-**Ingredients:** Dates, **oats**, **peanut** butter (100% **peanuts**) (15%), **oat** bran, pumpkin seeds, cocoa powder (2%).
+**Ingredients:** Dates, **oats**, **peanut** butter (15%), **oat** bran, pumpkin seeds, cocoa powder (2%).
 
 **Contains (14 UK allergens):** cereals containing gluten (oats), peanuts
 
@@ -187,6 +193,8 @@ One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
 - carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
 
 **FSA traffic lights (per 100 g):** f MEDIUM (amber), sf MEDIUM (amber), s MEDIUM (amber), salt LOW (green)
+
+**UK nutrient profile (HFSS) score:** 7 (A 12, fibre 5, protein 5 not counted) → **less healthy (HFSS)**
 
 **Formulation (g):** per bar / per 1 kg batch
 

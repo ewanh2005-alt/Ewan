@@ -54,13 +54,21 @@
       "s": "HIGH (red)",
       "salt": "MEDIUM (amber)"
     },
+    "npm": {
+      "a_points": 14,
+      "fibre_points": 5,
+      "protein_points": 5,
+      "fvn_points": 0,
+      "score": 9,
+      "hfss_less_healthy": true
+    },
     "allergens": [
       "cereals containing gluten (oats)",
       "egg",
       "milk",
       "peanuts"
     ],
-    "ingredients": "Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, **peanut** butter (100% **peanuts**) (10%), honey, cocoa powder (2%).",
+    "ingredients": "Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, **peanut** butter (10%), honey, cocoa powder (2%).",
     "batch_1kg": {
       "dates": 250.0,
       "rolled_oats": 175.0,
@@ -127,6 +135,14 @@
       "sf": "LOW (green)",
       "s": "HIGH (red)",
       "salt": "MEDIUM (amber)"
+    },
+    "npm": {
+      "a_points": 13,
+      "fibre_points": 5,
+      "protein_points": 5,
+      "fvn_points": 0,
+      "score": 8,
+      "hfss_less_healthy": true
     },
     "allergens": [
       "cereals containing gluten (oats)",
@@ -203,6 +219,14 @@
       "s": "HIGH (red)",
       "salt": "MEDIUM (amber)"
     },
+    "npm": {
+      "a_points": 15,
+      "fibre_points": 5,
+      "protein_points": 5,
+      "fvn_points": 0,
+      "score": 10,
+      "hfss_less_healthy": true
+    },
     "allergens": [
       "cereals containing gluten (oats)",
       "egg",
@@ -275,11 +299,19 @@
       "s": "MEDIUM (amber)",
       "salt": "LOW (green)"
     },
+    "npm": {
+      "a_points": 12,
+      "fibre_points": 5,
+      "protein_points": 5,
+      "fvn_points": 0,
+      "score": 7,
+      "hfss_less_healthy": true
+    },
     "allergens": [
       "cereals containing gluten (oats)",
       "peanuts"
     ],
-    "ingredients": "Dates, **oats**, **peanut** butter (100% **peanuts**) (15%), **oat** bran, pumpkin seeds, cocoa powder (2%).",
+    "ingredients": "Dates, **oats**, **peanut** butter (15%), **oat** bran, pumpkin seeds, cocoa powder (2%).",
     "batch_1kg": {
       "dates": 325.0,
       "rolled_oats": 275.0,
