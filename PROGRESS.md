@@ -1,6 +1,8 @@
 # PROGRESS
 
-Last updated: 7 Oct 2026 (Week 5)
+Last updated: 8 Oct 2026 (Week 5)
+
+**8 Oct change:** product redesigned to v3 kitchen bake (supermarket ingredients, fresh eggs + milk, ≤6 g sugar). Phases 2, 4, 5, 6, 7 and 8 updated.
 
 ## Phase 0 — Set up ✅
 - [x] Folder structure, `PROGRESS.md`, `research/sources.md`
@@ -19,8 +21,9 @@ Last updated: 7 Oct 2026 (Week 5)
 - [ ] **Waiting on Ewan's 9 interview notes** to turn it into an evidence persona
 
 ## Phase 4 — Concept bar ✅ (calculated, not tested)
-- [x] `04-concept-bar.md`, `04-nutrition.py`, `04-nutrition-tables.md`, `04-costing.py`, `04-costing.csv`
-- [ ] Kitchen trial, supplier specs, lab analysis (Weeks 6–10)
+- [x] v1 (23 g sugar) → v2 (8 g, powders) → **v3 kitchen bake (~3 g sugar, ~14 g protein, 90 g)**
+- [x] `04-concept-bar.md` (recipe cards), `04-nutrition.py` (bake-loss model), `04-nutrition-tables.md`, `04-costing.py`, `04-costing.csv`
+- [ ] First bake: weigh before/after → update `loss=` · taste test · lab analysis (Weeks 6–10)
 
 ## Phase 5 — Branding ✅
 - [x] Name research → **fettle** recommended (UK IPO check outstanding)
@@ -32,11 +35,11 @@ Last updated: 7 Oct 2026 (Week 5)
 - [ ] Ewan to connect a form service and replace placeholders
 
 ## Phase 7 — MVP / pilot and pitch ✅
-- [x] `07-mvp-pilot-plan.md`, `07-budget.py`, `07-assumption-tracker.csv`, `07-pitch-outline.md`
+- [x] `07-mvp-pilot-plan.md`, `07-budget.py` (£960, within budget), `07-assumption-tracker.csv`, `07-pitch-outline.md`
 
 ## Phase 8 — Quality check ✅
-- [x] Scripts re-run, source/quote/claims audit (fixed: balanced-diet statement), readiness re-scored
+- [x] Scripts re-run, source/quote/claims audit (fixed: balanced-diet statement; removed "high protein" and "no added sugar" for v3), readiness re-scored
 - [x] `08-final-summary.md`
 
 ## Decisions open for Ewan
-1. Name (fettle) after IPO check · 2. Budget overrun £180 · 3. Primary persona · 4. Sugar trade-off · 5. Snap-in-half vs 4-segment hero
+1. Name (fettle) after IPO check · 2. Accept ~14 g protein for the pilot · 3. Fresh/chilled pilot vs shelf-stable · 4. Primary persona

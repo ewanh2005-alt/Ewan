@@ -60,7 +60,7 @@ Gender-neutral on purpose: we don't know yet whether the segment skews one way `
 |---|---|---|
 | The specific problem | After training you get protein **or** carbs **or** real ingredients, rarely all three in one thing you can carry | `[EVIDENCE: 02 competitor data]` that the products work this way; `[ASSUMPTION]` that Sam feels it |
 | Why it matters to them | Saves buying two things (bar + banana/milk) or skipping recovery | `[ASSUMPTION]` |
-| What's different | ~20 g protein + ~37 g carbs in one 80 g bar; ingredients you can read; no sweeteners or polyols | `[EVIDENCE: 04 calculation, unverified]` |
+| What's different | ~3 g sugar with ~14 g protein and ~28 g carbs (90 g bar), from 7 kitchen ingredients; no powders, sweeteners or polyols | `[EVIDENCE: 04 calculation, unverified]` |
 
 ### "Would Sam buy this?" test
 > **Would Sam pick our £2.75 bar over a £2.85 Grenade or a £1.77 chocolate milk + banana, straight after a session, more than once?**

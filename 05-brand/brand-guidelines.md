@@ -50,9 +50,9 @@
 ## 2. Strategy
 
 **Positioning statement**
-> For people who train hard and don't want to choose between a protein bar, a carb snack and real food, **fettle** is the after-training bar that gives you ~20 g protein **and** ~37 g carbs from ingredients you can read: no isolates, no sweeteners, no palm oil.
+> For people who train and want something after a session that's low in sugar **and** made from real food, **fettle** is the fresh-baked bar with ~3 g sugar, ~14 g protein and ~28 g carbs, made from 7 kitchen ingredients: no powders, no sweeteners, no sugar alcohols. *(Updated 8 Oct for the v3 kitchen bake.)*
 
-**Brand promise:** *The full refuel, made from real food.* ("Refuel" describes eating carbs after training, not a health effect. Still on the Trading Standards checklist.)
+**Brand promise:** *Sugar like a protein bar. Ingredients like home baking.*
 
 **Three values**
 1. **Honest:** we show every number and every ingredient, and we never overclaim.
@@ -61,8 +61,8 @@
 
 **Tagline options**
 1. **Real food for after training.** *(recommended: safest and clearest)*
-2. Protein and carbs. One bar. Real food.
-3. 20 g protein. 37 g carbs. Nothing you can't read.
+2. Low sugar. Real food. After training.
+3. 3 g sugar. 7 ingredients. Nothing you can't read.
 4. Made for the walk home. *(occasion-led)*
 5. Back in fettle. *(needs a Trading Standards check: implied effect)*
 
@@ -71,11 +71,11 @@ Plain, warm, a bit dry. Northern, not jokey. Numbers first, adjectives last.
 
 | Do | Don't |
 |---|---|
-| "20 g protein, 37 g carbs. Made from dates, oats, milk and egg." | "Unleash your gains with our clean superfood fuel!" |
-| "For after training. Half after a light session, the whole bar after a hard one." | "Speeds recovery and reduces muscle soreness." (illegal claim) |
-| "Yes, it's got sugar: 23 g, mostly from dates and milk. After training, that's the point." | Hiding the sugar, or calling it "guilt-free" |
+| "3 g sugar, 14 g protein. Baked from oats, eggs, milk and peanuts." | "Unleash your gains with our clean superfood fuel!" |
+| "For after training, when dinner's still an hour away." | "Speeds recovery and reduces muscle soreness." (illegal claim) |
+| "It's got 14 g protein, not 20. We chose real ingredients over isolates." | Calling it "high protein" (it doesn't qualify), or "guilt-free" |
 | "Whether you're on the first XV or you went to the gym before a lecture." | "For elite athletes only." / "Beast mode." |
-| "No isolates, no sweeteners, no palm oil." | "Other bars are full of chemicals." (disparaging, misleading) |
+| "No powders, no sweeteners, no syrups." | "Other bars are full of chemicals." (disparaging, misleading) |
 
 ## 3. Visual identity
 
@@ -121,15 +121,17 @@ See `packaging-front.svg` and `packaging-back.svg` (generated from the Phase 4 n
 **Front-of-pack hierarchy:**
 1. Brand (fettle)
 2. Flavour (Cocoa & Peanut), with the flavour colour band
-3. Key numbers: **20 g protein · 37 g carbs · 295 kcal**
-4. "Real food ingredients. No isolates. No sweeteners. No palm oil."
-5. "For after training"
-6. "High protein" (✅ legal on calc; confirm with lab test)
-7. Net weight 80 g ℮
+3. Key numbers: **3 g sugar · 14 g protein · 28 g carbs**
+4. "Made from 7 kitchen ingredients · No powders · No sweeteners"
+5. "For after training · Baked fresh"
+6. "Low sugar" (✅ 3.8 g/100 g on calc; confirm with lab test)
+7. Net weight 90 g ℮
 
-**Back of pack:** full ingredients with **allergens in bold**; UK nutrition table per 100 g and per bar with %RI; how-to-eat guidance; the authorised protein claim; allergy advice; storage; best-before/lot; and **placeholders** for business name and UK address (legally required).
+**Back of pack:** full ingredients with **allergens in bold**; UK nutrition table per 100 g and per bar with %RI; how-to-eat guidance; "Low sugar. Source of protein." with the authorised protein claim and balanced-diet statement; allergy advice; **keep refrigerated, use-by date**, home-freezing advice; lot; and **placeholders** for business name and UK address (legally required).
 
 **Claims deliberately left off pack:**
-- "High fibre": margin too small until lab-tested.
+- "High protein": doesn't qualify (~18% energy from protein).
+- "No added sugar": the banana adds sweetness, so it's not safe to claim.
+- "High fibre": only the hero qualifies, by a small margin, until lab-tested.
 - The carb recovery claim: needs long mandatory wording; website only for now.
 - "Natural", "whole food", "clean".

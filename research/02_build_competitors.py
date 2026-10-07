@@ -39,15 +39,16 @@ with open("02-competitors.csv", "w", newline="") as fh:
 ours = json.loads(OURS.read_text())["A_cocoa_peanut"]
 pts = []
 for r in rows:
-    p, c = num(r["protein_g"]), num(r["carbs_g"])
-    if p is None or c is None:
+    p, c, sg = num(r["protein_g"]), num(r["carbs_g"]), num(r["sugars_g"])
+    if p is None or sg is None:
         continue
-    pts.append(dict(id=r["id"], name=f"{r['brand']} {r['product']}", p=p, c=c,
+    pts.append(dict(id=r["id"], name=f"{r['brand']} {r['product']}", p=p, c=c, s=sg, poly=num(r["polyols_g"]),
                     proc=r["processing"], fmt="other" if r["group"] == "substitute" else "bar",
                     w=num(r["weight_g"]), kcal=num(r["kcal"]), fb=num(r["fibre_g"]),
                     price=num(r["price_gbp"]), ppg=num(r["price_per_g_protein"])))
-pts.append(dict(id="ours", name="Our concept: Cocoa & Peanut (Phase 4 calculation)", p=round(ours["per_bar"]["p"], 1),
-                c=round(ours["per_bar"]["c"], 1), proc="ours", fmt="bar", w=80, kcal=round(ours["per_bar"]["kcal"]),
+pts.append(dict(id="ours", name="fettle Cocoa & Peanut (kitchen bake, calculated)", p=round(ours["per_bar"]["p"], 1),
+                c=round(ours["per_bar"]["c"], 1), s=round(ours["per_bar"]["s"], 1), poly=0, proc="ours", fmt="bar",
+                w=round(ours["per_bar"]["weight"]), kcal=round(ours["per_bar"]["kcal"]),
                 fb=round(ours["per_bar"]["fb"], 1), price=2.75, ppg=round(2.75 / ours["per_bar"]["p"], 3)))
 
 html = Path("research/02_map_template.html").read_text().replace("/*DATA*/[]", json.dumps(pts))

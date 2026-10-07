@@ -43,6 +43,7 @@
 | C27 | run4it – SiS REGO Rapid Recovery | https://www.run4it.com/products/sis-science-in-sport-rego-rapid-recovery-sachet | 7 Oct 2026 | Price, nutrition | search-extract |
 | C28 | Tesco – Yazoo Chocolate 400 ml | https://www.tesco.com/shop/en-GB/products/290369696 | 7 Oct 2026 | Price, nutrition | search-extract |
 | C29 | HotUKDeals – Tesco loose bananas | https://www.hotukdeals.com/deals/tesco-bananas-loose-x5-clubcard-price-4887699 | 7 Oct 2026 | Banana price (May 2026) | search-extract |
+| C31 | Tesco – Misfits Caramel Fudge (ingredients: pea + soya protein, maltitol) | https://www.tesco.com/groceries/en-GB/products/316651379 | 8 Oct 2026 | Misfits uses isolates + polyols | search-extract |
 | C30 | Olive – best protein bars (33Fuel Eroica) | https://beta.olivemagazine.com/reviews/best-protein-bars | 6 Oct 2026 | Eroica data | inherited |
 
 ## Regulation and tax
@@ -56,6 +57,7 @@
 | R6 | NE Lincs Council – register 28 days before trading | https://www.nelincs.gov.uk/starting-a-food-business-remember-to-register-at-least-28-days-before-opening | 7 Oct 2026 | Registration | search-extract |
 | R7 | Food Safety News – FSA campaign for home-based sellers | https://www.foodsafetynews.com/2022/03/fsa-campaign-reminds-home-based-and-small-food-sellers-of-need-to-register | 7 Oct 2026 | Home kitchens | search-extract |
 | R8 | Taxation – "Sports nutrition bars do not qualify for zero rating" | https://www.taxation.co.uk/articles/sports-nutrition-bars-do-not-qualify-for-zero-rating | 7 Oct 2026 | VAT 20% | search-extract |
+| R10 | Reg. 1924/2006 Annex: "low sugars" ≤5 g/100 g; "reduced" ≥30% less + energy no higher | https://legislation.gov.uk/eur/2006/1924/annexes/2006-12-20 | 8 Oct 2026 | Sugar claims (v3) | search-extract |
 | R9 | RSM – flapjacks VAT | https://www.rsmuk.com/insights/tax-voice/flapjacks-highlight-a-sticky-vat-situation-on-food | 7 Oct 2026 | VAT | search-extract |
 
 ## Science
@@ -81,6 +83,12 @@
 | P9 | Pasieka honey 1 kg | https://www.trolley.co.uk/product/pasieka-multiflower-honey/YHE550 | 7 Oct 2026 | £8.80 | search-extract |
 | P10 | Sephra cocoa powder 1 kg | https://www.smartuk.net/uncategorised/sephra-cocoa-powder-1kg/ | 7 Oct 2026 | £27.35 | search-extract |
 | P11 | Greencity freeze-dried raspberries 100 g | https://www.realfoods.co.uk/product/46206/freeze-dried-raspberries | 7 Oct 2026 | £11.85 | search-extract |
+| P16 | Tesco 12 large free-range eggs £3.30 | https://www.tesco.com/groceries/en-GB/products/260298456 | 8 Oct 2026 | Kitchen bake cost | search-extract |
+| P17 | Tesco semi-skimmed milk 4 pints £1.55 | https://www.trolley.co.uk/product/tesco-british-semi-skimmed-milk/DDK423 | 8 Oct 2026 | Kitchen bake cost | search-extract |
+| P18 | Tesco frozen raspberries 300 g £3.00 | https://www.tesco.com/shop/en-GB/products/312716546 | 8 Oct 2026 | Kitchen bake cost | search-extract |
+| P19 | Tesco Jumbo Peanuts 300 g £2.25 | https://www.trolley.co.uk/product/tesco-jumbo-peanuts/YVR549 | 8 Oct 2026 | Kitchen bake cost | search-extract |
+| P20 | Tesco ground almonds 500 g £6.60 | https://www.tesco.com/shop/en-GB/products/309495418 | 8 Oct 2026 | Kitchen bake cost | search-extract |
+| P21 | Tesco Nature's Store puffed rice 225 g £2.00 (+ nutrition) | https://www.tesco.com/shop/en-GB/products/286893875 | 8 Oct 2026 | v2 shelf-stable route | search-extract |
 | P12 | Level 2 food hygiene online | https://food-safety.org.uk/courses/ufaqs/how-much-does-the-level-2-course-cost/ | 7 Oct 2026 | £10–25 | search-extract |
 | P13 | Simply Business – food business insurance | https://www.simplybusiness.co.uk/business-insurance/by-industry/food-business-insurance/ | 7 Oct 2026 | Public liability from ~£57/yr | search-extract |
 | P14 | TIPA compostable bar wrapper (MOQ 25k) | https://tipa-corp.com/application/bar-wrapper/ | 7 Oct 2026 | Wrapper MOQ | search-extract |

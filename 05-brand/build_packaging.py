@@ -33,7 +33,7 @@ def crimp(x):
 
 
 def front():
-    p, c, kcal = round(pb["p"]), round(pb["c"]), round(pb["kcal"])
+    p, c, sug, wt = round(pb["p"]), round(pb["c"]), round(pb["s"]), round(pb["weight"])
     oats = "".join(f'<ellipse cx="{x}" cy="{y}" rx="4" ry="2.4" fill="{OAT}" fill-opacity=".55" transform="rotate({a} {x} {y})"/>'
                    for x, y, a in [(520, 120, 20), (548, 150, -30), (585, 112, 60), (610, 160, 10), (660, 128, -15), (690, 168, 40), (640, 105, 75), (575, 175, -50)])
     macro = lambda x, num, unit, label: (
@@ -44,20 +44,20 @@ def front():
   <rect width="{W}" height="{H}" fill="{OAT}"/>
   {crimp(8)}{crimp(W - 14)}
   <g transform="translate(40 30) scale(.42)">{WORD}</g>
-  <text x="{W - 40}" y="52" text-anchor="end" font-family="{FONT}" font-size="12" font-weight="700" letter-spacing="1.5" fill="{EMBER}">FOR AFTER TRAINING</text>
+  <text x="{W - 40}" y="52" text-anchor="end" font-family="{FONT}" font-size="12" font-weight="700" letter-spacing="1.5" fill="{EMBER}">FOR AFTER TRAINING · BAKED FRESH</text>
   <text x="40" y="128" font-family="{FONT}" font-weight="800" font-size="34" fill="{COCOA}">Cocoa &amp; Peanut</text>
-  {macro(40, p, " g", "PROTEIN")}{macro(160, c, " g", "CARBS")}{macro(280, kcal, "", "KCAL PER BAR")}
+  {macro(40, sug, " g", "SUGAR")}{macro(160, p, " g", "PROTEIN")}{macro(280, c, " g", "CARBS")}
   <g>
     <rect x="490" y="92" width="110" height="100" rx="16" fill="{COCOA}"/>
     <rect x="610" y="92" width="110" height="100" rx="16" fill="{COCOA}"/>
     {oats}
   </g>
-  <text x="605" y="214" text-anchor="middle" font-family="{FONT}" font-size="12" fill="{STONE}">Snaps in half · half after a light session</text>
+  <text x="605" y="214" text-anchor="middle" font-family="{FONT}" font-size="12" fill="{STONE}">Oats · eggs · milk · peanuts · banana · cocoa</text>
   <rect x="0" y="252" width="{W}" height="68" fill="{COCOA}"/>
-  <text x="40" y="292" font-family="{FONT}" font-size="15" font-weight="600" fill="{OAT}">Real food ingredients · No isolates · No sweeteners · No palm oil</text>
+  <text x="40" y="292" font-family="{FONT}" font-size="15" font-weight="600" fill="{OAT}">Made from 7 kitchen ingredients · No powders · No sweeteners</text>
   <rect x="{W - 222}" y="272" width="124" height="28" rx="14" fill="{OAT}"/>
-  <text x="{W - 160}" y="291" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="800" letter-spacing=".8" fill="{COCOA}">HIGH PROTEIN</text>
-  <text x="{W - 40}" y="291" text-anchor="end" font-family="{FONT}" font-size="13" font-weight="700" fill="{OAT}">80 g ℮</text>
+  <text x="{W - 160}" y="291" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="800" letter-spacing=".8" fill="{COCOA}">LOW SUGAR</text>
+  <text x="{W - 40}" y="291" text-anchor="end" font-family="{FONT}" font-size="13" font-weight="700" fill="{OAT}">{wt} g ℮</text>
 </svg>
 '''
 
@@ -88,15 +88,15 @@ def back():
       <p><b>Ingredients:</b> {ing}</p>
       <p><b>Allergy advice:</b> for allergens, including cereals containing gluten, see ingredients in <b>bold</b>. Made in a kitchen that also handles <b>almonds</b>. <span class="ph">[confirm after allergen risk assessment]</span></p>
       <h4>How to eat it</h4>
-      <p>For after training. Half after a light session, the whole bar after a hard or long one. Not suitable before or during exercise.</p>
-      <p><b>High protein.</b> Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p>
-      <p class="small">Store in a cool, dry place. Best before: <span class="ph">[date]</span> · Lot: <span class="ph">[lot]</span><br/><span class="ph">[Business name, UK address]</span> · Made in <span class="ph">[Durham]</span>, UK · <span class="ph">[recycling info]</span></p>
+      <p>For after training, when a proper meal is still a way off. Not designed for eating before or during exercise.</p>
+      <p><b>Low sugar. Source of protein.</b> Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p>
+      <p class="small"><b>Keep refrigerated (0–5 °C).</b> Use by: <span class="ph">[date]</span>. Suitable for home freezing: freeze on day of purchase, defrost in the fridge · Lot: <span class="ph">[lot]</span><br/><span class="ph">[Business name, UK address]</span> · Made in <span class="ph">[Durham]</span>, UK · <span class="ph">[recycling info]</span></p>
     </div>
   </foreignObject>
   <foreignObject x="400" y="20" width="326" height="290">
     <div xmlns="http://www.w3.org/1999/xhtml"><style>{css}</style>
       <h4>Nutrition</h4>
-      <table><thead><tr><th>Typical values</th><th>Per 100 g</th><th>Per bar (80 g)</th><th>%RI*</th></tr></thead><tbody>{trs}</tbody></table>
+      <table><thead><tr><th>Typical values</th><th>Per 100 g</th><th>Per bar ({round(pb["weight"])} g)</th><th>%RI*</th></tr></thead><tbody>{trs}</tbody></table>
       <p class="small" style="margin-top:4px">*Reference intake of an average adult (8400 kJ / 2000 kcal). Values calculated; to be confirmed by lab analysis before sale.</p>
     </div>
   </foreignObject>

@@ -1,175 +1,167 @@
-# 04 — The Concept Bar
+# 04 — The Concept Bar (v3: kitchen bake)
 
-**Date:** 7 Oct 2026 · **Numbers from:** `04-nutrition.py` → `04-nutrition-tables.md`; `04-costing.py` → `04-costing.csv`. Re-run both scripts after any recipe change; don't edit numbers by hand.
-**Status:** paper recipe. Every number is `[ASSUMPTION]` until (1) a kitchen trial, (2) supplier spec sheets and (3) one lab analysis.
+**Updated:** 8 Oct 2026 · **Numbers from:** `04-nutrition.py` → `04-nutrition-tables.md`; `04-costing.py` → `04-costing.csv`. Re-run both after any recipe change; never edit numbers by hand.
+**Status:** paper recipe until you bake it. Every number is `[ASSUMPTION]` until (1) your kitchen trial with before/after weights, and (2) one lab analysis.
+
+**What changed and why:**
+- **v1 (7 Oct):** 23 g sugar, from dates and honey. Too high.
+- **v2:** 8 g sugar, but still needed milk and egg-white *powders*.
+- **v3 (this version):** your brief. Supermarket ingredients only, ordinary milk and boxed eggs, sugar max 6 g, and still different from the competition.
 
 ---
 
-## 1. Target spec (per bar)
+## 1. The differentiation (what makes it different)
 
-| | **Target** | Our hero calc (Cocoa & Peanut) | Why this number |
+**No bar we found in the UK has ≤6 g sugar without polyols, sweeteners or protein isolates.** The low-sugar corner belongs to lab bars; every whole-food or "natural" bar has 9.5–38 g sugar. See `02-positioning-map.html` (sugar vs protein) `[EVIDENCE: 02-competitors.csv]`.
+
+| | Lab protein bars (Grenade, Barebells, PhD, Misfits) | "Natural" / recovery bars (Forza, Nākd, Styrkr, Trek) | **fettle kitchen bar** |
 |---|---|---|---|
-| Weight | **80 g** | 80 g | Fits ~20 g protein + ~37 g carbs. Smaller than the inherited 98 g draft; 6–25 g heavier than Styrkr/Grenade |
-| Energy | **≤300 kcal** | 295 kcal | A snack that bridges to a meal, not a meal. Inherited 345 kcal was too much for a gym-goer `[ASSUMPTION]` |
-| Protein | **~20 g** | 19.7 g | 0.25 g/kg per serving (ISSN) or 20–40 g; 0.25–0.31 g/kg covers a ~65–80 kg adult `[EVIDENCE: S3, S4]` |
-| Carbohydrate | **35–40 g** | 37.1 g | Kick-starts refuelling. Full glycogen refuel needs ≥1.2 g/kg/h (≈85 g/h at 70 kg), and protein helps most when carbs are below ~0.8 g/kg/h `[EVIDENCE: S2]`, which is exactly the bar's range |
-| of which sugars | ideally ≤20 g | **23.3 g** | ⚠️ Misses. See §3e |
-| Fibre | **5–6 g** | 5.2 g | Enough for "high fibre" (≥6 g/100 g); low enough for after training. See §3b |
-| Fat | ≤8 g | 6.4 g | Fat slows digestion and adds calories |
-| Saturates | ≤2 g | 1.4 g | |
-| Salt | ≤0.8 g | 0.56 g | Some sodium is useful after sweating; mostly from egg white and milk powder |
+| Sugar | 0.9–2 g | 9.5–28 g | **~3 g** |
+| How they're low-sugar / held together | Polyols (Grenade 16 g, PhD 20 g), sweeteners, isolates | Dates, syrups, dried fruit | **Baked: eggs and milk set it** |
+| Protein | 16–21 g | 7–15 g per bar | **12–14 g** (more than Forza 12 g and Nākd Protein 7 g; 33Fuel Eroica reaches 20 g only as a 100 g two-bar pack with 38 g sugar) |
+| Carbs | 15–22 g | 15–47 g | **26–29 g, mostly oats** |
+| Ingredients | 15–25, many unfamiliar | 5–15 | **6–7, all from a supermarket** |
+| Format | Shelf-stable wrapper | Shelf-stable wrapper | **Fresh-baked, kept chilled** |
 
-**Format:** one 80 g bar, scored into **2 × 40 g halves** (each ~10 g protein). Half after a light session; whole bar after a hard one. This is a simpler, testable version of the inherited 4-segment "dose" idea `[ASSUMPTION: test in pilot]`.
+**One-line positioning:** *the low-sugar bar made from kitchen ingredients: sugar like a protein bar, ingredients like home baking.*
 
-## 2. The three flavours (+ one comparison)
+**Honest weaknesses:**
+- Less protein than lab bars (~14 g vs ~20 g), so **no "high protein" claim**. It qualifies as a "source of protein".
+- **Perishable:** needs a fridge, with a use-by date of a few days.
+- Fat ~16 g/bar in the hero (peanuts). Amber, just under red.
 
-| | A. **Cocoa & Peanut** (hero) | B. **Raspberry & Almond** | C. **Honey Oat & Sea Salt** (nut-free recipe) | S. Strict whole-food (comparison) |
-|---|---|---|---|---|
-| kcal | 295 | 294 | 288 | 323 |
-| Protein | 19.7 g | 19.5 g | 19.7 g | **10.6 g** |
-| Carbs (sugars) | 37.1 (23.3) | 36.9 (23.8) | 38.0 (23.4) | 37.8 (17.5) |
-| Fibre | 5.2 g | 5.1 g | 4.7 g | 7.4 g |
-| Fat (sat) | 6.4 (1.4) | 6.5 (0.7) | 5.3 (1.0) | 12.7 (2.5) |
-| Salt | 0.56 g | 0.57 g | 0.75 g | 0.01 g |
-| High protein | ✅ 26.8% energy | ✅ | ✅ | ❌ 13.1% (only "source of") |
-| High fibre | ✅ 6.5 g/100 g | ✅ 6.3 | ❌ 5.9 (source only) | ✅ |
-| Pilot cost/bar | £1.07 | £1.33 | £1.02 | — |
-| Scale cost/bar | £0.71 | £0.85 | £0.70 | — |
+## 2. Spec (hero: Cocoa & Peanut, per 90 g bar)
 
-Full gram-level recipes, 1 kg batch quantities, ingredient lists and back-of-pack tables are in **`04-nutrition-tables.md`**.
-
-### Per-bar formulation (g)
-
-| Ingredient | A | B | C | Role |
-|---|---|---|---|---|
-| Dates (Deglet Nour, pitted) | 20 | 19 | 18 | Binder, carbs, sweetness |
-| Rolled oats | 14 | 14 | 16.4 | Carbs, fibre, texture |
-| Skimmed milk powder | 12 | 13 | 12 | Protein (whey + casein), carbs |
-| Dried egg white (pasteurised, food grade) | 12 | 12 | 12 | Protein (9.6 g) |
-| Oat bran | 8 | 8 | 8 | Fibre (beta-glucan), protein |
-| Peanut butter / ground almonds / pumpkin seeds | 8 | 8 | 7 | Fat, binding, flavour |
-| Honey | 4 | 4 | 6 | Binding, flavour |
-| Cocoa / freeze-dried raspberry / cinnamon + salt | 2 | 2 | 0.4 + 0.2 | Flavour |
-| **Total** | **80** | **80** | **80** | |
-
-**1 kg batch = 12.5 bars** (≈11–12 after trimming).
-
-### Method (no-bake, cold-formed; kitchen pilot)
-1. Blitz dates (+ honey, nut butter) to a paste in a food processor.
-2. Separately mix oats, oat bran, milk powder, egg-white powder, cocoa/flavour, salt.
-3. Combine and pulse until it holds when squeezed. If too dry, add water **1 tsp at a time** (every addition shortens shelf life; record it).
-4. Press firmly into a lined 20 × 20 cm tin (or segmented mould) to a set depth; weigh one bar to check 80 g ± 4 g.
-5. Chill 2 h, cut, wrap immediately and label.
-
-**Optional bake** at ~160 °C for 10–12 min firms the bar and lowers moisture, but browns milk powder and changes taste. Test both in round 1.
-
-### Binding and shelf life `[ASSUMPTION: all to test]`
-- **Water activity** drives shelf life. Date/honey bars typically sit around aw 0.55–0.65. Lab test aw on pilot bars (~£20–40 per test via a food lab `[ASSUMPTION]`).
-- **Hardening:** high-protein bars go hard over weeks as moisture moves into protein powders. Milk powder hardens more than egg white. Trial a 2-week and a 4-week keep at room temperature.
-- **Rancidity:** nut butters and oat bran fats can go stale; use stabilised oat bran and keep packs sealed.
-- **Pilot shelf-life claim:** be conservative (e.g. "best before 14 days") until tested.
-
-## 3. The honest tensions
-
-### 3a. Whole food vs high protein
-| Route | Protein (80 g bar) | What we can honestly say |
+| | Value | Why |
 |---|---|---|
-| **Strict whole food** (oats, dates, nuts, seeds) | **10.6 g** (calculated) | "Made only from whole foods". But only "source of protein", and no better than Forza (12 g) |
-| **Whole food + milk powder + dried egg white** (recommended) | **19.7 g** | "Made from real food ingredients. No protein isolates, no sweeteners, no palm oil." **Not** "100% whole food": milk powder and egg-white powder are dried, single-ingredient foods, but they are processed |
-| Add pea protein / whey isolate | 20 g+ easily | Loses the point of difference vs Grenade and Myprotein |
+| Weight | 90 g | Raised from 80 g so oats and eggs deliver ~14 g protein and ~28 g carbs |
+| Energy | 321 kcal | A substantial snack; the bar can be halved |
+| **Sugars** | **3.4 g** (3.8 g/100 g) | Under your 6 g cap; qualifies for **"low sugar"** (≤5 g/100 g) |
+| Protein | 14.3 g | Eggs, milk, peanuts, oats. ~0.2 g/kg for a 70 kg adult; below the 0.25–0.3 g/kg per-meal guide `[EVIDENCE: S3, S4]`, so honest framing is "a source of protein" |
+| Carbohydrate | 28 g | Mostly oat starch. A kick-start, not a full refuel |
+| Fibre | 5.8 g | "High fibre" on calculation (6.5 g/100 g); hold the claim until lab-tested |
+| Fat (sat) | 15.5 g (3.5 g) | From peanuts, peanut butter, egg yolk |
+| Salt | 0.16 g | Green; no added salt |
+| HFSS score | **−3 (not HFSS)** | Big change from v1 (+9). Retailers could promote it |
 
-**Recommendation:** route 2. It's the only one that clears 20% energy from protein *and* keeps a defensible ingredient story. RXBAR used the same egg-white approach.
-**What would change it:** if interviews show buyers don't care about isolates, use whey protein concentrate instead: cheaper, less hardening, easier to make.
+### All three flavours (per 90 g bar)
+| | A. Cocoa & Peanut | B. Raspberry & Almond | C. Toasted Oat & Cinnamon (nut-free recipe) |
+|---|---|---|---|
+| Sugar | 3.4 g | 3.3 g | 3.0 g |
+| Protein | 14.3 g | 12.0 g | 13.6 g |
+| Carbs | 28.0 g | 26.4 g | 28.8 g |
+| Fibre | 5.8 g | 5.2 g | 5.1 g |
+| Fat (sat) | 15.5 (3.5) | 13.2 (2.1) | 12.4 (2.7) |
+| kcal | 321 | 283 | 291 |
+| Low sugar claim | ✅ | ✅ | ✅ |
+| Source of protein | ✅ | ✅ | ✅ |
+| High protein | ❌ | ❌ | ❌ |
+| HFSS | Not HFSS | Not HFSS | Not HFSS |
+| Pilot cost/bar | **£0.65** | £0.72 | £0.55 |
 
-### 3b. Fibre vs fast recovery
-- **What the evidence says:**
-  - The ACSM advises **low fibre before** exercise to avoid gut trouble.
-  - Mancin, Burke & Rollo (2025) argue athletes should reach **~30 g/day**, ramping over ~6 weeks if they eat under 20 g, for gut-microbiome benefits.
-  - The same paper notes there are **no RCTs** on athlete fibre intake, and none specifically on fibre in the post-exercise window `[EVIDENCE: S1]`.
-- **Fibre also slows gastric emptying.** That isn't an issue for a snack eaten once the session is over, but it argues against a very high dose.
-- **Recommendation: 5–6 g per bar, from oats and oat bran only.** That's ~20% of a 30 g/day target, gives a "high fibre" claim, and avoids chicory/inulin, which are high-FODMAP and linked to gut symptoms (inherited research). The inherited 11 g target is **dropped**: more gut risk, and it pushed the bar to 98 g.
-- **What would change it:** if pilot gut-comfort scores are fine at 5 g, test 7–8 g in round 2.
+## 3. Recipe cards (one 20 × 20 cm tin → 8 bars of ~90 g)
 
-### 3c. Calories and portion
-- 80 g / 295 kcal is a big snack for a 60 kg runner after an easy session, about right for a 90 kg rugby player after a hard one.
-- Scoring into halves gives both a sensible portion without two SKUs.
-- **Don't market it as a meal replacement.**
+Weigh everything on kitchen scales; "1 large egg" ≈ 58 g out of the shell.
 
-### 3d. Claims check (GB)
-Full conditions are in the sources (R1–R3). ✅ = qualifies on our calculation, **subject to lab verification**.
-
-| Claim | Condition | A | B | C | Use? |
-|---|---|---|---|---|---|
-| "High protein" | ≥20% energy from protein | ✅ | ✅ | ✅ | **Yes**, after lab test |
-| "Source of fibre" | ≥3 g/100 g | ✅ | ✅ | ✅ | Yes |
-| "High fibre" | ≥6 g/100 g | ✅ (6.5) | ✅ (6.3) | ❌ (5.9) | A and B only, and the margin is small. **Hold until lab-tested** |
-| "Protein contributes to a growth in / maintenance of muscle mass" | At least a source of protein | ✅ | ✅ | ✅ | **Yes**, exact authorised wording only (Reg. 432/2012) |
-| "Carbohydrates contribute to the recovery of normal muscle function (contraction) after highly intensive and/or long-lasting physical exercise leading to muscle fatigue and the depletion of glycogen stores in skeletal muscle" | Metabolisable carbs (no polyols). Pack **must** say the effect comes from **4 g of carbs per kg body weight, from all sources, in doses, within the first 4 h and no later than 6 h** after such exercise. Adults only | ✅ | ✅ | ✅ | **Optional.** Legal, but long and needs the mandatory wording. Use on back of pack and website only |
-| "Recovery bar" as a product name | Could be read as an implied health claim; must be backed by an authorised claim | ⚠️ | ⚠️ | ⚠️ | **Trading Standards check.** Safer: "for after training" |
-| "No added sugar" | No added sugars or foods used for sweetening | ❌ (honey, dates) | ❌ | ❌ | **Never** |
-| "Natural" / "all natural" | FSA criteria: ingredients from nature, not chemically altered | ⚠️ | ⚠️ | ⚠️ | Avoid as a headline. Dried milk and egg are arguable |
-| "Whole food" | No legal definition; must not mislead | ⚠️ | ⚠️ | ⚠️ | Use "**real food ingredients**", not "100% whole food" |
-| "No isolates / no sweeteners / no palm oil" | Must be true and not imply competitors are unsafe | ✅ | ✅ | ✅ | Yes, factual |
-| "Clean", "superfood", "speeds recovery", "reduces soreness", "repairs muscle", "anti-inflammatory" | Not authorised / not defensible | ❌ | ❌ | ❌ | **Never** |
-
-**Mandatory with any health claim:** a statement on the importance of a varied and balanced diet and a healthy lifestyle (Reg. 1924/2006 Art. 10(2)). Added to the back of pack and the landing page.
-
-**Needs a Trading Standards / regulatory check before use:** (1) "recovery" in the product name or tagline; (2) "real food" and "no isolates" comparative wording; (3) the 2-half portion guidance, if it's linked to body weight. Durham County Council Trading Standards (or Newcastle, wherever you register) offers advice; ask about **Primary Authority**.
-
-### 3e. Sugar (an extra tension I found)
-- ~23 g sugar per bar = **29 g/100 g: a RED front-of-pack traffic light.** It comes from dates (~13 g), milk lactose (~6 g) and honey (~3 g).
-- Post-exercise, sugars are useful carbohydrate, and Forza (27.6 g) and Styrkr (28.4 g) are higher. **But we can't claim to be "lower sugar" than them.**
-- **UK HFSS:** all three recipes score **8–10 on the 2004/05 nutrient profiling model** (≥4 = "less healthy"), even with a generous fibre score, because sugar and energy score high. If bars fall in a regulated category, **large retailers may not be able to promote them on multibuys or at checkouts**, and paid TV/online ads are restricted (small businesses under 250 staff are exempt from the ad rules `[ASSUMPTION: verify]`). Lab protein bars avoid this by using polyols. This is a **retail-scale** issue, not a pilot issue. `[GAP: confirm whether cereal/protein bars are an in-scope HFSS category]`
-- **Options:** (a) accept it and frame sugars as "carbs for refuelling" (honest for the use case); (b) replace 5 g dates with oats (≈−3 g sugar) and test whether it still binds; (c) swap honey for a little more nut butter. Test (b) in kitchen round 2.
-
-### 3f. Allergens (14 UK allergens)
-| Flavour | Contains | Cross-contact risk in a shared kitchen |
+### A. Cocoa & Peanut (hero)
+| Ingredient | Amount | Where |
 |---|---|---|
-| A. Cocoa & Peanut | **Peanuts, milk, egg, cereals containing gluten (oats)** | Almonds (from B) |
-| B. Raspberry & Almond | **Nuts (almond), milk, egg, oats** | Peanuts (from A) |
-| C. Honey Oat & Sea Salt | **Milk, egg, oats** | **Peanuts and almonds**, unless made on a separate day with a full clean and validated, or in a nut-free kitchen |
+| Large free-range eggs | **6** (≈348 g) | Any supermarket |
+| Rolled porridge oats | 320 g | Tesco/own-label oats |
+| Ripe banana | 1 large, peeled (≈130 g) | |
+| Smooth peanut butter (100% peanuts) | 80 g (≈4 tbsp) | Check label: no added sugar, salt or palm oil |
+| Unsalted peanuts, roughly chopped | 60 g | |
+| Semi-skimmed milk | 50 ml | |
+| Cocoa powder (unsweetened) | 25 g (≈3 tbsp) | Not drinking chocolate |
 
-- Not suitable for vegans, or people with egg or milk allergy.
-- Oats: unless you buy certified gluten-free oats, declare oats (cereal containing gluten) and **don't** claim gluten-free.
-- Precautionary "may contain" labels should follow a real risk assessment, not be added by default (FSA guidance).
-- **Pilot rule:** make C first after a deep clean, or only offer C as "made in a kitchen that handles peanuts and nuts".
+### B. Raspberry & Almond
+6 eggs · 320 g oats · 1 banana (110 g) · 100 g frozen raspberries (unsweetened) · 100 g ground almonds · 50 ml milk.
 
-## 4. Costing and price
+### C. Toasted Oat & Cinnamon (no nuts in the recipe)
+6 eggs · 330 g oats · 1 large banana (130 g) · 90 g pumpkin seeds · 60 ml milk · 2 tsp ground cinnamon. **Toast the oats** in a dry pan for 5 min first: it adds flavour without sugar.
 
-From `04-costing.csv` (pilot = retail ingredient prices found on 7 Oct; scale = `[ASSUMPTION]` bulk prices):
+### Method
+1. Heat the oven to **180 °C (160 °C fan)**. Line the tin with baking paper. **Weigh the empty lined tin.**
+2. Mash or blend the banana, eggs, milk and nut butter until smooth.
+3. Stir in the oats, cocoa/cinnamon and the chopped nuts, seeds or raspberries. Rest **10 minutes** so the oats soak.
+4. Spread into the tin and press flat. **Weigh the full tin** (batter weight = full − empty).
+5. Bake **30–35 minutes** until firm and springy. A skewer should come out clean; if you have a probe thermometer, the centre should reach **75 °C** (egg safety).
+6. **Weigh again straight out of the oven.** The weight lost is the steam lost. The model assumes **24%**; replace it with your number in `04-nutrition.py` (`loss=`) and re-run.
+7. Cool in the tin, chill 1 hour, cut into **8 bars**, wrap and label immediately, refrigerate.
 
-| | A. Cocoa & Peanut | B. Raspberry & Almond | C. Honey Oat |
+### What to record each bake (needed for the pitch)
+Batter weight · baked weight · bar weights (×8) · bake time and temperature · texture (1–5) · taste (1–9) · notes. Three bakes per flavour before the taste test.
+
+## 4. The tensions, honestly
+
+### 4a. Sugar vs binding
+Most "natural" bars need sticky sugars (dates, syrup, honey) to hold together, which is why they carry 10–28 g. **Baking with eggs replaces the sugar as the binder.** The only sugars left are from the banana (≈1.9 g/bar) and the milk lactose (≈0.3 g), plus small amounts from oats and peanuts. To go lower still, swap the banana for 130 g grated apple or courgette (texture test needed).
+
+### 4b. Whole food vs protein
+| Route | Protein / 90 g bar | Sugar | Shelf-stable? |
 |---|---|---|---|
-| Ingredients, pilot | £0.86 | £1.11 | £0.81 |
-| **Unit cost, pilot** (+5% waste + £0.17 pack) | **£1.07** | £1.33 | £1.02 |
-| Ingredients, early co-man | £0.33 | £0.46 | £0.32 |
-| **Unit cost, co-man** (+3% waste, £0.07 pack, £0.30 conversion) | **£0.71** | £0.85 | £0.70 |
+| **v3 kitchen bake (eggs + milk)** | **12–14 g** | **~3 g** | **No** (chilled, a few days) |
+| v2 with milk powder + egg-white powder (same foods, dried) | ~23 g (scaled to 90 g) | ~9 g | Yes (to test) |
+| Lab bar route (isolates) | 20 g+ | ~1 g | Yes, but that's the competition |
 
-- **Egg-white powder is about half the pilot ingredient cost** (12 g × £34.99/kg = £0.42). Buy on Myprotein promo (£24.49/kg) and the hero unit cost falls to about £0.94.
-- Labour if paid at the 2026 National Living Wage would add **~£0.75/bar** at hand-made speed (not included above).
-- Freeze-dried raspberry makes B the most expensive.
+**Recommendation:** pilot the **v3 kitchen bake**. It's cheap, honest, and tests whether people want *low sugar + real food*. If people want more protein **and** a longer shelf life, the scale-up route is v2 (the same foods, dried), which a co-manufacturer can make.
+**What would change it:** if the taste test shows the 14 g protein is a deal-breaker for your persona, move to v2 earlier.
 
-**Proposed RRP: £2.75 single · £10 for 4 · Squad Box of 12 for £27 (£2.25 each).**
-At £2.75 that's **£0.14/g protein**: in line with Grenade (£0.143), Barebells (£0.145) and Fulfil (£0.149), and well below Forza (£0.229) and Styrkr (£0.183).
+### 4c. Fresh vs shelf-stable
+A fresh bake fits a pilot well: club fridges, gym café counters, bake-to-order. It's hard at scale: short shelf life, chilled distribution, no long-life retail. Food-safety implications are in §5.
 
-**Channel economics (hero):**
+### 4d. Fibre
+5–6 g per bar, from oats only (no chicory or inulin). Suitable for after training, not before. Unchanged from the earlier evidence review (Mancin et al. 2025).
 
-| Channel | Brand receives | Cost | Gross margin |
+### 4e. Calories and portion
+321 kcal is a big snack. Each bar can be cut in half (~160 kcal, ~7 g protein) after a light session.
+
+## 5. Claims (GB) and food safety
+
+| Claim | Condition | Status | Use? |
 |---|---|---|---|
-| Direct at pilot events (not VAT-registered) | £2.70 | £1.07 | **£1.63 (60%)** |
-| Direct online at scale (4 for £10, VAT, postage share) | £2.05 | £1.06 | £0.99 (48%) |
-| Gym/café wholesale at scale (35% retailer margin) | £1.49 | £0.71 | £0.78 (52%) |
-| Retail via distributor (40% + 25%) | £1.03 | £0.71 | **£0.32 (31%)** |
+| **"Low sugar"** | ≤5 g sugars/100 g | ✅ 3.0–3.8 g/100 g | **Yes**, after lab test |
+| "Source of protein" | ≥12% energy from protein | ✅ 17–19% | Yes |
+| "Protein contributes to a growth in muscle mass" + varied/balanced-diet statement | Source of protein | ✅ | Yes, exact wording |
+| "High protein" | ≥20% energy | ❌ | **No** |
+| "High fibre" | ≥6 g/100 g | A ✅ 6.5 · B ❌ 5.8 · C ❌ 5.7 | Hold until lab test |
+| **"No added sugar"** | No food used for its sweetening properties | ⚠️ Banana adds sweetness | **No** (say "no honey, syrup, dates or sweeteners" instead) |
+| "Reduced sugar" / "90% less sugar than typical natural recovery bars" | ≥30% less sugar than a representative group of similar products **and** energy no higher | ✅ vs Forza + Styrkr average (38.9 g sugar, 374 kcal per 100 g): ours 3.0–3.8 g and 315–356 kcal per 100 g | Possible, but comparative claims must name the comparison basis. **Use "low sugar" (simpler); check comparative wording with Trading Standards** |
+| "No powders / no sweeteners / made from 7 kitchen ingredients" | Must be true | ✅ | Yes |
+| Carbohydrate recovery claim | Needs mandatory 4 g/kg wording | Possible | Not needed now |
+| "Recovery", "clean", "superfood" | — | ❌ | Never |
 
-**Business-model conclusion:** grocery retail is a poor first channel. Lead with **direct sales, clubs (Squad Box) and gyms/cafés**.
+**Food safety for a fresh egg and milk bake** (for Trading Standards / EHO conversation):
+- **Cook through:** centre ≥75 °C, or bake until fully set. Cool quickly (within ~90 min), then refrigerate at 0–5 °C.
+- **Use-by date:** start with **3 days** refrigerated `[ASSUMPTION: confirm with your EHO; a shelf-life test could extend it]`. "Suitable for home freezing."
+- **Labelling:** "Keep refrigerated"; use-by (not best-before) because it's perishable; allergens bold.
+- **Allergens:** A **peanuts, egg, milk, oats**; B **almonds, egg, milk, oats**; C **egg, milk, oats**. All made in a kitchen that handles peanuts and almonds.
+- **Eggs:** UK Lion-stamped eggs are recommended.
 
-**VAT:** sports and protein bars are treated as standard-rated confectionery, so 20% VAT applies once registered (threshold £90k turnover `[ASSUMPTION: check current threshold]`). That's why the scale rows use ex-VAT prices.
+## 6. Costing and price
 
-## 5. When and how it's eaten
+From `04-costing.csv` (pilot = Tesco prices; scale = bulk/bakery `[ASSUMPTION]`):
 
-| | |
-|---|---|
-| **Occasion** | Within ~1–2 h after training, when a proper meal is more than an hour away (walk home, lecture, travel) |
-| **How much** | Half after a light or short session; whole bar after a hard or long one |
-| **Packs** | Single (pilot, events, gym fridge-free counter) · 4-pack (direct) · **Squad Box of 12** for clubs and teams |
-| **Not for** | Before or during exercise (fibre, fat, egg). Not a meal replacement |
+| | A. Cocoa & Peanut | B. Raspberry & Almond | C. Toasted Oat & Cinnamon |
+|---|---|---|---|
+| Ingredients per bar (pilot) | £0.46 | £0.53 | £0.36 |
+| **Unit cost (pilot, + 5% waste + £0.17 bag/label)** | **£0.65** | £0.72 | £0.55 |
+| Unit cost (bakery scale, `[ASSUMPTION]`) | £0.60 | £0.66 | £0.57 |
+
+Eggs (~£1.65 a tin) and oats are the main costs. That's far cheaper than v1's egg-white powder (£1.07/bar).
+
+**Price:** keep **£2.75** single / **Squad Box 12 for £27**. Fresh café bakes (flapjacks, brownies) typically sell at £2.50–3.50 `[ASSUMPTION: check 3 local cafés]`.
+
+| Channel (hero) | Brand receives | Cost | Margin |
+|---|---|---|---|
+| Direct at pilot events | £2.70 | £0.65 | **£2.06 (76%)** |
+| Gym/café wholesale (scale) | £1.49 | £0.60 | £0.89 (60%) |
+| Retail via distributor | £1.03 | £0.60 | £0.43 (42%), and chilled retail is hard anyway |
+
+**VAT:** HMRC treats sports bars as standard-rated, but traditional cakes and flapjacks are zero-rated. A baked oat bar *might* be zero-rated; it depends on how it's marketed and eaten `[GAP: ask an adviser; irrelevant until £90k turnover]`.
+
+## 7. Format and use
+- **Occasion:** after training, when the next meal is an hour or more away.
+- **Where:** club fridge, gym café counter, pick-up after sessions.
+- **Packs:** single wrapped bar (pilot) · Squad Box of 12 delivered chilled to a club on training night.
+- **Not for:** before or during exercise; it's not a meal replacement.

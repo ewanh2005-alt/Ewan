@@ -16,17 +16,24 @@ import runpy
 from pathlib import Path
 
 NUT = runpy.run_path("04-nutrition.py")  # loads RECIPES, totals() without running main()
-RECIPES, totals = NUT["RECIPES"], NUT["totals"]
+RECIPES, recipe_totals, bar_inputs = NUT["RECIPES"], NUT["recipe_totals"], NUT["bar_inputs"]
 
 # £ per kg: (pilot retail, scale bulk, pilot basis)
 PRICE = {
+    # v3 kitchen ingredients (fresh, supermarket)
+    "egg_fresh":     (4.74, 2.50, "Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible"),
+    "milk_semi":     (0.68, 0.55, "Tesco semi-skimmed 4 pints (2.272 L) £1.55"),
+    "banana":        (1.42, 0.90, "Tesco loose banana 17p ÷ ~120 g edible"),
+    "peanuts":       (7.50, 3.50, "Tesco Jumbo Peanuts 300 g £2.25"),
+    "raspberries":   (10.00, 5.00, "Tesco frozen raspberries 300 g £3.00"),
+    "puffed_rice":   (8.89, 3.00, "Tesco Nature's Store puffed rice 225 g £2.00"),
     "rolled_oats":   (1.35, 0.70, "Tesco Scottish Oats 1 kg £1.35"),
     "oat_bran":      (3.13, 1.50, "Mornflake Oatbran 800 g £2.50"),
     "dates":         (6.90, 3.00, "Tesco Deglet Nour dates 500 g £3.45"),
     "smp":           (10.29, 3.50, "Tesco instant dried skimmed milk 340 g £3.50"),
     "egg_white":     (34.99, 12.00, "Myprotein egg white powder 1 kg full price £34.99 (often £24.49 on promo)"),
     "peanut_butter": (5.75, 3.50, "Meridian 100% peanut butter 1 kg £5.75"),
-    "ground_almond": (13.09, 7.00, "Real Foods blanched ground almonds 1 kg £13.09"),
+    "ground_almond": (13.20, 7.00, "Tesco ground almonds 500 g £6.60"),
     "pumpkin_seeds": (5.43, 3.50, "Stock & Prep pumpkin seeds 1 kg £5.43"),
     "honey":         (8.80, 4.50, "Pasieka multiflower honey 1 kg £8.80"),
     "cocoa":         (27.35, 8.00, "Sephra cocoa powder 1 kg £27.35"),
@@ -36,7 +43,7 @@ PRICE = {
 }
 WASTE = {"pilot": 0.05, "scale": 0.03}            # [ASSUMPTION] process loss
 PACK = {"pilot": 0.17, "scale": 0.07}             # [ASSUMPTION] pilot: bag £0.12 + printed sticker £0.05; scale: printed flow-wrap + share of case
-CONVERSION = {"pilot": 0.00, "scale": 0.30}       # [ASSUMPTION] co-man toll/conversion fee per bar (quote needed)
+CONVERSION = {"pilot": 0.00, "scale": 0.30}       # [ASSUMPTION] bakery/co-packer production fee per bar (quote needed)
 LABOUR_IF_PAID = 12.71 / 17                        # [ASSUMPTION] NLW 2026 £12.71/h ÷ ~17 bars/h hand-made (shown, not included)
 
 # Pricing proposal
@@ -61,12 +68,12 @@ def ingredient_cost(grams, scale):
 def main():
     out_rows, summary = [], {}
     for key, r in RECIPES.items():
-        if key.startswith("S_"):
-            continue  # comparison variant only
-        t = totals(r["g"])
+        if key.startswith(("S_", "V1_")):
+            continue  # comparison variants only
+        t = recipe_totals(r)
         summary[key] = {"name": r["name"], "protein_g": round(t["p"], 1)}
         for scale in ("pilot", "scale"):
-            rows, ing_total = ingredient_cost(r["g"], scale)
+            rows, ing_total = ingredient_cost(bar_inputs(r), scale)
             for ing, g, price, cost in rows:
                 basis = PRICE[ing][2] if scale == "pilot" else "[ASSUMPTION] bulk/trade price, quote needed"
                 out_rows.append([r["name"], scale, ing, f"{g:.1f}", f"{price:.2f}", f"{cost:.3f}", basis])
@@ -75,7 +82,7 @@ def main():
             out_rows += [
                 [r["name"], scale, "process waste", "", "", f"{waste:.3f}", f"[ASSUMPTION] {WASTE[scale]:.0%} loss"],
                 [r["name"], scale, "packaging", "", "", f"{PACK[scale]:.3f}", "[ASSUMPTION] see script"],
-                [r["name"], scale, "co-man conversion fee", "", "", f"{CONVERSION[scale]:.3f}", "[ASSUMPTION] quote needed"],
+                [r["name"], scale, "production fee (bakery/co-packer)", "", "", f"{CONVERSION[scale]:.3f}", "[ASSUMPTION] quote needed"],
                 [r["name"], scale, "TOTAL COST PER BAR", "", "", f"{unit:.3f}", "excl. labour, delivery, testing"],
             ]
             summary[key][scale] = {"ingredients": round(ing_total, 3), "unit_cost": round(unit, 3)}
@@ -111,7 +118,7 @@ def main():
     Path("research/04_costing_summary.json").write_text(json.dumps(summary, indent=2))
 
     for k, v in summary.items():
-        if k.startswith(("A_", "B_", "C_")):
+        if k.startswith(("A_", "B_", "C_", "SH_")):
             print(f"{v['name']:<24} pilot ingredients £{v['pilot']['ingredients']:.2f} → unit £{v['pilot']['unit_cost']:.2f} | "
                   f"scale ingredients £{v['scale']['ingredients']:.2f} → unit £{v['scale']['unit_cost']:.2f}")
     for name, v in ch.items():

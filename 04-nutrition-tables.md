@@ -3,7 +3,222 @@
 Ingredient values are typical CoFID/USDA-type values (see script header). **All figures are `[ASSUMPTION]` until supplier specs and one lab test confirm them.**
 
 
-## Cocoa & Peanut (Hero flavour)
+## Cocoa & Peanut (Hero flavour (v3 kitchen bake))
+
+| Typical values | Per 100 g | Per bar (90 g) | %RI* per bar |
+|---|---|---|---|
+| Energy | 1489 kJ / 356 kcal | 1340 kJ / 321 kcal | 16% |
+| Fat | 17 g | 16 g | 22% |
+| of which saturates | 3.9 g | 3.5 g | 17% |
+| Carbohydrate | 31 g | 28 g | 11% |
+| of which sugars | 3.8 g | 3.4 g | 4% |
+| Fibre | 6.5 g | 5.8 g |  |
+| Protein | 16 g | 14 g | 29% |
+| Salt | 0.18 g | 0.16 g | 3% |
+
+\*Reference intake of an average adult (8400 kJ / 2000 kcal).
+
+**Ingredients:** Free-range **eggs**, **oats**, banana, **peanut** butter (8%), **peanuts** (6%), semi-skimmed **milk**, cocoa powder (2%).
+
+**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk, peanuts
+
+**Claim checks:**
+
+- protein_pct_energy: 17.9
+- source_of_protein (>=12% energy): ✅
+- high_protein (>=20% energy): ❌
+- fibre_g_per_100g: 6.5
+- fibre_g_per_100kcal: 1.82
+- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
+- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ✅
+- low_sugars (<=5 g/100 g): ✅
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ✅
+- sugar_reduction_vs_comparator_pct: 90
+- protein_muscle_claim_condition (source of protein): ✅
+- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
+- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
+
+**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf MEDIUM (amber), s LOW (green), salt LOW (green)
+
+**UK nutrient profile (HFSS) score:** -3 (A 7, fibre 5, protein 5) → not HFSS
+
+**Formulation:** one 20 × 20 cm tin
+
+| Ingredient | Per tin (g) | Goes into one bar (g) | Source of values |
+|---|---|---|---|
+| egg_fresh | 348 | 40.7 | CoFID 'Eggs, chicken, whole, raw' (large egg ~58 g without shell) |
+| rolled_oats | 320 | 37.4 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
+| banana | 130 | 15.2 | USDA FDC 'Bananas, raw' (available carbs = total - fibre) |
+| peanut_butter | 80 | 9.4 | Typical UK 100% peanut butter label (e.g. Meridian) |
+| peanuts | 60 | 7.0 | CoFID 'Peanuts, plain' / typical unsalted pack |
+| milk_semi | 50 | 5.8 | CoFID 'Milk, semi-skimmed, pasteurised' |
+| cocoa | 25 | 2.9 | Typical UK unsweetened cocoa powder label |
+
+Batter 1013 g → baked 770 g (assumes 24% lost as steam; **weigh it**) → **8.6 bars of 90 g**. Estimated moisture after baking ≈ 25%.
+
+
+## Raspberry & Almond (Fruity flavour (v3 kitchen bake))
+
+| Typical values | Per 100 g | Per bar (90 g) | %RI* per bar |
+|---|---|---|---|
+| Energy | 1316 kJ / 315 kcal | 1184 kJ / 283 kcal | 14% |
+| Fat | 15 g | 13 g | 19% |
+| of which saturates | 2.4 g | 2.1 g | 11% |
+| Carbohydrate | 29 g | 26 g | 10% |
+| of which sugars | 3.7 g | 3.3 g | 4% |
+| Fibre | 5.8 g | 5.2 g |  |
+| Protein | 13 g | 12 g | 24% |
+| Salt | 0.17 g | 0.15 g | 3% |
+
+\*Reference intake of an average adult (8400 kJ / 2000 kcal).
+
+**Ingredients:** Free-range **eggs**, **oats**, banana, raspberries (10%), ground **almonds** (10%), semi-skimmed **milk**.
+
+**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk, nuts (almond)
+
+**Claim checks:**
+
+- protein_pct_energy: 17.0
+- source_of_protein (>=12% energy): ✅
+- high_protein (>=20% energy): ❌
+- fibre_g_per_100g: 5.8
+- fibre_g_per_100kcal: 1.85
+- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
+- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ❌
+- low_sugars (<=5 g/100 g): ✅
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ✅
+- sugar_reduction_vs_comparator_pct: 91
+- protein_muscle_claim_condition (source of protein): ✅
+- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
+- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
+
+**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf MEDIUM (amber), s LOW (green), salt LOW (green)
+
+**UK nutrient profile (HFSS) score:** -5 (A 5, fibre 5, protein 5) → not HFSS
+
+**Formulation:** one 20 × 20 cm tin
+
+| Ingredient | Per tin (g) | Goes into one bar (g) | Source of values |
+|---|---|---|---|
+| egg_fresh | 348 | 40.1 | CoFID 'Eggs, chicken, whole, raw' (large egg ~58 g without shell) |
+| rolled_oats | 320 | 36.9 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
+| banana | 110 | 12.7 | USDA FDC 'Bananas, raw' (available carbs = total - fibre) |
+| raspberries | 100 | 11.5 | USDA FDC 'Raspberries, raw' (frozen, unsweetened) |
+| ground_almond | 100 | 11.5 | CoFID 'Almonds, ground' / typical UK pack |
+| milk_semi | 50 | 5.8 | CoFID 'Milk, semi-skimmed, pasteurised' |
+
+Batter 1028 g → baked 781 g (assumes 24% lost as steam; **weigh it**) → **8.7 bars of 90 g**. Estimated moisture after baking ≈ 33%.
+
+
+## Toasted Oat & Cinnamon (Nut-free recipe (v3 kitchen bake))
+
+| Typical values | Per 100 g | Per bar (90 g) | %RI* per bar |
+|---|---|---|---|
+| Energy | 1356 kJ / 324 kcal | 1220 kJ / 291 kcal | 15% |
+| Fat | 14 g | 12 g | 18% |
+| of which saturates | 3.0 g | 2.7 g | 14% |
+| Carbohydrate | 32 g | 29 g | 11% |
+| of which sugars | 3.3 g | 3.0 g | 3% |
+| Fibre | 5.7 g | 5.1 g |  |
+| Protein | 15 g | 14 g | 27% |
+| Salt | 0.18 g | 0.16 g | 3% |
+
+\*Reference intake of an average adult (8400 kJ / 2000 kcal).
+
+**Ingredients:** Free-range **eggs**, **oats** (34%), banana, pumpkin seeds, semi-skimmed **milk**, cinnamon (1%).
+
+**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk
+
+**Claim checks:**
+
+- protein_pct_energy: 18.7
+- source_of_protein (>=12% energy): ✅
+- high_protein (>=20% energy): ❌
+- fibre_g_per_100g: 5.7
+- fibre_g_per_100kcal: 1.76
+- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
+- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ❌
+- low_sugars (<=5 g/100 g): ✅
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ✅
+- sugar_reduction_vs_comparator_pct: 91
+- protein_muscle_claim_condition (source of protein): ✅
+- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
+- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
+
+**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf MEDIUM (amber), s LOW (green), salt LOW (green)
+
+**UK nutrient profile (HFSS) score:** -3 (A 7, fibre 5, protein 5) → not HFSS
+
+**Formulation:** one 20 × 20 cm tin
+
+| Ingredient | Per tin (g) | Goes into one bar (g) | Source of values |
+|---|---|---|---|
+| egg_fresh | 348 | 42.7 | CoFID 'Eggs, chicken, whole, raw' (large egg ~58 g without shell) |
+| rolled_oats | 330 | 40.5 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
+| banana | 130 | 16.0 | USDA FDC 'Bananas, raw' (available carbs = total - fibre) |
+| pumpkin_seeds | 90 | 11.1 | Typical UK pumpkin seed pack label |
+| milk_semi | 60 | 7.4 | CoFID 'Milk, semi-skimmed, pasteurised' |
+| cinnamon | 6 | 0.7 | USDA FDC 'Spices, cinnamon, ground' |
+
+Batter 964 g → baked 733 g (assumes 24% lost as steam; **weigh it**) → **8.1 bars of 90 g**. Estimated moisture after baking ≈ 29%.
+
+
+## Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder) (Comparison: co-man scale-up route)
+
+| Typical values | Per 100 g | Per bar (80 g) | %RI* per bar |
+|---|---|---|---|
+| Energy | 1632 kJ / 388 kcal | 1306 kJ / 310 kcal | 16% |
+| Fat | 10.0 g | 8.0 g | 11% |
+| of which saturates | 2.2 g | 1.7 g | 9% |
+| Carbohydrate | 45 g | 36 g | 14% |
+| of which sugars | 11 g | 8.4 g | 9% |
+| Fibre | 6.9 g | 5.5 g |  |
+| Protein | 26 g | 21 g | 42% |
+| Salt | 0.67 g | 0.54 g | 9% |
+
+\*Reference intake of an average adult (8400 kJ / 2000 kcal).
+
+**Ingredients:** **oats**, dried **egg** white, puffed brown rice, **peanut** butter (11%), **oat** bran, skimmed **milk** powder, dates, cocoa powder (4%).
+
+**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk, peanuts
+
+**Claim checks:**
+
+- protein_pct_energy: 27.0
+- source_of_protein (>=12% energy): ✅
+- high_protein (>=20% energy): ✅
+- fibre_g_per_100g: 6.9
+- fibre_g_per_100kcal: 1.77
+- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
+- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ✅
+- low_sugars (<=5 g/100 g): ❌
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ❌
+- sugar_reduction_vs_comparator_pct: 73
+- protein_muscle_claim_condition (source of protein): ✅
+- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
+- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
+
+**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf MEDIUM (amber), s MEDIUM (amber), salt MEDIUM (amber)
+
+**UK nutrient profile (HFSS) score:** 0 (A 10, fibre 5, protein 5) → not HFSS
+
+**Formulation (g):** per bar / per 1 kg batch
+
+| Ingredient | Per bar (g) | Per 1 kg batch (g) | Source of values |
+|---|---|---|---|
+| rolled_oats | 26.0 | 325 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
+| egg_white | 14.0 | 175 | USDA FDC 'Egg, white, dried' (sodium ~1.28 g/100 g) |
+| puffed_rice | 10.0 | 125 | Rude Health / Nature's Store unsweetened puffed brown rice labels |
+| peanut_butter | 9.0 | 112 | Typical UK 100% peanut butter label (e.g. Meridian) |
+| oat_bran | 6.0 | 75 | USDA FDC 'Oat bran, raw' / Mornflake Oatbran pack (typical) |
+| smp | 6.0 | 75 | CoFID 'Milk, dried, skimmed' (sodium ~0.55 g/100 g) |
+| dates | 6.0 | 75 | USDA FDC 'Dates, deglet noor' (available carbs = total - fibre) |
+| cocoa | 3.0 | 38 | Typical UK unsweetened cocoa powder label |
+
+One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
+
+
+## v1 Cocoa & Peanut (7 Oct, superseded: 23 g sugar) (Comparison only)
 
 | Typical values | Per 100 g | Per bar (80 g) | %RI* per bar |
 |---|---|---|---|
@@ -31,6 +246,9 @@ Ingredient values are typical CoFID/USDA-type values (see script header). **All 
 - fibre_g_per_100kcal: 1.76
 - source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
 - high_fibre (>=6 g/100 g or >=3 g/100 kcal): ✅
+- low_sugars (<=5 g/100 g): ❌
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ❌
+- sugar_reduction_vs_comparator_pct: 25
 - protein_muscle_claim_condition (source of protein): ✅
 - carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
 - carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
@@ -55,112 +273,7 @@ Ingredient values are typical CoFID/USDA-type values (see script header). **All 
 One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
 
 
-## Raspberry & Almond (Fruity flavour)
-
-| Typical values | Per 100 g | Per bar (80 g) | %RI* per bar |
-|---|---|---|---|
-| Energy | 1548 kJ / 367 kcal | 1239 kJ / 294 kcal | 15% |
-| Fat | 8.1 g | 6.5 g | 9% |
-| of which saturates | 0.9 g | 0.7 g | 4% |
-| Carbohydrate | 46 g | 37 g | 14% |
-| of which sugars | 30 g | 24 g | 26% |
-| Fibre | 6.3 g | 5.1 g |  |
-| Protein | 24 g | 19 g | 39% |
-| Salt | 0.71 g | 0.57 g | 9% |
-
-\*Reference intake of an average adult (8400 kJ / 2000 kcal).
-
-**Ingredients:** Dates, **oats**, skimmed **milk** powder, dried **egg** white, **oat** bran, ground **almonds** (10%), honey, freeze-dried raspberries (2%).
-
-**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk, nuts (almond)
-
-**Claim checks:**
-
-- protein_pct_energy: 26.5
-- source_of_protein (>=12% energy): ✅
-- high_protein (>=20% energy): ✅
-- fibre_g_per_100g: 6.3
-- fibre_g_per_100kcal: 1.73
-- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
-- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ✅
-- protein_muscle_claim_condition (source of protein): ✅
-- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
-- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
-
-**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf LOW (green), s HIGH (red), salt MEDIUM (amber)
-
-**UK nutrient profile (HFSS) score:** 8 (A 13, fibre 5, protein 5 not counted) → **less healthy (HFSS)**
-
-**Formulation (g):** per bar / per 1 kg batch
-
-| Ingredient | Per bar (g) | Per 1 kg batch (g) | Source of values |
-|---|---|---|---|
-| dates | 19.0 | 238 | USDA FDC 'Dates, deglet noor' (available carbs = total - fibre) |
-| rolled_oats | 14.0 | 175 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
-| smp | 13.0 | 162 | CoFID 'Milk, dried, skimmed' (sodium ~0.55 g/100 g) |
-| egg_white | 12.0 | 150 | USDA FDC 'Egg, white, dried' (sodium ~1.28 g/100 g) |
-| oat_bran | 8.0 | 100 | USDA FDC 'Oat bran, raw' / Mornflake Oatbran pack (typical) |
-| ground_almond | 8.0 | 100 | CoFID 'Almonds, ground' / typical UK pack |
-| honey | 4.0 | 50 | CoFID 'Honey' |
-| fd_raspberry | 2.0 | 25 | Typical freeze-dried raspberry label (wide variation; check spec) |
-
-One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
-
-
-## Honey Oat & Sea Salt (Nut-free flavour (made in a nut-handling kitchen: see allergen notes))
-
-| Typical values | Per 100 g | Per bar (80 g) | %RI* per bar |
-|---|---|---|---|
-| Energy | 1521 kJ / 361 kcal | 1217 kJ / 288 kcal | 14% |
-| Fat | 6.7 g | 5.3 g | 8% |
-| of which saturates | 1.3 g | 1.0 g | 5% |
-| Carbohydrate | 48 g | 38 g | 15% |
-| of which sugars | 29 g | 23 g | 26% |
-| Fibre | 5.9 g | 4.7 g |  |
-| Protein | 25 g | 20 g | 39% |
-| Salt | 0.94 g | 0.75 g | 13% |
-
-\*Reference intake of an average adult (8400 kJ / 2000 kcal).
-
-**Ingredients:** Dates, **oats** (20%), skimmed **milk** powder, dried **egg** white, **oat** bran, pumpkin seeds, honey (8%), cinnamon, sea salt.
-
-**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk
-
-**Claim checks:**
-
-- protein_pct_energy: 27.3
-- source_of_protein (>=12% energy): ✅
-- high_protein (>=20% energy): ✅
-- fibre_g_per_100g: 5.9
-- fibre_g_per_100kcal: 1.65
-- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
-- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ❌
-- protein_muscle_claim_condition (source of protein): ✅
-- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
-- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
-
-**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf LOW (green), s HIGH (red), salt MEDIUM (amber)
-
-**UK nutrient profile (HFSS) score:** 10 (A 15, fibre 5, protein 5 not counted) → **less healthy (HFSS)**
-
-**Formulation (g):** per bar / per 1 kg batch
-
-| Ingredient | Per bar (g) | Per 1 kg batch (g) | Source of values |
-|---|---|---|---|
-| dates | 18.0 | 225 | USDA FDC 'Dates, deglet noor' (available carbs = total - fibre) |
-| rolled_oats | 16.4 | 205 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
-| smp | 12.0 | 150 | CoFID 'Milk, dried, skimmed' (sodium ~0.55 g/100 g) |
-| egg_white | 12.0 | 150 | USDA FDC 'Egg, white, dried' (sodium ~1.28 g/100 g) |
-| oat_bran | 8.0 | 100 | USDA FDC 'Oat bran, raw' / Mornflake Oatbran pack (typical) |
-| pumpkin_seeds | 7.0 | 88 | Typical UK pumpkin seed pack label |
-| honey | 6.0 | 75 | CoFID 'Honey' |
-| cinnamon | 0.4 | 5 | USDA FDC 'Spices, cinnamon, ground' |
-| sea_salt | 0.2 | 2 | — |
-
-One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
-
-
-## Strict whole-food variant (Cocoa & Peanut, no powders) (Comparison only: shows the protein ceiling)
+## Strict whole-food variant (Cocoa & Peanut, no powders, no eggs/milk) (Comparison only: shows the protein ceiling)
 
 | Typical values | Per 100 g | Per bar (80 g) | %RI* per bar |
 |---|---|---|---|
@@ -188,6 +301,9 @@ One 1 kg batch makes **12.5 bars** of 80 g (before ~5% process loss).
 - fibre_g_per_100kcal: 2.3
 - source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
 - high_fibre (>=6 g/100 g or >=3 g/100 kcal): ✅
+- low_sugars (<=5 g/100 g): ❌
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ❌
+- sugar_reduction_vs_comparator_pct: 44
 - protein_muscle_claim_condition (source of protein): ✅
 - carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
 - carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise

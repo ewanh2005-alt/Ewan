@@ -1,75 +1,59 @@
 # 08 — Final Summary
 
-**Date:** 7 Oct 2026 (Week 5 of 13)
+**Updated:** 8 Oct 2026 (Week 5) · **Change since 7 Oct:** product redesigned to Ewan's brief: **supermarket ingredients, fresh milk and boxed eggs, max 6 g sugar, clearly different from competitors** (v3 kitchen bake).
 
-## Quality check (Phase 8)
+## Quality check (re-run 8 Oct)
 
 | Check | Result |
 |---|---|
-| Re-ran every script from scratch (`04-nutrition.py`, `04-costing.py`, `research/02_build_competitors.py`, `05-brand/build_logos.py`, `05-brand/build_packaging.py`, `07-budget.py`) | ✅ All run cleanly; outputs identical to the committed files |
-| Every competitor row has a source URL and access date | ✅ 26/26 (`02-competitors.csv`, `research/sources.md`) |
-| No invented testimonials, quotes or interview data | ✅ Scan found none. Landing-page social proof and founder story are clearly marked placeholders; persona is tagged "hypothesis" |
-| Claims on packaging and landing page vs GB register conditions | ✅ Only "High protein" (26.8% energy) and the authorised protein muscle-mass claim are used. **Fixed during QC:** added the mandatory "varied, balanced diet and healthy lifestyle" statement that must accompany any health claim. "High fibre", "natural", "whole food", "clean" and recovery claims are kept off |
-| Numbers on page/pack match calculations | ✅ 20 g / 37 g / 23 g / 295 kcal all trace to `04-nutrition.py` |
-| Landing page at 390 px and 1280 px, light and dark | ✅ No horizontal scroll; no console errors; demo form submit works |
+| Re-ran every script (`04-nutrition.py`, `04-costing.py`, `research/02_build_competitors.py`, `05-brand/build_logos.py`, `05-brand/build_packaging.py`, `07-budget.py`) | ✅ All run cleanly; committed outputs match |
+| Every competitor row has a source URL and date | ✅ 26/26; new sources logged (C31, R10, P16–P21) |
+| No invented testimonials, quotes or interview data | ✅ Placeholders only; persona still tagged "hypothesis" |
+| Claims on pack and page vs GB conditions | ✅ "Low sugar" (3.0–3.8 g/100 g), "source of protein", authorised protein claim + balanced-diet statement. **Removed:** "high protein" (doesn't qualify now) and "no added sugar" (banana adds sweetness) |
+| Numbers on page/pack match calculations | ✅ 3 g sugar / 14 g protein / 28 g carbs / 90 g trace to `04-nutrition.py` |
+| Landing page at 390 and 1280 px | ✅ No horizontal scroll, no console errors |
 
-**Known limitation:** web research came through search-engine extracts, because direct page access was blocked here. Nutrition uses typical database-style values I couldn't open directly. **All product numbers are calculated, not measured.**
-
----
+**Known limitations:** research came via search-engine extracts (direct page access was blocked). Nutrition uses typical database values and an **assumed 24% bake loss**. Your first bake replaces that with a real number.
 
 ## What was built
-
-| Phase | Deliverables |
-|---|---|
-| 0 | `00-briefing.md`, `PROGRESS.md`, `inputs/judging-criteria.md` (transcribed from your photos), `research/sources.md` |
-| 1 | `01-judging-map.md`: criteria → evidence → deliverable, RAG scores |
-| 2 | `02-competitor-analysis.md` (DVS five steps), `02-competitors.csv` (26 products), `02-positioning-map.html`, `02-ecosystem-interview-guide.md` |
-| 3 | `03-persona.md` + `03-persona-card.html`: **hypothesis "Sam"**, built to be filled from your notes |
-| 4 | `04-concept-bar.md`, `04-nutrition.py`, `04-nutrition-tables.md`, `04-costing.py`, `04-costing.csv`: 3 recipes + strict whole-food comparison; claims, HFSS, VAT, margins |
-| 5 | `05-brand/`: name research and recommendation (**fettle**), guidelines, 6 logo SVGs, front and back wrapper, brand board |
-| 6 | `06-landing/index.html` (12 sections, waitlist + price question, book-a-chat with embed/form options), `AUTOMATION.md` with 3 emails |
-| 7 | `07-mvp-pilot-plan.md`, `07-budget.py`, `07-assumption-tracker.csv` (14 ranked assumptions), `07-pitch-outline.md` (12 slides + 5-minute cut) |
+All of Phases 0–8 (see `PROGRESS.md`). On 8 Oct, the product, packaging, landing page, positioning map, costing, budget, pilot plan, assumption tracker and pitch outline were updated for the v3 kitchen bake.
 
 ## Top 5 insights
 
-1. **The gap is real on paper.** No single UK bar found gives ~20 g protein **and** 35 g+ carbs without isolates or polyols. Lab protein bars get to 20 g protein with ~18 g carbs, mostly polyols; natural recovery bars stop at 12–15 g protein.
-2. **Demand is the unknown, and there's a warning sign.** Kellogg pulled **RXBAR** (an egg-white + dates bar) from the UK; its UK company was dissolved in 2023. The cheap real-food rival, **chocolate milk + a banana**, gives ~14 g protein / 60 g carbs for £1.77.
-3. **The recipe works on paper, with honest trade-offs.** 80 g, 295 kcal, 19.7 g protein, 37 g carbs, 5.2 g fibre. A strict whole-food version only reaches **10.6 g protein**, so milk powder and egg white are needed. The cost is **~23 g sugar (red traffic light)** and an **HFSS "less healthy" score**, the same as most natural bars. I cut the inherited 11 g-fibre / 98 g / 345 kcal spec: the evidence doesn't support high fibre straight after exercise, and it made the bar too big.
-4. **Price at £2.75 works, but grocery retail doesn't.** That's £0.14/g protein, level with Grenade and Barebells. Pilot unit cost is ~£1.07 (egg white is half the ingredient cost); ~£0.71 at co-man scale `[ASSUMPTION]`. Margins: 60% direct, 52% gym wholesale, **31% via distributor**. **Clubs, gyms and direct sales first.** Protein/sports bars carry 20% VAT once you register.
-5. **Customer evidence is the whole game now.** Problem & Market Research is still Red. "People said yes" won't survive judges. Repeat purchases in a paid pilot will.
+1. **The difference is now low sugar without lab ingredients.** Every UK bar we found with ≤6 g sugar uses polyols, sweeteners or protein isolates (Grenade, Barebells, PhD, Misfits). Every whole-food or "natural" bar has 9.5–38 g sugar. The v3 bake has **~3 g sugar from 7 supermarket ingredients**: alone in that corner of the map (`02-positioning-map.html`).
+2. **Baking with eggs is what makes it possible.** "Natural" bars need dates or syrup to stick together; ours is set by eggs and milk in the oven. That's a real, explainable point of difference, and a good pitch line: *sugar like a protein bar, ingredients like home baking.*
+3. **The honest trade-offs are protein and shelf life.** Supermarket whole foods top out at **~12–14 g protein per 90 g bar** (lab bars: ~20 g), so **no "high protein" claim**. And a fresh egg and milk bake must be **chilled with a short use-by**. The pilot tests whether buyers mind; if they do, the v2 route (same foods, dried) gets ~23 g protein and is shelf-stable, at ~9 g sugar.
+4. **The economics got better.** Pilot cost is **£0.65/bar** (vs £1.07 with powders). Margin is 76% selling direct and 60% to gyms/cafés. The pilot budget is **£960, within the £1,000**. It's no longer an HFSS product (score −3 vs +9 before), so it could be promoted by retailers later.
+5. **Customer evidence is still the whole game.** Problem & Market Research stays Red until the interviews, waitlist and pilot produce numbers.
 
-## Readiness re-score (vs Phase 1)
+## Readiness (vs Phase 1)
 
-| Criterion | Phase 1 | Now | Why it moved / didn't |
+| Criterion | Phase 1 | Now | Why |
 |---|---|---|---|
-| 1. Problem & Market Research | 🔴 | 🔴 | Competitor proof is strong and sourced, but **customer evidence is unchanged**. The tools to fix it (interview guide, waitlist with price question) are now ready |
-| 2. Innovation & Value Proposition | 🟠 | 🟠 | Clear, mapped differentiation and a concept bar. Moat still thin; sugar weakens the "better" story |
-| 3. Feasibility & Business Model | 🟠 | 🟠↑ | Unit economics, channel margins, budget and food-safety route are now calculated. Still unverified (recipe, lab, co-man quotes) |
-| 4. Team Capability | 🟠 | 🟠 | Good coachability story (spec changed on evidence). Team/adviser gap remains |
-| 5. Impact & Scale | 🔴 | 🔴↑ | Concrete impact options and a scale path drafted; nothing evidenced yet |
-| 6. Pitch & Communication | 🟠 | 🟠↑ | Brand, map, landing page and slide plan ready. Needs a physical bar and traction numbers |
+| 1. Problem & Market Research | 🔴 | 🔴 | Competitor evidence is strong; customer evidence is unchanged |
+| 2. Innovation & Value Proposition | 🟠 | 🟠↑ | Clearer, provable difference (low sugar + kitchen ingredients). Lower protein is a weakness |
+| 3. Feasibility & Business Model | 🟠 | 🟠↑ | You can make it this week; cheap; within budget. Chilled distribution limits scale |
+| 4. Team Capability | 🟠 | 🟠 | Strong coachability story (23 g → 3 g sugar after testing against competitors and claims law) |
+| 5. Impact & Scale | 🔴 | 🔴↑ | Low-sugar, non-HFSS, real-food positioning gives a concrete impact story; still unevidenced |
+| 6. Pitch & Communication | 🟠 | 🟠↑ | You'll have a real bar to hand out within a week |
 
 ## Decisions you need to make
-
-1. **Name:** go with **fettle**? First do the 30-minute UK IPO + Companies House check (classes 29/30/5/32). Fallback: Afta.
-2. **Budget:** spend is **£1,180 vs £1,000** before pilot sales. Approve: free kitchen + egg-white on promo (my recommendation), or cut a kitchen round?
-3. **Primary persona:** confirm **Sam (regular trainer, student)** as primary and the club athlete as secondary, or tell me your interviews say otherwise.
-4. **Sugar trade-off:** accept ~23 g sugar and frame it as refuelling, or prioritise a lower-sugar recipe test in kitchen round 2?
-5. **Snap-in-half:** keep as a light feature (my recommendation) rather than the inherited 4-segment body-weight hero?
+1. **Name:** confirm **fettle** after the UK IPO check (fallback: Afta).
+2. **Protein vs simplicity:** accept ~14 g protein for the pilot (my recommendation), and let pilot data decide whether to add the dried-ingredient v2 route.
+3. **Fresh vs shelf-stable:** pilot fresh and chilled (my recommendation), sold where there's a fridge: club fridge, gym café.
+4. **Primary persona:** confirm Sam (regular trainer, student), or adjust once you have your interview notes.
 
 ## Riskiest open assumptions (from `07-assumption-tracker.csv`)
+1. **A1:** people want low sugar **and** real food together.
+2. **A2:** ~14 g protein is enough.
+3. **A3/A4:** they'll pay £2.75 and buy again.
+4. **A5:** a chilled, short-life product works for partners.
+5. **A6:** it tastes good sweetened only by banana.
 
-1. **A1:** people feel this trade-off as a real pain.
-2. **A2:** they'll pay ~£2.75.
-3. **A3:** they'll buy again.
-4. **A4:** we can make it taste as good as Grenade.
-5. **A5/A6:** lab macros match the calculation, and the bar stays soft for 4+ weeks.
-
-## What to do this week (Week 5)
-
-1. **Register as a food business** with the council (free; 28 days' notice, so you're legal for a Week 9 pilot).
-2. **Upload your 9 interview notes** to `inputs/` (photos are fine). I'll rebuild the persona from them and re-score criterion 1.
-3. **Run the "fettle" trade mark check** (UK IPO, Companies House).
-4. **Connect the waitlist form** (Brevo or Formspree, per `AUTOMATION.md`) and post the page in 3–5 club and Durham SU groups. Target 50 sign-ups by next Friday.
-5. **Book a kitchen and buy ingredients** for round 1 (~£35). Start the Level 2 hygiene course.
-6. **Email 6 gyms, clubs or cafés** asking for a 20-minute chat about a pilot.
+## What to do this week
+1. **Bake recipe A** (`04-concept-bar.md` §3). Weigh the tin empty, full and after baking, then tell me the numbers and I'll re-run the nutrition.
+2. **Register as a food business** with the council (28 days' notice, so you're legal for a Week 9 pilot).
+3. **Upload your 9 interview notes** to `inputs/`.
+4. **Check "fettle"** on the UK IPO and Companies House.
+5. **Connect the waitlist** (`06-landing/AUTOMATION.md`) and post it in 3–5 club and SU groups.
+6. **Email 6 gyms, clubs or cafés with a fridge** about a 3-week pilot.

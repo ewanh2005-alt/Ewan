@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Recovery Bar Positioning Map</title>
+<title>Sugar vs Protein Map</title>
 <style>
 :root{
   color-scheme: light;
@@ -49,69 +49,62 @@ td.n{text-align:right;font-variant-numeric:tabular-nums}
 </head>
 <body>
 <main>
-  <h1>Protein vs carbohydrate per serving: UK recovery options</h1>
-  <p>Each mark is one product as sold (per bar, sachet or drink). Colour = where the protein comes from. Hover or tab to a mark for details. The shaded box is the gap we're targeting: <strong>≥18 g protein and ≥35 g carbs in one bar</strong>.</p>
+  <h1>Sugar vs protein per serving: UK bars</h1>
+  <p>Each mark is one product as sold. Colour = what it's made from. Hover or tab to a mark for carbs, polyols and price. The shaded box is where we're aiming: <strong>6 g sugar or less, with at least 10 g protein</strong>.</p>
   <div class="legend" aria-hidden="true">
     <span><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--wf)"/></svg>Whole-food protein (egg, milk, nuts, oats)</span>
     <span><svg width="14" height="14"><rect x="2" y="2" width="10" height="10" rx="2" fill="var(--proc)"/></svg>Processed (isolates, crisps, collagen, polyols, syrups)</span>
     <span><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="none" stroke="var(--unk)" stroke-width="2"/></svg>Protein source not confirmed</span>
-    <span><svg width="14" height="14"><path d="M7 2 L12 12 L2 12 Z" fill="var(--wf)"/></svg>Drink / fresh food (not a bar)</span>
-    <span><svg width="16" height="16"><path d="M8 1.5l1.9 4.1 4.5.5-3.3 3 .9 4.4L8 11.3 4 13.5l.9-4.4-3.3-3 4.5-.5z" fill="var(--text)"/></svg>Our concept bar</span>
+    <span><svg width="16" height="16"><path d="M8 1.5l1.9 4.1 4.5.5-3.3 3 .9 4.4L8 11.3 4 13.5l.9-4.4-3.3-3 4.5-.5z" fill="var(--text)"/></svg>fettle (kitchen bake)</span>
   </div>
   <div class="chart" id="chart"><div id="tip" role="status" aria-live="polite"></div></div>
-
   <details>
     <summary>Show the data as a table</summary>
-    <div class="tablewrap"><table id="tbl"><thead><tr><th>Product</th><th>Protein source</th><th class="n">Protein g</th><th class="n">Carbs g</th><th class="n">Fibre g</th><th class="n">kcal</th><th class="n">Weight g</th><th class="n">£ each</th><th class="n">£ per g protein</th></tr></thead><tbody></tbody></table></div>
+    <div class="tablewrap"><table id="tbl"><thead><tr><th>Product</th><th>Made from</th><th class="n">Sugar g</th><th class="n">Polyols g</th><th class="n">Protein g</th><th class="n">Carbs g</th><th class="n">kcal</th><th class="n">Weight g</th><th class="n">£ each</th></tr></thead><tbody></tbody></table></div>
   </details>
-  <p class="note"><strong>Reading it honestly:</strong> nothing else sits in the box <em>as a single bar</em>. The nearest whole-food product, 33Fuel Eroica, only gets to 20 g protein / 43 g carbs as a 100 g two-bar pack with ~38 g sugar (older data, low confidence). The nearest single bar, Myprotein Protein Flapjack, has 20 g protein but 32 g carbs, from soy and whey isolates and palm-oil margarine. Chocolate milk + a banana is the cheap real-food benchmark (≈14 g protein / 60 g carbs for £1.77). Sources: <code>02-competitors.csv</code>. Data checked by web search on 7 Oct 2026; per-product confidence is in the CSV.</p>
+  <p class="note"><strong>Reading it honestly:</strong> the low-sugar corner is crowded, but every other bar in it is a lab protein bar built on protein blends or isolates, most with polyols (e.g. Grenade 16 g, PhD 20 g) or sweeteners. Every whole-food or "natural" bar we found sits at 9.5–38 g sugar. fettle is the only bar we found in the box made from kitchen ingredients alone. The trade-offs: it has less protein than the lab bars (~14 g vs ~20 g), and it's a fresh bake that needs a fridge. Not plotted (no sugar figure captured): SiS REGO, Huel, chocolate milk. A banana has ~15 g sugar. Sources: <code>02-competitors.csv</code>, checked by web search 7 Oct 2026. fettle figures are calculated, not lab-tested.</p>
 </main>
 <script>
-const DATA = [{"id": "forza", "name": "Veloforte Forza (Apricot Almond Fennel)", "p": 12.0, "c": 38.3, "proc": "whole_food", "fmt": "bar", "w": 70.0, "kcal": 254.0, "fb": 7.4, "price": 2.75, "ppg": 0.229}, {"id": "styrkr", "name": "Styrkr BAR+ Recovery Bar", "p": 15.0, "c": 46.6, "proc": "processed", "fmt": "bar", "w": 74.0, "kcal": 285.0, "fb": 0.67, "price": 2.75, "ppg": 0.183}, {"id": "torq", "name": "TORQ Recovery Bar", "p": 13.4, "c": 40.2, "proc": "processed", "fmt": "bar", "w": 65.0, "kcal": 230.0, "fb": 2.1, "price": 2.5, "ppg": 0.187}, {"id": "rego", "name": "Science in Sport REGO Rapid Recovery (50g sachet; shake)", "p": 20.0, "c": 22.0, "proc": "processed", "fmt": "bar", "w": 50.0, "kcal": null, "fb": null, "price": 2.5, "ppg": 0.125}, {"id": "grenade", "name": "Grenade Carb Killa (Dark Choc Raspberry)", "p": 20.0, "c": 18.0, "proc": "processed", "fmt": "bar", "w": 60.0, "kcal": 219.0, "fb": 3.0, "price": 2.85, "ppg": 0.143}, {"id": "barebells", "name": "Barebells Protein Bar (Cookies & Cream)", "p": 20.0, "c": 17.0, "proc": "processed", "fmt": "bar", "w": 55.0, "kcal": 190.0, "fb": 3.5, "price": 2.9, "ppg": 0.145}, {"id": "fulfil", "name": "Fulfil Vitamin & Protein Bar (Choc Peanut Caramel)", "p": 19.5, "c": 15.9, "proc": "processed", "fmt": "bar", "w": 55.0, "kcal": 203.0, "fb": 3.8, "price": 2.9, "ppg": 0.149}, {"id": "mp_layered", "name": "Myprotein Layered Bar", "p": 20.0, "c": 20.0, "proc": "processed", "fmt": "bar", "w": 60.0, "kcal": 211.0, "fb": 6.4, "price": 2.5, "ppg": 0.125}, {"id": "mp_flapjack", "name": "Myprotein Protein Flapjack (Forest Fruit)", "p": 20.0, "c": 32.0, "proc": "processed", "fmt": "bar", "w": 80.0, "kcal": 324.0, "fb": 7.8, "price": 2.49, "ppg": 0.125}, {"id": "phd", "name": "PhD Nutrition Smart Bar", "p": 21.0, "c": 22.0, "proc": "processed", "fmt": "bar", "w": 64.0, "kcal": 251.0, "fb": null, "price": 2.5, "ppg": 0.119}, {"id": "clif", "name": "Clif Builders (Chocolate Mint)", "p": 20.0, "c": 31.0, "proc": "processed", "fmt": "bar", "w": 68.0, "kcal": 280.0, "fb": 3.0, "price": 1.9, "ppg": 0.095}, {"id": "huel", "name": "Huel Complete Nutrition Bar (Choc Caramel)", "p": 14.0, "c": 19.0, "proc": "processed", "fmt": "bar", "w": 55.0, "kcal": 200.0, "fb": 7.0, "price": 2.5, "ppg": 0.179}, {"id": "vf_crunch", "name": "Veloforte Protein Crunch", "p": 20.0, "c": 17.0, "proc": "processed", "fmt": "bar", "w": 66.0, "kcal": 252.0, "fb": 12.0, "price": 3.08, "ppg": 0.154}, {"id": "nakd", "name": "Nakd Fruit & Nut Bar (Cocoa Delight)", "p": 2.9, "c": 19.0, "proc": "whole_food", "fmt": "bar", "w": 35.0, "kcal": null, "fb": 3.3, "price": null, "ppg": null}, {"id": "nakd_protein", "name": "Nakd Protein Bar (Peanut Butter)", "p": 7.0, "c": 15.0, "proc": "unknown", "fmt": "bar", "w": 45.0, "kcal": 189.0, "fb": 6.8, "price": null, "ppg": null}, {"id": "trek", "name": "Trek Protein Flapjack (Lotus Biscoff)", "p": 9.8, "c": 23.0, "proc": "processed", "fmt": "bar", "w": 50.0, "kcal": 230.0, "fb": 2.2, "price": 1.65, "ppg": 0.168}, {"id": "bounce", "name": "Bounce Protein Ball (Dipped Peanut Caramel)", "p": 9.3, "c": 15.5, "proc": "unknown", "fmt": "bar", "w": 40.0, "kcal": null, "fb": null, "price": 1.75, "ppg": 0.188}, {"id": "battle", "name": "Battle Oats Protein Flapjack (80g original spec)", "p": 12.0, "c": 38.0, "proc": "processed", "fmt": "bar", "w": 80.0, "kcal": 330.0, "fb": 6.6, "price": null, "ppg": null}, {"id": "eroica", "name": "33Fuel Eroica bar (2-bar pack)", "p": 20.0, "c": 43.0, "proc": "whole_food", "fmt": "bar", "w": 100.0, "kcal": 409.0, "fb": null, "price": 4.4, "ppg": 0.22}, {"id": "yazoo", "name": "Yazoo Chocolate milk 400ml (whole bottle)", "p": 12.8, "c": 35.2, "proc": "whole_food", "fmt": "other", "w": 400.0, "kcal": 248.0, "fb": null, "price": 1.6, "ppg": 0.125}, {"id": "banana", "name": "Fresh Banana (one medium; ~120 g edible)", "p": 1.4, "c": 24.4, "proc": "whole_food", "fmt": "other", "w": 120.0, "kcal": 97.0, "fb": 1.3, "price": 0.17, "ppg": 0.121}, {"id": "milk_banana", "name": "Combo Yazoo 400ml + 1 banana", "p": 14.2, "c": 59.6, "proc": "whole_food", "fmt": "other", "w": 520.0, "kcal": 345.0, "fb": 1.3, "price": 1.77, "ppg": 0.125}, {"id": "ours", "name": "Our concept: Cocoa & Peanut (Phase 4 calculation)", "p": 19.7, "c": 37.1, "proc": "ours", "fmt": "bar", "w": 80, "kcal": 295, "fb": 5.2, "price": 2.75, "ppg": 0.139}];
-const W=900,H=560,M={l:56,r:24,t:16,b:52}, X0=0,X1=24,Y0=0,Y1=65;
+const DATA = [{"id": "forza", "name": "Veloforte Forza (Apricot Almond Fennel)", "p": 12.0, "c": 38.3, "s": 27.6, "poly": null, "proc": "whole_food", "fmt": "bar", "w": 70.0, "kcal": 254.0, "fb": 7.4, "price": 2.75, "ppg": 0.229}, {"id": "styrkr", "name": "Styrkr BAR+ Recovery Bar", "p": 15.0, "c": 46.6, "s": 28.4, "poly": null, "proc": "processed", "fmt": "bar", "w": 74.0, "kcal": 285.0, "fb": 0.67, "price": 2.75, "ppg": 0.183}, {"id": "torq", "name": "TORQ Recovery Bar", "p": 13.4, "c": 40.2, "s": 22.7, "poly": null, "proc": "processed", "fmt": "bar", "w": 65.0, "kcal": 230.0, "fb": 2.1, "price": 2.5, "ppg": 0.187}, {"id": "grenade", "name": "Grenade Carb Killa (Dark Choc Raspberry)", "p": 20.0, "c": 18.0, "s": 0.9, "poly": 16.0, "proc": "processed", "fmt": "bar", "w": 60.0, "kcal": 219.0, "fb": 3.0, "price": 2.85, "ppg": 0.143}, {"id": "barebells", "name": "Barebells Protein Bar (Cookies & Cream)", "p": 20.0, "c": 17.0, "s": 1.4, "poly": null, "proc": "processed", "fmt": "bar", "w": 55.0, "kcal": 190.0, "fb": 3.5, "price": 2.9, "ppg": 0.145}, {"id": "fulfil", "name": "Fulfil Vitamin & Protein Bar (Choc Peanut Caramel)", "p": 19.5, "c": 15.9, "s": 1.1, "poly": null, "proc": "processed", "fmt": "bar", "w": 55.0, "kcal": 203.0, "fb": 3.8, "price": 2.9, "ppg": 0.149}, {"id": "mp_layered", "name": "Myprotein Layered Bar", "p": 20.0, "c": 20.0, "s": 2.0, "poly": null, "proc": "processed", "fmt": "bar", "w": 60.0, "kcal": 211.0, "fb": 6.4, "price": 2.5, "ppg": 0.125}, {"id": "mp_flapjack", "name": "Myprotein Protein Flapjack (Forest Fruit)", "p": 20.0, "c": 32.0, "s": 20.0, "poly": null, "proc": "processed", "fmt": "bar", "w": 80.0, "kcal": 324.0, "fb": 7.8, "price": 2.49, "ppg": 0.125}, {"id": "phd", "name": "PhD Nutrition Smart Bar", "p": 21.0, "c": 22.0, "s": 2.0, "poly": 20.0, "proc": "processed", "fmt": "bar", "w": 64.0, "kcal": 251.0, "fb": null, "price": 2.5, "ppg": 0.119}, {"id": "misfits", "name": "Misfits Vegan Protein Bar", "p": 16.0, "c": null, "s": 1.0, "poly": null, "proc": "processed", "fmt": "bar", "w": 45.0, "kcal": 186.0, "fb": 8.0, "price": 2.2, "ppg": 0.138}, {"id": "clif", "name": "Clif Builders (Chocolate Mint)", "p": 20.0, "c": 31.0, "s": 17.0, "poly": null, "proc": "processed", "fmt": "bar", "w": 68.0, "kcal": 280.0, "fb": 3.0, "price": 1.9, "ppg": 0.095}, {"id": "vf_crunch", "name": "Veloforte Protein Crunch", "p": 20.0, "c": 17.0, "s": 9.5, "poly": null, "proc": "processed", "fmt": "bar", "w": 66.0, "kcal": 252.0, "fb": 12.0, "price": 3.08, "ppg": 0.154}, {"id": "nakd_protein", "name": "Nakd Protein Bar (Peanut Butter)", "p": 7.0, "c": 15.0, "s": 13.0, "poly": null, "proc": "unknown", "fmt": "bar", "w": 45.0, "kcal": 189.0, "fb": 6.8, "price": null, "ppg": null}, {"id": "trek", "name": "Trek Protein Flapjack (Lotus Biscoff)", "p": 9.8, "c": 23.0, "s": 12.0, "poly": null, "proc": "processed", "fmt": "bar", "w": 50.0, "kcal": 230.0, "fb": 2.2, "price": 1.65, "ppg": 0.168}, {"id": "eroica", "name": "33Fuel Eroica bar (2-bar pack)", "p": 20.0, "c": 43.0, "s": 38.0, "poly": null, "proc": "whole_food", "fmt": "bar", "w": 100.0, "kcal": 409.0, "fb": null, "price": 4.4, "ppg": 0.22}, {"id": "ours", "name": "fettle Cocoa & Peanut (kitchen bake, calculated)", "p": 14.3, "c": 28.0, "s": 3.4, "poly": 0, "proc": "ours", "fmt": "bar", "w": 90, "kcal": 321, "fb": 5.8, "price": 2.75, "ppg": 0.192}];
+const W=900,H=560,M={l:56,r:24,t:16,b:52}, X0=0,X1=40,Y0=0,Y1=24;
 const x=v=>M.l+(v-X0)/(X1-X0)*(W-M.l-M.r), y=v=>H-M.b-(v-Y0)/(Y1-Y0)*(H-M.t-M.b);
 const NS="http://www.w3.org/2000/svg", el=(t,a={},p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);p&&p.appendChild(e);return e};
-const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":"Scatter chart of protein versus carbohydrate per serving for UK recovery products. Only our concept bar sits in the target zone of at least 18 g protein and 35 g carbohydrate."});
+const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":"Scatter chart of sugar versus protein per serving. The low-sugar, at-least-10-g-protein box holds lab protein bars made with isolates and polyols, plus fettle, the only whole-food bar there."});
 document.getElementById("chart").prepend(svg);
-// grid + ticks
-for(let v=0;v<=X1;v+=2){el("line",{x1:x(v),x2:x(v),y1:y(Y0),y2:y(Y1),stroke:"var(--grid)","stroke-width":1},svg);const t=el("text",{x:x(v),y:H-M.b+18,"text-anchor":"middle",class:"tick"},svg);t.textContent=v;}
-for(let v=0;v<=Y1;v+=10){el("line",{x1:x(X0),x2:x(X1),y1:y(v),y2:y(v),stroke:"var(--grid)","stroke-width":1},svg);const t=el("text",{x:M.l-8,y:y(v)+4,"text-anchor":"end",class:"tick"},svg);t.textContent=v;}
+for(let v=0;v<=X1;v+=5){el("line",{x1:x(v),x2:x(v),y1:y(Y0),y2:y(Y1),stroke:"var(--grid)"},svg);const t=el("text",{x:x(v),y:H-M.b+18,"text-anchor":"middle",class:"tick"},svg);t.textContent=v;}
+for(let v=0;v<=Y1;v+=4){el("line",{x1:x(X0),x2:x(X1),y1:y(v),y2:y(v),stroke:"var(--grid)"},svg);const t=el("text",{x:M.l-8,y:y(v)+4,"text-anchor":"end",class:"tick"},svg);t.textContent=v;}
 el("line",{x1:x(X0),x2:x(X1),y1:y(0),y2:y(0),stroke:"var(--axis)"},svg);
-const xt=el("text",{x:(M.l+W-M.r)/2,y:H-10,"text-anchor":"middle",class:"axis-title"},svg);xt.textContent="Protein per serving (g)";
-const yt=el("text",{x:14,y:(M.t+H-M.b)/2,"text-anchor":"middle",class:"axis-title",transform:`rotate(-90 14 ${(M.t+H-M.b)/2})`},svg);yt.textContent="Carbohydrate per serving (g)";
-// target zone
-el("rect",{x:x(18),y:y(Y1),width:x(X1)-x(18),height:y(35)-y(Y1),fill:"var(--zone)",stroke:"var(--wf)","stroke-dasharray":"4 4","stroke-width":1,rx:4},svg);
-const zl=el("text",{x:x(18)+6,y:y(Y1)+16,class:"lbl"},svg);zl.textContent="Target gap";
-// points
-const LABEL={ours:"Our concept",forza:"Veloforte Forza",styrkr:"Styrkr BAR+",mp_flapjack:"Myprotein Flapjack",eroica:"33Fuel Eroica (2 bars)",milk_banana:"Choc milk + banana",yazoo:"Yazoo 400 ml",torq:"TORQ Recovery",grenade:"Lab protein bars",vf_crunch:"Veloforte Crunch",nakd:"Nākd",rego:"SiS REGO shake"};
-const OFF={grenade:[14,4],barebells:[0,0],ours:[10,-10],eroica:[-10,-10,"end"],mp_flapjack:[-8,-10,"end"],styrkr:[10,4],forza:[-10,4,"end"],torq:[10,12],milk_banana:[10,4],yazoo:[10,4],vf_crunch:[-10,16,"end"],nakd:[10,4],rego:[10,-6]};
+const xt=el("text",{x:(M.l+W-M.r)/2,y:H-10,"text-anchor":"middle",class:"axis-title"},svg);xt.textContent="Sugar per serving (g)";
+const yt=el("text",{x:14,y:(M.t+H-M.b)/2,"text-anchor":"middle",class:"axis-title",transform:`rotate(-90 14 ${(M.t+H-M.b)/2})`},svg);yt.textContent="Protein per serving (g)";
+el("rect",{x:x(0),y:y(Y1),width:x(6)-x(0),height:y(10)-y(Y1),fill:"var(--zone)",stroke:"var(--wf)","stroke-dasharray":"4 4",rx:4},svg);
+const zl=el("text",{x:x(0)+6,y:y(Y1)+16,class:"lbl"},svg);zl.textContent="≤6 g sugar, ≥10 g protein";
+const LABEL={ours:"fettle",grenade:"Lab protein bars (polyols / isolates)",forza:"Veloforte Forza",styrkr:"Styrkr BAR+",torq:"TORQ Recovery",mp_flapjack:"Myprotein Flapjack",nakd_protein:"Nākd Protein",trek:"Trek Flapjack",clif:"Clif Builders",vf_crunch:"Veloforte Crunch",eroica:"33Fuel Eroica (2 bars)"};
+const OFF={ours:[12,22],grenade:[60,-34],forza:[10,4],styrkr:[10,4],torq:[10,4],mp_flapjack:[10,4],nakd_protein:[10,4],trek:[10,14],clif:[0,-12,"middle"],vf_crunch:[10,4],eroica:[-10,4,"end"]};
 const tip=document.getElementById("tip"), box=document.getElementById("chart");
 const fmt=(v,u="")=>v==null?"—":v+u;
-function show(d,evt){
-  tip.innerHTML=`<b>${d.name}</b>Protein ${d.p} g · Carbs ${d.c} g<br>Fibre ${fmt(d.fb," g")} · ${fmt(d.kcal," kcal")} · ${fmt(d.w," g")}<br>£${d.price==null?"—":d.price.toFixed(2)} each · £${d.ppg==null?"—":d.ppg.toFixed(3)} per g protein`;
-  const r=box.getBoundingClientRect(), s=svg.getBoundingClientRect(), sc=s.width/W;
-  let left=x(d.p)*sc+14, top=y(d.c)*sc-10;
-  if(left+260>r.width) left=x(d.p)*sc-274;
+function show(d){
+  tip.innerHTML=`<b>${d.name}</b>Sugar ${d.s} g${d.poly?` · polyols ${d.poly} g`:""}<br>Protein ${d.p} g · Carbs ${fmt(d.c," g")}<br>${fmt(d.kcal," kcal")} · ${fmt(d.w," g")} · £${d.price==null?"—":d.price.toFixed(2)}`;
+  const sc=svg.getBoundingClientRect().width/W, sl=box.scrollLeft;
+  let left=x(d.s)*sc-sl+14, top=y(d.p)*sc-10;
+  if(left+260>box.clientWidth) left=x(d.s)*sc-sl-274;
   tip.style.left=Math.max(0,left)+"px"; tip.style.top=Math.max(0,top)+"px"; tip.style.opacity=1;
 }
 const hide=()=>tip.style.opacity=0;
 DATA.sort((a,b)=>(a.proc==="ours")-(b.proc==="ours")).forEach(d=>{
-  const g=el("g",{class:"pt",tabindex:0,role:"img","aria-label":`${d.name}: ${d.p} g protein, ${d.c} g carbohydrate`},svg);
-  const cx=x(d.p), cy=y(d.c), col=d.proc==="whole_food"?"var(--wf)":d.proc==="processed"?"var(--proc)":"var(--unk)";
-  el("circle",{cx,cy,r:14,fill:"transparent"},g); // hit target
+  const g=el("g",{class:"pt",tabindex:0,role:"img","aria-label":`${d.name}: ${d.s} g sugar, ${d.p} g protein`},svg);
+  const cx=x(d.s), cy=y(d.p), col=d.proc==="whole_food"?"var(--wf)":d.proc==="processed"?"var(--proc)":"var(--unk)";
+  el("circle",{cx,cy,r:14,fill:"transparent"},g);
   if(d.proc==="ours") el("path",{class:"mark",d:`M${cx} ${cy-11}l3.2 6.6 7.3.9-5.4 5 1.4 7.2-6.5-3.6-6.5 3.6 1.4-7.2-5.4-5 7.3-.9z`,fill:"var(--text)",stroke:"var(--surface)","stroke-width":2},g);
-  else if(d.fmt==="other") el("path",{class:"mark",d:`M${cx} ${cy-7} L${cx+7} ${cy+6} L${cx-7} ${cy+6} Z`,fill:col,stroke:"var(--surface)","stroke-width":2},g);
   else if(d.proc==="processed") el("rect",{class:"mark",x:cx-5.5,y:cy-5.5,width:11,height:11,rx:2,fill:col,stroke:"var(--surface)","stroke-width":2},g);
   else if(d.proc==="whole_food") el("circle",{class:"mark",cx,cy,r:6,fill:col,stroke:"var(--surface)","stroke-width":2},g);
   else el("circle",{class:"mark",cx,cy,r:5,fill:"var(--surface)",stroke:col,"stroke-width":2},g);
   if(LABEL[d.id]){const o=OFF[d.id]||[10,4];const t=el("text",{x:cx+o[0],y:cy+o[1],class:"lbl"+(d.id==="ours"?" ours":""),"text-anchor":o[2]||"start"},svg);t.textContent=LABEL[d.id];}
-  g.addEventListener("mouseenter",e=>show(d,e)); g.addEventListener("mouseleave",hide);
-  g.addEventListener("focus",e=>show(d,e)); g.addEventListener("blur",hide);
+  g.addEventListener("mouseenter",()=>show(d)); g.addEventListener("mouseleave",hide);
+  g.addEventListener("focus",()=>show(d)); g.addEventListener("blur",hide);
 });
-// table
-const tb=document.querySelector("#tbl tbody"), SRC={whole_food:"Whole food",processed:"Processed",unknown:"Not confirmed",ours:"Whole food + milk powder + egg white"};
-DATA.slice().sort((a,b)=>b.p-a.p).forEach(d=>{const tr=document.createElement("tr");
-  tr.innerHTML=`<td>${d.name}</td><td>${SRC[d.proc]}</td><td class="n">${d.p}</td><td class="n">${d.c}</td><td class="n">${fmt(d.fb)}</td><td class="n">${fmt(d.kcal)}</td><td class="n">${fmt(d.w)}</td><td class="n">${d.price==null?"—":d.price.toFixed(2)}</td><td class="n">${d.ppg==null?"—":d.ppg.toFixed(3)}</td>`;tb.appendChild(tr);});
+const tb=document.querySelector("#tbl tbody"), SRC={whole_food:"Whole food",processed:"Processed",unknown:"Not confirmed",ours:"Kitchen ingredients only"};
+DATA.slice().sort((a,b)=>a.s-b.s).forEach(d=>{const tr=document.createElement("tr");
+  tr.innerHTML=`<td>${d.name}</td><td>${SRC[d.proc]}</td><td class="n">${d.s}</td><td class="n">${fmt(d.poly)}</td><td class="n">${d.p}</td><td class="n">${fmt(d.c)}</td><td class="n">${fmt(d.kcal)}</td><td class="n">${fmt(d.w)}</td><td class="n">${d.price==null?"—":d.price.toFixed(2)}</td>`;tb.appendChild(tr);});
 </script>
 </body>
 </html>

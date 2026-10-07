@@ -11,14 +11,14 @@
 
 | # | Finding | Tag |
 |---|---|---|
-| 1 | **The gap is real on paper.** No single UK bar found gives ≥18 g protein **and** ≥35 g carbs without isolates, polyols or palm oil. Our 80 g concept calculates at 19.7 g protein / 37.1 g carbs | `[EVIDENCE: 02-competitors.csv]` + `[ASSUMPTION: concept maths, unverified]` |
+| 1 | **The gap (updated 8 Oct): low sugar without lab ingredients.** Every UK bar found with ≤6 g sugar uses polyols, sweeteners or protein isolates; every whole-food or "natural" bar has 9.5–38 g sugar. Our v3 kitchen bake calculates at ~3 g sugar, ~14 g protein, ~28 g carbs (90 g) | `[EVIDENCE: 02-competitors.csv]` + `[ASSUMPTION: concept maths, unverified]` |
 | 2 | **But a gap is not demand.** Kellogg **withdrew RXBAR** (egg white + dates, the best-known whole-food protein bar) from the UK about two years after launch; RX BAR UK Ltd was dissolved 18 May 2023. No reason was published | `[EVIDENCE: Food Business News; Companies House 11297949]` |
 | 3 | **The price ceiling is about £2.50–2.95 a bar.** Lab protein bars sit at £0.12–0.15 per g protein; recovery bars at £0.18–0.23 | `[EVIDENCE: retailer prices, CSV]` |
 | 4 | **Chocolate milk + a banana is the real benchmark.** About 14 g protein + 60 g carbs for **£1.77**, sold everywhere | `[EVIDENCE: Tesco prices]` + `[ASSUMPTION: banana nutrition]` |
 | 5 | **The 20 g protein bars are built for "low sugar", not refuelling.** Grenade (16 g polyols), PhD (20 g polyols) and Barebells/Fulfil reach 20 g protein with 15–22 g carbs. Polyols are excluded from the GB carbohydrate recovery claim | `[EVIDENCE: Boots, H&B listings; Reg. 2015/7]` |
 | 6 | **"Natural" recovery bars trade protein for sugar.** Veloforte Forza: 12 g protein, 27.6 g sugar. Styrkr BAR+: 15 g protein, 28.4 g sugar, glucose syrup first, 0.67 g fibre | `[EVIDENCE: retailer listings]` |
 
-**Honest weakness:** our concept also has ~23 g sugar per bar (29 g/100 g, a **red** front-of-pack traffic light), mostly from dates and milk lactose. We can't attack Forza or Styrkr on sugar. See `04-concept-bar.md`.
+**Update 8 Oct:** the v1 concept had ~23 g sugar (red traffic light), so it couldn't beat Forza or Styrkr on sugar. Ewan set a **6 g sugar cap** and asked for supermarket ingredients (fresh milk, boxed eggs). The v3 kitchen bake has ~3 g sugar. **Honest weaknesses now:** ~14 g protein (lab bars have ~20 g), and it's a fresh, chilled product. See `04-concept-bar.md`.
 
 ---
 
@@ -94,9 +94,9 @@ The questions are in **`02-ecosystem-interview-guide.md`**: customers, coaches/P
 | | What it covers |
 |---|---|
 | **Known with confidence** | Macros and prices of the lab protein bars (Grenade, Barebells, Fulfil, PhD), all £2.50–2.90. Styrkr's ingredient list and 28 g sugar. Forza's 12 g protein. Chocolate milk £1.60 / 400 ml. Polyols excluded from the carb recovery claim. RXBAR's UK exit. Protein/sports bars are standard-rated for VAT (20%) `[EVIDENCE: FTT case via taxation.co.uk]` |
-| **Assumptions to test** | That athletes notice or care about the protein × carb trade-off. That "no isolates / no polyols" matters to buyers, not just to us. That £2.75 is acceptable for an 80 g bar. That club/university channels are unserved. That gut comfort is a real pain with lab bars |
+| **Assumptions to test** | That buyers care about low sugar **and** simple ingredients together (not just one). That ~14 g protein is enough for them. That a chilled, fresh bar fits how they buy. That £2.75 is acceptable for a 90 g bake. That club/university channels are unserved. That gut comfort is a real pain with lab bars |
 | **Missing information** | Customer interview data (blocking). Forza's current price. Nākd and Bounce protein sources. Why RXBAR left the UK. Competitors' sales volumes, margins, funding. Co-manufacturer quotes |
-| **Where we're differentiated** | Only single bar found at ~20 g protein **and** ~37 g carbs **with** recognisable ingredients, no isolates, no polyols, no palm oil, no sweeteners. Weaknesses: **sugar is not lower** than Forza/Styrkr; bar is **heavier** (80 g vs 55–74 g) |
+| **Where we're differentiated** | Only bar found with ≤6 g sugar made from kitchen ingredients alone: no powders, polyols, sweeteners or syrups. ~90% less sugar than Forza/Styrkr. Weaknesses: less protein than lab bars (~14 g vs ~20 g); perishable (chilled, short use-by); 90 g, heavier than most bars |
 
 ---
 
@@ -120,16 +120,16 @@ The questions are in **`02-ecosystem-interview-guide.md`**: customers, coaches/P
 |---|---|
 | **Market readiness** | Protein bars are mature and crowded; "natural" recovery bars exist in cycle retail. Buyers already accept £2.50–2.90 a bar `[EVIDENCE]`. Whether they want a *bigger, carb-heavier* bar is unknown `[GAP]` |
 | **Customer adoption** | Lab protein bars have mass adoption (supermarkets, Boots). Whole-food recovery bars are niche. RXBAR's exit is a warning that "simple ingredients" alone didn't win UK shoppers `[EVIDENCE]` |
-| **Pricing & business model** | £2.75 RRP puts us at **£0.14/g protein**, in line with Grenade/Barebells and cheaper than Forza (£0.23). Retail via a distributor leaves ~31% gross margin at early scale, which is thin. **Clubs, gyms and direct sales first** (see `04-costing.csv`) |
-| **Technical strengths & weaknesses** | Strength: macros without isolates or polyols. Weaknesses: high sugar, 80 g size, high-protein bars harden over shelf life `[ASSUMPTION: needs shelf-life test]`, egg-white powder cost |
+| **Pricing & business model** | Buyers already pay £2.50–2.90 a bar `[EVIDENCE]`. At £2.75, the v3 kitchen bake (pilot cost £0.65) makes ~76% selling direct and ~60% via gyms/cafés. It's a fresh, chilled product, so grocery retail isn't a near-term channel. **Clubs, gyms and cafés with fridges first** (see `04-costing.csv`). On £ per gram of protein (£0.19) it's dearer than lab bars (£0.12–0.15), so don't sell it on protein value |
+| **Technical strengths & weaknesses** | Strength: low sugar from a binding method (baking with eggs), cheap ingredients (~£0.65/bar), no HFSS issue. Weaknesses: short chilled shelf life; protein ceiling ~14 g without powders; texture consistency between home bakes `[ASSUMPTION: needs trials]` |
 | **Partnerships & distribution** | Pro sports clubs are tied to SiS, Myprotein and Grenade (inherited research). University and grassroots clubs show no visible natural-bar supplier `[ASSUMPTION]` |
 | **Competitive advantages & barriers** | Our advantage today is a specific formulation and a local network, which is easy to copy. **Barriers to us:** co-man MOQs of 10k–25k bars `[EVIDENCE: industry guide]`, wrapper MOQs ~25k `[EVIDENCE: TIPA]`, listing fees, shelf-life testing. Durable moats would have to come from community and pilot evidence |
 
 ## Is the gap real? (the positioning map)
 
-**Yes on macros, unproven on demand.** On the map, our concept is the only single bar in the ≥18 g protein / ≥35 g carbs box. Three things stop me calling it a winning gap:
-1. **Chocolate milk + a banana** sits at 14 g / 60 g for £1.77. It's cheap and everyone already knows it.
-2. **The box may be empty because people don't want a 300 kcal bar after training.** The bar must prove it beats "protein bar now, proper meal later".
-3. **RXBAR**: a well-funded whole-food protein bar left the UK.
+**The map is now sugar vs protein (updated 8 Oct).** In the ≤6 g sugar / ≥10 g protein box, every other bar is a lab protein bar (isolates, polyols, sweeteners). fettle is the only kitchen-ingredient bar there. Three things stop me calling it a winning gap:
+1. **Lab bars have more protein (~20 g)** and are on every shelf. We must prove buyers value *simple ingredients + low sugar* enough to accept ~14 g.
+2. **Chocolate milk + a banana** costs £1.77 and everyone knows it. It's real food too, though with more sugar.
+3. **RXBAR:** a well-funded simple-ingredient bar left the UK. "Simple ingredients" alone didn't win.
 
 **What would change my mind:** 30+ conversations showing people already improvise "protein bar + banana" or buy two products after training (= real pain), plus waitlist sign-ups that accept £2.50+.

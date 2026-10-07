@@ -8,21 +8,21 @@ C = json.loads(Path("research/04_costing_summary.json").read_text())
 N = json.loads(Path("research/04_nutrition_output.json").read_text())
 BUDGET = 1000.0
 
-bars_per_kg = N["A_cocoa_peanut"]["bars_per_kg"]
-avg_ing_per_bar = sum(C[k]["pilot"]["ingredients"] for k in ("A_cocoa_peanut", "B_raspberry_almond", "C_honey_oat_salt")) / 3
-proto_batches = 3 * 4                      # 3 flavours x 4 kitchen rounds, 1 kg each
+FLAVOURS = ("A_cocoa_peanut", "B_raspberry_almond", "C_oat_cinnamon")
+tin_cost = sum(C[k]["pilot"]["ingredients"] * N[k]["bars_per_batch"] for k in FLAVOURS) / 3  # avg ingredients per tin
+proto_batches = 3 * 4                      # 3 flavours x 4 kitchen rounds, one tin each
 pilot_bars = 250                           # 2 partners x ~125 bars
 hero_unit = C["A_cocoa_peanut"]["pilot"]["unit_cost"]
 
 items = [
-    ("Prototype ingredients (12 × 1 kg batches)", proto_batches * bars_per_kg * avg_ing_per_bar, "calc from 04-costing"),
+    ("Prototype ingredients (12 tins)", proto_batches * tin_cost, f"calc from 04-costing (~£{tin_cost:.2f}/tin)"),
     ("Pilot bars incl. packaging (250 × hero unit cost)", pilot_bars * hero_unit, "calc from 04-costing"),
     ("Lab nutrition analysis, 1 sample", 150, "[ASSUMPTION] get 2 quotes"),
     ("Water activity / shelf-life test", 40, "[ASSUMPTION]"),
     ("Commercial kitchen hire (4 sessions × £15/h × 3 h)", 4 * 15 * 3, "[ASSUMPTION] community/church kitchen rates vary"),
     ("Food hygiene Level 2 (online)", 15, "[EVIDENCE: £10-25, P12]"),
     ("Public + product liability insurance (pilot)", 120, "[ASSUMPTION] PL from ~£57/yr (P13); product liability adds"),
-    ("Segmented moulds, scales, thermometer", 60, "[ASSUMPTION]"),
+    ("20 cm tins ×2, scales, probe thermometer, cool bag + ice packs", 60, "[ASSUMPTION] chilled transport to partners"),
     ("Label printing (allergen-compliant stickers)", 30, "[ASSUMPTION]"),
     ("Taste-test materials + competitor bars for blind test", 40, "[ASSUMPTION] ~10 competitor bars"),
     ("Survey / interview incentive (prize draw)", 30, "[ASSUMPTION]"),
