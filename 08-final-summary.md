@@ -46,7 +46,7 @@ Problem & Market Research **Red → Amber**; Impact & Scale **Red → Amber**; t
 
 ## Decisions you need to make
 1. **Confirm v6** (with quark, egg whites, oat bran, pumpkin seeds), or stick to the strict core list (v5: 14 g protein, 20.5% energy).
-2. **Primary persona: Alex, the coached athlete** (my recommendation) vs Sam, the gym-goer.
+2. **Persona: Jack, the committed gym-goer** (typical customer from the evidence); the coached athlete is the sharpest sub-group and the bulk-sales route.
 3. **Price to test:** £2.00 / £2.25 / £2.75.
 4. **Name:** run the UK IPO check on "fettle".
 

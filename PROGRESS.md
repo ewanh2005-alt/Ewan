@@ -20,7 +20,7 @@ Last updated: 8 Oct 2026 (Week 5)
 
 ## Phase 3 — Customer persona ✅ (evidence-based, small n)
 - [x] Interview notes → `inputs/customer-persona.md`; coded in `research/03_interview_coding.csv`; counts by `research/03_interview_counts.py`
-- [x] `03-persona.md`, `03-persona-card.html`: primary **Alex, the coached athlete**; secondary **Sam, the gym-goer**
+- [x] `03-persona.md`, `03-persona-card.html`: **Jack, the committed gym-goer** (typical customer, per DVS persona brief); sub-groups: coached athletes, women in the gym
 - [ ] Get commitments (0/10 so far); interview female athletes
 
 ## Phase 4 — Concept bar ✅ (calculated, not tested)
@@ -46,4 +46,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `08-final-summary.md`
 
 ## Decisions open for Ewan
-1. Confirm v6 vs core-list v5 · 2. Primary persona (Alex) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
+1. Confirm v6 vs core-list v5 · 2. Persona (Jack) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
