@@ -148,8 +148,8 @@
 | P13 | Simply Business – food business insurance | https://www.simplybusiness.co.uk/business-insurance/by-industry/food-business-insurance/ | 7 Oct 2026 | Public liability from ~£57/yr | search-extract |
 | P14 | TIPA compostable bar wrapper (MOQ 25k) | https://tipa-corp.com/application/bar-wrapper/ | 7 Oct 2026 | Wrapper MOQ | search-extract |
 | P15 | usetorg – snack bar co-man MOQs 10k–25k | https://usetorg.com/blog/snack-bars-trends-suppliers-europe | 7 Oct 2026 | Co-man MOQ | search-extract |
-
-**Rejected source:** Nutrabaits egg albumen (£16.99/kg) is a **fishing-bait** supplier. It must not be used for food. Buy only food-grade, pasteurised egg white powder with a spec sheet.
 | P30 | Shropshire Council, The Lantern: community kitchen commercial rates £13–19.20/h (basis to confirm) | https://www.shropshire.gov.uk/the-lantern/room-hire/room-hire-rates | 8 Oct 2026 | Kitchen hire benchmark | search-extract |
 | P31 | Evri next-day rates (2–5 kg £7.10); UK Business Forums on chilled shipping (Mon–Wed dispatch); Fordhall Farm Woolcool packaging | https://www.evri.com · https://www.ukbusinessforums.co.uk/threads/chilled-and-frozen-shipping.422406/ · https://shop.fordhallfarm.com/aboutus/packaging/ | 8 Oct 2026 | National delivery cost | search-extract |
 | P32 | SALSA costs: Republic of Ireland €1,250 base; older UK audit £450–500 (2008–2011) | https://salsafood.co.uk/costs/ireland · https://www.foodmanufacture.co.uk/Article/2011/03/30/SALSA-audits-are-dancing-to-the-tune-of-the-SME-sector-says-NFU/ | 8 Oct 2026 | Certification cost | search-extract |
+
+**Rejected source:** Nutrabaits egg albumen (£16.99/kg) is a **fishing-bait** supplier. It must not be used for food. Buy only food-grade, pasteurised egg white powder with a spec sheet.
