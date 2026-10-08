@@ -1,109 +1,112 @@
 {
   "spec": {
     "p_min": 20,
-    "c_min": 35,
-    "s_max": 10,
-    "f_max": 15
+    "c_min": 25,
+    "s_max": 8,
+    "f_max": 9,
+    "kcal_max": 285
   },
   "bars": {
-    "R1 Chocolate Peanut Butter": {
-      "egg_fresh": 58,
-      "quark": 75,
-      "rolled_oats": 30,
-      "oat_bran": 20,
+    "Chocolate Peanut Butter": {
+      "egg_white_fresh": 65,
+      "quark": 45,
+      "oat_bran": 25,
+      "rolled_oats": 12,
       "peanut_butter": 7,
-      "honey": 7,
-      "cocoa": 5,
+      "cocoa": 4,
+      "chia": 2,
+      "honey": 6,
       "sea_salt": 0.2
     },
-    "R2 Vanilla & Honey": {
-      "egg_fresh": 58,
-      "quark": 75,
-      "rolled_oats": 35,
-      "oat_bran": 20,
-      "honey": 7,
+    "Vanilla": {
+      "egg_white_fresh": 60,
+      "egg_fresh": 15,
+      "quark": 45,
+      "oat_bran": 27,
+      "rolled_oats": 15,
       "chia": 2,
-      "vanilla_extract": 4,
+      "honey": 6,
+      "vanilla_extract": 3,
+      "sea_salt": 0.15
+    },
+    "Banana Bread": {
+      "egg_white_fresh": 60,
+      "egg_fresh": 15,
+      "quark": 45,
+      "oat_bran": 25,
+      "rolled_oats": 15,
+      "banana": 35,
+      "chia": 2,
       "cinnamon": 0.5,
       "sea_salt": 0.15
     },
-    "R3 Banana Bread": {
+    "(comparison) Choc PB, whole egg only": {
       "egg_fresh": 58,
-      "quark": 70,
-      "rolled_oats": 30,
-      "oat_bran": 20,
-      "banana": 50,
-      "chia": 2,
-      "cinnamon": 1,
-      "sea_salt": 0.15
-    },
-    "R4 Chocolate Banana": {
-      "egg_fresh": 58,
-      "quark": 70,
-      "rolled_oats": 30,
-      "oat_bran": 20,
-      "banana": 50,
-      "cocoa": 5,
-      "chia": 2,
-      "sea_salt": 0.15
+      "quark": 80,
+      "rolled_oats": 15,
+      "oat_bran": 15,
+      "peanut_butter": 5,
+      "honey": 5,
+      "cocoa": 4,
+      "sea_salt": 0.2
     }
   },
   "per_bar": {
-    "R1 Chocolate Peanut Butter": {
-      "p": 25.8,
-      "c": 37.9,
-      "s": 9.6,
-      "fb": 7.6,
-      "f": 13.8,
-      "sf": 3.5,
-      "salt": 0.5,
-      "kcal": 394.5,
-      "fast_sugar": 5.7,
-      "protein_per_100kcal": 6.5,
-      "batter_g": 202.2,
-      "cost_gbp": 1.01
-    },
-    "R2 Vanilla & Honey": {
-      "p": 23.9,
-      "c": 40.2,
-      "s": 9.8,
+    "Chocolate Peanut Butter": {
+      "p": 21.0,
+      "c": 28.0,
+      "s": 7.9,
       "fb": 7.1,
-      "f": 10.3,
-      "sf": 2.4,
-      "salt": 0.4,
-      "kcal": 363.5,
-      "fast_sugar": 5.7,
-      "protein_per_100kcal": 6.6,
-      "batter_g": 201.7,
-      "cost_gbp": 1.1
+      "f": 8.0,
+      "sf": 1.8,
+      "salt": 0.5,
+      "kcal": 282.3,
+      "fast_sugar": 4.9,
+      "protein_per_100kcal": 7.4,
+      "batter_g": 166.2,
+      "cost_gbp": 1.09
     },
-    "R3 Banana Bread": {
-      "p": 23.3,
-      "c": 41.0,
-      "s": 9.5,
-      "fb": 8.2,
-      "f": 10.0,
-      "sf": 2.4,
-      "salt": 0.4,
-      "kcal": 364.2,
-      "fast_sugar": 6.1,
-      "protein_per_100kcal": 6.4,
-      "batter_g": 231.2,
-      "cost_gbp": 0.85
+    "Vanilla": {
+      "p": 20.4,
+      "c": 29.8,
+      "s": 8.0,
+      "fb": 6.1,
+      "f": 5.4,
+      "sf": 1.1,
+      "salt": 0.5,
+      "kcal": 261.7,
+      "fast_sugar": 4.9,
+      "protein_per_100kcal": 7.8,
+      "batter_g": 173.2,
+      "cost_gbp": 1.16
     },
-    "R4 Chocolate Banana": {
-      "p": 24.3,
-      "c": 41.4,
-      "s": 9.5,
-      "fb": 9.1,
-      "f": 11.1,
-      "sf": 3.0,
-      "salt": 0.4,
-      "kcal": 380.4,
-      "fast_sugar": 6.1,
-      "protein_per_100kcal": 6.4,
-      "batter_g": 235.2,
-      "cost_gbp": 0.97
+    "Banana Bread": {
+      "p": 20.5,
+      "c": 30.7,
+      "s": 6.9,
+      "fb": 7.0,
+      "f": 5.4,
+      "sf": 1.1,
+      "salt": 0.5,
+      "kcal": 266.9,
+      "fast_sugar": 4.3,
+      "protein_per_100kcal": 7.7,
+      "batter_g": 197.7,
+      "cost_gbp": 0.98
+    },
+    "(comparison) Choc PB, whole egg only": {
+      "p": 23.2,
+      "c": 24.7,
+      "s": 7.8,
+      "fb": 5.1,
+      "f": 11.0,
+      "sf": 2.9,
+      "salt": 0.5,
+      "kcal": 300.9,
+      "fast_sugar": 4.1,
+      "protein_per_100kcal": 7.7,
+      "batter_g": 182.2,
+      "cost_gbp": 0.94
     }
   }
 }

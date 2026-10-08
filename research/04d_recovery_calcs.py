@@ -1,6 +1,5 @@
-"""Single-bar RECOVERY recipes for the hard-training athlete (post-training / post-competition).
-Whole eggs only (no separated whites), quark for extra protein, oats for carbs, a little honey/banana
-for fast sugar. Uses the ingredient database in 04-nutrition.py. Calculated, not lab-tested.
+"""Single-bar test recipes (final set, 8 Oct): Chocolate Peanut Butter, Vanilla, Banana Bread.
+T20-sized: ~20 g protein, ~28-31 g carbs, <=8 g sugar, ~5-8 g fat, ~260-280 kcal. Uses the ingredient database in 04-nutrition.py. Calculated, not lab-tested.
 Run: python3 research/04d_recovery_calcs.py"""
 import json
 import runpy
@@ -13,17 +12,20 @@ PRICE = runpy.run_path(str(ROOT / "04-costing.py"), run_name="lib")["PRICE"]  # 
 EXTRA_PRICE = {"vanilla_extract": 60.0}  # [ASSUMPTION] ~£3 per 50 ml supermarket vanilla extract
 ING.setdefault("vanilla_extract", dict(p=0.1, c=12.7, s=12.7, fb=0.0, f=0.1, sf=0.0, salt=0.02))
 
-# Recovery spec: >=20 g protein, >=35 g carbs, <=10 g sugar, <=15 g fat
-SPEC = dict(p_min=20, c_min=35, s_max=10, f_max=15)
+# Spec (Ewan, 8 Oct): back to T20 size. >=20 g protein, >=25 g carbs, <=8 g sugar, <=9 g fat, <=285 kcal
+SPEC = dict(p_min=20, c_min=25, s_max=8, f_max=9, kcal_max=285)
+# Egg whites are separated from normal boxed eggs. A whole-egg-only version was tested in code and came out at
+# ~275-300 kcal with 8-11 g fat, over spec, so whites stay (Ewan's rule: keep whites if needed for the macros).
 BARS = {
-    "R1 Chocolate Peanut Butter": dict(egg_fresh=58, quark=75, rolled_oats=30, oat_bran=20, peanut_butter=7,
-                                       honey=7, cocoa=5, sea_salt=0.2),
-    "R2 Vanilla & Honey": dict(egg_fresh=58, quark=75, rolled_oats=35, oat_bran=20, honey=7, chia=2,
-                               vanilla_extract=4, cinnamon=0.5, sea_salt=0.15),
-    "R3 Banana Bread": dict(egg_fresh=58, quark=70, rolled_oats=30, oat_bran=20, banana=50, chia=2,
-                            cinnamon=1, sea_salt=0.15),
-    "R4 Chocolate Banana": dict(egg_fresh=58, quark=70, rolled_oats=30, oat_bran=20, banana=50, cocoa=5,
-                                chia=2, sea_salt=0.15),
+    "Chocolate Peanut Butter": dict(egg_white_fresh=65, quark=45, oat_bran=25, rolled_oats=12, peanut_butter=7,
+                                    cocoa=4, chia=2, honey=6, sea_salt=0.2),
+    "Vanilla": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=27, rolled_oats=15, chia=2, honey=6,
+                    vanilla_extract=3, sea_salt=0.15),
+    "Banana Bread": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=25, rolled_oats=15, banana=35, chia=2,
+                         cinnamon=0.5, sea_salt=0.15),
+    # whole-egg comparison (not a test recipe): shows why whites are kept
+    "(comparison) Choc PB, whole egg only": dict(egg_fresh=58, quark=80, rolled_oats=15, oat_bran=15,
+                                                  peanut_butter=5, honey=5, cocoa=4, sea_salt=0.2),
 }
 FAST_SUGAR_SOURCES = ("honey", "banana")
 
@@ -44,6 +46,8 @@ print("|---|---|---|---|---|---|---|---|---|---|---|---|")
 for name, r in rows.items():
     print(f"| {name} | {r['p']} g | {r['c']} g | {r['s']} g | {r['fast_sugar']} g | {r['f']} g | {r['sf']} g | "
           f"{r['fb']} g | {r['salt']} g | {r['kcal']:.0f} | {r['batter_g']:.0f} g | £{r['cost_gbp']:.2f} |")
+    if name.startswith("(comparison)"):
+        continue
     assert r["p"] >= SPEC["p_min"] and r["c"] >= SPEC["c_min"], name
-    assert r["s"] <= SPEC["s_max"] and r["f"] <= SPEC["f_max"], name
+    assert r["s"] <= SPEC["s_max"] and r["f"] <= SPEC["f_max"] and r["kcal"] <= SPEC["kcal_max"], name
 (ROOT / "research" / "04d_recovery_output.json").write_text(json.dumps({"spec": SPEC, "bars": BARS, "per_bar": rows}, indent=2))
