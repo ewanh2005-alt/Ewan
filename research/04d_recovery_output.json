@@ -6,6 +6,7 @@
     "f_max": 9,
     "kcal_max": 285
   },
+  "bake_loss_estimate": 0.36,
   "bars": {
     "Chocolate Peanut Butter": {
       "egg_white_fresh": 65,
@@ -107,6 +108,120 @@
       "protein_per_100kcal": 7.7,
       "batter_g": 182.2,
       "cost_gbp": 0.94
+    }
+  },
+  "label": {
+    "Chocolate Peanut Butter": {
+      "ingredients": "Free-range **egg** whites, quark (**milk**), **oat** bran, **oats**, **peanut** butter (4%), honey (4%), cocoa powder (2%), chia seeds, salt.",
+      "allergens": [
+        "cereals containing gluten (oats)",
+        "egg",
+        "milk",
+        "peanuts"
+      ],
+      "baked_g_estimate": 106,
+      "per_bar": {
+        "p": 21.0,
+        "c": 28.0,
+        "s": 7.9,
+        "fb": 7.1,
+        "f": 8.0,
+        "sf": 1.8,
+        "salt": 0.5,
+        "kcal": 282.3,
+        "fast_sugar": 4.9,
+        "protein_per_100kcal": 7.4,
+        "batter_g": 166.2,
+        "cost_gbp": 1.09,
+        "kj": 1185.8,
+        "weight": 106
+      },
+      "per_100g": {
+        "p": 19.74,
+        "c": 26.32,
+        "s": 7.43,
+        "fb": 6.67,
+        "f": 7.52,
+        "sf": 1.69,
+        "salt": 0.47,
+        "kcal": 265.4,
+        "kj": 1114.81
+      },
+      "protein_pct_energy": 29.8
+    },
+    "Vanilla": {
+      "ingredients": "Free-range **egg** whites, quark (**milk**), **oat** bran, free-range **eggs**, **oats**, honey (3%), vanilla extract (2%), chia seeds, salt.",
+      "allergens": [
+        "cereals containing gluten (oats)",
+        "egg",
+        "milk"
+      ],
+      "baked_g_estimate": 111,
+      "per_bar": {
+        "p": 20.4,
+        "c": 29.8,
+        "s": 8.0,
+        "fb": 6.1,
+        "f": 5.4,
+        "sf": 1.1,
+        "salt": 0.5,
+        "kcal": 261.7,
+        "fast_sugar": 4.9,
+        "protein_per_100kcal": 7.8,
+        "batter_g": 173.2,
+        "cost_gbp": 1.16,
+        "kj": 1102.0,
+        "weight": 111
+      },
+      "per_100g": {
+        "p": 18.41,
+        "c": 26.89,
+        "s": 7.22,
+        "fb": 5.5,
+        "f": 4.87,
+        "sf": 0.99,
+        "salt": 0.45,
+        "kcal": 236.16,
+        "kj": 994.44
+      },
+      "protein_pct_energy": 31.2
+    },
+    "Banana Bread": {
+      "ingredients": "Free-range **egg** whites, quark (**milk**), banana (18%), **oat** bran, free-range **eggs**, **oats**, chia seeds, cinnamon, salt.",
+      "allergens": [
+        "cereals containing gluten (oats)",
+        "egg",
+        "milk"
+      ],
+      "baked_g_estimate": 126,
+      "per_bar": {
+        "p": 20.5,
+        "c": 30.7,
+        "s": 6.9,
+        "fb": 7.0,
+        "f": 5.4,
+        "sf": 1.1,
+        "salt": 0.5,
+        "kcal": 266.9,
+        "fast_sugar": 4.3,
+        "protein_per_100kcal": 7.7,
+        "batter_g": 197.7,
+        "cost_gbp": 0.98,
+        "kj": 1126.2,
+        "weight": 126
+      },
+      "per_100g": {
+        "p": 16.21,
+        "c": 24.27,
+        "s": 5.45,
+        "fb": 5.53,
+        "f": 4.27,
+        "sf": 0.87,
+        "salt": 0.4,
+        "kcal": 210.99,
+        "kj": 890.3
+      },
+      "protein_pct_energy": 30.7
     }
   }
 }

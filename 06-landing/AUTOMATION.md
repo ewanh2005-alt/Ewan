@@ -57,7 +57,7 @@ The page has a commented-out **Plausible** snippet in `<head>` (cookieless, so n
 >
 > Thanks for joining the fettle waitlist. *(If double opt-in: "Please confirm your email with the button below. Then you're in.")*
 >
-> fettle is a fresh-baked bar for after training: about 2 g sugar, 17 g protein and 23 g carbs, made from eggs, oats, quark, oat bran, seeds and milk. No powders, no sweeteners. We're baking the first small batches in Durham this term.
+> fettle is a fresh-baked recovery bar for people who train hard: about 20 g protein and 30 g carbs from eggs, quark and oats, in Chocolate Peanut Butter, Vanilla and Banana Bread. No protein powder, no sweeteners. We bake to order and deliver chilled, starting in Durham this term.
 >
 > **What happens next**
 > - We'll email you when taste tests and the first batch are ready (no more than twice a month).

@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>fettle: real food for after training</title>
-<meta name="description" content="fettle is a fresh-baked, high-protein bar for after training: about 17 g protein, 2 g sugar and 23 g carbs, made only from kitchen ingredients: eggs, oats, quark, oat bran, seeds, milk and cocoa. No protein powder, no sweeteners. Join the waitlist.">
+<title>fettle: real-food recovery bar</title>
+<meta name="description" content="A fresh-baked recovery bar for people who train hard: about 20 g protein and 30 g carbs from eggs, quark and oats. No protein powder, no sweeteners, no sugar alcohols. Baked to order and delivered chilled. Join the waitlist.">
 <link rel="canonical" href="https://www.example.co.uk/"><!-- PLACEHOLDER: replace with your real domain -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="fettle: real food for after training">
-<meta property="og:description" content="High protein, low sugar: 17 g protein, 2 g sugar, baked from eggs, oats and quark. Join the waitlist for the first batch.">
+<meta property="og:title" content="fettle: real-food recovery bar">
+<meta property="og:description" content="About 20 g protein and 30 g carbs from eggs, quark and oats, baked fresh each week. Join the waitlist for the first batch.">
 <meta property="og:image" content="https://www.example.co.uk/assets/og-image.png"><!-- PLACEHOLDER: export a 1200×630 PNG of the hero -->
 <meta property="og:url" content="https://www.example.co.uk/">
 <meta property="og:locale" content="en_GB">
@@ -134,6 +134,25 @@ fieldset{border:0;margin:0;padding:0}
 footer{border-top:1px solid var(--line);padding:40px 0 56px;font-size:14px;color:var(--stone)}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
 footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;counter-reset:step;margin-top:24px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;position:relative}
+.step::before{counter-increment:step;content:counter(step);display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--ember);color:var(--ember-ink);font-family:Archivo;font-weight:800;margin-bottom:10px}
+.quote-band{background:#1C1B19;color:#F4EFE6;border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,36px);margin-top:24px}
+.quote-band p{margin:0;font-size:clamp(18px,2.4vw,22px)}
+.quote-band b{color:#F0804A}
+/* flavour cards with packs */
+.packs{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin-top:24px}
+.pack{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.pack img{display:block;width:100%;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.10)}
+.pack h3{margin:4px 0 0}
+.pack .mini{display:flex;gap:18px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.pack .mini b{font-family:Archivo;font-size:22px;font-weight:800}
+.pack .mini span{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--stone)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.stat b{display:block;font-family:Archivo;font-weight:800;font-size:40px;line-height:1;color:var(--ember);margin-bottom:8px}
 </style>
 </head>
 <body>
@@ -147,10 +166,11 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
     </a>
     <nav aria-label="Main">
       <ul>
-        <li><a href="#bar">The bar</a></li>
+        <li><a href="#bars">The bars</a></li>
+        <li><a href="#how">How it works</a></li>
         <li><a href="#compare">Compare</a></li>
         <li><a href="#faq">FAQ</a></li>
-        <li><a href="#partners">Gyms &amp; clubs</a></li>
+        <li><a href="#squads">Squads &amp; coaches</a></li>
         <li class="cta-li"><a class="btn btn-primary btn-sm" href="#waitlist">Join the waitlist</a></li>
       </ul>
     </nav>
@@ -162,22 +182,22 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 <section class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">For after training · baked fresh</p>
-      <h1>Low sugar. Real food. After training.</h1>
-      <p class="lede">A high-protein baked oat bar with about 2 g sugar, made only from things you can buy in a supermarket: eggs, oats, quark, oat bran, pumpkin and chia seeds, milk, peanut butter and cocoa. No protein powder, no sweeteners, no sugar alcohols.</p>
-      <div class="macros" aria-label="Per 90 g bar">
-        <div class="macro"><b>17 g</b><span>protein</span></div>
-        <div class="macro"><b>2 g</b><span>sugar</span></div>
-        <div class="macro"><b>23 g</b><span>carbs</span></div>
+      <p class="eyebrow">Real-food recovery bar · baked fresh</p>
+      <h1>Recover on real food.</h1>
+      <p class="lede">About 20 g protein and 30 g carbs from eggs, quark and oats. No protein powder, no sweeteners, no sugar alcohols. Baked to order each week and delivered chilled, like a fresh meal.</p>
+      <div class="macros" aria-label="Per bar, Chocolate Peanut Butter">
+        <div class="macro"><b>~20 g</b><span>protein</span></div>
+        <div class="macro"><b>~30 g</b><span>carbs</span></div>
+        <div class="macro"><b>≤8 g</b><span>sugar</span></div>
       </div>
       <div class="ctas">
         <a class="btn btn-primary" href="#waitlist">Get the first batch</a>
-        <a class="btn btn-ghost" href="#partners">Gym, club or stockist? Book a chat</a>
+        <a class="btn btn-ghost" href="#squads">Coach or club? Book a squad taste test</a>
       </div>
-      <p class="note">Baked in small batches in the North East and kept chilled. Nutrition figures are calculated from the recipe and will be confirmed by lab analysis before we sell.</p>
+      <p class="note">Nutrition figures are calculated from the recipes and will be confirmed by lab analysis before we sell.</p>
     </div>
     <div class="hero-visual">
-      <img src="assets/packaging-front.svg" width="760" height="320" alt="fettle Cocoa and Peanut Butter bar wrapper: 2 g sugar, 17 g protein, 23 g carbs per 90 g bar. Kitchen ingredients, no powders, no sweeteners. High protein, low sugar.">
+      <img src="assets/packaging-front-choc-pb.svg" width="760" height="320" alt="fettle Chocolate Peanut Butter recovery bar wrapper: 21 g protein, 28 g carbs, 8 g sugar. No protein powder, no sweeteners. Keep refrigerated. High protein.">
     </div>
   </div>
 </section>
@@ -185,71 +205,94 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 <!-- 2. PROBLEM -->
 <section id="problem" aria-labelledby="problem-h">
   <div class="wrap">
-    <p class="eyebrow">The trade-off</p>
-    <h2 id="problem-h">Low sugar usually means a lab bar.</h2>
-    <p class="lede">The low-sugar bars get there with protein isolates and sugar alcohols. The "natural" bars use real food, and carry about 10–28 g of sugar. We wanted both.</p>
+    <p class="eyebrow">The problem</p>
+    <h2 id="problem-h">After training, every option makes you give something up.</h2>
+    <p class="lede">You need protein and carbs to recover. When you can't sit down to a proper meal, this is what's left.</p>
     <div class="grid g3" style="margin-top:24px">
-      <div class="card"><span class="pill">Protein bars</span><h3>Low sugar, long ingredient lists</h3><p class="muted">Most get under 2 g sugar using protein isolates or blends plus polyols (sugar alcohols) or sweeteners. Some carry a laxative warning.</p></div>
-      <div class="card"><span class="pill">"Natural" &amp; recovery bars</span><h3>Real ingredients, lots of sugar</h3><p class="muted">Dates, syrups and dried fruit hold them together, so 10–28 g of sugar per bar is normal.</p></div>
-      <div class="card"><span class="pill">fettle</span><h3>Baked, not pressed</h3><p class="muted">Eggs and milk bind and set the bar in the oven, so it doesn't need sticky sugars to hold together.</p></div>
+      <div class="card"><span class="pill">Meal prep</span><h3>Right food, hard to keep up</h3><p class="muted">Chicken and rice works, but it means cooking ahead and carrying a tub around, and it falls apart on busy weeks.</p></div>
+      <div class="card"><span class="pill">Fruit</span><h3>Quick, but no protein</h3><p class="muted">A banana is real food and fast carbs, with about 1 g of protein.</p></div>
+      <div class="card"><span class="pill">Protein bars</span><h3>Protein, plus a long label</h3><p class="muted">Most reach 20 g with protein powder, sweeteners and sugar alcohols. Some carry a laxative warning.</p></div>
+      <div class="card"><span class="pill">"Natural" bars</span><h3>Real food, mostly sugar</h3><p class="muted">Dates, syrups and dried fruit hold them together: 10–28 g sugar and around 12 g protein is normal.</p></div>
     </div>
-    <p class="note">In a 2023 survey of 140 athletes, everyday foods were rated tastier, cheaper and lower-risk than sports foods; sports foods won only on convenience (Forsyth &amp; Mantzioris, <em>British Journal of Nutrition</em>). We're trying to give you both.</p>
+    <div class="stats">
+      <div class="stat"><b>80%</b><p class="muted small" style="margin:0">of Canadian university athletes say their schedule limits their ability to cook (Morassutti, York University, 2024).</p></div>
+      <div class="stat"><b>Carbs</b><p class="muted small" style="margin:0">are what team-sport athletes miss: most hit protein targets but fall short on carbohydrate (Jenner et al., 2019, 21 studies).</p></div>
+      <div class="stat"><b>Tastier</b><p class="muted small" style="margin:0">Athletes rate everyday food tastier, cheaper and safer than sports foods, which win only on convenience (Forsyth &amp; Mantzioris, 2023).</p></div>
+    </div>
   </div>
 </section>
 
-<!-- 3. THE BAR -->
-<section id="bar" aria-labelledby="bar-h">
+<!-- 3. THE BARS -->
+<section id="bars" aria-labelledby="bars-h">
   <div class="wrap">
-    <p class="eyebrow">The bar</p>
-    <h2 id="bar-h">Kitchen ingredients. Nothing else.</h2>
-    <p class="lede">Cocoa &amp; Peanut, our first flavour:</p>
-    <ul class="ing" aria-label="Ingredients">
-      <li>Free-range <strong>eggs</strong></li><li><strong>Oats</strong></li><li>Quark (<strong>milk</strong>)</li><li><strong>Egg</strong> whites</li><li><strong>Oat</strong> bran</li><li>Semi-skimmed <strong>milk</strong></li><li><strong>Peanut</strong> butter</li><li>Pumpkin seeds</li><li>Cocoa</li><li>Chia seeds</li><li>A pinch of salt</li>
-    </ul>
-    <div class="grid g3">
-      <div class="card"><h3>Low sugar</h3><p class="muted">About 2 g per 90 g bar, mostly the natural sugar in milk. No honey in this one, no syrup, no dates, no sweeteners.</p></div>
-      <div class="card"><h3>High protein</h3><p class="muted">About 17 g from eggs, quark, oat bran and seeds: a quarter of the bar's energy. Plus 23 g carbs, mostly from oats, and ~6 g fibre. Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p></div>
-      <div class="card"><h3>When to eat it</h3><p class="muted">After training, when a proper meal is still a way off. It's baked fresh, so keep it in the fridge and eat it within a few days, or freeze it.</p></div>
+    <p class="eyebrow">The bars</p>
+    <h2 id="bars-h">Three flavours in testing.</h2>
+    <p class="lede">Every bar starts with eggs, quark and oats. Flavour comes from real food: cocoa, peanut butter, vanilla, banana. Nothing from a lab.</p>
+    <div class="packs">
+      <article class="pack">
+        <img src="assets/packaging-front-choc-pb.svg" width="760" height="320" alt="Chocolate Peanut Butter wrapper: 21 g protein, 28 g carbs, 8 g sugar.">
+        <h3>Chocolate Peanut Butter</h3>
+        <div class="mini"><div><b>21 g</b><span>protein</span></div><div><b>28 g</b><span>carbs</span></div><div><b>8 g</b><span>sugar</span></div><div><b>282</b><span>kcal</span></div></div>
+        <p class="muted small" style="margin:0">Egg whites, quark, oat bran, oats, peanut butter, honey, cocoa, chia. Contains <strong>peanuts, egg, milk, oats</strong>.</p>
+      </article>
+      <article class="pack">
+        <img src="assets/packaging-front-vanilla.svg" width="760" height="320" alt="Vanilla wrapper: 20 g protein, 30 g carbs, 8 g sugar.">
+        <h3>Vanilla</h3>
+        <div class="mini"><div><b>20 g</b><span>protein</span></div><div><b>30 g</b><span>carbs</span></div><div><b>8 g</b><span>sugar</span></div><div><b>262</b><span>kcal</span></div></div>
+        <p class="muted small" style="margin:0">Egg whites, quark, oat bran, eggs, oats, honey, vanilla extract, chia. Contains <strong>egg, milk, oats</strong>.</p>
+      </article>
+      <article class="pack">
+        <img src="assets/packaging-front-banana-bread.svg" width="760" height="320" alt="Banana Bread wrapper: 20 g protein, 31 g carbs, 7 g sugar.">
+        <h3>Banana Bread</h3>
+        <div class="mini"><div><b>20 g</b><span>protein</span></div><div><b>31 g</b><span>carbs</span></div><div><b>7 g</b><span>sugar</span></div><div><b>267</b><span>kcal</span></div></div>
+        <p class="muted small" style="margin:0">Egg whites, quark, banana, oat bran, eggs, oats, chia, cinnamon. No added honey. Contains <strong>egg, milk, oats</strong>.</p>
+      </article>
     </div>
-    <p class="note">Contains <strong>peanuts, milk, egg</strong> and <strong>oats</strong> (gluten). Not suitable before or during exercise. Not a meal replacement.</p>
+    <div class="grid g3" style="margin-top:20px">
+      <div class="card"><h3>High protein</h3><p class="muted">About 20 g per bar, around 30% of its energy. Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p></div>
+      <div class="card"><h3>Real carbs</h3><p class="muted">About 30 g, mostly from oats, with a little honey or banana for quicker energy after a hard session.</p></div>
+      <div class="card"><h3>Fibre from food</h3><p class="muted">About 6–7 g from oats, oat bran and chia, not added fibre syrups. Best eaten after training, not before.</p></div>
+    </div>
   </div>
 </section>
 
-<!-- 4. COMPARISON -->
+<!-- 4. HOW IT WORKS -->
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2 id="how-h">Baked fresh, like a fresh-meal delivery.</h2>
+    <p class="lede">Real eggs and quark don't last for months on a shelf, so we bake to order, the same way fresh-meal services do.</p>
+    <div class="steps">
+      <div class="step"><h3>Order</h3><p class="muted" style="margin:0">Pick your bars for the week, or your coach orders for the squad.</p></div>
+      <div class="step"><h3>We bake</h3><p class="muted" style="margin:0">Baked to order in small batches, with no long-life additives.</p></div>
+      <div class="step"><h3>Delivered chilled</h3><p class="muted" style="margin:0">Hand-delivered around Durham to start, kept cold all the way.</p></div>
+      <div class="step"><h3>Eat or freeze</h3><p class="muted" style="margin:0">Keep in the fridge and eat within the use-by date, or freeze for later.</p></div>
+    </div>
+    <div class="quote-band"><p><b>Baked this week, not 12 months ago.</b> The short shelf life is how you know it's real food.</p></div>
+  </div>
+</section>
+
+<!-- 5. COMPARISON -->
 <section id="compare" aria-labelledby="compare-h">
   <div class="wrap">
     <p class="eyebrow">How it compares</p>
     <h2 id="compare-h">An honest comparison.</h2>
-    <p class="lede">Per bar or serving as sold. We're lower in sugar than the natural bars and use simpler ingredients than the lab bars. Lab bars still have a little more protein.</p>
+    <p class="lede">Per bar as sold. The protein bars match us on protein using powders and sweeteners; the "natural" bars use real food but carry far more sugar.</p>
     <div class="tablewrap" tabindex="0" role="region" aria-label="Comparison table, scrolls sideways on small screens">
       <table>
-        <thead><tr><th scope="col"></th><th scope="col" class="us">fettle Cocoa &amp; Peanut Butter (90 g)</th><th scope="col">Lab protein bar<br><span class="hint">e.g. Grenade Carb Killa (60 g)</span></th><th scope="col">Natural recovery bar<br><span class="hint">e.g. Veloforte Forza (70 g)</span></th><th scope="col">Chocolate milk + banana<br><span class="hint">Yazoo 400 ml + 1 banana</span></th></tr></thead>
+        <thead><tr><th scope="col"></th><th scope="col" class="us">fettle<br><span class="hint">Choc Peanut Butter (~106 g)</span></th><th scope="col">Myprotein THE Re-Fuel<br><span class="hint">80 g</span></th><th scope="col">HIGH5 Recovery Protein<br><span class="hint">50 g</span></th><th scope="col">Styrkr BAR+ Recovery<br><span class="hint">74 g</span></th><th scope="col">Veloforte Forza<br><span class="hint">70 g</span></th></tr></thead>
         <tbody>
-          <tr><th scope="row">Sugars</th><td class="us">2 g*</td><td>0.9 g</td><td>27.6 g</td><td>15 g+ (banana alone)</td></tr>
-          <tr><th scope="row">Polyols / sweeteners</th><td class="us">None</td><td>16 g polyols</td><td>None</td><td>None</td></tr>
-          <tr><th scope="row">Protein</th><td class="us">17 g*</td><td>20 g</td><td>12 g</td><td>~14 g</td></tr>
-          <tr><th scope="row">Carbohydrate</th><td class="us">23 g*</td><td>18 g (incl. the polyols)</td><td>38 g</td><td>~60 g</td></tr>
-          <tr><th scope="row">Protein from</th><td class="us">Eggs, quark, oat bran, seeds</td><td>Milk protein blend</td><td>Egg white</td><td>Milk</td></tr>
-          <tr><th scope="row">Keep in the fridge?</th><td class="us">Yes (baked fresh)</td><td>No</td><td>No</td><td>Best chilled</td></tr>
-          <tr><th scope="row">Typical price</th><td class="us">£2.75 (planned)</td><td>£2.85</td><td>~£2.75</td><td>~£1.77</td></tr>
+          <tr><th scope="row">Protein</th><td class="us">21 g*</td><td>22 g</td><td>19 g</td><td>15 g</td><td>12 g</td></tr>
+          <tr><th scope="row">Carbohydrate</th><td class="us">28 g*</td><td>32 g</td><td>19 g</td><td>47 g</td><td>38 g</td></tr>
+          <tr><th scope="row">Sugars</th><td class="us">8 g*</td><td>not published</td><td>not published</td><td>28 g</td><td>28 g</td></tr>
+          <tr><th scope="row">Main ingredients</th><td class="us">Egg whites, quark, oat bran, oats</td><td>Maltitol (first ingredient), oats, whey</td><td>Milk protein, glucose syrup, sugar</td><td>Glucose syrup, soy protein, sugar</td><td>Apricot, almond, egg white, cane sugar</td></tr>
+          <tr><th scope="row">Sweeteners or sugar alcohols</th><td class="us">None</td><td>Yes (maltitol)</td><td>No</td><td>No</td><td>No</td></tr>
+          <tr><th scope="row">Storage</th><td class="us">Fridge (baked fresh)</td><td>Cupboard</td><td>Cupboard</td><td>Cupboard</td><td>Cupboard</td></tr>
+          <tr><th scope="row">Typical price</th><td class="us">£2.00–2.75 (testing)</td><td>~£1.54 (12-pack)</td><td>~£2.79</td><td>~£2.75</td><td>~£2.75</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="note">*fettle figures are calculated from the recipe, not yet lab-tested. Other figures are from UK retailer listings checked 7 October 2026 (Boots/Ocado for Grenade, Sigma Sport for Forza, Tesco for Yazoo and bananas; banana values are typical). Prices vary by retailer and promotion. Chocolate milk + banana is a genuinely good, cheap option.</p>
-  </div>
-</section>
-
-<!-- 5. FLAVOURS -->
-<section id="flavours" aria-labelledby="flav-h">
-  <div class="wrap">
-    <p class="eyebrow">Flavours</p>
-    <h2 id="flav-h">Three to start. You help pick.</h2>
-    <div class="grid g3" style="margin-top:20px">
-      <div class="flav f-a"><span class="tag">First batch · no honey</span><div><h3>Cocoa &amp; Peanut Butter</h3><p>Dark cocoa, peanut butter, pumpkin seeds. ~2 g sugar.</p></div></div>
-      <div class="flav f-b"><span class="tag">In testing · nut-free recipe</span><div><h3>Honey &amp; Chia</h3><p>A spoon of honey, chia, toasted oats. ~3.5 g sugar.</p></div></div>
-      <div class="flav f-c"><span class="tag">In testing · nut-free recipe</span><div><h3>Cocoa &amp; Honey</h3><p>Dark cocoa with a touch of honey. ~3.5 g sugar.</p></div></div>
-    </div>
-    <p class="note">The honey recipes contain no nuts, but they are made in a kitchen that also handles peanuts.</p>
+    <p class="note">*fettle figures are calculated from the recipe, not yet lab-tested. Other figures are from brand and UK retailer pages checked 7–8 October 2026; "not published" means we couldn't find the value on the pages checked. Prices vary by retailer and promotion.</p>
   </div>
 </section>
 
@@ -257,11 +300,11 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 <section id="who" aria-labelledby="who-h">
   <div class="wrap">
     <p class="eyebrow">Who it's for</p>
-    <h2 id="who-h">For people who train, not just people on podiums.</h2>
+    <h2 id="who-h">For people who train hard and can't always cook.</h2>
     <div class="grid g3" style="margin-top:20px">
-      <div class="card"><h3>Gym before a lecture</h3><p class="muted">You trained at 7, you're in a seminar at 9, and breakfast was a banana.</p></div>
-      <div class="card"><h3>Club training nights</h3><p class="muted">Rugby, rowing, football, netball: a long session, then a walk home and a late dinner.</p></div>
-      <div class="card"><h3>Long run or ride</h3><p class="muted">Two hours out, an hour until you can eat properly.</p></div>
+      <div class="card"><h3>Gym, then straight on</h3><p class="muted">You've trained, and lectures, work or the drive home come before your next proper meal.</p></div>
+      <div class="card"><h3>Club and squad nights</h3><p class="muted">Football, rugby, MMA, rowing: a hard session, then a late dinner.</p></div>
+      <div class="card"><h3>Coached athletes</h3><p class="muted">Your coach says eat whole food. This is whole food you can grab and eat in two minutes.</p></div>
     </div>
   </div>
 </section>
@@ -272,23 +315,24 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
     <p class="eyebrow">Who's behind it</p>
     <h2 id="founder-h">Made by someone who trains.</h2>
     <div class="ph">
-      <span class="ph-label">PLACEHOLDER: Ewan to write</span>
+      <span class="ph-label">DRAFT: Ewan to check and edit</span>
       <p><strong>[Photo of Ewan: alt text to describe it]</strong></p>
-      <p>[2–3 sentences: who you are (Business Management graduate, Durham Venture School), your link to sport (refereeing/coaching/your own training), and the moment you noticed the problem. Keep it true and specific.]</p>
-      <p>[One line on what you're testing now and why you want people's feedback.]</p>
+      <p>"I'm Ewan. I train MMA, play football and lift. After two MMA classes back to back I'd eat a full meal and still be after more. Going straight from MMA to football, there was no time to cook. On a same-day weigh-in I'd be depleted with a short window before competing. Every time, the choice was a lab bar or nothing, so I started baking my own."</p>
+      <p class="muted small" style="margin:0">Business Management graduate, building this through Durham Venture School.</p>
     </div>
   </div>
 </section>
 
-<!-- 8. SOCIAL PROOF -->
+<!-- 8. WHAT WE'VE HEARD -->
 <section id="proof" aria-labelledby="proof-h">
   <div class="wrap">
-    <p class="eyebrow">What testers say</p>
-    <h2 id="proof-h">Taste tests start soon.</h2>
-    <div class="grid g3">
+    <p class="eyebrow">What we've heard so far</p>
+    <h2 id="proof-h">Shaped by athletes and coaches.</h2>
+    <p class="lede">We've interviewed 10 athletes and gym-goers, a Team Durham strength and conditioning coach and a nutrition professor.</p>
+    <div class="grid g3" style="margin-top:20px">
+      <div class="card"><h3>7 of 10</h3><p class="muted">liked the idea. Their top asks: high protein and real ingredients.</p></div>
+      <div class="card"><h3>Taste and price</h3><p class="muted">were the biggest worries, so taste tests come first and price is still being tested.</p></div>
       <div class="ph"><span class="ph-label">PLACEHOLDER: real tester quote only</span><p>[Quote from a named taste-tester, with their written permission. Do not invent.]</p></div>
-      <div class="ph"><span class="ph-label">PLACEHOLDER: pilot result</span><p>[e.g. "X of Y testers would buy again", from the pilot data only.]</p></div>
-      <div class="ph"><span class="ph-label">PLACEHOLDER: partner logo</span><p>[Club or gym that ran a pilot, with their permission.]</p></div>
     </div>
   </div>
 </section>
@@ -298,15 +342,15 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
   <div class="wrap">
     <p class="eyebrow">FAQ</p>
     <h2 id="faq-h">Questions</h2>
-    <details><summary>What allergens does it contain?</summary><p>Cocoa &amp; Peanut Butter contains <strong>peanuts, egg, milk</strong> and <strong>oats</strong> (a cereal containing gluten). Honey &amp; Chia and Cocoa &amp; Honey contain <strong>egg, milk</strong> and <strong>oats</strong>. All are made in a kitchen that handles peanuts. Not suitable for vegans, or anyone with these allergies.</p></details>
-    <details><summary>Where is it made?</summary><p>In small batches in [Durham / North East England, PLACEHOLDER: name the registered kitchen]. We're registered with [council name, PLACEHOLDER] as a food business.</p></details>
-    <details><summary>How much will it cost?</summary><p>We're planning £2.75 a bar, with discounts on 4-packs and boxes for clubs. Tell us what you'd pay in the form below. It genuinely shapes the price.</p></details>
-    <details><summary>When does it launch?</summary><p>We're running small taste tests and pilots with local gyms and clubs this term. Waitlist members get the first batch and a say in the flavours.</p></details>
-    <details><summary>Is it a recovery supplement?</summary><p>No. It's food: a snack for after training, with protein and carbohydrate. We don't claim it does anything a balanced diet doesn't.</p></details>
-    <details><summary>Is it tested for banned substances (e.g. Informed Sport)?</summary><p>Not yet. If you're a drug-tested athlete, please check with your support team before eating any product that isn't batch-tested.</p></details>
-    <details><summary>How is it so low in sugar without sweeteners?</summary><p>It's baked, not pressed. Most "natural" bars are held together by dates, syrup or honey. Ours is set by eggs, quark and chia in the oven, so it needs little or no honey: about 2 g sugar in Cocoa &amp; Peanut Butter, 3.5 g in the honey flavours. Its carbs come mostly from oats.</p></details>
-    <details><summary>How long does it keep?</summary><p>It's a fresh bake with real eggs, quark and milk, so keep it in the fridge and eat it by the use-by date on the label (a few days). You can freeze it on the day you buy it.</p></details>
-    <details><summary>Is it high protein?</summary><p>Yes: about a quarter of its energy comes from protein (the legal line for "high protein" is 20%), about 16–17 g per bar from eggs, quark, oat bran and seeds. Lab bars reach 20 g using protein isolates; we use kitchen ingredients only.</p></details>
+    <details><summary>Why does it need to be kept in the fridge?</summary><p>It's a fresh bake made with real eggs and quark, with no preservatives. Like a fresh meal, it's chilled with a use-by date. You can freeze it on the day it arrives and defrost it overnight in the fridge.</p></details>
+    <details><summary>How long does it keep?</summary><p>For our test bakes, we're using a 3-day use-by while we gather evidence for a longer one. The date will always be on the label.</p></details>
+    <details><summary>Where does the protein come from?</summary><p>Egg whites, eggs, quark (a soft cheese) and oat bran. No whey, soy or pea protein powder.</p></details>
+    <details><summary>Why is there some sugar?</summary><p>A little honey (or banana in Banana Bread) gives quicker energy after a hard session and makes it taste good. Each bar has 8 g of sugar or less, part of it the natural sugar in quark.</p></details>
+    <details><summary>What allergens does it contain?</summary><p>All bars contain <strong>egg, milk</strong> and <strong>oats</strong> (a cereal containing gluten). Chocolate Peanut Butter also contains <strong>peanuts</strong>, and all bars are made in a kitchen that handles peanuts. Not suitable for vegans or anyone with these allergies.</p></details>
+    <details><summary>How much will it cost?</summary><p>We're testing £2.00–2.75 a bar, with weekly boxes and squad orders cheaper per bar. Tell us what you'd pay in the form below: it genuinely shapes the price.</p></details>
+    <details><summary>Where do you deliver?</summary><p>Durham to start, hand-delivered and chilled. If you're further away, join the waitlist and tell us where; it helps us plan.</p></details>
+    <details><summary>Is it tested for banned substances (e.g. Informed Sport)?</summary><p>Not yet. If you're a drug-tested athlete, check with your support team before eating any product that isn't batch-tested.</p></details>
+    <details><summary>Is it a supplement or meal replacement?</summary><p>No. It's food: a snack for after training with protein and carbohydrate. We don't claim it does anything a balanced diet doesn't.</p></details>
   </div>
 </section>
 
@@ -315,7 +359,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
   <div class="wrap">
     <p class="eyebrow">First batch</p>
     <h2 id="wl-h">Join the waitlist.</h2>
-    <p class="lede">Takes a minute. You'll get first access, and your answers help us decide flavours and price.</p>
+    <p class="lede">Takes a minute. You'll get first access, and your answers help us decide flavours, price and delivery.</p>
     <div class="form-card">
       <!-- PLACEHOLDER ENDPOINT: see AUTOMATION.md. Until replaced, the form shows a demo message and sends nothing. -->
       <form id="waitlist-form" action="https://formspree.io/f/YOUR_WAITLIST_FORM_ID" method="POST" novalidate data-form="waitlist">
@@ -323,9 +367,9 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
         <input type="hidden" name="form" value="waitlist">
         <div class="hp" aria-hidden="true"><label for="wl-company">Leave this empty</label><input id="wl-company" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
         <div class="two">
-          <div><label for="wl-email">Email</label><input id="wl-email" name="email" type="email" autocomplete="email" required aria-describedby="wl-email-err"><span id="wl-email-err" class="hint"></span></div>
+          <div><label for="wl-email">Email</label><input id="wl-email" name="email" type="email" autocomplete="email" required></div>
           <div><label for="wl-sport">What do you mainly train? <span class="hint">(optional)</span></label>
-            <select id="wl-sport" name="sport"><option value="">Choose one</option><option>Gym / weights</option><option>Running</option><option>Cycling</option><option>Football</option><option>Rugby</option><option>Rowing</option><option>Netball / hockey / other team sport</option><option>Triathlon</option><option>Classes (HIIT, CrossFit, etc.)</option><option>Other</option></select></div>
+            <select id="wl-sport" name="sport"><option value="">Choose one</option><option>Gym / weights</option><option>Football</option><option>Rugby</option><option>MMA / combat sports</option><option>Running</option><option>Cycling</option><option>Rowing</option><option>Other team sport</option><option>Other</option></select></div>
         </div>
         <fieldset><legend>How often do you train? <span class="hint">(optional)</span></legend>
           <div class="chips">
@@ -336,21 +380,26 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
           </div></fieldset>
         <fieldset><legend>Which flavours would you try? <span class="hint">(pick any)</span></legend>
           <div class="chips">
-            <label><input type="checkbox" name="flavours" value="cocoa-peanut"> Cocoa &amp; Peanut Butter</label>
-            <label><input type="checkbox" name="flavours" value="honey-chia"> Honey &amp; Chia</label>
-            <label><input type="checkbox" name="flavours" value="cocoa-honey"> Cocoa &amp; Honey</label>
+            <label><input type="checkbox" name="flavours" value="choc-pb"> Chocolate Peanut Butter</label>
+            <label><input type="checkbox" name="flavours" value="vanilla"> Vanilla</label>
+            <label><input type="checkbox" name="flavours" value="banana-bread"> Banana Bread</label>
           </div></fieldset>
-        <fieldset><legend>What's the most you'd happily pay for one 90 g bar? <span class="hint">(optional)</span></legend>
+        <fieldset><legend>How would you want them? <span class="hint">(optional)</span></legend>
+          <div class="chips">
+            <label><input type="radio" name="format" value="weekly-box"> Weekly box</label>
+            <label><input type="radio" name="format" value="one-off"> One-off order</label>
+            <label><input type="radio" name="format" value="squad"> Through my club or coach</label>
+          </div></fieldset>
+        <fieldset><legend>What's the most you'd happily pay for one bar? <span class="hint">(optional)</span></legend>
           <div class="chips">
             <label><input type="radio" name="price" value="<=2.00"> £2.00 or less</label>
             <label><input type="radio" name="price" value="2.25"> £2.25</label>
             <label><input type="radio" name="price" value="2.50"> £2.50</label>
             <label><input type="radio" name="price" value="2.75"> £2.75</label>
-            <label><input type="radio" name="price" value="3.00"> £3.00</label>
-            <label><input type="radio" name="price" value=">3.00"> More than £3</label>
+            <label><input type="radio" name="price" value=">2.75"> More than £2.75</label>
           </div></fieldset>
-        <div><label for="wl-now">What do you eat after training now? <span class="hint">(optional)</span></label><input id="wl-now" name="current_habit" type="text" placeholder="e.g. protein shake, banana, nothing until dinner"></div>
-        <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I'd like to hear about fettle's first batch and taste tests. I can unsubscribe at any time. My details will be used as described in the <a href="#privacy">privacy notice</a>.</span></label>
+        <div><label for="wl-now">What did you eat after your last session, and how long after? <span class="hint">(optional)</span></label><input id="wl-now" name="current_habit" type="text" placeholder="e.g. protein bar straight away, nothing until dinner 3 hours later"></div>
+        <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I'd like to hear about the first batch and taste tests. I can unsubscribe at any time. My details will be used as described in the <a href="#privacy">privacy notice</a>.</span></label>
         <div><button class="btn btn-primary" type="submit">Join the waitlist</button></div>
         <p class="status" role="status" aria-live="polite"></p>
       </form>
@@ -358,12 +407,12 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
   </div>
 </section>
 
-<!-- 11. BOOK A CHAT -->
-<section id="partners" aria-labelledby="pt-h">
+<!-- 11. SQUADS -->
+<section id="squads" aria-labelledby="sq-h">
   <div class="wrap">
-    <p class="eyebrow">Gyms, clubs, coaches &amp; stockists</p>
-    <h2 id="pt-h">Book a 20-minute chat.</h2>
-    <p class="lede">We're looking for a few gyms, university clubs and running or cycling clubs to run a small taste test or pilot this term.</p>
+    <p class="eyebrow">Coaches, clubs &amp; squads</p>
+    <h2 id="sq-h">Book a squad taste test.</h2>
+    <p class="lede">We'll bring bars to a training session for your squad to try, and talk through weekly squad orders. Durham and nearby to start.</p>
     <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:20px">
       <div class="form-card">
         <h3>Option A: pick a time</h3>
@@ -371,19 +420,19 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
         <div class="embed" id="scheduler"><div><strong>Booking calendar goes here</strong><br><span class="small">Cal.com / Calendly embed placeholder</span></div></div>
       </div>
       <div class="form-card">
-        <h3>Option B: request a chat</h3>
+        <h3>Option B: request a taste test</h3>
         <form id="partner-form" action="https://formspree.io/f/YOUR_PARTNER_FORM_ID" method="POST" novalidate data-form="partner">
-          <input type="hidden" name="_subject" value="New fettle partner chat request">
+          <input type="hidden" name="_subject" value="New fettle squad taste-test request">
           <input type="hidden" name="form" value="partner">
           <div class="hp" aria-hidden="true"><label for="pt-company2">Leave this empty</label><input id="pt-company2" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
           <div><label for="pt-name">Your name</label><input id="pt-name" name="name" type="text" autocomplete="name" required></div>
           <div><label for="pt-email">Email</label><input id="pt-email" name="email" type="email" autocomplete="email" required></div>
-          <div><label for="pt-org">Organisation</label><input id="pt-org" name="organisation" type="text" autocomplete="organization" required></div>
-          <div><label for="pt-type">You are a…</label><select id="pt-type" name="partner_type" required><option value="">Choose one</option><option>Gym or leisure centre</option><option>University sports club</option><option>Running / cycling / tri club</option><option>Coach or PT</option><option>Shop, café or stockist</option><option>Other</option></select></div>
-          <div><label for="pt-when">Best times for a call <span class="hint">(optional)</span></label><input id="pt-when" name="preferred_times" type="text" placeholder="e.g. Tue or Thu afternoons"></div>
-          <div><label for="pt-msg">Anything we should know? <span class="hint">(optional)</span></label><textarea id="pt-msg" name="message"></textarea></div>
-          <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>Please contact me about a chat. My details will be used as described in the <a href="#privacy">privacy notice</a>.</span></label>
-          <div><button class="btn btn-primary" type="submit">Request a chat</button></div>
+          <div><label for="pt-org">Club, team or gym</label><input id="pt-org" name="organisation" type="text" autocomplete="organization" required></div>
+          <div><label for="pt-type">You are a…</label><select id="pt-type" name="partner_type" required><option value="">Choose one</option><option>Coach / S&amp;C coach</option><option>Club or team captain</option><option>Gym or combat-sports club</option><option>University sports club</option><option>Other</option></select></div>
+          <div><label for="pt-size">Squad size <span class="hint">(optional)</span></label><input id="pt-size" name="squad_size" type="text" placeholder="e.g. 25"></div>
+          <div><label for="pt-when">Best training session to visit <span class="hint">(optional)</span></label><input id="pt-when" name="preferred_times" type="text" placeholder="e.g. Wednesday evening session"></div>
+          <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>Please contact me about a taste test. My details will be used as described in the <a href="#privacy">privacy notice</a>.</span></label>
+          <div><button class="btn btn-primary" type="submit">Request a taste test</button></div>
           <p class="status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -397,7 +446,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
     <div class="ph">
       <span class="ph-label">PLACEHOLDER: privacy notice (UK GDPR)</span>
       <h2 id="pv-h" style="font-size:24px">Privacy notice</h2>
-      <p>[Who we are: business name, contact email. What we collect (email, training info, answers), why (waitlist, product research, arranging chats), lawful basis (consent), who processes it (e.g. form and email providers, named), where it's stored, how long we keep it (e.g. until launch + 12 months, or until you unsubscribe), your rights (access, deletion, withdraw consent) and how to complain to the ICO (ico.org.uk). Check whether you need to pay the ICO data protection fee.]</p>
+      <p>[Who we are: business name, contact email. What we collect (email, training info, answers), why (waitlist, product research, arranging taste tests), lawful basis (consent), who processes it (e.g. form and email providers, named), where it's stored, how long we keep it (e.g. until launch + 12 months, or until you unsubscribe), your rights (access, deletion, withdraw consent) and how to complain to the ICO (ico.org.uk). Check whether you need to pay the ICO data protection fee.]</p>
     </div>
   </div>
 </section>
@@ -408,13 +457,13 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
   <div class="wrap foot">
     <div>
       <img src="assets/logo-mark-light.svg" alt="" width="64" height="30">
-      <p style="margin-top:10px">Real food for after training.<br>Made in [Durham], UK.</p>
+      <p style="margin-top:10px">Real-food recovery bars, baked fresh.<br>Made in [Durham], UK.</p>
     </div>
     <ul aria-label="Contact"><li><strong>Contact</strong></li><li><a href="mailto:hello@example.co.uk">hello@example.co.uk</a> <span class="hint">[placeholder]</span></li></ul>
-    <ul aria-label="Social"><li><strong>Follow</strong></li><li><a href="#" aria-label="Instagram (placeholder link)">Instagram [placeholder]</a></li><li><a href="#" aria-label="TikTok (placeholder link)">TikTok [placeholder]</a></li><li><a href="#" aria-label="Strava club (placeholder link)">Strava club [placeholder]</a></li></ul>
+    <ul aria-label="Social"><li><strong>Follow</strong></li><li><a href="#" aria-label="Instagram (placeholder link)">Instagram [placeholder]</a></li><li><a href="#" aria-label="TikTok (placeholder link)">TikTok [placeholder]</a></li></ul>
     <ul aria-label="Legal"><li><strong>Legal</strong></li><li><a href="#privacy">Privacy notice</a></li><li><a href="#">Terms [placeholder]</a></li><li><span>[Business name · company/sole-trader details]</span></li></ul>
   </div>
-  <div class="wrap"><p class="small" style="margin-top:24px">fettle is a student venture in development at Durham Venture School. Product details may change before launch. © 2026 [Business name].</p></div>
+  <div class="wrap"><p class="small" style="margin-top:24px">fettle is a working name for a student venture in development at Durham Venture School; branding is not final. Product details may change before launch. © 2026 [Business name].</p></div>
 </footer>
 
 <script>
@@ -438,7 +487,7 @@ document.querySelectorAll("form[data-form]").forEach(form => {
       const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
       if (!res.ok) throw new Error();
       form.reset();
-      status.textContent = form.dataset.form === "waitlist" ? "You're on the list. Check your inbox for a confirmation email." : "Thanks! We'll email you within two working days to fix a time.";
+      status.textContent = form.dataset.form === "waitlist" ? "You're on the list. Check your inbox for a confirmation email." : "Thanks! We'll email you within two working days to arrange a taste test.";
       status.classList.add("ok");
       // ANALYTICS PLACEHOLDER: e.g. window.plausible && plausible(form.dataset.form + "-submit");
     } catch {

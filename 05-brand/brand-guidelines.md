@@ -50,7 +50,7 @@
 ## 2. Strategy
 
 **Positioning statement**
-> For people who train and want something after a session that's low in sugar **and** made from real food, **fettle** is the fresh-baked, high-protein bar with ~2 g sugar, ~17 g protein and ~23 g carbs, made from kitchen ingredients only: no powders, no sweeteners, no sugar alcohols. *(Updated 8 Oct for the v6 kitchen bake.)*
+> For people who train hard and can't always cook after a session, **fettle** (working name) is the fresh-baked recovery bar with ~20 g protein and ~30 g carbs from eggs, quark and oats: no protein powder, no sweeteners, no sugar alcohols. *(Updated 8 Oct for the final test bars in `04d-recovery-bars.md`.)*
 
 **Brand promise:** *Sugar like a protein bar. Ingredients like home baking.*
 
@@ -62,7 +62,7 @@
 **Tagline options**
 1. **Real food for after training.** *(recommended: safest and clearest)*
 2. Low sugar. Real food. After training.
-3. 17 g protein. 2 g sugar. Nothing you can't read.
+3. 20 g protein. Eggs, quark, oats. Nothing you can't read.
 4. Made for the walk home. *(occasion-led)*
 5. Back in fettle. *(needs a Trading Standards check: implied effect)*
 
@@ -71,9 +71,9 @@ Plain, warm, a bit dry. Northern, not jokey. Numbers first, adjectives last.
 
 | Do | Don't |
 |---|---|
-| "17 g protein, 2 g sugar. Baked from eggs, oats and quark." | "Unleash your gains with our clean superfood fuel!" |
+| "20 g protein from eggs, quark and oats. Baked this week." | "Unleash your gains with our clean superfood fuel!" |
 | "For after training, when dinner's still an hour away." | "Speeds recovery and reduces muscle soreness." (illegal claim) |
-| "17 g protein, not 20. We chose real ingredients over isolates." | Overstating protein vs lab bars, or "guilt-free" |
+| "8 g sugar, from honey and milk. We tell you where it comes from." | Overstating protein vs lab bars, or "guilt-free" |
 | "Whether you're on the first XV or you went to the gym before a lecture." | "For elite athletes only." / "Beast mode." |
 | "No powders, no sweeteners, no syrups." | "Other bars are full of chemicals." (disparaging, misleading) |
 
@@ -90,8 +90,8 @@ Plain, warm, a bit dry. Northern, not jokey. Numbers first, adjectives last.
 | Night | `#151412` | Dark-mode background | Oat on Night **16.1** ✅ |
 | Ember (dark mode) | `#F0804A` | Accent on dark | Ember-dark on Night **6.9** ✅ |
 | Cocoa (flavour A) | `#5A3A29` | Flavour band | Oat on Cocoa **8.9** ✅ |
-| Berry red (flavour C: Cocoa & Honey) | `#A3203F` | Flavour band | Oat on it **6.5** ✅ |
-| Honey (flavour B: Honey & Chia) | `#8A5A0B` | Flavour band | Oat on Honey **5.2** ✅ |
+| Berry red (spare flavour colour) | `#A3203F` | Flavour band | Oat on it **6.5** ✅ |
+| Honey (flavour: Vanilla) | `#8A5A0B` | Flavour band | Oat on Honey **5.2** ✅ |
 | Moss | `#3F5F3A` | Secondary accent (rare) | Oat on Moss **6.3** ✅ |
 
 ### 3b. Typography (Google Fonts)
@@ -116,18 +116,17 @@ Monoline, 2 px stroke at 24 px, round caps and joins, matching the wordmark. Sim
 - **Illustration (if needed):** flat shapes in Oat / Ink / Ember only.
 
 ## 4. Packaging concept
-See `packaging-front.svg` and `packaging-back.svg` (generated from the Phase 4 numbers by `build_packaging.py`).
+See `packaging-front-*.svg` and `packaging-back-*.svg` (one pair per flavour; `packaging-front.svg`/`packaging-back.svg` = Chocolate Peanut Butter) (generated from the Phase 4 numbers by `build_packaging.py`).
 
 **Front-of-pack hierarchy:**
 1. Brand (fettle)
-2. Flavour (Cocoa & Peanut Butter), with the flavour colour band
-3. Key numbers: **2 g sugar · 17 g protein · 23 g carbs**
-4. "Kitchen ingredients · No powders · No sweeteners" + badges **HIGH PROTEIN** and **LOW SUGAR**
-5. "For after training · Baked fresh"
-6. "Low sugar" (✅ 3.8 g/100 g on calc; confirm with lab test)
-7. Net weight 90 g ℮
+2. Flavour (Chocolate Peanut Butter · Vanilla · Banana Bread), with the flavour colour band (Cocoa `#5A3A29` · Honey `#8A5A0B` · Ember `#B93D0B`)
+3. Key numbers: **protein · carbs · sugar** per bar (e.g. 21 g · 28 g · 8 g)
+4. "No protein powder · No sweeteners" + badge **HIGH PROTEIN** (no "low sugar": ~5–7 g/100 g)
+5. "Real-food recovery bar · Baked fresh" and **KEEP REFRIGERATED**
+6. Net weight (approx. 106–126 g, estimated until test bakes are weighed)
 
-**Back of pack:** full ingredients with **allergens in bold**; UK nutrition table per 100 g and per bar with %RI; how-to-eat guidance; "Low sugar. Source of protein." with the authorised protein claim and balanced-diet statement; allergy advice; **keep refrigerated, use-by date**, home-freezing advice; lot; and **placeholders** for business name and UK address (legally required).
+**Back of pack:** full ingredients with **allergens in bold**; UK nutrition table per 100 g and per bar with %RI; how-to-eat guidance; "High protein." with the authorised protein claim and balanced-diet statement; allergy advice; **keep refrigerated, use-by date**, home-freezing advice; lot; and **placeholders** for business name and UK address (legally required).
 
 **Claims deliberately left off pack:**
 - "High fibre": v4 doesn't qualify (5.4–5.7 g/100 g).

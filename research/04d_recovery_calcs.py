@@ -10,7 +10,7 @@ ING = runpy.run_path(str(ROOT / "04-nutrition.py"), run_name="lib")["ING"]
 # Pure vanilla extract (not "vanilla flavouring"): USDA FDC 'Vanilla extract' ~12.7 g sugars/100 g
 PRICE = runpy.run_path(str(ROOT / "04-costing.py"), run_name="lib")["PRICE"]  # £/kg retail, first value
 EXTRA_PRICE = {"vanilla_extract": 60.0}  # [ASSUMPTION] ~£3 per 50 ml supermarket vanilla extract
-ING.setdefault("vanilla_extract", dict(p=0.1, c=12.7, s=12.7, fb=0.0, f=0.1, sf=0.0, salt=0.02))
+ING.setdefault("vanilla_extract", dict(label="vanilla extract", p=0.1, c=12.7, s=12.7, fb=0.0, f=0.1, sf=0.0, salt=0.02, allergen=None))
 
 # Spec (Ewan, 8 Oct): back to T20 size. >=20 g protein, >=25 g carbs, <=8 g sugar, <=9 g fat, <=285 kcal
 SPEC = dict(p_min=20, c_min=25, s_max=8, f_max=9, kcal_max=285)
@@ -50,4 +50,33 @@ for name, r in rows.items():
         continue
     assert r["p"] >= SPEC["p_min"] and r["c"] >= SPEC["c_min"], name
     assert r["s"] <= SPEC["s_max"] and r["f"] <= SPEC["f_max"] and r["kcal"] <= SPEC["kcal_max"], name
-(ROOT / "research" / "04d_recovery_output.json").write_text(json.dumps({"spec": SPEC, "bars": BARS, "per_bar": rows}, indent=2))
+
+# ---- label data for packaging (05-brand/build_packaging.py) ----
+# Baked weight is ESTIMATED with the T20 bake-loss model in 04-nutrition.py (36% of batter lost as steam)
+# until Ewan's tin weights arrive. Per-100 g values depend on it; per-bar values do not.
+BAKE_LOSS = 0.36
+QUID = {"peanut_butter", "cocoa", "vanilla_extract", "banana", "honey"}  # characterising ingredients
+LABEL_EXTRA = {"vanilla_extract": "vanilla extract", "sea_salt": "salt"}
+label = {}
+for name, g in BARS.items():
+    if name.startswith("(comparison)"):
+        continue
+    r = rows[name]
+    batter = sum(g.values())
+    baked = batter * (1 - BAKE_LOSS)
+    parts = []
+    for i, v in sorted(g.items(), key=lambda kv: -kv[1]):
+        lab = LABEL_EXTRA.get(i, ING[i]["label"])
+        parts.append(f"{lab} ({v / batter * 100:.0f}%)" if i in QUID else lab)
+    ingredients = ", ".join(parts)
+    ingredients = ingredients[0].upper() + ingredients[1:] + "."
+    allergens = sorted({ING[i]["allergen"] for i in g if ING.get(i, {}).get("allergen")})
+    per_bar = dict(r, kj=17 * r["p"] + 17 * r["c"] + 37 * r["f"] + 8 * r["fb"], weight=round(baked))
+    per_100 = {k: per_bar[k] / baked * 100 for k in ("p", "c", "s", "fb", "f", "sf", "salt", "kcal", "kj")}
+    label[name] = dict(ingredients=ingredients, allergens=allergens, baked_g_estimate=round(baked),
+                       per_bar=per_bar, per_100g={k: round(v, 2) for k, v in per_100.items()},
+                       protein_pct_energy=round(4 * r["p"] / r["kcal"] * 100, 1))
+    assert label[name]["protein_pct_energy"] >= 20, name  # 'high protein' claim threshold
+
+(ROOT / "research" / "04d_recovery_output.json").write_text(
+    json.dumps({"spec": SPEC, "bake_loss_estimate": BAKE_LOSS, "bars": BARS, "per_bar": rows, "label": label}, indent=2))
