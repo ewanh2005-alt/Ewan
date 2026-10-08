@@ -96,6 +96,11 @@ RECIPES = {
         quid=["cocoa", "honey"],
         g=dict(egg_fresh=348, rolled_oats=240, quark=200, egg_white_fresh=165, oat_bran=100, milk_semi=50,
                pumpkin_seeds=30, cocoa=25, chia=20, honey=20, sea_salt=1.5)),
+    "T20_lean_target": dict(
+        name="T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)", role="Option: hits Ewan's 20 g target",
+        batch=True, loss=0.36, bar=104, quid=["cocoa"],
+        g=dict(egg_white_fresh=400, quark=300, oat_bran=160, egg_fresh=116, rolled_oats=100, cocoa=25, chia=15,
+               honey=15, sea_salt=1.5)),
     "K5_core_list_only": dict(
         name="v5 core-list only (oats, eggs, milk, chia, cocoa, PB, salt)", role="Comparison: without the extra protein foods",
         batch=True, loss=0.24, bar=90, quid=["peanut_butter", "cocoa"],

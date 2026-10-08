@@ -82,3 +82,51 @@ Checked across **32 products** (`02-competitors.csv`, incl. Warrior RAW, Myprote
 2. *"Athletes rate everyday food as tastier, cheaper and safer than sports foods. They only pick sports foods for convenience."* (Forsyth & Mantzioris 2023)
 3. *"Every low-sugar bar on the shelf uses isolates, sugar alcohols or sweeteners. Every real-food bar is full of sugar. We're the first we can find with neither."* (02 map)
 4. *"17 g protein, 2 g sugar, from eggs, oats, quark and milk."* (04, calculated; lab test pending)
+
+---
+
+## Does a fully natural bar with 20 g protein, high carbs, high fibre, ~200 kcal, ~6 g sugar and ~6 g fat exist? (checked 8 Oct)
+
+### 1. Not at 200 kcal: the maths rules it out
+Energy per gram: protein 4 kcal, carbs 4, fat 9, fibre 2. At 200 kcal, **20 g protein (80 kcal) + 6 g fat (54 kcal) + 6 g fibre (12 kcal) leaves room for only ~13.5 g carbs**. That's not high carb. Every extra 10 g of carbs costs ~40 kcal.
+
+| Energy | Carbs that fit (20 g P, 6 g fat, 6 g fibre) |
+|---|---|
+| 200 kcal | ~13.5 g |
+| 220 kcal | ~18.5 g |
+| **250 kcal** | **~26 g** |
+
+So the realistic version of the target is **~240–250 kcal: 20 g protein, ~25 g carbs, ~6 g fat, ~6 g fibre, ≤6 g sugar**.
+
+### 2. Nothing natural on the market does it
+| Product | Protein | Natural? | Why it misses |
+|---|---|---|---|
+| Warrior RAW, Barebells, Grenade, PhD, Huel, Myprotein Re-Fuel | 15–22 g | ❌ | Isolates/blends or gelatine + polyols or sweeteners |
+| The Whole Truth (India), PROBAR, Rise (US) | ~18–20 g | "Natural" on pack | Reach 20 g with **whey or pea/rice protein powders**; not UK-stocked as far as found `[EVIDENCE: search 8 Oct; fwdfuel, fitlyfast]` |
+| Julian Bakery egg white bar (US) | 20 g | ❌ | **Egg-white protein powder + tapioca fibre + monk-fruit sweetener** `[EVIDENCE: Vitacost]` |
+| Perfect Bar (US, chilled) | 17 g | "Whole food" | Milk/egg/rice protein powders; 19 g sugar |
+| RXBAR (egg white + dates) | 12 g | ✅ | Only 12 g protein, 13 g sugar; **withdrawn from the UK** |
+| Roam beef bar (UK) | 20 g | ✅ | Savoury meat snack, almost no carbs, not a recovery bar `[EVIDENCE: roamfood.com guide]` |
+| Veloforte Forza, Nākd, Styrkr | 7–15 g | partly | Too little protein, 13–28 g sugar |
+
+**One guide put it plainly: natural bars rarely reach 20 g without protein isolates or powders** `[EVIDENCE: search extract]`.
+
+### 3. What hasn't been done: our differentiation
+> **A sweet bar with 20 g protein from whole foods (eggs, egg whites, quark, oat bran) with no protein powder, plus real carbs from oats, high fibre, ≤6 g sugar, ~6 g fat and no sweeteners or sugar alcohols.**
+
+Nobody in the 32-product set, or in the "natural protein bar" searches, combines all of these. Every 20 g bar either uses powders and sweeteners, or isn't a carb-containing recovery bar.
+
+### 4. Can we make it? Yes on paper, with one trade-off (`04-nutrition.py`, recipe `T20_lean_target`)
+| T20 lean target (per ~104 g bar) | Value |
+|---|---|
+| Protein | **20.1 g** (33% of energy) |
+| Carbs | **24.2 g** |
+| Sugar | **4.3 g** (low sugar ✅) |
+| Fat | **6.0 g** |
+| Fibre | **6.5 g** (high fibre ✅) |
+| Energy | **244 kcal** |
+| Pilot cost | £1.23 (whites from whole eggs; cartoned egg white would cut it) |
+
+**Per tin (~8 bars):** 400 g egg whites (≈12 whites, or a carton), 300 g quark, 160 g oat bran, 2 whole eggs, 100 g oats, 25 g cocoa, 15 g chia, 15 g honey, pinch of salt. Bake low and long (160 °C fan, ~45–50 min).
+
+**The trade-off:** that much egg white and quark makes a **soft, cake-like bar** (estimated ~42% moisture, assuming 36% steam loss in the oven). It needs a fridge and a texture test. If it's too soft, step back towards v6 (17 g protein, firmer), or use dried egg white for a firmer 20 g bar at the cost of "kitchen ingredients only".

@@ -179,6 +179,63 @@ Batter 1200 g → baked 840 g (assumes 30% lost as steam; **weigh it**) → **9.
 Batter 1200 g → baked 840 g (assumes 30% lost as steam; **weigh it**) → **9.3 bars of 90 g**. Estimated moisture after baking ≈ 35%.
 
 
+## T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy) (Option: hits Ewan's 20 g target)
+
+| Typical values | Per 100 g | Per bar (104 g) | %RI* per bar |
+|---|---|---|---|
+| Energy | 987 kJ / 235 kcal | 1027 kJ / 244 kcal | 12% |
+| Fat | 5.8 g | 6.0 g | 9% |
+| of which saturates | 1.5 g | 1.5 g | 8% |
+| Carbohydrate | 23 g | 24 g | 9% |
+| of which sugars | 4.1 g | 4.3 g | 5% |
+| Fibre | 6.2 g | 6.5 g |  |
+| Protein | 19 g | 20 g | 40% |
+| Salt | 0.54 g | 0.57 g | 9% |
+
+\*Reference intake of an average adult (8400 kJ / 2000 kcal).
+
+**Ingredients:** Free-range **egg** whites, quark (**milk**), **oat** bran, free-range **eggs**, **oats**, cocoa powder (2%), chia seeds, honey, sea salt.
+
+**Contains (14 UK allergens):** cereals containing gluten (oats), egg, milk
+
+**Claim checks:**
+
+- protein_pct_energy: 32.9
+- protein_g_per_100kcal: 8.2
+- source_of_protein (>=12% energy): ✅
+- high_protein (>=20% energy): ✅
+- fibre_g_per_100g: 6.2
+- fibre_g_per_100kcal: 2.65
+- source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal): ✅
+- high_fibre (>=6 g/100 g or >=3 g/100 kcal): ✅
+- low_sugars (<=5 g/100 g): ✅
+- reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator): ✅
+- sugar_reduction_vs_comparator_pct: 89
+- protein_muscle_claim_condition (source of protein): ✅
+- carb_recovery_claim_condition (metabolisable carbs, no polyols): ✅
+- carb_recovery_claim_note: Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise
+
+**FSA traffic lights (per 100 g):** f MEDIUM (amber), sf LOW (green), s LOW (green), salt MEDIUM (amber)
+
+**UK nutrient profile (HFSS) score:** -5 (A 5, fibre 5, protein 5) → not HFSS
+
+**Formulation:** one 20 × 20 cm tin
+
+| Ingredient | Per tin (g) | Goes into one bar (g) | Source of values |
+|---|---|---|---|
+| egg_white_fresh | 400 | 57.4 | CoFID 'Eggs, chicken, white, raw' (~33 g per large egg) |
+| quark | 300 | 43.0 | Tesco Fat Free Quark / Graham's Natural Quark labels (11.6-12.2 g protein, 65 kcal per 100 g) |
+| oat_bran | 160 | 23.0 | USDA FDC 'Oat bran, raw' / Mornflake Oatbran pack (typical) |
+| egg_fresh | 116 | 16.6 | CoFID 'Eggs, chicken, whole, raw' (large egg ~58 g without shell) |
+| rolled_oats | 100 | 14.3 | CoFID 'Oats, porridge oats/rolled, raw' / typical UK pack |
+| cocoa | 25 | 3.6 | Typical UK unsweetened cocoa powder label |
+| chia | 15 | 2.2 | USDA FDC 'Seeds, chia seeds, dried' (available carbs = total - fibre) |
+| honey | 15 | 2.2 | CoFID 'Honey' |
+| sea_salt | 2 | 0.2 | — |
+
+Batter 1132 g → baked 725 g (assumes 36% lost as steam; **weigh it**) → **7.0 bars of 104 g**. Estimated moisture after baking ≈ 42%.
+
+
 ## v5 core-list only (oats, eggs, milk, chia, cocoa, PB, salt) (Comparison: without the extra protein foods)
 
 | Typical values | Per 100 g | Per bar (90 g) | %RI* per bar |

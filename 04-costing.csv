@@ -87,6 +87,32 @@ Cocoa & Honey,scale,process waste,,,0.010,[ASSUMPTION] 3% loss
 Cocoa & Honey,scale,packaging,,,0.070,[ASSUMPTION] see script
 Cocoa & Honey,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
 Cocoa & Honey,scale,TOTAL COST PER BAR,,,0.698,"excl. labour, delivery, testing"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,egg_white_fresh,57.4,8.33,0.478,"Whites from Tesco large eggs (27.5p each, ~33 g white; yolks unused) [or buy cartoned whites]"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,quark,43.0,5.20,0.224,Tesco Fat Free Quark 250 g £1.30
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,oat_bran,23.0,3.13,0.072,Mornflake Oatbran 800 g £2.50
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,egg_fresh,16.6,4.74,0.079,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,rolled_oats,14.3,1.35,0.019,Tesco Scottish Oats 1 kg £1.35
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,cocoa,3.6,27.35,0.098,Sephra cocoa powder 1 kg £27.35
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,chia,2.2,8.53,0.018,Real Foods chia seeds 1 kg £8.53 (supermarket packs similar per kg) [ASSUMPTION for Tesco]
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,honey,2.2,8.80,0.019,Pasieka multiflower honey 1 kg £8.80
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,sea_salt,0.2,2.00,0.000,[ASSUMPTION] table/sea salt
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,process waste,,,0.050,[ASSUMPTION] 5% loss
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,packaging,,,0.170,[ASSUMPTION] see script
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",pilot,TOTAL COST PER BAR,,,1.228,"excl. labour, delivery, testing"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,egg_white_fresh,57.4,4.00,0.230,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,quark,43.0,3.00,0.129,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,oat_bran,23.0,1.50,0.034,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,egg_fresh,16.6,2.50,0.042,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,rolled_oats,14.3,0.70,0.010,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,cocoa,3.6,8.00,0.029,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,chia,2.2,5.00,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,honey,2.2,4.50,0.010,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,sea_salt,0.2,0.50,0.000,"[ASSUMPTION] bulk/trade price, quote needed"
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,process waste,,,0.015,[ASSUMPTION] 3% loss
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,packaging,,,0.070,[ASSUMPTION] see script
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
+"T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",scale,TOTAL COST PER BAR,,,0.879,"excl. labour, delivery, testing"
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",pilot,rolled_oats,26.0,1.35,0.035,Tesco Scottish Oats 1 kg £1.35
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",pilot,egg_white,14.0,34.99,0.490,Myprotein egg white powder 1 kg full price £34.99 (often £24.49 on promo)
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",pilot,puffed_rice,10.0,8.89,0.089,Tesco Nature's Store puffed rice 225 g £2.00

@@ -35,6 +35,18 @@
       "unit_cost": 0.698
     }
   },
+  "T20_lean_target": {
+    "name": "T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",
+    "protein_g": 20.1,
+    "pilot": {
+      "ingredients": 1.008,
+      "unit_cost": 1.228
+    },
+    "scale": {
+      "ingredients": 0.494,
+      "unit_cost": 0.879
+    }
+  },
   "SH_cocoa_peanut": {
     "name": "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",
     "protein_g": 20.9,

@@ -298,6 +298,102 @@
     "batch": true,
     "bars_per_batch": 9.3
   },
+  "T20_lean_target": {
+    "name": "T20 lean target: 20 g protein, ~6 g fat, high fibre (egg whites + quark heavy)",
+    "role": "Option: hits Ewan's 20 g target",
+    "grams": {
+      "egg_white_fresh": 400,
+      "quark": 300,
+      "oat_bran": 160,
+      "egg_fresh": 116,
+      "rolled_oats": 100,
+      "cocoa": 25,
+      "chia": 15,
+      "honey": 15,
+      "sea_salt": 1.5
+    },
+    "per_bar": {
+      "p": 20.08126931567329,
+      "c": 24.24758278145696,
+      "s": 4.312814569536424,
+      "fb": 6.47991169977925,
+      "f": 5.982726269315675,
+      "sf": 1.5224061810154523,
+      "salt": 0.5659878587196469,
+      "kj": 1026.790651214128,
+      "kcal": 244.11976821192056,
+      "weight": 104,
+      "bars": 6.9692307692307685,
+      "batter": 1132.5,
+      "baked": 724.8,
+      "moisture_pct": 41.62527593818985
+    },
+    "per_100g": {
+      "p": 19.30891280353201,
+      "c": 23.314983443708616,
+      "s": 4.1469370860927155,
+      "fb": 6.230684326710818,
+      "f": 5.752621412803534,
+      "sf": 1.4638520971302427,
+      "salt": 0.5442190949227373,
+      "kj": 987.2987030905077,
+      "kcal": 234.73054635761594,
+      "bars": 6.9692307692307685,
+      "batter": 1132.5,
+      "baked": 724.8,
+      "moisture_pct": 41.62527593818985,
+      "weight": 100.0
+    },
+    "claims": {
+      "protein_pct_energy": 32.9,
+      "protein_g_per_100kcal": 8.2,
+      "source_of_protein (>=12% energy)": true,
+      "high_protein (>=20% energy)": true,
+      "fibre_g_per_100g": 6.2,
+      "fibre_g_per_100kcal": 2.65,
+      "source_of_fibre (>=3 g/100 g or >=1.5 g/100 kcal)": true,
+      "high_fibre (>=6 g/100 g or >=3 g/100 kcal)": true,
+      "low_sugars (<=5 g/100 g)": true,
+      "reduced_sugars_vs_natural_recovery_bars (>=30% less sugar AND energy <= comparator)": true,
+      "sugar_reduction_vs_comparator_pct": 89,
+      "protein_muscle_claim_condition (source of protein)": true,
+      "carb_recovery_claim_condition (metabolisable carbs, no polyols)": true,
+      "carb_recovery_claim_note": "Allowed only with the mandatory 4 g/kg wording and for adults after glycogen-depleting exercise"
+    },
+    "traffic_lights_per_100g": {
+      "f": "MEDIUM (amber)",
+      "sf": "LOW (green)",
+      "s": "LOW (green)",
+      "salt": "MEDIUM (amber)"
+    },
+    "npm": {
+      "a_points": 5,
+      "fibre_points": 5,
+      "protein_points": 5,
+      "fvn_points": 0,
+      "score": -5,
+      "hfss_less_healthy": false
+    },
+    "allergens": [
+      "cereals containing gluten (oats)",
+      "egg",
+      "milk"
+    ],
+    "ingredients": "Free-range **egg** whites, quark (**milk**), **oat** bran, free-range **eggs**, **oats**, cocoa powder (2%), chia seeds, honey, sea salt.",
+    "bar_inputs": {
+      "egg_white_fresh": 57.4,
+      "quark": 43.0,
+      "oat_bran": 23.0,
+      "egg_fresh": 16.6,
+      "rolled_oats": 14.3,
+      "cocoa": 3.6,
+      "chia": 2.2,
+      "honey": 2.2,
+      "sea_salt": 0.2
+    },
+    "batch": true,
+    "bars_per_batch": 7.0
+  },
   "K5_core_list_only": {
     "name": "v5 core-list only (oats, eggs, milk, chia, cocoa, PB, salt)",
     "role": "Comparison: without the extra protein foods",

@@ -71,7 +71,7 @@ def ingredient_cost(grams, scale):
 def main():
     out_rows, summary = [], {}
     for key, r in RECIPES.items():
-        if key.startswith(("S_", "V1_", "Q4_", "K5_")):
+        if key.startswith(("S_", "V1_", "Q4_", "K5_")):  # T20 option is costed
             continue  # comparison variants only
         t = recipe_totals(r)
         summary[key] = {"name": r["name"], "protein_g": round(t["p"], 1)}
