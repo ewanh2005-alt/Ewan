@@ -4,6 +4,13 @@
 
 **Status:** `search-extract` = read via search on the date shown · `inherited` = from Ewan's earlier Stage 1/2 docs (6 Oct 2026), not re-checked · `primary` = founder material.
 
+## Online consumer comments (secondary, self-selected)
+| # | Source | URL | Accessed | Used for | Status |
+|---|---|---|---|---|---|
+| D1 | r/proteinsnack: "What was the last protein bar you bought…" (13 replies, mostly USA) | https://www.reddit.com/r/proteinsnack/comments/1wya4c5/ | 8 Oct 2026 | 02c themes (taste, dessert flavours, price) | collected by Ewan |
+| D2 | Ewan's post-training recovery-bar post (1 reply) | https://www.reddit.com/comments/1wzx8z2/ | 8 Oct 2026 | 02c theme 2 | collected by Ewan |
+| D3 | r/proteinsnack: "Do you buy fibre bars or snacks…" (2 readable replies) | https://www.reddit.com/r/proteinsnack/comments/1wya50r/ | 8 Oct 2026 | 02c theme 4 | collected by Ewan |
+
 ## Founder material
 | # | Source | Accessed | Used for | Status |
 |---|---|---|---|---|
@@ -104,6 +111,7 @@
 | S25 | Henselmans et al. (2022) carbohydrate and strength training, systematic review (49 studies), *Nutrients* | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8878406/ | 8 Oct 2026 | Carbs help two-a-days/high volume, not typical sessions | search-extract |
 | S26 | Staples et al. (2011) carbohydrate does not augment protein accretion vs 25 g protein alone, *MSSE*; review of carbs + MPS | https://experts.mcmaster.ca/scholarly-works/61813 · https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850644/ | 8 Oct 2026 | Sugar doesn't boost muscle repair when protein is adequate | search-extract |
 | S27 | UNM (Kravitz): resistance exercise depletes ~25–40% muscle glycogen | https://www.unm.edu/~lkravitz/Article%20folder/glycogen.html | 8 Oct 2026 | Glycogen use in gym sessions | search-extract |
+| S28 | Schoenfeld, Aragon & Krieger (2013) protein timing meta-analysis, *JISSN*: total protein, not timing, predicted hypertrophy (debated) | https://pmc.ncbi.nlm.nih.gov/articles/PMC3879660 | 8 Oct 2026 | "Anabolic window" is weak; sell convenience not urgency | search-extract |
 
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |

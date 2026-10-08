@@ -53,5 +53,9 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `04d-recovery-bars.md` + `research/04d_recovery_calcs.py`: R1 Chocolate Peanut Butter, R2 Vanilla & Honey, R3 Banana & Cinnamon. Whole eggs only, ~23–26 g protein, ~38–40 g carbs, ≤10 g sugar; Tesco list (~£22) and single-bar method
 - [ ] Ewan: bake R1–R3, send tin weights and scores
 
+## 8 Oct (later): Reddit evidence
+- [x] `02c-reddit-insights.md` + `research/09_reddit_coding.csv` + `research/09_reddit_counts.py` (16 comments; taste/dessert flavours drive repeat buys; 0/13 bought for recovery; whole-food guilt; fibre from food); A16 added
+- [ ] Ewan: share the Google Form responses
+
 ## Decisions open for Ewan
 1. Confirm v6 vs core-list v5 · 2. Persona (Jack) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
