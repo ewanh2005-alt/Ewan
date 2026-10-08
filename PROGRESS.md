@@ -49,5 +49,9 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `04c-flavours-and-shelf-life.md` + `research/04c_flavour_calcs.py`: T20 Cocoa, Cocoa & PB, PB & Vanilla, Vanilla (all ≥20 g protein; sugar raised to ≤8 g with 6 g honey for recovery, 8 Oct); shelf life = fresh chilled (Simmer-style), frozen add-on; long-life ruled out for now
 - [ ] Ewan: bake the 4 flavours, freeze/thaw test, fridge sensory test day 1/2/3/5
 
+## 8 Oct (later): recovery bars for the hard-training athlete
+- [x] `04d-recovery-bars.md` + `research/04d_recovery_calcs.py`: R1 Chocolate Peanut Butter, R2 Vanilla & Honey, R3 Banana & Cinnamon. Whole eggs only, ~23–26 g protein, ~38–40 g carbs, ≤10 g sugar; Tesco list (~£22) and single-bar method
+- [ ] Ewan: bake R1–R3, send tin weights and scores
+
 ## Decisions open for Ewan
 1. Confirm v6 vs core-list v5 · 2. Persona (Jack) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
