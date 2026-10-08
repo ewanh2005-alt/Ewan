@@ -139,7 +139,7 @@ async function icon(Comp, color = "FFFFFF") {
     [fa.FaQuoteLeft, "What they said", "7/10 liked the idea. They want high protein (4/10) and real food (4/10). Coach: whole foods, good taste, high protein:carb ratio, some fibre."],
     [fa.FaTimes, "Problems with what's out there", "Too expensive (3/10), taste is a gamble (3/10), \"bad ingredients\". Boxes of Grenade bars given to students went uneaten."],
     [fa.FaExchangeAlt, "Why they'd switch", "Real food their coach approves of, with protein and carbs in one, made to taste good."],
-    [fa.FaBolt, "Why it's a migraine, not a headache", "It hits after every session, twice a day for some. On the road, at work or on weigh-in day there's no time to cook, and nothing convenient fits."],
+    [fa.FaBolt, "Why it's a migraine, not a headache", "After training they need protein and carbs. Meal prep isn't always possible, and quick options fall short: fruit lacks protein, lab bars are artificial, \"natural\" bars are sugary. It happens after almost every session."],
   ];
   for (let i = 0; i < 4; i++) {
     const y = 1.45 + i * 1.18;
@@ -148,9 +148,9 @@ async function icon(Comp, color = "FFFFFF") {
     s.addText(rows[i][2], { x: 6.1, y: y + 0.38, w: 6.6, h: 0.72, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: `Row ${i + 1} text` });
   }
   s.addText("Still to prove: 0/10 have committed yet, and some gym-goers just wait for a meal, so the focus is athletes who train hard.", {
-    x: 5.3, y: 6.2, w: 7.4, h: 0.6, fontSize: 13, italic: true, color: C.accent3, margin: 0, valign: "top", isTextBox: true, objectName: "Still to prove",
+    x: 5.3, y: 6.35, w: 7.4, h: 0.55, fontSize: 13, italic: true, color: C.accent3, margin: 0, valign: "top", isTextBox: true, objectName: "Still to prove",
   });
-  s.addNotes("~70s. I've spoken to 10 athletes and gym-goers, including a pro footballer, a rugby player and an aspiring bodybuilder, plus the Team Durham S&C coach and a nutrition professor. I've got more interviews lined up [say who]. 7 of 10 liked the idea. They want high protein and real food. The problems with what's out there: price, taste, and ingredients they don't trust. The S&C coach watched students fail to finish boxes of Grenade bars. Why it's a migraine: it hits after every session, twice a day for some, and on the road, at work or on weigh-in day there's no time to cook. Early persona: Jack trains most days, is trying to eat well and trusts his coach. Honestly: nobody has committed yet, and some gym-goers just wait for a meal, so I'm focusing on athletes who train hard. Interview notes are paraphrased, not quotes.");
+  s.addNotes("~70s. I've spoken to 10 athletes and gym-goers, including a pro footballer, a rugby player and an aspiring bodybuilder, plus the Team Durham S&C coach and a nutrition professor. I've got more interviews lined up [say who]. 7 of 10 liked the idea. They want high protein and real food. The problems with what's out there: price, taste, and ingredients they don't trust. The S&C coach watched students fail to finish boxes of Grenade bars. Why it's a migraine: after training they need protein and carbs. Chicken-and-rice meal prep works when they manage it, but it means cooking ahead and carrying a tub. The quick options fall short: fruit has no protein, lab bars are full of powders and sweeteners, 'natural' bars are mostly sugar. So they compromise or go without, after almost every session, which for someone training 5-6 days a week is 5-6 times a week. Early persona: Jack trains most days, is trying to eat well and trusts his coach. Honestly: nobody has committed yet, and some gym-goers just wait for a meal, so I'm focusing on athletes who train hard. Interview notes are paraphrased, not quotes.");
 
   // ---------------- Slide 4: competition ----------------
   pres.addSection({ title: "Market" });
