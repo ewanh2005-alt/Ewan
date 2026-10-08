@@ -11,14 +11,14 @@
 
 | # | Finding | Tag |
 |---|---|---|
-| 1 | **The gap (updated 8 Oct): low sugar without lab ingredients.** Every UK bar found with ≤6 g sugar uses polyols, sweeteners or protein isolates; every whole-food or "natural" bar has 9.5–38 g sugar. Our v3 kitchen bake calculates at ~3 g sugar, ~14 g protein, ~28 g carbs (90 g) | `[EVIDENCE: 02-competitors.csv]` + `[ASSUMPTION: concept maths, unverified]` |
+| 1 | **The gap (updated 8 Oct): low sugar without lab ingredients.** Every UK bar found with ≤6 g sugar uses polyols, sweeteners or protein isolates; every whole-food or "natural" bar has 9.5–38 g sugar. Our v6 kitchen bake calculates at ~2 g sugar, ~17 g protein ("high protein"), ~23 g carbs (90 g) | `[EVIDENCE: 02-competitors.csv]` + `[ASSUMPTION: concept maths, unverified]` |
 | 2 | **But a gap is not demand.** Kellogg **withdrew RXBAR** (egg white + dates, the best-known whole-food protein bar) from the UK about two years after launch; RX BAR UK Ltd was dissolved 18 May 2023. No reason was published | `[EVIDENCE: Food Business News; Companies House 11297949]` |
 | 3 | **The price ceiling is about £2.50–2.95 a bar.** Lab protein bars sit at £0.12–0.15 per g protein; recovery bars at £0.18–0.23 | `[EVIDENCE: retailer prices, CSV]` |
 | 4 | **Chocolate milk + a banana is the real benchmark.** About 14 g protein + 60 g carbs for **£1.77**, sold everywhere | `[EVIDENCE: Tesco prices]` + `[ASSUMPTION: banana nutrition]` |
 | 5 | **The 20 g protein bars are built for "low sugar", not refuelling.** Grenade (16 g polyols), PhD (20 g polyols) and Barebells/Fulfil reach 20 g protein with 15–22 g carbs. Polyols are excluded from the GB carbohydrate recovery claim | `[EVIDENCE: Boots, H&B listings; Reg. 2015/7]` |
 | 6 | **"Natural" recovery bars trade protein for sugar.** Veloforte Forza: 12 g protein, 27.6 g sugar. Styrkr BAR+: 15 g protein, 28.4 g sugar, glucose syrup first, 0.67 g fibre | `[EVIDENCE: retailer listings]` |
 
-**Update 8 Oct:** the v1 concept had ~23 g sugar (red traffic light), so it couldn't beat Forza or Styrkr on sugar. Ewan set a **6 g sugar cap** and asked for supermarket ingredients (fresh milk, boxed eggs). The v3 kitchen bake has ~3 g sugar. **Honest weaknesses now:** ~14 g protein (lab bars have ~20 g), and it's a fresh, chilled product. See `04-concept-bar.md`.
+**Update 8 Oct:** the v1 concept had ~23 g sugar (red traffic light), so it couldn't beat Forza or Styrkr on sugar. Ewan set a **6 g sugar cap** and asked for supermarket ingredients (fresh milk, boxed eggs). The v6 kitchen bake has ~2 g sugar and ~17 g protein, and qualifies as "high protein". **Honest weaknesses now:** ~14 g protein (lab bars have ~20 g), and it's a fresh, chilled product. See `04-concept-bar.md`.
 
 ---
 
@@ -94,9 +94,9 @@ The questions are in **`02-ecosystem-interview-guide.md`**: customers, coaches/P
 | | What it covers |
 |---|---|
 | **Known with confidence** | Macros and prices of the lab protein bars (Grenade, Barebells, Fulfil, PhD), all £2.50–2.90. Styrkr's ingredient list and 28 g sugar. Forza's 12 g protein. Chocolate milk £1.60 / 400 ml. Polyols excluded from the carb recovery claim. RXBAR's UK exit. Protein/sports bars are standard-rated for VAT (20%) `[EVIDENCE: FTT case via taxation.co.uk]` |
-| **Assumptions to test** | That buyers care about low sugar **and** simple ingredients together (not just one). That ~14 g protein is enough for them. That a chilled, fresh bar fits how they buy. That £2.75 is acceptable for a 90 g bake. That club/university channels are unserved. That gut comfort is a real pain with lab bars |
+| **Assumptions to test** | That buyers care about low sugar **and** simple ingredients together (not just one). That ~17 g protein (vs ~20 g for lab bars) is enough for them. That a chilled, fresh bar fits how they buy. That £2.75 is acceptable for a 90 g bake. That club/university channels are unserved. That gut comfort is a real pain with lab bars |
 | **Missing information** | Customer interview data (blocking). Forza's current price. Nākd and Bounce protein sources. Why RXBAR left the UK. Competitors' sales volumes, margins, funding. Co-manufacturer quotes |
-| **Where we're differentiated** | Only bar found with ≤6 g sugar made from kitchen ingredients alone: no powders, polyols, sweeteners or syrups. ~90% less sugar than Forza/Styrkr. Weaknesses: less protein than lab bars (~14 g vs ~20 g); perishable (chilled, short use-by); 90 g, heavier than most bars |
+| **Where we're differentiated** | Only bar found with ≤6 g sugar made from kitchen ingredients alone: no powders, polyols, sweeteners or syrups. ~90% less sugar than Forza/Styrkr. Weaknesses: slightly less protein than lab bars (~17 g vs ~20 g); perishable (chilled, short use-by); 90 g, heavier than most bars |
 
 ---
 
@@ -120,8 +120,8 @@ The questions are in **`02-ecosystem-interview-guide.md`**: customers, coaches/P
 |---|---|
 | **Market readiness** | Protein bars are mature and crowded; "natural" recovery bars exist in cycle retail. Buyers already accept £2.50–2.90 a bar `[EVIDENCE]`. Whether they want a *bigger, carb-heavier* bar is unknown `[GAP]` |
 | **Customer adoption** | Lab protein bars have mass adoption (supermarkets, Boots). Whole-food recovery bars are niche. RXBAR's exit is a warning that "simple ingredients" alone didn't win UK shoppers `[EVIDENCE]` |
-| **Pricing & business model** | Buyers already pay £2.50–2.90 a bar `[EVIDENCE]`. At £2.75, the v3 kitchen bake (pilot cost £0.65) makes ~76% selling direct and ~60% via gyms/cafés. It's a fresh, chilled product, so grocery retail isn't a near-term channel. **Clubs, gyms and cafés with fridges first** (see `04-costing.csv`). On £ per gram of protein (£0.19) it's dearer than lab bars (£0.12–0.15), so don't sell it on protein value |
-| **Technical strengths & weaknesses** | Strength: low sugar from a binding method (baking with eggs), cheap ingredients (~£0.65/bar), no HFSS issue. Weaknesses: short chilled shelf life; protein ceiling ~14 g without powders; texture consistency between home bakes `[ASSUMPTION: needs trials]` |
+| **Pricing & business model** | Buyers already pay £2.50–2.90 a bar `[EVIDENCE]`. At £2.75, the v6 kitchen bake (pilot cost £0.83) makes ~69% selling direct and ~53% via gyms/cafés. **Warrior RAW at ~£1 is the price threat.** 3/10 interviewees raised price (C1, C5, C6). It's a fresh, chilled product, so grocery retail isn't a near-term channel. **Clubs, gyms and cafés with fridges first** (see `04-costing.csv`). On £ per gram of protein (£0.19) it's dearer than lab bars (£0.12–0.15), so don't sell it on protein value |
+| **Technical strengths & weaknesses** | Strength: low sugar from a binding method (baking with eggs), cheap ingredients (~£0.83/bar), no HFSS issue. Weaknesses: short chilled shelf life; protein ceiling ~14 g without powders; texture consistency between home bakes `[ASSUMPTION: needs trials]` |
 | **Partnerships & distribution** | Pro sports clubs are tied to SiS, Myprotein and Grenade (inherited research). University and grassroots clubs show no visible natural-bar supplier `[ASSUMPTION]` |
 | **Competitive advantages & barriers** | Our advantage today is a specific formulation and a local network, which is easy to copy. **Barriers to us:** co-man MOQs of 10k–25k bars `[EVIDENCE: industry guide]`, wrapper MOQs ~25k `[EVIDENCE: TIPA]`, listing fees, shelf-life testing. Durable moats would have to come from community and pilot evidence |
 
@@ -133,3 +133,23 @@ The questions are in **`02-ecosystem-interview-guide.md`**: customers, coaches/P
 3. **RXBAR:** a well-funded simple-ingredient bar left the UK. "Simple ingredients" alone didn't win.
 
 **What would change my mind:** 30+ conversations showing people already improvise "protein bar + banana" or buy two products after training (= real pain), plus waitlist sign-ups that accept £2.50+.
+
+---
+
+## Added 8 Oct 2026: competitors from Ewan's search (Perfect Bar, Myprotein Re-Fuel, Huel, Google Shopping "athlete recovery bar")
+
+| Product | Per bar | How it's made | Price | Threat | Our difference |
+|---|---|---|---|---|---|
+| **Warrior RAW Protein Flapjack** (75 g) | 20.1 g protein, ~3 g sugar, 8.9 g fibre, ~250 kcal | Oats + milk protein + **hydrolysed gelatine**, glycerine, FOS, **sucralose/stevia**; **>10 g polyols/100 g** (laxative warning) `[EVIDENCE: Morrisons listing]` | **~£1.00** (£11.99/12) | **High on price and macros** | No gelatine, sweeteners or polyols; but we cost more and have ~3 g less protein |
+| **Myprotein THE Re-Fuel** (80 g, HYROX) | **22 g protein, 32 g carbs** | **Maltitol is the first ingredient**; whey concentrate, glycerol, chicory fibre `[EVIDENCE: Myprotein listing]` | ~£1.54 (£18.49/12; seen at £0.83 on sale) | **High on macros**: closest "carb + protein recovery" bar | Kitchen ingredients vs maltitol + whey concentrate. They beat us on carbs and protein |
+| **Perfect Bar** (71 g, refrigerated) | 17 g protein, 27 g carbs, **19 g sugar** (13 g added), 340 kcal | Peanut butter, honey, **nonfat dry milk, egg powder, rice protein**, food powders `[EVIDENCE: US retailer listings]` | US only | **Format proof:** a chilled "whole-food" protein bar works commercially in the US. **Not found in the UK** `[GAP: confirm]` | ~2 g vs 19 g sugar; no protein powders; fresher (baked, short use-by) |
+| **Huel bar** (55 g) | 15 g protein, 1.7 g sugar, 17 g carbs, 191 kcal | **Maltitol**, rice + pea protein, corn fibre; laxative-effect warning `[EVIDENCE: Tesco, Ocado]` | £2.00–2.50 | Medium | No maltitol; more protein and carbs |
+| **Amacx Recovery** (55 g) | 20 g protein, 22 g carbs | Soy/whey/milk protein mix, **fructose-glucose syrup**, milk chocolate `[EVIDENCE: Sigma]` | £3.00 | Medium (cycle retail) | No syrups or isolates |
+| **HIGH5 Recovery** (50 g) | 19 g protein, 19 g carbs (new recipe) | Glucose syrup, invert sugar syrup, milk chocolate, protein blend `[EVIDENCE: HIGH5]` | ~£2.79 | Medium | As above |
+| **Voom RecoverFudge** (50 g) | 10–12 g protein, 208 kcal | Condensed milk, whey isolate, brown sugar, glucose syrup `[EVIDENCE: Sports Direct, Made in Britain]` | £2.89 | Low | Far less sugar |
+
+**What this changes:**
+1. **The difference still holds across 32 products:** nothing else combines ≤6 g sugar + ≥10 g protein + no protein powders/isolates + no polyols or sweeteners.
+2. **Warrior RAW is the price benchmark (~£1).** With 3/10 interviewees raising price, £2.75 is hard to defend against a £1 bar with more protein. Our case must be *ingredients and gut comfort*, not protein per £. Consider £2.00–2.25 for squads.
+3. **Re-Fuel shows the big brands see the recovery + carbs gap too** (launched with HYROX), and fill it with maltitol and whey.
+4. **Perfect Bar proves the chilled whole-food format** can work, and shows the trap: it reaches 17 g protein with powders and 19 g sugar from honey.

@@ -8,7 +8,7 @@ C = json.loads(Path("research/04_costing_summary.json").read_text())
 N = json.loads(Path("research/04_nutrition_output.json").read_text())
 BUDGET = 1000.0
 
-FLAVOURS = ("A_cocoa_peanut", "B_raspberry_almond", "C_oat_cinnamon")
+FLAVOURS = ("A_cocoa_peanut", "B_honey_chia", "C_cocoa_honey")
 tin_cost = sum(C[k]["pilot"]["ingredients"] * N[k]["bars_per_batch"] for k in FLAVOURS) / 3  # avg ingredients per tin
 proto_batches = 3 * 4                      # 3 flavours x 4 kitchen rounds, one tin each
 pilot_bars = 250                           # 2 partners x ~125 bars

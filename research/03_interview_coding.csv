@@ -1,0 +1,11 @@
+id,segment,gender,values_whole_food,high_protein_focus,carbs_fuel_focus,price_concern,taste_concern,cant_cook_convenience,positive_about_concept,uses_competitor_bars,size_matters,fibre_mentioned,commitment_given,notes
+C1,performance_athlete,M,1,1,0,1,0,0,0,0,0,0,0,"Pro footballer; bars too expensive, bad ingredients; high-protein diet"
+C2,gym_regular,M,1,0,0,0,0,0,1,0,0,0,0,"Gym influencer; whole foods; likes idea of whole-food bar after heavy training"
+C3,gym_regular,F,0,1,1,0,1,0,1,0,0,0,0,"Likes high-protein snack, stays fuelled; sceptical about taste; supports it"
+C4,gym_regular,F,1,0,0,0,0,0,1,0,0,0,0,"Only whole foods; believes it would be beneficial"
+C5,gym_regular,F,0,1,0,1,0,0,0,1,1,0,0,"Uses Fulfil for size; only looks at protein; price important"
+C6,casual,U,0,0,0,1,0,0,0,1,0,1,0,"Trains a little; eats fibre bars; protein only sometimes; priced out"
+C7,performance_athlete,M,1,0,0,0,0,1,1,0,0,0,0,"Rugby, respectable level; on the road, hard to cook; advised whole foods only"
+C8,gym_regular,M,0,0,0,0,1,0,1,0,0,0,0,"Gym + weekly padel/football; improving diet; taste super important"
+C9,gym_regular,M,0,0,0,0,1,0,1,0,0,0,0,"As C8 (interviewed together)"
+C10,performance_athlete,M,0,1,1,0,0,1,1,0,0,0,0,"Aspiring bodybuilder, coached; high protein + high carbs; trains twice daily; can't cook with work"

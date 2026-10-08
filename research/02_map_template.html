@@ -62,7 +62,7 @@ td.n{text-align:right;font-variant-numeric:tabular-nums}
     <summary>Show the data as a table</summary>
     <div class="tablewrap"><table id="tbl"><thead><tr><th>Product</th><th>Made from</th><th class="n">Sugar g</th><th class="n">Polyols g</th><th class="n">Protein g</th><th class="n">Carbs g</th><th class="n">kcal</th><th class="n">Weight g</th><th class="n">£ each</th></tr></thead><tbody></tbody></table></div>
   </details>
-  <p class="note"><strong>Reading it honestly:</strong> the low-sugar corner is crowded, but every other bar in it is a lab protein bar built on protein blends or isolates, most with polyols (e.g. Grenade 16 g, PhD 20 g) or sweeteners. Every whole-food or "natural" bar we found sits at 9.5–38 g sugar. fettle is the only bar we found in the box made from kitchen ingredients alone. The trade-offs: it has less protein than the lab bars (~14 g vs ~20 g), and it's a fresh bake that needs a fridge. Not plotted (no sugar figure captured): SiS REGO, Huel, chocolate milk. A banana has ~15 g sugar. Sources: <code>02-competitors.csv</code>, checked by web search 7 Oct 2026. fettle figures are calculated, not lab-tested.</p>
+  <p class="note"><strong>Reading it honestly:</strong> the low-sugar corner is crowded, but every other bar in it is a lab protein bar built on protein blends or isolates, plus polyols (e.g. Grenade 16 g, PhD 20 g, Warrior RAW &gt;10 g per 100 g) or maltitol/sweeteners (Huel, Warrior). Every whole-food or "natural" bar we found sits at 9.5–38 g sugar, including Perfect Bar (US, chilled, 19 g). fettle is the only bar we found in the box made from kitchen ingredients alone. The trade-offs: slightly less protein than the lab bars (~16–17 g vs ~20 g), a fresh bake that needs a fridge, and it costs more than Warrior RAW (~£1). Not plotted (no sugar figure captured): Myprotein THE Re-Fuel (maltitol is its first ingredient), Amacx, HIGH5 and Voom recovery bars (protein blends + glucose/fructose syrups), SiS REGO, chocolate milk. Sources: <code>02-competitors.csv</code>, checked by web search 7–8 Oct 2026. fettle figures are calculated, not lab-tested.</p>
 </main>
 <script>
 const DATA = /*DATA*/[];
@@ -78,8 +78,8 @@ const xt=el("text",{x:(M.l+W-M.r)/2,y:H-10,"text-anchor":"middle",class:"axis-ti
 const yt=el("text",{x:14,y:(M.t+H-M.b)/2,"text-anchor":"middle",class:"axis-title",transform:`rotate(-90 14 ${(M.t+H-M.b)/2})`},svg);yt.textContent="Protein per serving (g)";
 el("rect",{x:x(0),y:y(Y1),width:x(6)-x(0),height:y(10)-y(Y1),fill:"var(--zone)",stroke:"var(--wf)","stroke-dasharray":"4 4",rx:4},svg);
 const zl=el("text",{x:x(0)+6,y:y(Y1)+16,class:"lbl"},svg);zl.textContent="≤6 g sugar, ≥10 g protein";
-const LABEL={ours:"fettle",grenade:"Lab protein bars (polyols / isolates)",forza:"Veloforte Forza",styrkr:"Styrkr BAR+",torq:"TORQ Recovery",mp_flapjack:"Myprotein Flapjack",nakd_protein:"Nākd Protein",trek:"Trek Flapjack",clif:"Clif Builders",vf_crunch:"Veloforte Crunch",eroica:"33Fuel Eroica (2 bars)"};
-const OFF={ours:[12,22],grenade:[60,-34],forza:[10,4],styrkr:[10,4],torq:[10,4],mp_flapjack:[10,4],nakd_protein:[10,4],trek:[10,14],clif:[0,-12,"middle"],vf_crunch:[10,4],eroica:[-10,4,"end"]};
+const LABEL={ours:"fettle",warrior_raw:"Warrior RAW (£1)",perfect_bar:"Perfect Bar (US, chilled)",grenade:"Lab protein bars (polyols / isolates)",forza:"Veloforte Forza",styrkr:"Styrkr BAR+",torq:"TORQ Recovery",mp_flapjack:"Myprotein Flapjack",nakd_protein:"Nākd Protein",trek:"Trek Flapjack",clif:"Clif Builders",vf_crunch:"Veloforte Crunch",eroica:"33Fuel Eroica (2 bars)"};
+const OFF={ours:[12,22],warrior_raw:[12,4],perfect_bar:[10,4],grenade:[60,-34],forza:[10,4],styrkr:[10,4],torq:[10,4],mp_flapjack:[10,4],nakd_protein:[10,4],trek:[10,14],clif:[0,-12,"middle"],vf_crunch:[10,4],eroica:[-10,4,"end"]};
 const tip=document.getElementById("tip"), box=document.getElementById("chart");
 const fmt=(v,u="")=>v==null?"—":v+u;
 function show(d){

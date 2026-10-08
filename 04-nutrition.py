@@ -42,6 +42,12 @@ ING = {
                           ref="CoFID 'Almonds, ground' / typical UK pack"),
     "egg_fresh":     dict(label="free-range **eggs**", p=12.6, c=0.2, s=0.2, fb=0.0, f=9.0, sf=2.5, salt=0.35, w=75, allergen="egg",
                           ref="CoFID 'Eggs, chicken, whole, raw' (large egg ~58 g without shell)"),
+    "chia":          dict(label="chia seeds", p=16.5, c=7.7, s=0.0, fb=34.4, f=30.7, sf=3.3, salt=0.04, w=6, allergen=None,
+                          ref="USDA FDC 'Seeds, chia seeds, dried' (available carbs = total - fibre)"),
+    "egg_white_fresh": dict(label="free-range **egg** whites", p=10.9, c=0.7, s=0.7, fb=0.0, f=0.2, sf=0.0, salt=0.42, w=88, allergen="egg",
+                          ref="CoFID 'Eggs, chicken, white, raw' (~33 g per large egg)"),
+    "quark":         dict(label="quark (**milk**)", p=12.0, c=3.7, s=3.7, fb=0.0, f=0.2, sf=0.1, salt=0.1, w=82, allergen="milk",
+                          ref="Tesco Fat Free Quark / Graham's Natural Quark labels (11.6-12.2 g protein, 65 kcal per 100 g)"),
     "milk_semi":     dict(label="semi-skimmed **milk**", p=3.5, c=4.7, s=4.7, fb=0.0, f=1.7, sf=1.1, salt=0.11, w=89, allergen="milk",
                           ref="CoFID 'Milk, semi-skimmed, pasteurised'"),
     "banana":        dict(label="banana", p=1.1, c=20.2, s=12.2, fb=2.6, f=0.3, sf=0.1, salt=0.0, w=75, allergen=None,
@@ -69,23 +75,37 @@ ING = {
 # -------------------------------------------------------------------- recipes
 # grams per bar. Order = descending weight for the ingredients list.
 RECIPES = {
-    # v3 KITCHEN RECIPES (8 Oct 2026): what Ewan will actually bake. Supermarket ingredients only:
-    # fresh eggs, fresh milk, oats, nuts/seeds, banana, cocoa. No powders, no sweeteners, no added sugar.
-    # g = grams per BATCH (one 20 x 20 cm tin). loss = share of batter weight lost as steam in the oven
-    # [ASSUMPTION 24%: a firm bake; weigh the tray before and after baking to replace this]. bar = cut weight (g).
+    # v6 KITCHEN RECIPES (8 Oct 2026): Ewan's core list (oats, eggs, ordinary milk, chia, cocoa, salt,
+    # honey OR peanut butter) PLUS higher-protein natural supermarket ingredients he asked for:
+    # extra egg whites, quark (or plain skyr), oat bran (17% protein vs 11% for oats) and pumpkin seeds (30%).
+    # Eggs + chia + quark bind it in the oven, so little or no honey is needed.
+    # g = grams per BATCH (one 20 x 20 cm tin). loss = share of batter weight lost as steam
+    # [ASSUMPTION 30%: a long, lowish bake; weigh the tin before and after to replace this]. bar = cut weight (g).
     "A_cocoa_peanut": dict(
-        name="Cocoa & Peanut", role="Hero flavour (v3 kitchen bake)", batch=True, loss=0.24, bar=90,
-        quid=["peanuts", "peanut_butter", "cocoa"],
-        g=dict(rolled_oats=320, egg_fresh=348, banana=130, peanut_butter=80, peanuts=60, milk_semi=50, cocoa=25)),
-    "B_raspberry_almond": dict(
-        name="Raspberry & Almond", role="Fruity flavour (v3 kitchen bake)", batch=True, loss=0.24, bar=90,
-        quid=["raspberries", "ground_almond"],
-        g=dict(rolled_oats=320, egg_fresh=348, banana=110, raspberries=100, ground_almond=100, milk_semi=50)),
-    "C_oat_cinnamon": dict(
-        name="Toasted Oat & Cinnamon", role="Nut-free recipe (v3 kitchen bake)", batch=True, loss=0.24, bar=90,
-        quid=["rolled_oats", "cinnamon"],
-        g=dict(rolled_oats=330, egg_fresh=348, banana=130, pumpkin_seeds=90, milk_semi=60, cinnamon=6)),
-    # ---- comparisons (not for the pilot) ----
+        name="Cocoa & Peanut Butter", role="Hero flavour (v6, no honey)", batch=True, loss=0.30, bar=90,
+        quid=["peanut_butter", "cocoa"],
+        g=dict(egg_fresh=348, rolled_oats=240, quark=200, egg_white_fresh=165, oat_bran=100, milk_semi=50,
+               peanut_butter=40, pumpkin_seeds=30, cocoa=25, chia=20, sea_salt=1.5)),
+    "B_honey_chia": dict(
+        name="Honey & Chia", role="Nut-free flavour (v6)", batch=True, loss=0.30, bar=90,
+        quid=["honey", "chia"],
+        g=dict(egg_fresh=348, rolled_oats=250, quark=200, egg_white_fresh=165, oat_bran=100, milk_semi=50,
+               pumpkin_seeds=40, chia=25, honey=20, sea_salt=1.5)),
+    "C_cocoa_honey": dict(
+        name="Cocoa & Honey", role="Nut-free chocolate flavour (v6)", batch=True, loss=0.30, bar=90,
+        quid=["cocoa", "honey"],
+        g=dict(egg_fresh=348, rolled_oats=240, quark=200, egg_white_fresh=165, oat_bran=100, milk_semi=50,
+               pumpkin_seeds=30, cocoa=25, chia=20, honey=20, sea_salt=1.5)),
+    "K5_core_list_only": dict(
+        name="v5 core-list only (oats, eggs, milk, chia, cocoa, PB, salt)", role="Comparison: without the extra protein foods",
+        batch=True, loss=0.24, bar=90, quid=["peanut_butter", "cocoa"],
+        g=dict(egg_fresh=464, rolled_oats=290, milk_semi=100, peanut_butter=50, cocoa=25, chia=20, sea_salt=1.5)),
+    # ---- comparisons / options (not the pilot recipes) ----
+    "Q4_quark_option": dict(
+        name="Option: v4 lean with quark + egg whites (higher protein density)", role="Option if quark is allowed",
+        batch=True, loss=0.32, bar=90, quid=["peanut_butter", "cocoa"],
+        g=dict(rolled_oats=360, quark=250, egg_white_fresh=200, banana=120, egg_fresh=116, milk_semi=50,
+               peanut_butter=30, cocoa=25)),
     "SH_cocoa_peanut": dict(
         name="Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)", role="Comparison: co-man scale-up route",
         quid=["peanut_butter", "cocoa"],
@@ -166,6 +186,7 @@ def claims(t, h):
     fib100kcal = t["fb"] / t["kcal"] * 100
     out = {
         "protein_pct_energy": round(pe, 1),
+        "protein_g_per_100kcal": round(t["p"] / t["kcal"] * 100, 1),  # professor (E2) guide: ~10
         "source_of_protein (>=12% energy)": pe >= 12,
         "high_protein (>=20% energy)": pe >= 20,
         "fibre_g_per_100g": round(h["fb"], 1),

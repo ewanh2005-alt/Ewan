@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Persona Card: Sam</title>
+<title>Persona Card: Alex</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -16,7 +16,7 @@ main{max-width:980px;margin:0 auto;padding:32px 16px 48px}
 h1,h2{font-family:Archivo,Inter,sans-serif;margin:0}
 h1{font-size:clamp(30px,6vw,46px);font-weight:800;line-height:1.05}
 h2{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);margin-bottom:10px}
-.banner{background:var(--a);color:var(--a-ink);border-radius:12px;padding:12px 16px;margin:16px 0 24px;font-weight:500}
+.banner{background:var(--e);color:var(--e-ink);border-radius:12px;padding:12px 16px;margin:16px 0 20px;font-weight:500}
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
 ul{margin:0;padding:0;list-style:none}
@@ -26,54 +26,61 @@ li:last-child{border-bottom:0}
 .A{background:var(--a);color:var(--a-ink)}.G{background:var(--g);color:var(--g-ink)}.E{background:var(--e);color:var(--e-ink)}
 .test{font-family:Archivo;font-size:20px;font-weight:700;line-height:1.3}
 .sub{color:var(--stone)}
-.legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:6px}
+.stat b{display:block;font-family:Archivo;font-size:32px;font-weight:800;line-height:1}
+.stat span{font-size:12px;color:var(--stone);text-transform:uppercase;letter-spacing:.06em}
+.legend{display:flex;gap:10px;flex-wrap:wrap}
 </style>
 </head>
 <body>
 <main>
   <h2>fettle · primary persona</h2>
-  <h1>Sam, the regular trainer</h1>
-  <p class="sub">18–24 · Durham student · trains 3–5×/week (gym, club sport, or both)</p>
-  <div class="banner">Hypothesis persona. Ewan's 9 interview notes aren't in yet; the only customer evidence so far is "people have said yes to the idea" (unquantified). Nothing here is a quote.</div>
-  <div class="legend"><span class="t E">Evidence</span><span class="t A">Assumption</span><span class="t G">Gap</span></div>
-
-  <div class="grid" style="margin-top:16px">
+  <h1>Alex, the coached athlete</h1>
+  <p class="sub">18–30 · competitive sport or coached training · 4–10 sessions a week · often on the road or at work</p>
+  <div class="banner">Built from Ewan's notes on 10 interviews + 2 experts (8 Oct 2026). Notes are paraphrased, not quotes. No interviewee has made a commitment yet.</div>
+  <div class="card">
+    <h2>From the interviews</h2>
+    <div class="stats">
+      <div class="stat"><b>7/10</b><span>liked the concept</span></div>
+      <div class="stat"><b>4/10</b><span>value whole foods</span></div>
+      <div class="stat"><b>4/10</b><span>focus on protein</span></div>
+      <div class="stat"><b>3/10</b><span>worried about taste</span></div>
+      <div class="stat"><b>3/10</b><span>worried about price</span></div>
+      <div class="stat"><b>0/10</b><span>committed (yet)</span></div>
+    </div>
+  </div>
+  <div class="legend" style="margin:14px 0"><span class="t E">Evidence</span><span class="t A">Assumption</span><span class="t G">Gap</span></div>
+  <div class="grid">
     <section class="card"><h2>Trying to achieve</h2><ul>
-      <li>Train consistently and feel ready for the next session <span class="t A">Assumption</span></li>
-      <li>Build or keep muscle, perform better <span class="t A">Assumption</span></li>
-      <li>Eat properly without much time, money or cooking <span class="t A">Assumption</span></li>
-      <li>What "success" means to Sam <span class="t G">Gap</span></li>
+      <li>Hit protein and carb needs between frequent sessions <span class="t E">C1, C7, C10</span></li>
+      <li>Follow the coach's whole-food advice <span class="t E">C7, E1</span></li>
+      <li>What "success" means to them <span class="t G">Gap</span></li>
     </ul></section>
     <section class="card"><h2>Challenges</h2><ul>
-      <li>An hour or more between training and a real meal <span class="t A">Assumption</span></li>
-      <li>Protein bars feel processed, or upset the stomach <span class="t A">Assumption</span></li>
-      <li>Bars cost £2.50–2.90 each <span class="t E">Evidence: prices</span></li>
-      <li>Unsure what to eat after training <span class="t A">Assumption</span></li>
+      <li>Can't always cook: travel, work <span class="t E">C7, C10</span></li>
+      <li>Bars cost too much and have "bad" ingredients <span class="t E">C1</span></li>
+      <li>Squad-supplied lab bars went uneaten <span class="t E">E1</span></li>
     </ul></section>
     <section class="card"><h2>Solves it today with</h2><ul>
-      <li>Grenade / Barebells / Myprotein from Tesco, Boots, the gym <span class="t A">Assumption</span></li>
-      <li>Shake, chocolate milk, banana, meal deal <span class="t A">Assumption</span></li>
-      <li>Nothing until the next meal (probably the most common answer) <span class="t A">Assumption</span></li>
-      <li>Brands actually named in interviews <span class="t G">Gap</span></li>
+      <li>What athletes eat after training now <span class="t G">Gap: ask first</span></li>
+      <li>Lab protein bars handed out by the club <span class="t E">E1</span></li>
     </ul></section>
     <section class="card"><h2>Trusts</h2><ul>
-      <li>Teammates, captains, coaches, PTs <span class="t A">Assumption</span></li>
-      <li>Instagram / TikTok fitness creators <span class="t A">Assumption</span></li>
-      <li>Club WhatsApp groups <span class="t A">Assumption</span></li>
-      <li>Specific creators, podcasts, apps <span class="t G">Gap</span></li>
+      <li>Their coach / S&amp;C staff <span class="t E">C7, C10, E1</span></li>
+      <li>Social media creators <span class="t A">Assumption</span></li>
     </ul></section>
     <section class="card"><h2>How fettle helps</h2><ul>
-      <li>~3 g sugar, ~14 g protein, ~28 g carbs from 7 kitchen ingredients <span class="t E">Evidence: calculation, unverified</span></li>
-      <li>No need to buy a bar and a banana <span class="t A">Assumption</span></li>
-      <li>No isolates, sweeteners or polyols <span class="t E">Evidence: recipe</span></li>
+      <li>Fits whole-food advice; lives in a kit bag <span class="t A">Assumption</span></li>
+      <li>~17 g protein, ~23 g carbs, ~2 g sugar, ~270 kcal <span class="t E">Calculation</span></li>
+      <li>No isolates, polyols or sweeteners <span class="t E">Recipe</span></li>
     </ul></section>
-    <section class="card"><h2>Would Sam buy this?</h2>
-      <p class="test">Would Sam choose a £2.75 fettle over a £2.85 Grenade or a £1.77 chocolate milk + banana, more than once?</p>
-      <p class="sub">Today: unknown. An interview "yes" doesn't count; a repeat purchase in the pilot does.</p>
+    <section class="card"><h2>Would Alex buy this?</h2>
+      <p class="test">Would Alex keep fettle in their kit bag for days they can't cook, and pay £2.75, because their coach says it fits?</p>
+      <p class="sub">Plausible from C7, C10 and E1. Price is the risk (C1).</p>
     </section>
   </div>
-  <section class="card" style="margin-top:14px"><h2>Secondary: the competitive club athlete</h2>
-    <p>1st-team or competitive club (rugby, rowing, running, cycling). Bigger doses, double sessions, may be drug-tested; buys via the club. The route to bulk "Squad Box" sales. <span class="t A">Assumption</span></p>
+  <section class="card" style="margin-top:14px"><h2>Secondary: Sam, the regular gym-goer</h2>
+    <p>Gym 3–5×/week, improving diet; most positive group (5/6). <strong>Taste is make-or-break</strong> (3/6) and price matters. Some pick bars on size and protein alone (Fulfil). <span class="t E">C2–C5, C8, C9</span></p>
   </section>
 </main>
 </body>

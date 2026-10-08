@@ -1,6 +1,6 @@
 # 07 — MVP / Pilot Plan (Weeks 5–13)
 
-**Date:** 7 Oct 2026 (Week 5) · **Updated 8 Oct** for the v3 kitchen bake (fresh eggs + milk, ≤6 g sugar) · **Budget:** £1,000 total · **Budget numbers from:** `07-budget.py`
+**Date:** 7 Oct 2026 (Week 5) · **Updated 8 Oct** for the v6 kitchen bake (Ewan's ingredient list + extra protein foods) and the 10 customer + 2 expert interviews · **Budget:** £1,000 total · **Budget numbers from:** `07-budget.py`
 **Goal by Week 13:** turn the Red judging scores (Problem & Market Research; Impact) into evidence. Specifically: **30+ structured conversations, 150+ waitlist sign-ups with price data, and a small paid pilot with repeat purchases.**
 
 > The prompt assumed Weeks 4–13 (10 weeks). You're in Week 5, so this is a **9-week plan** starting this week.
@@ -13,8 +13,8 @@
 |---|---|---|---|
 | 0. **Smoke test** | Landing page + waitlist (no product) posted in club WhatsApps, Durham SU groups, gym noticeboards | Do people want it enough to give an email and a price? | 5–13 |
 | 1. **Kitchen bake** | 3 flavours from the recipe cards in `04-concept-bar.md` §3, one tin each, 4 rounds. **Weigh before and after baking** | Does it taste good, hold together, and stay ≤6 g sugar? | 6–8 |
-| 2. **Blind taste test** | n ≈ 20–30 trainers; our bars vs Grenade and Forza, unbranded | Do people like it as much as what they already buy? | 7–8 |
-| 3. **Small paid pilot** | ~250 fresh bars over 3 weeks (bake **twice a week**, ~35–40 bars each; 3-day use-by) at **one club** and **one gym/café counter with a fridge** | Will people pay, and come back? | 9–11 |
+| 2. **Blind taste test** | n ≈ 20–30 trainers: **v6 (protein-plus) vs v5 (core list only) vs Grenade or Warrior RAW**, unbranded, scored on taste **and texture** (the top interview concern: C3, C8, C9, E1) | Does the lean recipe taste good enough? Do people like it as much as what they already buy? | 7–8 |
+| 3. **Small paid pilot** | ~250 fresh bars over 3 weeks (bake **twice a week**, ~35–40 bars each; 3-day use-by) at **one coached squad** (via the Team Durham S&C coach, E1, or C7's rugby club) and **one gym/café counter with a fridge** | Will people pay, and come back? | 9–11 |
 | 4. **Scale-up conversation** | (a) a local bakery/café kitchen to bake fresh under contract; (b) a co-manufacturer for the shelf-stable v2 route | Can it be made beyond your kitchen? | 10–12 |
 
 ## 2. Week-by-week
@@ -46,15 +46,15 @@ Thresholds are `[ASSUMPTION]`s set *before* the pilot, so you can't move the goa
 | Partner sell-through | Bars sold ÷ stocked | ≥60% within 2 weeks | <30% |
 | Partner reorder intent | Week 11 ask | ≥1 of 2 says yes, at wholesale price | 0 of 2 |
 | Gut comfort | Pilot survey: "Any stomach discomfort?" | <10% moderate or worse | >15% → cut fibre to ~4 g |
-| Is ~14 g protein enough? | Taste test + pilot survey: "Would you want more protein, even if it meant protein powder?" | <40% say yes | >60% say yes → move to the v2 shelf-stable route with milk/egg powders |
+| Is ~17 g protein enough? | Taste test + pilot survey: "Would you want more protein, even if it meant protein powder?" | <40% say yes | >60% say yes → move to the v2 shelf-stable route with milk/egg powders |
 | Fridge / short shelf life a barrier? | Partner feedback + waste count | Waste <15% of bars delivered | Waste >30% → bake to order only |
 
-## 4. Rough budget (from `07-budget.py`, updated 8 Oct for the kitchen bake)
+## 4. Rough budget (from `07-budget.py`, updated 8 Oct for v6)
 
 | Item | £ | Basis |
 |---|---|---|
-| Prototype ingredients (12 tins) | 46 | calc from 04-costing (~£3.81/tin) |
-| Pilot bars incl. packaging (250 × hero unit cost) | 162 | calc from 04-costing |
+| Prototype ingredients (12 tins) | 69 | calc from 04-costing (~£5.75/tin) |
+| Pilot bars incl. packaging (250 × hero unit cost) | 208 | calc from 04-costing |
 | Lab nutrition analysis, 1 sample | 150 | `[ASSUMPTION]` get 2 quotes |
 | Water activity / shelf-life test | 40 | `[ASSUMPTION]` |
 | Commercial kitchen hire (4 sessions × £15/h × 3 h) | 180 | `[ASSUMPTION]` community/church kitchen rates vary |
@@ -64,12 +64,12 @@ Thresholds are `[ASSUMPTION]`s set *before* the pilot, so you can't move the goa
 | Label printing (allergen-compliant stickers) | 30 | `[ASSUMPTION]` |
 | Taste-test materials + competitor bars for blind test | 40 | `[ASSUMPTION]` ~10 competitor bars |
 | Survey / interview incentive (prize draw) | 30 | `[ASSUMPTION]` |
-| Contingency (10%) | 87 | |
-| **Total spend** | **960** | Budget £1000 → within by £40 |
+| Contingency (10%) | 94 | |
+| **Total spend** | **1036** | Budget £1000 → OVER by £36 |
 | Pilot sales (offset) | −500 | `[ASSUMPTION]` 200 bars × £2.50 |
-| **Net cost** | **460** | |
+| **Net cost** | **536** | |
 
-**Within the £1,000.** Fresh eggs and milk cost far less than the powders in v1 (pilot bars £0.65 each vs £1.07). Finding a free kitchen (SU, university catering, a church hall) would save another £180.
+**About £36 over the £1,000 before sales.** Quark, extra egg whites and oat bran add ~15p a bar over v5. Fixes: a free kitchen (SU, university catering, a church hall) saves up to £180; cartoned egg whites cut ingredient cost.
 
 ## 5. Food-safety basics for selling at pilot scale (UK)
 
@@ -100,5 +100,5 @@ Thresholds are `[ASSUMPTION]`s set *before* the pilot, so you can't move the goa
 Pick one or two you can actually evidence:
 - **Grassroots club fund:** 10% of every Squad Box goes back to the club's funds `[ASSUMPTION: margin allows it, see 04-costing]`. Measurable £ to clubs.
 - **Honest labelling:** every batch lab-tested and published by QR ("others claim, we publish").
-- **Low sugar without ultra-processed ingredients:** ~3 g sugar with no isolates, polyols or sweeteners; not HFSS. Describe it; don't claim health outcomes.
+- **Low sugar without ultra-processed ingredients:** ~2–3.5 g sugar with no isolates, polyols or sweeteners; not HFSS. Describe it; don't claim health outcomes.
 - **Packaging:** move to a recyclable mono-material or paper-based wrapper at co-man scale.

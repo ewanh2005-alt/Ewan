@@ -1,66 +1,92 @@
 recipe,scale,item,grams_per_bar,price_per_kg_gbp,cost_per_bar_gbp,basis_or_tag
-Cocoa & Peanut,pilot,rolled_oats,37.4,1.35,0.051,Tesco Scottish Oats 1 kg £1.35
-Cocoa & Peanut,pilot,egg_fresh,40.7,4.74,0.193,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
-Cocoa & Peanut,pilot,banana,15.2,1.42,0.022,Tesco loose banana 17p ÷ ~120 g edible
-Cocoa & Peanut,pilot,peanut_butter,9.4,5.75,0.054,Meridian 100% peanut butter 1 kg £5.75
-Cocoa & Peanut,pilot,peanuts,7.0,7.50,0.053,Tesco Jumbo Peanuts 300 g £2.25
-Cocoa & Peanut,pilot,milk_semi,5.8,0.68,0.004,Tesco semi-skimmed 4 pints (2.272 L) £1.55
-Cocoa & Peanut,pilot,cocoa,2.9,27.35,0.080,Sephra cocoa powder 1 kg £27.35
-Cocoa & Peanut,pilot,process waste,,,0.023,[ASSUMPTION] 5% loss
-Cocoa & Peanut,pilot,packaging,,,0.170,[ASSUMPTION] see script
-Cocoa & Peanut,pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
-Cocoa & Peanut,pilot,TOTAL COST PER BAR,,,0.648,"excl. labour, delivery, testing"
-Cocoa & Peanut,scale,rolled_oats,37.4,0.70,0.026,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,egg_fresh,40.7,2.50,0.102,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,banana,15.2,0.90,0.014,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,peanut_butter,9.4,3.50,0.033,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,peanuts,7.0,3.50,0.025,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,milk_semi,5.8,0.55,0.003,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,cocoa,2.9,8.00,0.023,"[ASSUMPTION] bulk/trade price, quote needed"
-Cocoa & Peanut,scale,process waste,,,0.007,[ASSUMPTION] 3% loss
-Cocoa & Peanut,scale,packaging,,,0.070,[ASSUMPTION] see script
-Cocoa & Peanut,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
-Cocoa & Peanut,scale,TOTAL COST PER BAR,,,0.602,"excl. labour, delivery, testing"
-Raspberry & Almond,pilot,rolled_oats,36.9,1.35,0.050,Tesco Scottish Oats 1 kg £1.35
-Raspberry & Almond,pilot,egg_fresh,40.1,4.74,0.190,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
-Raspberry & Almond,pilot,banana,12.7,1.42,0.018,Tesco loose banana 17p ÷ ~120 g edible
-Raspberry & Almond,pilot,raspberries,11.5,10.00,0.115,Tesco frozen raspberries 300 g £3.00
-Raspberry & Almond,pilot,ground_almond,11.5,13.20,0.152,Tesco ground almonds 500 g £6.60
-Raspberry & Almond,pilot,milk_semi,5.8,0.68,0.004,Tesco semi-skimmed 4 pints (2.272 L) £1.55
-Raspberry & Almond,pilot,process waste,,,0.026,[ASSUMPTION] 5% loss
-Raspberry & Almond,pilot,packaging,,,0.170,[ASSUMPTION] see script
-Raspberry & Almond,pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
-Raspberry & Almond,pilot,TOTAL COST PER BAR,,,0.725,"excl. labour, delivery, testing"
-Raspberry & Almond,scale,rolled_oats,36.9,0.70,0.026,"[ASSUMPTION] bulk/trade price, quote needed"
-Raspberry & Almond,scale,egg_fresh,40.1,2.50,0.100,"[ASSUMPTION] bulk/trade price, quote needed"
-Raspberry & Almond,scale,banana,12.7,0.90,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
-Raspberry & Almond,scale,raspberries,11.5,5.00,0.058,"[ASSUMPTION] bulk/trade price, quote needed"
-Raspberry & Almond,scale,ground_almond,11.5,7.00,0.081,"[ASSUMPTION] bulk/trade price, quote needed"
-Raspberry & Almond,scale,milk_semi,5.8,0.55,0.003,"[ASSUMPTION] bulk/trade price, quote needed"
-Raspberry & Almond,scale,process waste,,,0.008,[ASSUMPTION] 3% loss
-Raspberry & Almond,scale,packaging,,,0.070,[ASSUMPTION] see script
-Raspberry & Almond,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
-Raspberry & Almond,scale,TOTAL COST PER BAR,,,0.657,"excl. labour, delivery, testing"
-Toasted Oat & Cinnamon,pilot,rolled_oats,40.5,1.35,0.055,Tesco Scottish Oats 1 kg £1.35
-Toasted Oat & Cinnamon,pilot,egg_fresh,42.7,4.74,0.203,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
-Toasted Oat & Cinnamon,pilot,banana,16.0,1.42,0.023,Tesco loose banana 17p ÷ ~120 g edible
-Toasted Oat & Cinnamon,pilot,pumpkin_seeds,11.1,5.43,0.060,Stock & Prep pumpkin seeds 1 kg £5.43
-Toasted Oat & Cinnamon,pilot,milk_semi,7.4,0.68,0.005,Tesco semi-skimmed 4 pints (2.272 L) £1.55
-Toasted Oat & Cinnamon,pilot,cinnamon,0.7,20.00,0.015,[ASSUMPTION] generic ground cinnamon
-Toasted Oat & Cinnamon,pilot,process waste,,,0.018,[ASSUMPTION] 5% loss
-Toasted Oat & Cinnamon,pilot,packaging,,,0.170,[ASSUMPTION] see script
-Toasted Oat & Cinnamon,pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
-Toasted Oat & Cinnamon,pilot,TOTAL COST PER BAR,,,0.548,"excl. labour, delivery, testing"
-Toasted Oat & Cinnamon,scale,rolled_oats,40.5,0.70,0.028,"[ASSUMPTION] bulk/trade price, quote needed"
-Toasted Oat & Cinnamon,scale,egg_fresh,42.7,2.50,0.107,"[ASSUMPTION] bulk/trade price, quote needed"
-Toasted Oat & Cinnamon,scale,banana,16.0,0.90,0.014,"[ASSUMPTION] bulk/trade price, quote needed"
-Toasted Oat & Cinnamon,scale,pumpkin_seeds,11.1,3.50,0.039,"[ASSUMPTION] bulk/trade price, quote needed"
-Toasted Oat & Cinnamon,scale,milk_semi,7.4,0.55,0.004,"[ASSUMPTION] bulk/trade price, quote needed"
-Toasted Oat & Cinnamon,scale,cinnamon,0.7,8.00,0.006,"[ASSUMPTION] bulk/trade price, quote needed"
-Toasted Oat & Cinnamon,scale,process waste,,,0.006,[ASSUMPTION] 3% loss
-Toasted Oat & Cinnamon,scale,packaging,,,0.070,[ASSUMPTION] see script
-Toasted Oat & Cinnamon,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
-Toasted Oat & Cinnamon,scale,TOTAL COST PER BAR,,,0.574,"excl. labour, delivery, testing"
+Cocoa & Peanut Butter,pilot,egg_fresh,36.7,4.74,0.174,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
+Cocoa & Peanut Butter,pilot,rolled_oats,25.3,1.35,0.034,Tesco Scottish Oats 1 kg £1.35
+Cocoa & Peanut Butter,pilot,quark,21.1,5.20,0.110,Tesco Fat Free Quark 250 g £1.30
+Cocoa & Peanut Butter,pilot,egg_white_fresh,17.4,8.33,0.145,"Whites from Tesco large eggs (27.5p each, ~33 g white; yolks unused) [or buy cartoned whites]"
+Cocoa & Peanut Butter,pilot,oat_bran,10.5,3.13,0.033,Mornflake Oatbran 800 g £2.50
+Cocoa & Peanut Butter,pilot,milk_semi,5.3,0.68,0.004,Tesco semi-skimmed 4 pints (2.272 L) £1.55
+Cocoa & Peanut Butter,pilot,peanut_butter,4.2,5.75,0.024,Meridian 100% peanut butter 1 kg £5.75
+Cocoa & Peanut Butter,pilot,pumpkin_seeds,3.2,5.43,0.017,Stock & Prep pumpkin seeds 1 kg £5.43
+Cocoa & Peanut Butter,pilot,cocoa,2.6,27.35,0.072,Sephra cocoa powder 1 kg £27.35
+Cocoa & Peanut Butter,pilot,chia,2.1,8.53,0.018,Real Foods chia seeds 1 kg £8.53 (supermarket packs similar per kg) [ASSUMPTION for Tesco]
+Cocoa & Peanut Butter,pilot,sea_salt,0.2,2.00,0.000,[ASSUMPTION] table/sea salt
+Cocoa & Peanut Butter,pilot,process waste,,,0.032,[ASSUMPTION] 5% loss
+Cocoa & Peanut Butter,pilot,packaging,,,0.170,[ASSUMPTION] see script
+Cocoa & Peanut Butter,pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
+Cocoa & Peanut Butter,pilot,TOTAL COST PER BAR,,,0.833,"excl. labour, delivery, testing"
+Cocoa & Peanut Butter,scale,egg_fresh,36.7,2.50,0.092,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,rolled_oats,25.3,0.70,0.018,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,quark,21.1,3.00,0.063,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,egg_white_fresh,17.4,4.00,0.070,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,oat_bran,10.5,1.50,0.016,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,milk_semi,5.3,0.55,0.003,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,peanut_butter,4.2,3.50,0.015,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,pumpkin_seeds,3.2,3.50,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,cocoa,2.6,8.00,0.021,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,chia,2.1,5.00,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,sea_salt,0.2,0.50,0.000,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Peanut Butter,scale,process waste,,,0.010,[ASSUMPTION] 3% loss
+Cocoa & Peanut Butter,scale,packaging,,,0.070,[ASSUMPTION] see script
+Cocoa & Peanut Butter,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
+Cocoa & Peanut Butter,scale,TOTAL COST PER BAR,,,0.698,"excl. labour, delivery, testing"
+Honey & Chia,pilot,egg_fresh,37.3,4.74,0.177,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
+Honey & Chia,pilot,rolled_oats,26.8,1.35,0.036,Tesco Scottish Oats 1 kg £1.35
+Honey & Chia,pilot,quark,21.4,5.20,0.111,Tesco Fat Free Quark 250 g £1.30
+Honey & Chia,pilot,egg_white_fresh,17.7,8.33,0.147,"Whites from Tesco large eggs (27.5p each, ~33 g white; yolks unused) [or buy cartoned whites]"
+Honey & Chia,pilot,oat_bran,10.7,3.13,0.034,Mornflake Oatbran 800 g £2.50
+Honey & Chia,pilot,milk_semi,5.4,0.68,0.004,Tesco semi-skimmed 4 pints (2.272 L) £1.55
+Honey & Chia,pilot,pumpkin_seeds,4.3,5.43,0.023,Stock & Prep pumpkin seeds 1 kg £5.43
+Honey & Chia,pilot,chia,2.7,8.53,0.023,Real Foods chia seeds 1 kg £8.53 (supermarket packs similar per kg) [ASSUMPTION for Tesco]
+Honey & Chia,pilot,honey,2.1,8.80,0.019,Pasieka multiflower honey 1 kg £8.80
+Honey & Chia,pilot,sea_salt,0.2,2.00,0.000,[ASSUMPTION] table/sea salt
+Honey & Chia,pilot,process waste,,,0.029,[ASSUMPTION] 5% loss
+Honey & Chia,pilot,packaging,,,0.170,[ASSUMPTION] see script
+Honey & Chia,pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
+Honey & Chia,pilot,TOTAL COST PER BAR,,,0.773,"excl. labour, delivery, testing"
+Honey & Chia,scale,egg_fresh,37.3,2.50,0.093,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,rolled_oats,26.8,0.70,0.019,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,quark,21.4,3.00,0.064,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,egg_white_fresh,17.7,4.00,0.071,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,oat_bran,10.7,1.50,0.016,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,milk_semi,5.4,0.55,0.003,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,pumpkin_seeds,4.3,3.50,0.015,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,chia,2.7,5.00,0.013,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,honey,2.1,4.50,0.010,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,sea_salt,0.2,0.50,0.000,"[ASSUMPTION] bulk/trade price, quote needed"
+Honey & Chia,scale,process waste,,,0.009,[ASSUMPTION] 3% loss
+Honey & Chia,scale,packaging,,,0.070,[ASSUMPTION] see script
+Honey & Chia,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
+Honey & Chia,scale,TOTAL COST PER BAR,,,0.683,"excl. labour, delivery, testing"
+Cocoa & Honey,pilot,egg_fresh,37.3,4.74,0.177,Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible
+Cocoa & Honey,pilot,rolled_oats,25.7,1.35,0.035,Tesco Scottish Oats 1 kg £1.35
+Cocoa & Honey,pilot,quark,21.4,5.20,0.111,Tesco Fat Free Quark 250 g £1.30
+Cocoa & Honey,pilot,egg_white_fresh,17.7,8.33,0.147,"Whites from Tesco large eggs (27.5p each, ~33 g white; yolks unused) [or buy cartoned whites]"
+Cocoa & Honey,pilot,oat_bran,10.7,3.13,0.034,Mornflake Oatbran 800 g £2.50
+Cocoa & Honey,pilot,milk_semi,5.4,0.68,0.004,Tesco semi-skimmed 4 pints (2.272 L) £1.55
+Cocoa & Honey,pilot,pumpkin_seeds,3.2,5.43,0.017,Stock & Prep pumpkin seeds 1 kg £5.43
+Cocoa & Honey,pilot,cocoa,2.7,27.35,0.073,Sephra cocoa powder 1 kg £27.35
+Cocoa & Honey,pilot,chia,2.1,8.53,0.018,Real Foods chia seeds 1 kg £8.53 (supermarket packs similar per kg) [ASSUMPTION for Tesco]
+Cocoa & Honey,pilot,honey,2.1,8.80,0.019,Pasieka multiflower honey 1 kg £8.80
+Cocoa & Honey,pilot,sea_salt,0.2,2.00,0.000,[ASSUMPTION] table/sea salt
+Cocoa & Honey,pilot,process waste,,,0.032,[ASSUMPTION] 5% loss
+Cocoa & Honey,pilot,packaging,,,0.170,[ASSUMPTION] see script
+Cocoa & Honey,pilot,production fee (bakery/co-packer),,,0.000,[ASSUMPTION] quote needed
+Cocoa & Honey,pilot,TOTAL COST PER BAR,,,0.838,"excl. labour, delivery, testing"
+Cocoa & Honey,scale,egg_fresh,37.3,2.50,0.093,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,rolled_oats,25.7,0.70,0.018,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,quark,21.4,3.00,0.064,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,egg_white_fresh,17.7,4.00,0.071,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,oat_bran,10.7,1.50,0.016,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,milk_semi,5.4,0.55,0.003,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,pumpkin_seeds,3.2,3.50,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,cocoa,2.7,8.00,0.021,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,chia,2.1,5.00,0.011,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,honey,2.1,4.50,0.010,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,sea_salt,0.2,0.50,0.000,"[ASSUMPTION] bulk/trade price, quote needed"
+Cocoa & Honey,scale,process waste,,,0.010,[ASSUMPTION] 3% loss
+Cocoa & Honey,scale,packaging,,,0.070,[ASSUMPTION] see script
+Cocoa & Honey,scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
+Cocoa & Honey,scale,TOTAL COST PER BAR,,,0.698,"excl. labour, delivery, testing"
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",pilot,rolled_oats,26.0,1.35,0.035,Tesco Scottish Oats 1 kg £1.35
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",pilot,egg_white,14.0,34.99,0.490,Myprotein egg white powder 1 kg full price £34.99 (often £24.49 on promo)
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",pilot,puffed_rice,10.0,8.89,0.089,Tesco Nature's Store puffed rice 225 g £2.00
@@ -86,8 +112,8 @@ Toasted Oat & Cinnamon,scale,TOTAL COST PER BAR,,,0.574,"excl. labour, delivery,
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",scale,production fee (bakery/co-packer),,,0.300,[ASSUMPTION] quote needed
 "Shelf-stable route (v2: same foods, dried: milk powder + egg-white powder)",scale,TOTAL COST PER BAR,,,0.699,"excl. labour, delivery, testing"
 
-CHANNEL (hero: Cocoa & Peanut),,price_to_brand_gbp,cost_gbp,gross_margin_gbp,gross_margin_pct,RRP £2.75
-"DTC pilot (not VAT-registered, cash/card at events)",,2.7,0.65,2.06,76.0,
-"DTC at scale (VAT-registered, multipack 4 for £10)",,2.05,0.95,1.1,54.0,
-Gym/café wholesale at scale,,1.49,0.6,0.89,60.0,
-Retail via distributor at scale,,1.03,0.6,0.43,42.0,
+CHANNEL (hero: Cocoa & Peanut Butter),,price_to_brand_gbp,cost_gbp,gross_margin_gbp,gross_margin_pct,RRP £2.75
+"DTC pilot (not VAT-registered, cash/card at events)",,2.7,0.83,1.87,69.0,
+"DTC at scale (VAT-registered, multipack 4 for £10)",,2.05,1.05,1.0,49.0,
+Gym/café wholesale at scale,,1.49,0.7,0.79,53.0,
+Retail via distributor at scale,,1.03,0.7,0.33,32.0,

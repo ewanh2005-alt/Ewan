@@ -1,59 +1,58 @@
 # 08 — Final Summary
 
-**Updated:** 8 Oct 2026 (Week 5) · **Change since 7 Oct:** product redesigned to Ewan's brief: **supermarket ingredients, fresh milk and boxed eggs, max 6 g sugar, clearly different from competitors** (v3 kitchen bake).
+**Updated:** 8 Oct 2026 (Week 5). **Today's changes:**
+- Interview evidence added (10 customers + 2 experts), with an evidence-based persona.
+- Published studies on what athletes want, in `01b-why-fettle.md`.
+- 6 more competitors (32 total).
+- Recipe now **v6**: your ingredient list (oats, eggs, milk, chia, cocoa, salt, honey or peanut butter) plus more high-protein natural foods (egg whites, quark, oat bran, pumpkin seeds).
 
 ## Quality check (re-run 8 Oct)
-
 | Check | Result |
 |---|---|
-| Re-ran every script (`04-nutrition.py`, `04-costing.py`, `research/02_build_competitors.py`, `05-brand/build_logos.py`, `05-brand/build_packaging.py`, `07-budget.py`) | ✅ All run cleanly; committed outputs match |
-| Every competitor row has a source URL and date | ✅ 26/26; new sources logged (C31, R10, P16–P21) |
-| No invented testimonials, quotes or interview data | ✅ Placeholders only; persona still tagged "hypothesis" |
-| Claims on pack and page vs GB conditions | ✅ "Low sugar" (3.0–3.8 g/100 g), "source of protein", authorised protein claim + balanced-diet statement. **Removed:** "high protein" (doesn't qualify now) and "no added sugar" (banana adds sweetness) |
-| Numbers on page/pack match calculations | ✅ 3 g sugar / 14 g protein / 28 g carbs / 90 g trace to `04-nutrition.py` |
-| Landing page at 390 and 1280 px | ✅ No horizontal scroll, no console errors |
+| Every script re-run (`04-nutrition.py`, `04-costing.py`, `research/02_build_competitors.py`, `research/03_interview_counts.py`, `05-brand/build_logos.py`, `05-brand/build_packaging.py`, `07-budget.py`) | ✅ Clean; committed outputs match |
+| Sources for every competitor fact and study | ✅ 32 competitor rows with URLs; studies S6–S13 logged |
+| No invented quotes or interview data | ✅ Interview notes stored as **Ewan's paraphrases**; nothing presented as a verbatim quote |
+| Claims on pack and page | ✅ "High protein" (25% energy), "low sugar" (2.1–3.9 g/100 g), authorised protein claim + balanced-diet statement |
+| Numbers on pack and page match calculations | ✅ 17 g protein / 2 g sugar / 23 g carbs / 90 g |
 
-**Known limitations:** research came via search-engine extracts (direct page access was blocked). Nutrition uses typical database values and an **assumed 24% bake loss**. Your first bake replaces that with a real number.
+## Your difference, in one line
+**The only UK bar we found that's high protein *and* low sugar using nothing but kitchen ingredients: no protein powder, no sugar alcohols, no sweeteners, no syrups.** Checked across 32 products.
 
-## What was built
-All of Phases 0–8 (see `PROGRESS.md`). On 8 Oct, the product, packaging, landing page, positioning map, costing, budget, pilot plan, assumption tracker and pitch outline were updated for the v3 kitchen bake.
+## Why it needs to be made (full case: `01b-why-fettle.md`)
+1. **Athletes are told to eat real food** (Team Durham S&C coach; rugby player C7), and in a 405-person study **whole-food products were the top-ranked choice** (Carey et al. 2023).
+2. **They use processed sports foods only because they're convenient.** Australian athletes rated everyday food tastier, cheaper and safer (Forsyth & Mantzioris 2023). 80% of Canadian student athletes say their schedule limits cooking.
+3. **The convenient options don't fit:** low-sugar bars rely on isolates, polyols or sweeteners (several with laxative warnings); real-food bars carry 10–28 g sugar.
+4. **Lab bars go uneaten:** the S&C coach watched students fail to finish boxes of Grenade bars.
+5. **Price and gut comfort matter:** 3/10 raised price; 30–50% of athletes report gut complaints around exercise.
+
+## The bar (v6, per 90 g)
+| | Protein | Carbs | Sugar | Fibre | kcal | Pilot cost |
+|---|---|---|---|---|---|---|
+| A. Cocoa & Peanut Butter | 16.7 g | 22.8 g | 1.9 g | 5.8 g | 269 | £0.83 |
+| B. Honey & Chia (nut-free) | 15.9 g | 24.8 g | 3.5 g | 5.2 g | 257 | £0.77 |
+| C. Cocoa & Honey (nut-free) | 15.9 g | 24.4 g | 3.5 g | 5.6 g | 254 | £0.84 |
+
+Recipe cards are in `04-concept-bar.md` §3 (one tin = ~9 bars).
 
 ## Top 5 insights
+1. **The difference is real and checked:** 32 products, none with ≤6 g sugar + ≥10 g protein from kitchen ingredients.
+2. **Coached athletes are the best first customer:** they're told to eat whole food, can't always cook, and come with a coach who controls squad orders.
+3. **Taste is the biggest risk** (3/10 + coach): test v6 vs v5 vs Grenade/Warrior blind before anything else.
+4. **Price is the second risk:** Warrior RAW sells 20 g protein at ~£1. Sell on ingredients and gut comfort, not protein per pound; test £2.00–2.75.
+5. **Interest isn't demand:** 7/10 liked the idea, 0/10 committed. Every next conversation must end with a sign-up or taste-test ask.
 
-1. **The difference is now low sugar without lab ingredients.** Every UK bar we found with ≤6 g sugar uses polyols, sweeteners or protein isolates (Grenade, Barebells, PhD, Misfits). Every whole-food or "natural" bar has 9.5–38 g sugar. The v3 bake has **~3 g sugar from 7 supermarket ingredients**: alone in that corner of the map (`02-positioning-map.html`).
-2. **Baking with eggs is what makes it possible.** "Natural" bars need dates or syrup to stick together; ours is set by eggs and milk in the oven. That's a real, explainable point of difference, and a good pitch line: *sugar like a protein bar, ingredients like home baking.*
-3. **The honest trade-offs are protein and shelf life.** Supermarket whole foods top out at **~12–14 g protein per 90 g bar** (lab bars: ~20 g), so **no "high protein" claim**. And a fresh egg and milk bake must be **chilled with a short use-by**. The pilot tests whether buyers mind; if they do, the v2 route (same foods, dried) gets ~23 g protein and is shelf-stable, at ~9 g sugar.
-4. **The economics got better.** Pilot cost is **£0.65/bar** (vs £1.07 with powders). Margin is 76% selling direct and 60% to gyms/cafés. The pilot budget is **£960, within the £1,000**. It's no longer an HFSS product (score −3 vs +9 before), so it could be promoted by retailers later.
-5. **Customer evidence is still the whole game.** Problem & Market Research stays Red until the interviews, waitlist and pilot produce numbers.
-
-## Readiness (vs Phase 1)
-
-| Criterion | Phase 1 | Now | Why |
-|---|---|---|---|
-| 1. Problem & Market Research | 🔴 | 🔴 | Competitor evidence is strong; customer evidence is unchanged |
-| 2. Innovation & Value Proposition | 🟠 | 🟠↑ | Clearer, provable difference (low sugar + kitchen ingredients). Lower protein is a weakness |
-| 3. Feasibility & Business Model | 🟠 | 🟠↑ | You can make it this week; cheap; within budget. Chilled distribution limits scale |
-| 4. Team Capability | 🟠 | 🟠 | Strong coachability story (23 g → 3 g sugar after testing against competitors and claims law) |
-| 5. Impact & Scale | 🔴 | 🔴↑ | Low-sugar, non-HFSS, real-food positioning gives a concrete impact story; still unevidenced |
-| 6. Pitch & Communication | 🟠 | 🟠↑ | You'll have a real bar to hand out within a week |
+## Readiness (see `01-judging-map.md` §4 update)
+Problem & Market Research **Red → Amber**; Impact & Scale **Red → Amber**; the rest Amber, with Innovation and Team trending up.
 
 ## Decisions you need to make
-1. **Name:** confirm **fettle** after the UK IPO check (fallback: Afta).
-2. **Protein vs simplicity:** accept ~14 g protein for the pilot (my recommendation), and let pilot data decide whether to add the dried-ingredient v2 route.
-3. **Fresh vs shelf-stable:** pilot fresh and chilled (my recommendation), sold where there's a fridge: club fridge, gym café.
-4. **Primary persona:** confirm Sam (regular trainer, student), or adjust once you have your interview notes.
-
-## Riskiest open assumptions (from `07-assumption-tracker.csv`)
-1. **A1:** people want low sugar **and** real food together.
-2. **A2:** ~14 g protein is enough.
-3. **A3/A4:** they'll pay £2.75 and buy again.
-4. **A5:** a chilled, short-life product works for partners.
-5. **A6:** it tastes good sweetened only by banana.
+1. **Confirm v6** (with quark, egg whites, oat bran, pumpkin seeds), or stick to the strict core list (v5: 14 g protein, 20.5% energy).
+2. **Primary persona: Alex, the coached athlete** (my recommendation) vs Sam, the gym-goer.
+3. **Price to test:** £2.00 / £2.25 / £2.75.
+4. **Name:** run the UK IPO check on "fettle".
 
 ## What to do this week
-1. **Bake recipe A** (`04-concept-bar.md` §3). Weigh the tin empty, full and after baking, then tell me the numbers and I'll re-run the nutrition.
-2. **Register as a food business** with the council (28 days' notice, so you're legal for a Week 9 pilot).
-3. **Upload your 9 interview notes** to `inputs/`.
-4. **Check "fettle"** on the UK IPO and Companies House.
-5. **Connect the waitlist** (`06-landing/AUTOMATION.md`) and post it in 3–5 club and SU groups.
-6. **Email 6 gyms, clubs or cafés with a fridge** about a 3-week pilot.
+1. **Bake recipe A twice** (`04-concept-bar.md` §3). Weigh the tin empty, full and after baking, and send me the numbers.
+2. **Go back to C7 (rugby), C10 (bodybuilder) and the S&C coach:** ask what athletes eat after training now, and for a **squad taste test**. Get a commitment.
+3. **Register as a food business** (28 days' notice).
+4. **Connect the waitlist** and ask all 10 interviewees to sign up. That turns interest into evidence.
+5. **Interview 3 female athletes** (gap: all 3 athletes interviewed are male).

@@ -40,23 +40,25 @@ def front():
         f'<text x="{x}" y="200" font-family="{FONT}" font-weight="800" font-size="40" fill="{INK}">{num}<tspan font-size="20" font-weight="700">{unit}</tspan></text>'
         f'<text x="{x}" y="222" font-family="{FONT}" font-size="13" fill="{STONE}" letter-spacing=".5">{label}</text>')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="fettle Cocoa and Peanut wrapper, front">
-  <title>fettle Cocoa &amp; Peanut: front of pack (concept)</title>
+  <title>fettle Cocoa &amp; Peanut Butter: front of pack (concept)</title>
   <rect width="{W}" height="{H}" fill="{OAT}"/>
   {crimp(8)}{crimp(W - 14)}
   <g transform="translate(40 30) scale(.42)">{WORD}</g>
   <text x="{W - 40}" y="52" text-anchor="end" font-family="{FONT}" font-size="12" font-weight="700" letter-spacing="1.5" fill="{EMBER}">FOR AFTER TRAINING · BAKED FRESH</text>
-  <text x="40" y="128" font-family="{FONT}" font-weight="800" font-size="34" fill="{COCOA}">Cocoa &amp; Peanut</text>
+  <text x="40" y="128" font-family="{FONT}" font-weight="800" font-size="34" fill="{COCOA}">Cocoa &amp; Peanut Butter</text>
   {macro(40, sug, " g", "SUGAR")}{macro(160, p, " g", "PROTEIN")}{macro(280, c, " g", "CARBS")}
   <g>
     <rect x="490" y="92" width="110" height="100" rx="16" fill="{COCOA}"/>
     <rect x="610" y="92" width="110" height="100" rx="16" fill="{COCOA}"/>
     {oats}
   </g>
-  <text x="605" y="214" text-anchor="middle" font-family="{FONT}" font-size="12" fill="{STONE}">Oats · eggs · milk · peanuts · banana · cocoa</text>
+  <text x="605" y="214" text-anchor="middle" font-family="{FONT}" font-size="12" fill="{STONE}">Eggs · oats · quark · oat bran · seeds · cocoa</text>
   <rect x="0" y="252" width="{W}" height="68" fill="{COCOA}"/>
-  <text x="40" y="292" font-family="{FONT}" font-size="15" font-weight="600" fill="{OAT}">Made from 7 kitchen ingredients · No powders · No sweeteners</text>
-  <rect x="{W - 222}" y="272" width="124" height="28" rx="14" fill="{OAT}"/>
-  <text x="{W - 160}" y="291" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="800" letter-spacing=".8" fill="{COCOA}">LOW SUGAR</text>
+  <text x="40" y="292" font-family="{FONT}" font-size="15" font-weight="600" fill="{OAT}">Kitchen ingredients · No powders · No sweeteners</text>
+  <rect x="{W - 330}" y="272" width="124" height="28" rx="14" fill="{OAT}"/>
+  <text x="{W - 268}" y="291" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="800" letter-spacing=".8" fill="{COCOA}">HIGH PROTEIN</text>
+  <rect x="{W - 198}" y="272" width="100" height="28" rx="14" fill="{OAT}"/>
+  <text x="{W - 148}" y="291" text-anchor="middle" font-family="{FONT}" font-size="12" font-weight="800" letter-spacing=".8" fill="{COCOA}">LOW SUGAR</text>
   <text x="{W - 40}" y="291" text-anchor="end" font-family="{FONT}" font-size="13" font-weight="700" fill="{OAT}">{wt} g ℮</text>
 </svg>
 '''
@@ -79,17 +81,17 @@ def back():
            f" th:first-child,td:first-child{{text-align:left}} th{{border-bottom:2px solid {INK}}} td.sub{{padding-left:12px}}"
            f" .ph{{background:#fff3c4;padding:0 3px;border-radius:2px}} .small{{font-size:9px;color:{STONE}}}")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="fettle Cocoa and Peanut wrapper, back">
-  <title>fettle Cocoa &amp; Peanut: back of pack (concept; numbers from 04-nutrition.py)</title>
+  <title>fettle Cocoa &amp; Peanut Butter: back of pack (concept; numbers from 04-nutrition.py)</title>
   <rect width="{W}" height="{H}" fill="{OAT}"/>
   {crimp(8)}{crimp(W - 14)}
   <foreignObject x="34" y="20" width="350" height="290">
     <div xmlns="http://www.w3.org/1999/xhtml"><style>{css}</style>
-      <h4>Cocoa &amp; Peanut bar</h4>
+      <h4>Cocoa &amp; Peanut Butter bar</h4>
       <p><b>Ingredients:</b> {ing}</p>
-      <p><b>Allergy advice:</b> for allergens, including cereals containing gluten, see ingredients in <b>bold</b>. Made in a kitchen that also handles <b>almonds</b>. <span class="ph">[confirm after allergen risk assessment]</span></p>
+      <p><b>Allergy advice:</b> for allergens, including cereals containing gluten, see ingredients in <b>bold</b>. Made in a kitchen that also handles <b>peanuts</b> and other allergens. <span class="ph">[confirm after allergen risk assessment]</span></p>
       <h4>How to eat it</h4>
       <p>For after training, when a proper meal is still a way off. Not designed for eating before or during exercise.</p>
-      <p><b>Low sugar. Source of protein.</b> Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p>
+      <p><b>High protein. Low sugar.</b> Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p>
       <p class="small"><b>Keep refrigerated (0–5 °C).</b> Use by: <span class="ph">[date]</span>. Suitable for home freezing: freeze on day of purchase, defrost in the fridge · Lot: <span class="ph">[lot]</span><br/><span class="ph">[Business name, UK address]</span> · Made in <span class="ph">[Durham]</span>, UK · <span class="ph">[recycling info]</span></p>
     </div>
   </foreignObject>

@@ -9,6 +9,7 @@
 |---|---|---|---|---|
 | F1 | DVS Judging Criteria + "Pitching your idea" handouts (photos) → `inputs/judging-criteria.md` | 7 Oct 2026 | Phase 1 | primary |
 | F2 | Ewan, chat 7 Oct 2026: "interview notes I cannot access… people have said yes to the idea" | 7 Oct 2026 | Phase 3 | primary (unquantified) |
+| F4 | Ewan's interview notes: 10 customers + 2 experts (S&C coach, Team Durham; nutrition professor) → `inputs/customer-persona.md` | 8 Oct 2026 | Phases 3, 4, 7 | primary (paraphrased) |
 | F3 | `stage-1-competitor-research.md`, `stage-2-differentiation.md`, `findings-report.md` | 6–7 Oct 2026 | Background, decisions | primary (earlier desk research) |
 
 ## Competitors and prices
@@ -44,6 +45,13 @@
 | C28 | Tesco – Yazoo Chocolate 400 ml | https://www.tesco.com/shop/en-GB/products/290369696 | 7 Oct 2026 | Price, nutrition | search-extract |
 | C29 | HotUKDeals – Tesco loose bananas | https://www.hotukdeals.com/deals/tesco-bananas-loose-x5-clubcard-price-4887699 | 7 Oct 2026 | Banana price (May 2026) | search-extract |
 | C31 | Tesco – Misfits Caramel Fudge (ingredients: pea + soya protein, maltitol) | https://www.tesco.com/groceries/en-GB/products/316651379 | 8 Oct 2026 | Misfits uses isolates + polyols | search-extract |
+| C32 | Perfect Bar Original Peanut Butter (US retailer listings) | https://www.wegmans.com/shop/product/621305 | 8 Oct 2026 | Refrigerated whole-food bar; 17 g P / 19 g sugar | search-extract |
+| C33 | Myprotein THE Re-Fuel Bar (HYROX) | https://www.myprotein.com/p/sports-nutrition/the-re-fuel-protein-bar/13900722/ | 8 Oct 2026 | 22 g P / 32 g C; maltitol first | search-extract |
+| C34 | Warrior RAW Protein Flapjack (Morrisons) | https://groceries.morrisons.com/products/warrior-raw-protein-flapjack-cookies-and-cream-75g/115108257 | 8 Oct 2026 | 20 g P, ~3 g sugar, sweeteners, polyols, gelatine | search-extract |
+| C35 | Amacx Recovery Bar (Sigma Sports) | https://sigmasports.com/item/Amacx/Recovery-Bar-1-x-55g/131QR | 8 Oct 2026 | 20 g P / 22 g C; syrups | search-extract |
+| C36 | HIGH5 Recovery Protein Bar | https://highfive.co.uk/products/recovery-protein-bar | 8 Oct 2026 | 19 g P / 19 g C; syrups | search-extract |
+| C37 | Voom RecoverFudge (Sports Direct) | https://www.sportsdirect.com/voom-recovery-fudge-bar-15-x-50g-733175 | 8 Oct 2026 | 10–12 g P; sugars | search-extract |
+| C38 | Huel bar Choc Fudge Brownie (Tesco) | https://www.tesco.com/shop/en-GB/products/320813385 | 8 Oct 2026 | 15 g P, 1.7 g sugar, maltitol | search-extract |
 | C30 | Olive – best protein bars (33Fuel Eroica) | https://beta.olivemagazine.com/reviews/best-protein-bars | 6 Oct 2026 | Eroica data | inherited |
 
 ## Regulation and tax
@@ -67,6 +75,14 @@
 | S2 | Alghannam et al. (2018) "Restoration of muscle glycogen… carbohydrate and protein co-ingestion" *Nutrients* | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5852829/ | 7 Oct 2026 | ≥1.2 g/kg/h carbs; protein helps when carbs ≤0.8 g/kg/h | search-extract |
 | S3 | ISSN Position Stand: protein and exercise (Jäger et al. 2017) | https://www.nutraingredients.com/Article/2017/06/21/ISSN-publishes-position-stand-on-protein-and-exercise/ | 7 Oct 2026 | 0.25 g/kg or 20–40 g per serving | search-extract |
 | S4 | Moore (2018) protein per meal 0.25–0.31 g/kg (PMC6746967) | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6746967/ | 6 Oct 2026 | Dose per feed | inherited |
+| S6 | Forsyth & Mantzioris (2023) Australian athletes' use of/attitudes to ultra-processed sports foods, *Br J Nutr* (n=140) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10551470/ | 8 Oct 2026 | Everyday food tastier/cheaper/safer; sports foods win on convenience; 51% UPF concern | search-extract |
+| S7 | Carey, Doyle & Lucey (2023) Nutritional priorities… new product development, *Front Sports Act Living* (n=405) | https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1088979 | 8 Oct 2026 | Whole-food products most preferred; priorities | search-extract |
+| S8 | USPORT student-athlete dietary barriers (York University) | https://yorkspace.library.yorku.ca/items/cede85c0-50b2-4c96-afbb-a03fa4d3ec94 | 8 Oct 2026 | 80% schedule limits cooking | search-extract |
+| S9 | UK university students' healthy-eating barriers, preprint (n=590) | https://www.preprints.org/manuscript/202504.0057/v1 | 8 Oct 2026 | Cost, time, stress | search-extract (not peer-reviewed) |
+| S10 | de Oliveira et al. (2014) GI complaints during exercise, *Sports Med* | https://pubmed.ncbi.nlm.nih.gov/24791919/ | 8 Oct 2026 | 30–50% of athletes | search-extract |
+| S11 | GI symptoms in athletes beyond endurance sports: scoping review (LJMU) | https://researchonline.ljmu.ac.uk/id/eprint/28264/ | 8 Oct 2026 | 11.5–80% | search-extract |
+| S12 | Sport Integrity Australia supplements survey (2025) | https://www.sportintegrity.gov.au/news/media-statements/2025-04/sport-supplements-survey | 8 Oct 2026 | 35% of 200 products contained prohibited substances | search-extract |
+| S13 | FSA Consumer Insights Tracker via Food Manufacture (Jul 2025) | https://www.foodmanufacture.co.uk/Article/2025/07/09/consumers-concerned-over-food-prices-and-upfs-finds-fsa-survey | 8 Oct 2026 | 76–78% UPF concern | search-extract |
 | S5 | Chocolate milk meta-analysis (PubMed 29921963) | https://pubmed.ncbi.nlm.nih.gov/29921963/ | 6 Oct 2026 | Substitute evidence | inherited |
 
 ## Ingredient prices (pilot = retail)
@@ -89,6 +105,7 @@
 | P19 | Tesco Jumbo Peanuts 300 g £2.25 | https://www.trolley.co.uk/product/tesco-jumbo-peanuts/YVR549 | 8 Oct 2026 | Kitchen bake cost | search-extract |
 | P20 | Tesco ground almonds 500 g £6.60 | https://www.tesco.com/shop/en-GB/products/309495418 | 8 Oct 2026 | Kitchen bake cost | search-extract |
 | P21 | Tesco Nature's Store puffed rice 225 g £2.00 (+ nutrition) | https://www.tesco.com/shop/en-GB/products/286893875 | 8 Oct 2026 | v2 shelf-stable route | search-extract |
+| P22 | Tesco Fat Free Quark 250 g £1.30 (11.6 g protein, 65 kcal per 100 g) | https://www.tesco.com/shop/en-GB/products/285173410 | 8 Oct 2026 | v4–v6 recipes | search-extract |
 | P12 | Level 2 food hygiene online | https://food-safety.org.uk/courses/ufaqs/how-much-does-the-level-2-course-cost/ | 7 Oct 2026 | £10–25 | search-extract |
 | P13 | Simply Business – food business insurance | https://www.simplybusiness.co.uk/business-insurance/by-industry/food-business-insurance/ | 7 Oct 2026 | Public liability from ~£57/yr | search-extract |
 | P14 | TIPA compostable bar wrapper (MOQ 25k) | https://tipa-corp.com/application/bar-wrapper/ | 7 Oct 2026 | Wrapper MOQ | search-extract |

@@ -22,6 +22,9 @@ RECIPES, recipe_totals, bar_inputs = NUT["RECIPES"], NUT["recipe_totals"], NUT["
 PRICE = {
     # v3 kitchen ingredients (fresh, supermarket)
     "egg_fresh":     (4.74, 2.50, "Tesco 12 large free-range eggs £3.30 = 27.5p each ÷ ~58 g edible"),
+    "chia":          (8.53, 5.00, "Real Foods chia seeds 1 kg £8.53 (supermarket packs similar per kg) [ASSUMPTION for Tesco]"),
+    "egg_white_fresh": (8.33, 4.00, "Whites from Tesco large eggs (27.5p each, ~33 g white; yolks unused) [or buy cartoned whites]"),
+    "quark":         (5.20, 3.00, "Tesco Fat Free Quark 250 g £1.30"),
     "milk_semi":     (0.68, 0.55, "Tesco semi-skimmed 4 pints (2.272 L) £1.55"),
     "banana":        (1.42, 0.90, "Tesco loose banana 17p ÷ ~120 g edible"),
     "peanuts":       (7.50, 3.50, "Tesco Jumbo Peanuts 300 g £2.25"),
@@ -38,7 +41,7 @@ PRICE = {
     "honey":         (8.80, 4.50, "Pasieka multiflower honey 1 kg £8.80"),
     "cocoa":         (27.35, 8.00, "Sephra cocoa powder 1 kg £27.35"),
     "fd_raspberry":  (118.50, 60.00, "Greencity freeze-dried raspberries 100 g £11.85"),
-    "sea_salt":      (2.00, 0.50, "[ASSUMPTION] generic sea salt"),
+    "sea_salt":      (2.00, 0.50, "[ASSUMPTION] table/sea salt"),
     "cinnamon":      (20.00, 8.00, "[ASSUMPTION] generic ground cinnamon"),
 }
 WASTE = {"pilot": 0.05, "scale": 0.03}            # [ASSUMPTION] process loss
@@ -68,7 +71,7 @@ def ingredient_cost(grams, scale):
 def main():
     out_rows, summary = [], {}
     for key, r in RECIPES.items():
-        if key.startswith(("S_", "V1_")):
+        if key.startswith(("S_", "V1_", "Q4_", "K5_")):
             continue  # comparison variants only
         t = recipe_totals(r)
         summary[key] = {"name": r["name"], "protein_g": round(t["p"], 1)}
@@ -112,7 +115,7 @@ def main():
         w.writerow(["recipe", "scale", "item", "grams_per_bar", "price_per_kg_gbp", "cost_per_bar_gbp", "basis_or_tag"])
         w.writerows(out_rows)
         w.writerow([])
-        w.writerow(["CHANNEL (hero: Cocoa & Peanut)", "", "price_to_brand_gbp", "cost_gbp", "gross_margin_gbp", "gross_margin_pct", f"RRP £{RRP:.2f}"])
+        w.writerow(["CHANNEL (hero: Cocoa & Peanut Butter)", "", "price_to_brand_gbp", "cost_gbp", "gross_margin_gbp", "gross_margin_pct", f"RRP £{RRP:.2f}"])
         for name, v in ch.items():
             w.writerow([name, "", v["price_to_brand"], v["cost"], v["gross_margin_gbp"], v["gross_margin_pct"], ""])
     Path("research/04_costing_summary.json").write_text(json.dumps(summary, indent=2))
