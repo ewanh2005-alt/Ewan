@@ -62,6 +62,7 @@
 | C30 | Olive – best protein bars (33Fuel Eroica) | https://beta.olivemagazine.com/reviews/best-protein-bars | 6 Oct 2026 | Eroica data | inherited |
 | C39 | Perfect Bar retailer listings (Kroger, ShopRite): "keep refrigerated… stays good for one week out of the fridge"; Peanut Butter "the Original" | https://www.kroger.com/p/p/0085556911060 · https://shoprite.com/product/perfect-bar-peanut-butter-the-original-refrigerated-protein-bar-25-oz-id-00855569003029 | 8 Oct 2026 | Shelf life comparison (brand claim) | search-extract |
 | C40 | Simmer Eats FAQ: fresh, up to 5 days in fridge at ≤5 °C, freeze on arrival, use-by on label | https://uk.simmereats.com/pages/faqs · https://simmereats.zendesk.com/hc/en-us/articles/36840698318353-What-s-the-shelf-life-of-Simmer-meals | 8 Oct 2026 | Fresh chilled delivery model | search-extract |
+| C42 | XMiles listing = Amacx Recovery Bar: 20 g protein, 22 g carbs (soy/whey/milk protein) | https://xmiles.co.uk/products/recovery-bar | 8 Oct 2026 | Pitch slide 4 | search-extract |
 | C41 | Simmer Eats: DPD, packaging keeps meals chilled until 10 pm on delivery day | https://simmereats.zendesk.com/hc/en-us/articles/36838795591185-How-does-my-food-stay-fresh-during-shipping | 8 Oct 2026 | Cold chain | search-extract |
 
 ## Regulation and tax
@@ -112,6 +113,7 @@
 | S26 | Staples et al. (2011) carbohydrate does not augment protein accretion vs 25 g protein alone, *MSSE*; review of carbs + MPS | https://experts.mcmaster.ca/scholarly-works/61813 · https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850644/ | 8 Oct 2026 | Sugar doesn't boost muscle repair when protein is adequate | search-extract |
 | S27 | UNM (Kravitz): resistance exercise depletes ~25–40% muscle glycogen | https://www.unm.edu/~lkravitz/Article%20folder/glycogen.html | 8 Oct 2026 | Glycogen use in gym sessions | search-extract |
 | S28 | Schoenfeld, Aragon & Krieger (2013) protein timing meta-analysis, *JISSN*: total protein, not timing, predicted hypertrophy (debated) | https://pmc.ncbi.nlm.nih.gov/articles/PMC3879660 | 8 Oct 2026 | "Anabolic window" is weak; sell convenience not urgency | search-extract |
+| S29 | Morassutti (2024) U Sports student athletes' dietary habits and barriers, York University thesis: 80% say schedule limits cooking; ~75% lack access to quality food on campus | https://yorkspace.library.yorku.ca/items/cede85c0-50b2-4c96-afbb-a03fa4d3ec94 | 8 Oct 2026 | Pitch slide 2 ("Canadian study") | search-extract |
 
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
