@@ -42,28 +42,6 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 
 ---
 
-## Recipes (grams for ONE bar)
-
-| Ingredient | Choc Peanut Butter | Vanilla | Banana Bread | Kitchen measure |
-|---|---|---|---|---|
-| Egg whites | 65 g | 60 g | 60 g | 2 large egg whites (top up from a 3rd if short) |
-| Whole egg, beaten | — | 15 g | 15 g | 1 tbsp of a beaten egg |
-| Fat-free quark | 45 g | 45 g | 45 g | 3 level tbsp |
-| Oat bran | 25 g | 27 g | 25 g | ~3 heaped tbsp |
-| Porridge oats | 12 g | 15 g | 15 g | ~2 tbsp |
-| Peanut butter (100% peanuts) | 7 g | — | — | 1 heaped tsp |
-| Cocoa powder | 4 g | — | — | 2 level tsp |
-| Honey | 6 g | 6 g | — | 1 tsp |
-| Vanilla **extract** | — | 3 g | — | ¾ tsp |
-| Ripe banana, mashed | — | — | 35 g | ~⅓ of a banana |
-| Ground cinnamon | — | — | 0.5 g | a good pinch |
-| Chia seeds | 2 g | 2 g | 2 g | ½ tsp |
-| Salt | pinch | pinch | pinch | — |
-
-**Weigh everything on scales**, especially the honey. The Vanilla bar is right on the 8 g sugar limit.
-
----
-
 ## Shopping list (Tesco: enough for 3–4 rounds of all three)
 
 | # | Item | Look for | Approx. price |
@@ -92,35 +70,114 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 
 ---
 
-## How to cook ONE bar (≈ 45 minutes, most of it waiting)
+## Recipe cards: one bar each
 
-1. **Heat the oven** to **160 °C fan / 180 °C conventional / gas 4**.
-2. **Line the tin** with baking paper. **Weigh the empty tin** and write it down.
-3. **Separate 2 eggs.** Put the whites in a bowl (weigh: you want 60–65 g).
-   - **Vanilla and Banana Bread:** beat a third egg (or one of the yolks + a little white) in a cup and add **1 tablespoon (15 g)** to the bowl.
-   - **Chocolate Peanut Butter:** no whole egg.
-4. **Add the wet ingredients and flavour, then whisk** for ~30 seconds until smooth:
-   - **Chocolate Peanut Butter:** quark + peanut butter + honey. **Whisk the peanut butter into the quark first** so there are no lumps.
-   - **Vanilla:** quark + honey + vanilla extract.
-   - **Banana Bread:** mash the banana with a fork until almost smooth, then whisk it in with the quark. No honey.
-5. **Add the dry ingredients:**
-   - all bars: oat bran, oats, chia and a pinch of salt
-   - **Chocolate Peanut Butter:** also cocoa
-   - **Banana Bread:** also cinnamon
+**Before every bar:**
+- Heat the oven to **160 °C fan / 180 °C conventional / gas 4**.
+- Line a small tin (about 12 × 8 cm) with baking paper.
+- **Weigh the empty tin** and write it down.
 
-   Stir until there are no dry patches. It will be a thick, wet batter.
-6. **Rest 10 minutes.** The oat bran and chia soak up liquid, so the bar holds together.
-7. **Pour into the tin** and level it. **Weigh the full tin.**
-8. **Bake 25–30 minutes** (Banana Bread: up to 35), until the top is firm and springs back, the edges pull away and a skewer comes out clean. With a probe, the **centre must reach 75 °C**.
-9. **Weigh straight out of the oven** and write it down.
-10. **Cool** 10 minutes in the tin, lift out, cool fully on a rack, then **chill 1 hour**. It firms up as it cools.
-11. **Score it:**
-    - taste 1–9
-    - texture 1–5 (1 = wet or eggy, 5 = firm and bar-like)
-    - sweetness: too little / right / too much
-12. **Store** covered in the fridge and **eat within 3 days**.
+**After every bar:**
+- Weigh the full tin before baking and the bar straight out of the oven.
+- Send me the three weights (empty, full, baked).
 
-**Send me the three weights** (empty tin, full tin, baked) for each bar, and I'll correct the figures.
+### Bar 1: Chocolate Peanut Butter
+*No whole egg, no banana, no cinnamon.*
+
+**Ingredients**
+| Ingredient | Amount |
+|---|---|
+| Egg whites | 65 g (2 large eggs, separated; top up from a 3rd if short) |
+| Fat-free quark | 45 g (3 level tbsp) |
+| Peanut butter (100% peanuts) | 7 g (1 heaped tsp) |
+| Honey | 6 g (1 tsp) |
+| Oat bran | 25 g |
+| Porridge oats | 12 g |
+| Cocoa powder | 4 g (2 level tsp) |
+| Chia seeds | 2 g (½ tsp) |
+| Salt | a pinch |
+
+**Method**
+1. Separate 2 eggs. Weigh **65 g of whites** into a bowl. Keep the yolks for something else.
+2. In a separate small bowl, **mix the peanut butter into the quark** until smooth, with no lumps.
+3. Add the quark and peanut butter mix and the **honey** to the egg whites. Whisk for ~30 seconds.
+4. Add the **oat bran, oats, cocoa, chia and salt**. Stir until there are no dry patches.
+5. **Rest 10 minutes.**
+6. Pour into the tin and level it. Weigh the full tin.
+7. **Bake 25–30 minutes**, until firm on top, the edges pull away and a skewer comes out clean (centre 75 °C).
+8. Weigh it. Cool 10 min in the tin, then on a rack, then **chill 1 hour**.
+
+**Per bar:** 21.0 g protein · 28.0 g carbs · 7.9 g sugar · 8.0 g fat · 7.1 g fibre · 282 kcal
+**Allergens:** egg, milk, oats, **peanuts**. **Bake this one last.**
+
+---
+
+### Bar 2: Vanilla
+*No banana, no cinnamon, no cocoa.*
+
+**Ingredients**
+| Ingredient | Amount |
+|---|---|
+| Egg whites | 60 g (2 large eggs, separated) |
+| Whole egg, beaten | 15 g (1 tbsp) |
+| Fat-free quark | 45 g (3 level tbsp) |
+| Honey | 6 g (1 tsp). **Weigh it**: this bar is at the 8 g sugar limit |
+| Vanilla **extract** | 3 g (¾ tsp) |
+| Oat bran | 27 g |
+| Porridge oats | 15 g |
+| Chia seeds | 2 g (½ tsp) |
+| Salt | a pinch |
+
+**Method**
+1. Separate 2 eggs. Weigh **60 g of whites** into a bowl.
+2. Beat a third egg in a cup. Add **1 tbsp (15 g)** to the whites. Keep the rest for breakfast.
+3. Add the **quark, honey and vanilla extract**. Whisk for ~30 seconds until smooth.
+4. Add the **oat bran, oats, chia and salt**. Stir until there are no dry patches.
+5. **Rest 10 minutes.**
+6. Pour into the tin and level it. Weigh the full tin.
+7. **Bake 25–30 minutes**, until firm on top and a skewer comes out clean (centre 75 °C).
+8. Weigh it. Cool, then **chill 1 hour**.
+
+**Per bar:** 20.4 g protein · 29.8 g carbs · 8.0 g sugar · 5.4 g fat · 6.1 g fibre · 262 kcal
+**Allergens:** egg, milk, oats.
+
+---
+
+### Bar 3: Banana Bread
+*The only bar with banana and cinnamon. No honey: the banana sweetens it.*
+
+**Ingredients**
+| Ingredient | Amount |
+|---|---|
+| Egg whites | 60 g (2 large eggs, separated) |
+| Whole egg, beaten | 15 g (1 tbsp) |
+| Fat-free quark | 45 g (3 level tbsp) |
+| Ripe banana (brown spots), peeled | 35 g (about ⅓ of a banana) |
+| Ground cinnamon | 0.5 g (a good pinch) |
+| Oat bran | 25 g |
+| Porridge oats | 15 g |
+| Chia seeds | 2 g (½ tsp) |
+| Salt | a pinch |
+
+**Method**
+1. **Mash the banana** on a plate with a fork until almost smooth.
+2. Separate 2 eggs. Weigh **60 g of whites** into a bowl. Beat a third egg in a cup and add **1 tbsp (15 g)**.
+3. Add the **mashed banana and quark**. Whisk for ~30 seconds.
+4. Add the **oat bran, oats, cinnamon, chia and salt**. Stir until there are no dry patches. The batter is a little wetter than the others, which is normal.
+5. **Rest 10 minutes.**
+6. Pour into the tin and level it. Weigh the full tin.
+7. **Bake 30–35 minutes**, until firm on top and a skewer comes out clean (centre 75 °C).
+8. Weigh it. Cool, then **chill 1 hour**.
+
+**Per bar:** 20.5 g protein · 30.7 g carbs · 6.9 g sugar · 5.4 g fat · 7.0 g fibre · 267 kcal
+**Allergens:** egg, milk, oats.
+
+---
+
+### Then, for every bar
+- **Score it:** taste 1–9, texture 1–5 (1 = wet or eggy, 5 = firm and bar-like), sweetness too little / right / too much.
+- **Store** covered in the fridge and eat within **3 days**.
+- **Order:** bake Vanilla and Banana Bread first, Chocolate Peanut Butter last. Wash the bowl, fork and tin between bars.
 
 ### If it's not right
 
