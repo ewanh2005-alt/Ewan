@@ -46,7 +46,7 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `08-final-summary.md`
 
 ## 8 Oct (later): flavours and shelf life
-- [x] `04c-flavours-and-shelf-life.md` + `research/04c_flavour_calcs.py`: T20 Cocoa, Cocoa & PB, PB & Vanilla, Vanilla (all ≥20 g protein, ≤6 g sugar); shelf life = fresh chilled (Simmer-style), frozen add-on; long-life ruled out for now
+- [x] `04c-flavours-and-shelf-life.md` + `research/04c_flavour_calcs.py`: T20 Cocoa, Cocoa & PB, PB & Vanilla, Vanilla (all ≥20 g protein; sugar raised to ≤8 g with 6 g honey for recovery, 8 Oct); shelf life = fresh chilled (Simmer-style), frozen add-on; long-life ruled out for now
 - [ ] Ewan: bake the 4 flavours, freeze/thaw test, fridge sensory test day 1/2/3/5
 
 ## Decisions open for Ewan

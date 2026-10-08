@@ -12,14 +12,18 @@
 
 ### Four single-bar versions to test (per bar, same method as `04b`)
 
-| Bar | Protein | Carbs | Sugar | Fat | Fibre | kcal |
-|---|---|---|---|---|---|---|
-| **T20 Cocoa** (current) | 20.9 g | 26.5 g | 5.1 g | 6.1 g | 6.9 g | 258 |
-| **T20 Cocoa & Peanut Butter** | 21.0 g | 24.5 g | 5.5 g | 8.3 g | 7.0 g | 271 |
-| **T20 Peanut Butter & Vanilla** | 21.2 g | 26.7 g | 5.9 g | 8.8 g | 6.5 g | 284 |
-| **T20 Vanilla** | 20.6 g | 28.0 g | 5.6 g | 5.5 g | 6.5 g | 257 |
+**Updated 8 Oct: "a little sugar" for recovery.** Honey goes up from 3 g to 6 g (5 g in PB & Vanilla), and the sugar cap goes from 6 g to **8 g per bar**. See "Why a little sugar" below.
 
-All four stay at **≥20 g protein and ≤6 g sugar**. The script checks the sugar cap.
+| Bar | Protein | Carbs | Sugar | of which from honey | Fat | Fibre | kcal |
+|---|---|---|---|---|---|---|---|
+| **T20 Cocoa** | 20.9 g | 28.9 g | 7.6 g | 4.9 g | 6.1 g | 6.9 g | 268 |
+| **T20 Cocoa & Peanut Butter** | 21.0 g | 27.0 g | 7.9 g | 4.9 g | 8.3 g | 7.0 g | 281 |
+| **T20 Peanut Butter & Vanilla** | 21.2 g | 28.4 g | 7.5 g | 4.1 g | 8.8 g | 6.5 g | 291 |
+| **T20 Vanilla** | 20.6 g | 30.4 g | 8.0 g | 4.9 g | 5.5 g | 6.5 g | 266 |
+
+All four stay at **≥20 g protein and ≤8 g sugar**. The script checks the sugar cap. The rest of the sugar is natural, mostly milk sugar (lactose) from the quark plus a little from oats.
+
+**Low-sugar version:** use 3 g honey instead. That gives ~5–6 g sugar per bar and keeps the "low sugar" claim (≤5 g per 100 g) for the Cocoa bar.
 
 ### Recipes (grams for ONE bar)
 
@@ -33,7 +37,7 @@ All four stay at **≥20 g protein and ≤6 g sugar**. The script checks the sug
 | Peanut butter (100% peanuts) | — | 8 (heaped tsp) | 10 (2 tsp) | — |
 | Cocoa powder | 4 | 4 | — | — |
 | Chia seeds | 2 | 2 | 2 | 2 |
-| Honey | 3 | 3 | 3 | 3 |
+| Honey | 6 (1 tsp) | 6 (1 tsp) | 5 | 6 (1 tsp) |
 | Vanilla extract | — | — | 2 (½ tsp) | 3 (¾ tsp) |
 | Cinnamon | — | — | — | a pinch (0.5 g) |
 | Salt | pinch | pinch | pinch | pinch |
@@ -50,11 +54,31 @@ All four stay at **≥20 g protein and ≤6 g sugar**. The script checks the sug
   - add another pinch of cinnamon, or
   - swap 10 g egg white for 10 g quark.
 - **Use pure vanilla extract, not "vanilla flavouring".** Flavourings can contain sugar or glucose syrup and read badly on an ingredient list. The extract is a small amount, so its sugar is tiny (~0.4 g).
-- **PB & Vanilla is closest to the sugar cap (5.9 g).** If your honey pour runs heavy, drop it to 2 g.
+- **Weigh the honey.** 1 g of honey is ~0.8 g sugar, so a heavy pour can push Vanilla (8.0 g) over the cap. Squeeze it straight onto the scales.
 - **What the interviews say about peanut butter:** nothing directly, so peanut butter as a flavour preference is an `[ASSUMPTION]`. The research we have:
   - Perfect Bar sells its peanut butter bar as "the Original" `[EVIDENCE: C39]`.
   - Peanut butter was in your original ingredient list.
   - Test it in the taste test rather than assume.
+
+### Why a little sugar (and what the evidence really says)
+**Decision (Ewan, 8 Oct):** add a little fast sugar (honey) for refuelling after training.
+
+| Claim | Verdict | Evidence |
+|---|---|---|
+| Fast sugars straight after training refill muscle glycogen (stored carbs) faster | ✅ **True, mainly when the next session is within ~6–8 h** (two-a-days, tournaments). With a longer gap, total carbs over the day matter more | 2003 review `[EVIDENCE: S23]`; 2015 review `[EVIDENCE: S24]` |
+| Two-a-days, long sessions and endurance athletes benefit most | ✅ **True.** Carbs clearly help a second session the same day | *Nutrients* 2022 systematic review, 49 studies `[EVIDENCE: S25]` |
+| Sugar + protein increases muscle repair and lowers breakdown | ⚠️ **Overstated.** With ~20–25 g protein, adding even 50 g carbs raised insulin 5-fold but did **not** increase muscle building or reduce breakdown. T20 already has ~21 g protein | Staples et al. 2011 `[EVIDENCE: S26]`; van Loon & Gibala review `[EVIDENCE: S26]` |
+| Typical gym session empties glycogen | ⚠️ **Partly.** A hard multi-set session uses ~25–40% | UNM review `[EVIDENCE: S27]` |
+
+**Health warning on those sources:** the links you found are from 1st Phorm, 33Fuel, Jefit and Fiteg. Most of them sell sports nutrition, so they are **marketing, not evidence**. The first two claims hold up in the research; the "sugar boosts muscle repair" one doesn't.
+
+**What this means for fettle:**
+- ~5 g sugar from honey is a **small top-up**, not a full glycogen refill. A refill after a hard session or match needs ~1 g carbs per kg of body weight (~75 g for a 75 kg athlete). The bar gives ~29 g carbs in total.
+- **Honest framing:** "~29 g carbs, including a little fast-acting honey, with ~21 g protein for recovery." Don't say the sugar "boosts muscle repair".
+- **Match days and two-a-days:** still recommend "T20 + a banana or a glass of milk".
+- **Claim impact:** at ~7.6 g sugar per bar (~7 g per 100 g), you **lose the "low sugar" claim** (≤5 g/100 g). You're still well below the real-food bars (10–28 g; see `02-competitor-analysis.md`). On pack, give the number rather than a claim: "under 8 g sugar, from honey, oats and milk".
+- **Carb recovery claim:** the authorised claim needs ≥4 g carbs per kg body weight per day and mandatory wording `[EVIDENCE: R1]`. **Don't use it.**
+- **Check the T20 in your taste test:** bake 3 g honey vs 6 g honey and see whether people notice.
 
 ### Extra Tesco items (on top of the `04b` list)
 

@@ -99,6 +99,11 @@
 | S20 | AQUALAB: how water activity controls microbial growth (most bacteria <0.85; moulds/yeasts lower) · BCIT EH journal (egg aw ~0.96) | https://aqualab.com/learn/how-water-activity-controls-microbial-growth · https://journals.bcit.ca/index.php/ehj/article/download/25/14/18 | 8 Oct 2026 | Why T20 must be chilled | search-extract |
 | S21 | AQUALAB: cold-pressed bars need aw <0.88 for safety, <0.70 against mould | https://aqualab.com/learn/seven-steps-ensuring-safe-consistent-cold-pressed-bars | 8 Oct 2026 | Bar stability thresholds | search-extract |
 | S22 | Freezing egg muffins ~2–3 months for quality (home-cooking sources; weak evidence) | https://www.thetakeout.com/1757321/how-to-freeze-leftover-egg-muffins/ · https://www.kimecopak.ca/blogs/cuisine/how-long-do-egg-muffins-last | 8 Oct 2026 | Frozen route estimate | search-extract (weak) |
+| S23 | Review: short (<6 h) recovery → 1–1.5 g/kg moderate/high-GI carbs; longer recovery: type doesn't matter (J Sports Sci Med 2003) | https://jssm.org/03-3-131.p_d_f | 8 Oct 2026 | Fast sugar matters for quick turnarounds | search-extract |
+| S24 | Review: recovery from endurance exercise; carb+protein helps when recovery <8 h (2015) | https://pubmed.ncbi.nlm.nih.gov/26166054/ | 8 Oct 2026 | Recovery carbs | search-extract |
+| S25 | Henselmans et al. (2022) carbohydrate and strength training, systematic review (49 studies), *Nutrients* | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8878406/ | 8 Oct 2026 | Carbs help two-a-days/high volume, not typical sessions | search-extract |
+| S26 | Staples et al. (2011) carbohydrate does not augment protein accretion vs 25 g protein alone, *MSSE*; review of carbs + MPS | https://experts.mcmaster.ca/scholarly-works/61813 · https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3850644/ | 8 Oct 2026 | Sugar doesn't boost muscle repair when protein is adequate | search-extract |
+| S27 | UNM (Kravitz): resistance exercise depletes ~25–40% muscle glycogen | https://www.unm.edu/~lkravitz/Article%20folder/glycogen.html | 8 Oct 2026 | Glycogen use in gym sessions | search-extract |
 
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |

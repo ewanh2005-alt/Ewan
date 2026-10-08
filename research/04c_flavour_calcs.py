@@ -12,16 +12,16 @@ ING = runpy.run_path(str(ROOT / "04-nutrition.py"), run_name="lib")["ING"]
 ING.setdefault("vanilla_extract", dict(p=0.1, c=12.7, s=12.7, fb=0.0, f=0.1, sf=0.0, salt=0.02))
 
 BARS = {
-    "T20 Cocoa (current)": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=25, rolled_oats=15,
-                                cocoa=4, chia=2, honey=3, sea_salt=0.15),
+    "T20 Cocoa": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=25, rolled_oats=15,
+                                cocoa=4, chia=2, honey=6, sea_salt=0.15),
     "T20 Cocoa & Peanut Butter": dict(egg_white_fresh=65, quark=45, oat_bran=25, rolled_oats=10,
-                                      peanut_butter=8, cocoa=4, chia=2, honey=3, sea_salt=0.2),
+                                      peanut_butter=8, cocoa=4, chia=2, honey=6, sea_salt=0.2),
     "T20 Peanut Butter & Vanilla": dict(egg_white_fresh=65, quark=45, oat_bran=27, rolled_oats=12,
-                                        peanut_butter=10, chia=2, honey=3, vanilla_extract=2, sea_salt=0.2),
+                                        peanut_butter=10, chia=2, honey=5, vanilla_extract=2, sea_salt=0.2),
     "T20 Vanilla": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=28, rolled_oats=15,
-                        chia=2, honey=3, vanilla_extract=3, cinnamon=0.5, sea_salt=0.15),
+                        chia=2, honey=6, vanilla_extract=3, cinnamon=0.5, sea_salt=0.15),
 }
-SUGAR_CAP = 6.0
+SUGAR_CAP = 8.0  # 'a little sugar' for recovery (Ewan, 8 Oct); was 6.0 with 3 g honey
 
 
 def calc(g):
@@ -32,12 +32,15 @@ def calc(g):
     return {k: round(v, 1) for k, v in t.items()}
 
 
-rows = {name: calc(g) for name, g in BARS.items()}
-print("| Bar | Protein | Carbs | Sugar | Fat | Fibre | kcal | % energy protein | Batter |")
-print("|---|---|---|---|---|---|---|---|---|")
+rows = {}
+for name, g in BARS.items():
+    rows[name] = calc(g)
+    rows[name]["honey_sugar"] = round(ING["honey"]["s"] * g.get("honey", 0) / 100, 1)
+print("| Bar | Protein | Carbs | Sugar | of which honey | Fat | Fibre | kcal | % energy protein | Batter |")
+print("|---|---|---|---|---|---|---|---|---|---|")
 for name, r in rows.items():
     flag = "" if r["s"] <= SUGAR_CAP else " ⚠"
-    print(f"| {name} | {r['p']} g | {r['c']} g | {r['s']} g{flag} | {r['f']} g | {r['fb']} g | {r['kcal']:.0f} | "
+    print(f"| {name} | {r['p']} g | {r['c']} g | {r['s']} g{flag} | {r['honey_sugar']} g | {r['f']} g | {r['fb']} g | {r['kcal']:.0f} | "
           f"{r['protein_pct_energy']:.0f}% | {r['batter_g']:.0f} g |")
     assert r["s"] <= SUGAR_CAP, name
 (ROOT / "research" / "04c_flavour_output.json").write_text(json.dumps({"bars": BARS, "per_bar": rows}, indent=2))

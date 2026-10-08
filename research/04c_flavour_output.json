@@ -1,6 +1,6 @@
 {
   "bars": {
-    "T20 Cocoa (current)": {
+    "T20 Cocoa": {
       "egg_white_fresh": 60,
       "egg_fresh": 15,
       "quark": 45,
@@ -8,7 +8,7 @@
       "rolled_oats": 15,
       "cocoa": 4,
       "chia": 2,
-      "honey": 3,
+      "honey": 6,
       "sea_salt": 0.15
     },
     "T20 Cocoa & Peanut Butter": {
@@ -19,7 +19,7 @@
       "peanut_butter": 8,
       "cocoa": 4,
       "chia": 2,
-      "honey": 3,
+      "honey": 6,
       "sea_salt": 0.2
     },
     "T20 Peanut Butter & Vanilla": {
@@ -29,7 +29,7 @@
       "rolled_oats": 12,
       "peanut_butter": 10,
       "chia": 2,
-      "honey": 3,
+      "honey": 5,
       "vanilla_extract": 2,
       "sea_salt": 0.2
     },
@@ -40,60 +40,64 @@
       "oat_bran": 28,
       "rolled_oats": 15,
       "chia": 2,
-      "honey": 3,
+      "honey": 6,
       "vanilla_extract": 3,
       "cinnamon": 0.5,
       "sea_salt": 0.15
     }
   },
   "per_bar": {
-    "T20 Cocoa (current)": {
+    "T20 Cocoa": {
       "p": 20.9,
-      "c": 26.5,
-      "s": 5.1,
+      "c": 28.9,
+      "s": 7.6,
       "fb": 6.9,
       "f": 6.1,
       "sf": 1.6,
       "salt": 0.5,
-      "kcal": 257.9,
-      "protein_pct_energy": 32.4,
-      "batter_g": 169.2
+      "kcal": 267.8,
+      "protein_pct_energy": 31.2,
+      "batter_g": 172.2,
+      "honey_sugar": 4.9
     },
     "T20 Cocoa & Peanut Butter": {
       "p": 21.0,
-      "c": 24.5,
-      "s": 5.5,
+      "c": 27.0,
+      "s": 7.9,
       "fb": 7.0,
       "f": 8.3,
       "sf": 1.8,
       "salt": 0.5,
-      "kcal": 271.1,
-      "protein_pct_energy": 31.0,
-      "batter_g": 162.2
+      "kcal": 281.0,
+      "protein_pct_energy": 29.9,
+      "batter_g": 165.2,
+      "honey_sugar": 4.9
     },
     "T20 Peanut Butter & Vanilla": {
       "p": 21.2,
-      "c": 26.7,
-      "s": 5.9,
+      "c": 28.4,
+      "s": 7.5,
       "fb": 6.5,
       "f": 8.8,
       "sf": 1.6,
       "salt": 0.5,
-      "kcal": 284.3,
-      "protein_pct_energy": 29.9,
-      "batter_g": 166.2
+      "kcal": 290.8,
+      "protein_pct_energy": 29.2,
+      "batter_g": 168.2,
+      "honey_sugar": 4.1
     },
     "T20 Vanilla": {
       "p": 20.6,
-      "c": 28.0,
-      "s": 5.6,
+      "c": 30.4,
+      "s": 8.0,
       "fb": 6.5,
       "f": 5.5,
       "sf": 1.1,
       "salt": 0.5,
-      "kcal": 256.6,
-      "protein_pct_energy": 32.1,
-      "batter_g": 171.7
+      "kcal": 266.5,
+      "protein_pct_energy": 30.9,
+      "batter_g": 174.7,
+      "honey_sugar": 4.9
     }
   }
 }
