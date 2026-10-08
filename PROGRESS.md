@@ -61,6 +61,9 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `06-landing/index.html` rebuilt: real-food recovery bar, 3 flavours (Choc PB, Vanilla, Banana Bread), problem (meal prep/fruit/lab/natural bars), Simmer-style fresh model, competitor table, squad taste-test booking, waitlist (forms still demo mode)
 - [x] `05-brand/build_packaging.py` → front + back SVGs per flavour from `research/04d_recovery_output.json` (per-100 g uses estimated bake loss 36% until tin weights arrive)
 
+## 8 Oct (later): scale and impact plan
+- [x] `10-scale-plan.md` + `research/10_scale_model.py`: 4 stages (home kitchen → Durham → North East unis → national chilled weekly box), stage gates, unit economics (national box only works at ~£2.50 + delivery fee), impact (UPF swap)
+
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
 

@@ -9,6 +9,7 @@
 |---|---|---|---|---|---|
 | D1 | r/proteinsnack: "What was the last protein bar you bought…" (13 replies, mostly USA) | https://www.reddit.com/r/proteinsnack/comments/1wya4c5/ | 8 Oct 2026 | 02c themes (taste, dessert flavours, price) | collected by Ewan |
 | D2 | Ewan's post-training recovery-bar post (1 reply) | https://www.reddit.com/comments/1wzx8z2/ | 8 Oct 2026 | 02c theme 2 | collected by Ewan |
+| D4 | Student Sport Company: 2021/22 BUCS season, 100,000+ athletes represented UK universities | https://www.studentsportcompany.com/news/2021-22-bucs-season-highlights/ | 8 Oct 2026 | Market size for university squads | search-extract |
 | D3 | r/proteinsnack: "Do you buy fibre bars or snacks…" (2 readable replies) | https://www.reddit.com/r/proteinsnack/comments/1wya50r/ | 8 Oct 2026 | 02c theme 4 | collected by Ewan |
 
 ## Founder material
@@ -80,6 +81,7 @@
 | R9 | RSM – flapjacks VAT | https://www.rsmuk.com/insights/tax-voice/flapjacks-highlight-a-sticky-vat-situation-on-food | 7 Oct 2026 | VAT | search-extract |
 | R11 | Chilled Food Association: Listeria / shelf-life guidance for RTE food (FSA & FSS endorsed; 2026 update) | https://www.chilledfood.org/cfa-led-listeria-guidance-supported-by-fsa-and-fss-tops-1500-downloads/ | 8 Oct 2026 | Setting use-by dates | search-extract |
 | R12 | Food Standards Scotland: Shelf-life guidance (2025) | https://www.foodstandards.gov.scot/downloads/Shelf-life_guidance_2025.pdf | 8 Oct 2026 | No standard method; evidence and verify | search-extract |
+| R14 | FSA: register a food business (incl. home kitchens and online sales) at least 28 days before trading; free | https://www.food.gov.uk/news-alerts/news/fsa-launches-campaign-to-encourage-all-new-food-businesses-to-register-with-their-local-authority | 8 Oct 2026 | Stage 0 registration | search-extract |
 | R13 | Eurofins UK: challenge testing / determining shelf life | https://www.eurofins.com/en-uk/food-testing/services/microbiology/challenge-testing/ | 8 Oct 2026 | Lab shelf-life testing | search-extract |
 
 ## Science
@@ -114,6 +116,7 @@
 | S27 | UNM (Kravitz): resistance exercise depletes ~25–40% muscle glycogen | https://www.unm.edu/~lkravitz/Article%20folder/glycogen.html | 8 Oct 2026 | Glycogen use in gym sessions | search-extract |
 | S28 | Schoenfeld, Aragon & Krieger (2013) protein timing meta-analysis, *JISSN*: total protein, not timing, predicted hypertrophy (debated) | https://pmc.ncbi.nlm.nih.gov/articles/PMC3879660 | 8 Oct 2026 | "Anabolic window" is weak; sell convenience not urgency | search-extract |
 | S29 | Morassutti (2024) U Sports student athletes' dietary habits and barriers, York University thesis: 80% say schedule limits cooking; ~75% lack access to quality food on campus | https://yorkspace.library.yorku.ca/items/cede85c0-50b2-4c96-afbb-a03fa4d3ec94 | 8 Oct 2026 | Pitch slide 2 ("Canadian study") | search-extract |
+| S30 | UK ultra-processed food share of energy: 54% of adult energy (NDNS 2008/09–2018/19, 2025 analysis); 56.8% (NDNS 2008–16); ~59% for 19–29-year-olds | https://www.medrxiv.org/content/10.1101/2024.08.27.24312650.full.pdf · https://pmc.ncbi.nlm.nih.gov/articles/PMC6830631 · https://pmc.ncbi.nlm.nih.gov/articles/PMC7194406/table/pone.0232676.t002 | 8 Oct 2026 | 10-scale-plan impact | search-extract |
 
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
@@ -147,3 +150,6 @@
 | P15 | usetorg – snack bar co-man MOQs 10k–25k | https://usetorg.com/blog/snack-bars-trends-suppliers-europe | 7 Oct 2026 | Co-man MOQ | search-extract |
 
 **Rejected source:** Nutrabaits egg albumen (£16.99/kg) is a **fishing-bait** supplier. It must not be used for food. Buy only food-grade, pasteurised egg white powder with a spec sheet.
+| P30 | Shropshire Council, The Lantern: community kitchen commercial rates £13–19.20/h (basis to confirm) | https://www.shropshire.gov.uk/the-lantern/room-hire/room-hire-rates | 8 Oct 2026 | Kitchen hire benchmark | search-extract |
+| P31 | Evri next-day rates (2–5 kg £7.10); UK Business Forums on chilled shipping (Mon–Wed dispatch); Fordhall Farm Woolcool packaging | https://www.evri.com · https://www.ukbusinessforums.co.uk/threads/chilled-and-frozen-shipping.422406/ · https://shop.fordhallfarm.com/aboutus/packaging/ | 8 Oct 2026 | National delivery cost | search-extract |
+| P32 | SALSA costs: Republic of Ireland €1,250 base; older UK audit £450–500 (2008–2011) | https://salsafood.co.uk/costs/ireland · https://www.foodmanufacture.co.uk/Article/2011/03/30/SALSA-audits-are-dancing-to-the-tune-of-the-SME-sector-says-NFU/ | 8 Oct 2026 | Certification cost | search-extract |

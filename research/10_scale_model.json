@@ -1,0 +1,66 @@
+[
+  {
+    "scenario": "A: \u00a32.25, we absorb delivery",
+    "stage": "0. Prove it (home kitchen, Weeks 5-13)",
+    "cost": 1.23,
+    "margin": 1.02,
+    "weekly": 56,
+    "hours": 4
+  },
+  {
+    "scenario": "A: \u00a32.25, we absorb delivery",
+    "stage": "1. Durham (hired kitchen, months 1-6)",
+    "cost": 1.97,
+    "margin": 0.28,
+    "weekly": 76,
+    "hours": 16
+  },
+  {
+    "scenario": "A: \u00a32.25, we absorb delivery",
+    "stage": "2. North East universities (own unit / long-term kitchen, months 6-18)",
+    "cost": 1.82,
+    "margin": 0.43,
+    "weekly": 722,
+    "hours": 62
+  },
+  {
+    "scenario": "A: \u00a32.25, we absorb delivery",
+    "stage": "3. National weekly box (co-manufacturer or bigger unit, months 18-36)",
+    "cost": 2.15,
+    "margin": 0.1,
+    "weekly": -338,
+    "hours": 0
+  },
+  {
+    "scenario": "B: \u00a32.50 from stage 2 + \u00a34.95 box delivery fee",
+    "stage": "0. Prove it (home kitchen, Weeks 5-13)",
+    "cost": 1.23,
+    "margin": 1.02,
+    "weekly": 56,
+    "hours": 4
+  },
+  {
+    "scenario": "B: \u00a32.50 from stage 2 + \u00a34.95 box delivery fee",
+    "stage": "1. Durham (hired kitchen, months 1-6)",
+    "cost": 1.97,
+    "margin": 0.28,
+    "weekly": 76,
+    "hours": 16
+  },
+  {
+    "scenario": "B: \u00a32.50 from stage 2 + \u00a34.95 box delivery fee",
+    "stage": "2. North East universities (own unit / long-term kitchen, months 6-18)",
+    "cost": 1.82,
+    "margin": 0.68,
+    "weekly": 1347,
+    "hours": 62
+  },
+  {
+    "scenario": "B: \u00a32.50 from stage 2 + \u00a34.95 box delivery fee",
+    "stage": "3. National weekly box (co-manufacturer or bigger unit, months 18-36)",
+    "cost": 2.15,
+    "margin": 0.77,
+    "weekly": 6287,
+    "hours": 0
+  }
+]
