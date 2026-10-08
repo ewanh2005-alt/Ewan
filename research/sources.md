@@ -53,6 +53,9 @@
 | C37 | Voom RecoverFudge (Sports Direct) | https://www.sportsdirect.com/voom-recovery-fudge-bar-15-x-50g-733175 | 8 Oct 2026 | 10–12 g P; sugars | search-extract |
 | C38 | Huel bar Choc Fudge Brownie (Tesco) | https://www.tesco.com/shop/en-GB/products/320813385 | 8 Oct 2026 | 15 g P, 1.7 g sugar, maltitol | search-extract |
 | C30 | Olive – best protein bars (33Fuel Eroica) | https://beta.olivemagazine.com/reviews/best-protein-bars | 6 Oct 2026 | Eroica data | inherited |
+| C39 | Perfect Bar retailer listings (Kroger, ShopRite): "keep refrigerated… stays good for one week out of the fridge"; Peanut Butter "the Original" | https://www.kroger.com/p/p/0085556911060 · https://shoprite.com/product/perfect-bar-peanut-butter-the-original-refrigerated-protein-bar-25-oz-id-00855569003029 | 8 Oct 2026 | Shelf life comparison (brand claim) | search-extract |
+| C40 | Simmer Eats FAQ: fresh, up to 5 days in fridge at ≤5 °C, freeze on arrival, use-by on label | https://uk.simmereats.com/pages/faqs · https://simmereats.zendesk.com/hc/en-us/articles/36840698318353-What-s-the-shelf-life-of-Simmer-meals | 8 Oct 2026 | Fresh chilled delivery model | search-extract |
+| C41 | Simmer Eats: DPD, packaging keeps meals chilled until 10 pm on delivery day | https://simmereats.zendesk.com/hc/en-us/articles/36838795591185-How-does-my-food-stay-fresh-during-shipping | 8 Oct 2026 | Cold chain | search-extract |
 
 ## Regulation and tax
 | # | Source | URL | Accessed | Used for | Status |
@@ -67,6 +70,9 @@
 | R8 | Taxation – "Sports nutrition bars do not qualify for zero rating" | https://www.taxation.co.uk/articles/sports-nutrition-bars-do-not-qualify-for-zero-rating | 7 Oct 2026 | VAT 20% | search-extract |
 | R10 | Reg. 1924/2006 Annex: "low sugars" ≤5 g/100 g; "reduced" ≥30% less + energy no higher | https://legislation.gov.uk/eur/2006/1924/annexes/2006-12-20 | 8 Oct 2026 | Sugar claims (v3) | search-extract |
 | R9 | RSM – flapjacks VAT | https://www.rsmuk.com/insights/tax-voice/flapjacks-highlight-a-sticky-vat-situation-on-food | 7 Oct 2026 | VAT | search-extract |
+| R11 | Chilled Food Association: Listeria / shelf-life guidance for RTE food (FSA & FSS endorsed; 2026 update) | https://www.chilledfood.org/cfa-led-listeria-guidance-supported-by-fsa-and-fss-tops-1500-downloads/ | 8 Oct 2026 | Setting use-by dates | search-extract |
+| R12 | Food Standards Scotland: Shelf-life guidance (2025) | https://www.foodstandards.gov.scot/downloads/Shelf-life_guidance_2025.pdf | 8 Oct 2026 | No standard method; evidence and verify | search-extract |
+| R13 | Eurofins UK: challenge testing / determining shelf life | https://www.eurofins.com/en-uk/food-testing/services/microbiology/challenge-testing/ | 8 Oct 2026 | Lab shelf-life testing | search-extract |
 
 ## Science
 | # | Source | URL | Accessed | Used for | Status |
@@ -90,6 +96,9 @@
 | S18 | NCAA Division III sports nutrition knowledge survey | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8470142/ | 8 Oct 2026 | 36.9% knowledge; info from social media and coaches | search-extract |
 | S19 | Food Foundation on NDNS 2019–2023 | https://foodfoundation.org.uk/news/uk-still-failing-meet-basic-dietary-guidelines | 8 Oct 2026 | 4% of UK adults meet 30 g fibre | search-extract |
 | S5 | Chocolate milk meta-analysis (PubMed 29921963) | https://pubmed.ncbi.nlm.nih.gov/29921963/ | 6 Oct 2026 | Substitute evidence | inherited |
+| S20 | AQUALAB: how water activity controls microbial growth (most bacteria <0.85; moulds/yeasts lower) · BCIT EH journal (egg aw ~0.96) | https://aqualab.com/learn/how-water-activity-controls-microbial-growth · https://journals.bcit.ca/index.php/ehj/article/download/25/14/18 | 8 Oct 2026 | Why T20 must be chilled | search-extract |
+| S21 | AQUALAB: cold-pressed bars need aw <0.88 for safety, <0.70 against mould | https://aqualab.com/learn/seven-steps-ensuring-safe-consistent-cold-pressed-bars | 8 Oct 2026 | Bar stability thresholds | search-extract |
+| S22 | Freezing egg muffins ~2–3 months for quality (home-cooking sources; weak evidence) | https://www.thetakeout.com/1757321/how-to-freeze-leftover-egg-muffins/ · https://www.kimecopak.ca/blogs/cuisine/how-long-do-egg-muffins-last | 8 Oct 2026 | Frozen route estimate | search-extract (weak) |
 
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |

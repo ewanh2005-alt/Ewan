@@ -1,0 +1,99 @@
+{
+  "bars": {
+    "T20 Cocoa (current)": {
+      "egg_white_fresh": 60,
+      "egg_fresh": 15,
+      "quark": 45,
+      "oat_bran": 25,
+      "rolled_oats": 15,
+      "cocoa": 4,
+      "chia": 2,
+      "honey": 3,
+      "sea_salt": 0.15
+    },
+    "T20 Cocoa & Peanut Butter": {
+      "egg_white_fresh": 65,
+      "quark": 45,
+      "oat_bran": 25,
+      "rolled_oats": 10,
+      "peanut_butter": 8,
+      "cocoa": 4,
+      "chia": 2,
+      "honey": 3,
+      "sea_salt": 0.2
+    },
+    "T20 Peanut Butter & Vanilla": {
+      "egg_white_fresh": 65,
+      "quark": 45,
+      "oat_bran": 27,
+      "rolled_oats": 12,
+      "peanut_butter": 10,
+      "chia": 2,
+      "honey": 3,
+      "vanilla_extract": 2,
+      "sea_salt": 0.2
+    },
+    "T20 Vanilla": {
+      "egg_white_fresh": 60,
+      "egg_fresh": 15,
+      "quark": 45,
+      "oat_bran": 28,
+      "rolled_oats": 15,
+      "chia": 2,
+      "honey": 3,
+      "vanilla_extract": 3,
+      "cinnamon": 0.5,
+      "sea_salt": 0.15
+    }
+  },
+  "per_bar": {
+    "T20 Cocoa (current)": {
+      "p": 20.9,
+      "c": 26.5,
+      "s": 5.1,
+      "fb": 6.9,
+      "f": 6.1,
+      "sf": 1.6,
+      "salt": 0.5,
+      "kcal": 257.9,
+      "protein_pct_energy": 32.4,
+      "batter_g": 169.2
+    },
+    "T20 Cocoa & Peanut Butter": {
+      "p": 21.0,
+      "c": 24.5,
+      "s": 5.5,
+      "fb": 7.0,
+      "f": 8.3,
+      "sf": 1.8,
+      "salt": 0.5,
+      "kcal": 271.1,
+      "protein_pct_energy": 31.0,
+      "batter_g": 162.2
+    },
+    "T20 Peanut Butter & Vanilla": {
+      "p": 21.2,
+      "c": 26.7,
+      "s": 5.9,
+      "fb": 6.5,
+      "f": 8.8,
+      "sf": 1.6,
+      "salt": 0.5,
+      "kcal": 284.3,
+      "protein_pct_energy": 29.9,
+      "batter_g": 166.2
+    },
+    "T20 Vanilla": {
+      "p": 20.6,
+      "c": 28.0,
+      "s": 5.6,
+      "fb": 6.5,
+      "f": 5.5,
+      "sf": 1.1,
+      "salt": 0.5,
+      "kcal": 256.6,
+      "protein_pct_energy": 32.1,
+      "batter_g": 171.7
+    }
+  }
+}

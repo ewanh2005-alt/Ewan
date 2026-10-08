@@ -45,5 +45,9 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] Scripts re-run, source/quote/claims audit (fixed: balanced-diet statement; removed "high protein" and "no added sugar" for v3), readiness re-scored
 - [x] `08-final-summary.md`
 
+## 8 Oct (later): flavours and shelf life
+- [x] `04c-flavours-and-shelf-life.md` + `research/04c_flavour_calcs.py`: T20 Cocoa, Cocoa & PB, PB & Vanilla, Vanilla (all ≥20 g protein, ≤6 g sugar); shelf life = fresh chilled (Simmer-style), frozen add-on; long-life ruled out for now
+- [ ] Ewan: bake the 4 flavours, freeze/thaw test, fridge sensory test day 1/2/3/5
+
 ## Decisions open for Ewan
 1. Confirm v6 vs core-list v5 · 2. Persona (Jack) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
