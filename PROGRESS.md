@@ -11,7 +11,8 @@ Last updated: 8 Oct 2026 (Week 5)
 
 ## Phase 1 — Judging-criteria map ✅
 - [x] `01-judging-map.md` with RAG readiness scores (re-scored 8 Oct)
-- [x] `01b-why-fettle.md`: why this needs to exist + the difference (studies, interviews, 32 competitors)
+- [x] `01b-why-fettle.md`: why this needs to exist + the difference (studies, interviews, 32 competitors); 20 g natural-bar check
+- [x] `01d-athlete-nutrition-needs.md`: protein, carb and fibre evidence for athletes
 
 ## Phase 2 — Competitor research ✅
 - [x] 32 products checked by web search (7–8 Oct), incl. Warrior RAW, Myprotein Re-Fuel, Perfect Bar, Huel; RXBAR UK exit found
@@ -25,6 +26,7 @@ Last updated: 8 Oct 2026 (Week 5)
 ## Phase 4 — Concept bar ✅ (calculated, not tested)
 - [x] v1 (23 g sugar) → v2 (powders) → v3–v5 (kitchen) → **v6 kitchen bake (~17 g protein, ~2 g sugar, 90 g)**
 - [x] `04-concept-bar.md` (recipe cards), `04-nutrition.py` (bake-loss model), `04-nutrition-tables.md`, `04-costing.py`, `04-costing.csv`
+- [x] `04b-t20-single-bar.md`: one-bar T20 test recipe + Tesco shopping list
 - [ ] First bake: weigh before/after → update `loss=` · taste test · lab analysis (Weeks 6–10)
 
 ## Phase 5 — Branding ✅

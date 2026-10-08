@@ -83,6 +83,12 @@
 | S11 | GI symptoms in athletes beyond endurance sports: scoping review (LJMU) | https://researchonline.ljmu.ac.uk/id/eprint/28264/ | 8 Oct 2026 | 11.5–80% | search-extract |
 | S12 | Sport Integrity Australia supplements survey (2025) | https://www.sportintegrity.gov.au/news/media-statements/2025-04/sport-supplements-survey | 8 Oct 2026 | 35% of 200 products contained prohibited substances | search-extract |
 | S13 | FSA Consumer Insights Tracker via Food Manufacture (Jul 2025) | https://www.foodmanufacture.co.uk/Article/2025/07/09/consumers-concerned-over-food-prices-and-upfs-finds-fsa-survey | 8 Oct 2026 | 76–78% UPF concern | search-extract |
+| S14 | ACSM/AND/DC joint position: Nutrition and athletic performance (2016) | https://pubmed.ncbi.nlm.nih.gov/26917108/ | 8 Oct 2026 | Carbs 3–10 g/kg/day; protein 1.2–2.0 g/kg/day, 0.3 g/kg per dose | search-extract (secondary summary) |
+| S15 | Morton et al. (2018) protein supplementation meta-analysis, *BJSM* | https://pubmed.ncbi.nlm.nih.gov/28698222/ | 8 Oct 2026 | ~1.6 g/kg/day plateau | search-extract |
+| S16 | Jenner et al. (2019) team-sport athletes' intakes vs recommendations, *Nutrients* | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6567121/ | 8 Oct 2026 | Protein/fat met; energy/carbs not | search-extract |
+| S17 | Female field-based team sport athletes' intake review | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8069310/ | 8 Oct 2026 | Low energy, carbs, iron | search-extract |
+| S18 | NCAA Division III sports nutrition knowledge survey | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8470142/ | 8 Oct 2026 | 36.9% knowledge; info from social media and coaches | search-extract |
+| S19 | Food Foundation on NDNS 2019–2023 | https://foodfoundation.org.uk/news/uk-still-failing-meet-basic-dietary-guidelines | 8 Oct 2026 | 4% of UK adults meet 30 g fibre | search-extract |
 | S5 | Chocolate milk meta-analysis (PubMed 29921963) | https://pubmed.ncbi.nlm.nih.gov/29921963/ | 6 Oct 2026 | Substitute evidence | inherited |
 
 ## Ingredient prices (pilot = retail)
@@ -106,6 +112,11 @@
 | P20 | Tesco ground almonds 500 g £6.60 | https://www.tesco.com/shop/en-GB/products/309495418 | 8 Oct 2026 | Kitchen bake cost | search-extract |
 | P21 | Tesco Nature's Store puffed rice 225 g £2.00 (+ nutrition) | https://www.tesco.com/shop/en-GB/products/286893875 | 8 Oct 2026 | v2 shelf-stable route | search-extract |
 | P22 | Tesco Fat Free Quark 250 g £1.30 (11.6 g protein, 65 kcal per 100 g) | https://www.tesco.com/shop/en-GB/products/285173410 | 8 Oct 2026 | v4–v6 recipes | search-extract |
+| P23 | Tesco Oat Bran 675 g £2.65 | https://www.tesco.com/shop/en-GB/products/305985899 | 8 Oct 2026 | T20 shopping list | search-extract |
+| P24 | Tesco Chia Seeds 100 g £1.20 | https://www.tesco.com/shop/en-GB/products/309470252 | 8 Oct 2026 | T20 shopping list | search-extract |
+| P25 | Tesco Cocoa Powder 250 g ~£2.99 | https://www.trolley.co.uk/product/tesco-cocoa-powder/XLC636 | 8 Oct 2026 | T20 shopping list | search-extract |
+| P26 | Tesco Squeezy Clear Honey 340 g £1.19 | https://www.tesco.com/shop/en-GB/products/274088885 | 8 Oct 2026 | T20 shopping list | search-extract |
+| P27 | Two Chicks Liquid Egg White 500 g ~£3.48 | https://www.trolley.co.uk/product/two-chicks-free-range-liquid-egg-white/XFZ065 | 8 Oct 2026 | Optional; Tesco stock not confirmed | search-extract |
 | P12 | Level 2 food hygiene online | https://food-safety.org.uk/courses/ufaqs/how-much-does-the-level-2-course-cost/ | 7 Oct 2026 | £10–25 | search-extract |
 | P13 | Simply Business – food business insurance | https://www.simplybusiness.co.uk/business-insurance/by-industry/food-business-insurance/ | 7 Oct 2026 | Public liability from ~£57/yr | search-extract |
 | P14 | TIPA compostable bar wrapper (MOQ 25k) | https://tipa-corp.com/application/bar-wrapper/ | 7 Oct 2026 | Wrapper MOQ | search-extract |
