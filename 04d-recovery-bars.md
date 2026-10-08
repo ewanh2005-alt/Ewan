@@ -70,114 +70,164 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 
 ---
 
-## Recipe cards: one bar each
+## Recipe cards: one bar each (detailed)
 
-**Before every bar:**
-- Heat the oven to **160 °C fan / 180 °C conventional / gas 4**.
-- Line a small tin (about 12 × 8 cm) with baking paper.
-- **Weigh the empty tin** and write it down.
+### Before you start (all bars)
+**Oven:** **160 °C fan / 180 °C conventional / gas mark 4**. Shelf in the **middle**. Turn it on **15 minutes** before baking, while you mix and rest the batter.
 
-**After every bar:**
-- Weigh the full tin before baking and the bar straight out of the oven.
-- Send me the three weights (empty, full, baked).
+**Tin:**
+- Use a small loaf tin or ovenproof dish, about **12 × 8 cm**, so the batter sits about **2.5 cm deep**.
+- If you only have a bigger tin (e.g. a 1 lb / 450 g loaf tin), the bar will be thinner, so **check it 5 minutes early**.
+- Line it with baking paper, leaving the paper hanging over two sides so you can lift the bar out.
+
+**Weigh the empty lined tin** and write it down.
+
+**Egg whites:** separate normal eggs, or use liquid egg white from a carton.
+- **To separate:** crack each egg over a cup, pass the yolk between the shell halves and let the white drop into the cup, then tip it into your bowl. Doing one egg at a time means a broken yolk only spoils one.
+- **Weigh the whites.** Two large whites are about 60–66 g. Top up from a third egg if short.
+- **Yolks:** keep them covered in the fridge and use within a day (scrambled eggs, an omelette).
+- **Carton:** pour the whites straight onto the scales.
+
+**You'll need:** scales (1 g), 2 bowls, a cup, a fork or small whisk, a spoon, a skewer or knife, a wire rack. A probe thermometer is recommended.
+
+**Timeline:**
+
+| Step | Time |
+|---|---|
+| Prep and mixing | 10 min |
+| Rest | 10 min |
+| Bake | 25–35 min |
+| Cool | 30 min |
+| Chill | 1 hour |
+| **Total** | **≈ 2¼ hours**, mostly waiting |
+
+---
 
 ### Bar 1: Chocolate Peanut Butter
-*No whole egg, no banana, no cinnamon.*
+*No whole egg, no banana, no cinnamon. Contains peanuts: **bake it last**.*
 
-**Ingredients**
 | Ingredient | Amount |
 |---|---|
-| Egg whites | 65 g (2 large eggs, separated; top up from a 3rd if short) |
-| Fat-free quark | 45 g (3 level tbsp) |
-| Peanut butter (100% peanuts) | 7 g (1 heaped tsp) |
-| Honey | 6 g (1 tsp) |
-| Oat bran | 25 g |
-| Porridge oats | 12 g |
-| Cocoa powder | 4 g (2 level tsp) |
-| Chia seeds | 2 g (½ tsp) |
-| Salt | a pinch |
+| Egg whites | **65 g** (2 large eggs, separated, or carton) |
+| Fat-free quark | **45 g** (3 level tbsp) |
+| Peanut butter (100% peanuts) | **7 g** (1 heaped tsp) |
+| Honey | **6 g** (1 tsp) |
+| Oat bran | **25 g** |
+| Porridge oats | **12 g** |
+| Cocoa powder (unsweetened) | **4 g** (2 level tsp) |
+| Chia seeds | **2 g** (½ tsp) |
+| Salt | a small pinch |
 
-**Method**
-1. Separate 2 eggs. Weigh **65 g of whites** into a bowl. Keep the yolks for something else.
-2. In a separate small bowl, **mix the peanut butter into the quark** until smooth, with no lumps.
-3. Add the quark and peanut butter mix and the **honey** to the egg whites. Whisk for ~30 seconds.
-4. Add the **oat bran, oats, cocoa, chia and salt**. Stir until there are no dry patches.
-5. **Rest 10 minutes.**
-6. Pour into the tin and level it. Weigh the full tin.
-7. **Bake 25–30 minutes**, until firm on top, the edges pull away and a skewer comes out clean (centre 75 °C).
-8. Weigh it. Cool 10 min in the tin, then on a rack, then **chill 1 hour**.
+1. **Turn the oven on:** 160 °C fan / 180 °C / gas 4. Line the tin and weigh it empty.
+2. **Egg whites:** separate 2 eggs (or pour from a carton) and weigh **65 g** of whites into the main bowl.
+3. **Peanut butter:** in a second small bowl, mix the **peanut butter into the quark** with a spoon until completely smooth. Lumps of peanut butter won't break up later.
+4. **Wet mix:** add the quark and peanut butter mix and the **honey** to the egg whites. Whisk with a fork for **30 seconds** until smooth and a little frothy.
+5. **Dry mix:** add the **oat bran, oats, cocoa, chia and salt**. Stir until there are no dry or powdery patches. It will be a thick, wet, brownie-like batter.
+6. **Rest 10 minutes.** The oat bran and chia soak up liquid so the bar holds together.
+7. **Fill the tin:** scrape the batter in, level the top with the back of a spoon and tap the tin on the counter twice to settle it. **Weigh the full tin.**
+8. **Bake 25–30 minutes** on the middle shelf. **Check at 22 minutes.** It's done when:
+   - the top is firm and springs back when pressed
+   - the edges have pulled away from the paper
+   - a skewer in the centre comes out clean (a few damp crumbs are fine; wet batter is not)
+   - a probe reads **75 °C** in the centre
 
-**Per bar:** 21.0 g protein · 28.0 g carbs · 7.9 g sugar · 8.0 g fat · 7.1 g fibre · 282 kcal
-**Allergens:** egg, milk, oats, **peanuts**. **Bake this one last.**
+   If the top darkens before the middle is set, cover loosely with foil and bake 5 more minutes.
+9. **Weigh** the tin straight out of the oven.
+10. **Cool:** 10 minutes in the tin, lift out by the paper, then 20 minutes on a wire rack.
+11. **Chill** in the fridge for **1 hour**. It firms up and the cocoa flavour comes through.
+
+**Per bar (calculated):** 21.0 g protein · 28.0 g carbs · 7.9 g sugar · 8.0 g fat · 7.1 g fibre · 282 kcal
+**Allergens:** egg, milk, oats (gluten), **peanuts**
 
 ---
 
 ### Bar 2: Vanilla
 *No banana, no cinnamon, no cocoa.*
 
-**Ingredients**
 | Ingredient | Amount |
 |---|---|
-| Egg whites | 60 g (2 large eggs, separated) |
-| Whole egg, beaten | 15 g (1 tbsp) |
-| Fat-free quark | 45 g (3 level tbsp) |
-| Honey | 6 g (1 tsp). **Weigh it**: this bar is at the 8 g sugar limit |
-| Vanilla **extract** | 3 g (¾ tsp) |
-| Oat bran | 27 g |
-| Porridge oats | 15 g |
-| Chia seeds | 2 g (½ tsp) |
-| Salt | a pinch |
+| Egg whites | **60 g** (2 large eggs, separated, or carton) |
+| Whole egg, beaten | **15 g** (1 tbsp) |
+| Fat-free quark | **45 g** (3 level tbsp) |
+| Honey | **6 g** (1 tsp). **Weigh it**: this bar is at the 8 g sugar limit |
+| Vanilla **extract** (not "flavouring") | **3 g** (¾ tsp) |
+| Oat bran | **27 g** |
+| Porridge oats | **15 g** |
+| Chia seeds | **2 g** (½ tsp) |
+| Salt | a small pinch |
 
-**Method**
-1. Separate 2 eggs. Weigh **60 g of whites** into a bowl.
-2. Beat a third egg in a cup. Add **1 tbsp (15 g)** to the whites. Keep the rest for breakfast.
-3. Add the **quark, honey and vanilla extract**. Whisk for ~30 seconds until smooth.
-4. Add the **oat bran, oats, chia and salt**. Stir until there are no dry patches.
-5. **Rest 10 minutes.**
-6. Pour into the tin and level it. Weigh the full tin.
-7. **Bake 25–30 minutes**, until firm on top and a skewer comes out clean (centre 75 °C).
-8. Weigh it. Cool, then **chill 1 hour**.
+1. **Turn the oven on:** 160 °C fan / 180 °C / gas 4. Line the tin and weigh it empty.
+2. **Egg whites:** weigh **60 g** of whites into the main bowl.
+3. **Whole egg:** beat a third egg in a cup with a fork, or beat one of the leftover yolks with a little white. Add **1 tablespoon (15 g)** to the whites.
+4. **Wet mix:** add the **quark, honey and vanilla extract**. Whisk for **30 seconds** until smooth.
+5. **Dry mix:** add the **oat bran, oats, chia and salt**. Stir until there are no dry patches.
+6. **Rest 10 minutes.**
+7. **Fill the tin:** level, tap twice, **weigh the full tin.**
+8. **Bake 25–30 minutes** on the middle shelf. **Check at 22 minutes.** It's done when:
+   - the top is **light golden**, firm and springy
+   - the edges pull away
+   - a skewer comes out clean, or the centre reaches **75 °C**
 
-**Per bar:** 20.4 g protein · 29.8 g carbs · 8.0 g sugar · 5.4 g fat · 6.1 g fibre · 262 kcal
-**Allergens:** egg, milk, oats.
+   Cover with foil if it browns too fast.
+9. **Weigh** straight out of the oven.
+10. **Cool:** 10 minutes in the tin, then 20 minutes on a rack.
+11. **Chill 1 hour.**
+
+**Per bar (calculated):** 20.4 g protein · 29.8 g carbs · 8.0 g sugar · 5.4 g fat · 6.1 g fibre · 262 kcal
+**Allergens:** egg, milk, oats (gluten)
 
 ---
 
 ### Bar 3: Banana Bread
 *The only bar with banana and cinnamon. No honey: the banana sweetens it.*
 
-**Ingredients**
 | Ingredient | Amount |
 |---|---|
-| Egg whites | 60 g (2 large eggs, separated) |
-| Whole egg, beaten | 15 g (1 tbsp) |
-| Fat-free quark | 45 g (3 level tbsp) |
-| Ripe banana (brown spots), peeled | 35 g (about ⅓ of a banana) |
-| Ground cinnamon | 0.5 g (a good pinch) |
-| Oat bran | 25 g |
-| Porridge oats | 15 g |
-| Chia seeds | 2 g (½ tsp) |
-| Salt | a pinch |
+| Egg whites | **60 g** (2 large eggs, separated, or carton) |
+| Whole egg, beaten | **15 g** (1 tbsp) |
+| Fat-free quark | **45 g** (3 level tbsp) |
+| Ripe banana (brown spots), peeled | **35 g** (about ⅓ of a medium banana) |
+| Ground cinnamon | **0.5 g** (a good pinch, about ¼ tsp) |
+| Oat bran | **25 g** |
+| Porridge oats | **15 g** |
+| Chia seeds | **2 g** (½ tsp) |
+| Salt | a small pinch |
 
-**Method**
-1. **Mash the banana** on a plate with a fork until almost smooth.
-2. Separate 2 eggs. Weigh **60 g of whites** into a bowl. Beat a third egg in a cup and add **1 tbsp (15 g)**.
-3. Add the **mashed banana and quark**. Whisk for ~30 seconds.
-4. Add the **oat bran, oats, cinnamon, chia and salt**. Stir until there are no dry patches. The batter is a little wetter than the others, which is normal.
-5. **Rest 10 minutes.**
-6. Pour into the tin and level it. Weigh the full tin.
-7. **Bake 30–35 minutes**, until firm on top and a skewer comes out clean (centre 75 °C).
-8. Weigh it. Cool, then **chill 1 hour**.
+1. **Turn the oven on:** 160 °C fan / 180 °C / gas 4. Line the tin and weigh it empty.
+2. **Banana:** peel and weigh **35 g**, then mash it on a plate with a fork until almost smooth (a few small lumps are fine).
+3. **Egg whites:** weigh **60 g** of whites into the main bowl. Beat a third egg (or a leftover yolk with a little white) and add **1 tablespoon (15 g)**.
+4. **Wet mix:** add the **mashed banana and quark**. Whisk for **30 seconds**.
+5. **Dry mix:** add the **oat bran, oats, cinnamon, chia and salt**. Stir until there are no dry patches. This batter is a little wetter than the others, which is normal.
+6. **Rest 10 minutes.**
+7. **Fill the tin:** level, tap twice, **weigh the full tin.**
+8. **Bake 30–35 minutes** on the middle shelf. The banana adds moisture, so it takes a bit longer. **Check at 28 minutes.** It's done when:
+   - the top is golden brown and firm
+   - the edges pull away
+   - a skewer comes out clean, or the centre reaches **75 °C**
 
-**Per bar:** 20.5 g protein · 30.7 g carbs · 6.9 g sugar · 5.4 g fat · 7.0 g fibre · 267 kcal
-**Allergens:** egg, milk, oats.
+   If the skewer is sticky, bake 5 more minutes and check again.
+9. **Weigh** straight out of the oven.
+10. **Cool:** 10 minutes in the tin, then 20 minutes on a rack.
+11. **Chill 1 hour.**
+
+**Per bar (calculated):** 20.5 g protein · 30.7 g carbs · 6.9 g sugar · 5.4 g fat · 7.0 g fibre · 267 kcal
+**Allergens:** egg, milk, oats (gluten)
 
 ---
 
-### Then, for every bar
-- **Score it:** taste 1–9, texture 1–5 (1 = wet or eggy, 5 = firm and bar-like), sweetness too little / right / too much.
-- **Store** covered in the fridge and eat within **3 days**.
-- **Order:** bake Vanilla and Banana Bread first, Chocolate Peanut Butter last. Wash the bowl, fork and tin between bars.
+### After baking (all bars)
+- **Score it:**
+  - taste 1–9
+  - texture 1–5 (1 = wet or eggy, 5 = firm and bar-like)
+  - sweetness: too little / right / too much
+  - one comment ("too eggy", "dry", "needs more cocoa")
+- **Send me:** the empty tin, full tin and baked weights, plus your scores.
+- **Store:** wrap in baking paper or put in a sealed box, label it with the date, and keep it in the fridge (≤5 °C). **Eat within 3 days.**
+- **To freeze:** wrap it tightly once it's chilled. Thaw overnight in the fridge and eat the same day.
+- **Order and allergens:**
+  - Bake Vanilla and Banana Bread first, and Chocolate Peanut Butter last.
+  - Wash the bowls, fork and tin between bars.
+  - Wash your hands after handling raw egg.
 
 ### If it's not right
 
