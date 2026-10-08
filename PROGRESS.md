@@ -57,5 +57,8 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `02c-reddit-insights.md` + `research/09_reddit_coding.csv` + `research/09_reddit_counts.py` (16 comments; taste/dessert flavours drive repeat buys; 0/13 bought for recovery; whole-food guilt; fibre from food); A16 added
 - [ ] Ewan: share the Google Form responses
 
+## Final week (Week 13) pitch
+- Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
+
 ## Decisions open for Ewan
 1. Confirm v6 vs core-list v5 · 2. Persona (Jack) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
