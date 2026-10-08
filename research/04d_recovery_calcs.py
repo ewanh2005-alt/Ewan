@@ -20,8 +20,10 @@ BARS = {
                                        honey=7, cocoa=5, sea_salt=0.2),
     "R2 Vanilla & Honey": dict(egg_fresh=58, quark=75, rolled_oats=35, oat_bran=20, honey=7, chia=2,
                                vanilla_extract=4, cinnamon=0.5, sea_salt=0.15),
-    "R3 Banana & Cinnamon": dict(egg_fresh=58, quark=70, rolled_oats=30, oat_bran=20, banana=40, chia=2,
-                                 cinnamon=1, sea_salt=0.15),
+    "R3 Banana Bread": dict(egg_fresh=58, quark=70, rolled_oats=30, oat_bran=20, banana=50, chia=2,
+                            cinnamon=1, sea_salt=0.15),
+    "R4 Chocolate Banana": dict(egg_fresh=58, quark=70, rolled_oats=30, oat_bran=20, banana=50, cocoa=5,
+                                chia=2, sea_salt=0.15),
 }
 FAST_SUGAR_SOURCES = ("honey", "banana")
 

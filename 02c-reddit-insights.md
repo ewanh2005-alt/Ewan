@@ -65,7 +65,7 @@
 
 | Finding | What to do |
 |---|---|
-| **Taste and dessert flavours win repeat buys** | Name flavours like treats people already love. **Rename R3 "Banana & Cinnamon" → "Banana Bread"** (Barebells Banana Bread was rebought, R06). Keep **Chocolate Peanut Butter**. Test "Vanilla" vs "Vanilla Cookie Dough" naming. **Use Barebells as the taste benchmark** in the blind test: it's the most-praised bar here and sold in Tesco (`02-competitors.csv`) |
+| **Taste and dessert flavours win repeat buys** | Name flavours like treats people already love. **R3 renamed "Banana Bread" (done 8 Oct)** (Barebells Banana Bread was rebought, R06). Keep **Chocolate Peanut Butter**. Test "Vanilla" vs "Vanilla Cookie Dough" naming. **Use Barebells as the taste benchmark** in the blind test: it's the most-praised bar here and sold in Tesco (`02-competitors.csv`) |
 | **Nobody buys bars for recovery; "the window is overblown"** | **Don't sell on urgency** ("eat within 30 minutes or lose your gains"). Sell on: **"a proper recovery meal when you can't get one"**, which is Ewan's own framing and C7/C10's problem. Keep "match days and two-a-days" for the carb message, where timing does matter. **Test whether gym-goers (Jack) feel a need at all** `[ASSUMPTION at risk]` |
 | **Bars feel like a "necessary evil"** | This is the **opening**: "the bar you don't have to feel bad about: eggs, quark, oats and nothing else." It backs up the differentiation in `01b` |
 | **Fibre from food, not fibre snacks** | Say "fibre from oats and chia". Pitch line to test: **"Overnight oats you can carry."** |

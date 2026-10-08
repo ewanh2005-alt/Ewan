@@ -50,8 +50,8 @@ Last updated: 8 Oct 2026 (Week 5)
 - [ ] Ewan: bake the 4 flavours, freeze/thaw test, fridge sensory test day 1/2/3/5
 
 ## 8 Oct (later): recovery bars for the hard-training athlete
-- [x] `04d-recovery-bars.md` + `research/04d_recovery_calcs.py`: R1 Chocolate Peanut Butter, R2 Vanilla & Honey, R3 Banana & Cinnamon. Whole eggs only, ~23–26 g protein, ~38–40 g carbs, ≤10 g sugar; Tesco list (~£22) and single-bar method
-- [ ] Ewan: bake R1–R3, send tin weights and scores
+- [x] `04d-recovery-bars.md` + `research/04d_recovery_calcs.py`: R1 Chocolate Peanut Butter, R2 Vanilla & Honey, R3 Banana Bread, R4 Chocolate Banana. Whole eggs only, ~23–26 g protein, ~38–40 g carbs, ≤10 g sugar; Tesco list (~£22) and single-bar method
+- [ ] Ewan: bake R1–R4, send tin weights and scores
 
 ## 8 Oct (later): Reddit evidence
 - [x] `02c-reddit-insights.md` + `research/09_reddit_coding.csv` + `research/09_reddit_counts.py` (16 comments; taste/dessert flavours drive repeat buys; 0/13 bought for recovery; whole-food guilt; fibre from food); A16 added

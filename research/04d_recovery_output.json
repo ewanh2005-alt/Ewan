@@ -27,14 +27,24 @@
       "cinnamon": 0.5,
       "sea_salt": 0.15
     },
-    "R3 Banana & Cinnamon": {
+    "R3 Banana Bread": {
       "egg_fresh": 58,
       "quark": 70,
       "rolled_oats": 30,
       "oat_bran": 20,
-      "banana": 40,
+      "banana": 50,
       "chia": 2,
       "cinnamon": 1,
+      "sea_salt": 0.15
+    },
+    "R4 Chocolate Banana": {
+      "egg_fresh": 58,
+      "quark": 70,
+      "rolled_oats": 30,
+      "oat_bran": 20,
+      "banana": 50,
+      "cocoa": 5,
+      "chia": 2,
       "sea_salt": 0.15
     }
   },
@@ -67,19 +77,33 @@
       "batter_g": 201.7,
       "cost_gbp": 1.1
     },
-    "R3 Banana & Cinnamon": {
-      "p": 23.2,
-      "c": 39.0,
-      "s": 8.2,
-      "fb": 8.0,
+    "R3 Banana Bread": {
+      "p": 23.3,
+      "c": 41.0,
+      "s": 9.5,
+      "fb": 8.2,
       "f": 10.0,
       "sf": 2.4,
       "salt": 0.4,
-      "kcal": 354.9,
-      "fast_sugar": 4.9,
-      "protein_per_100kcal": 6.5,
-      "batter_g": 221.2,
-      "cost_gbp": 0.84
+      "kcal": 364.2,
+      "fast_sugar": 6.1,
+      "protein_per_100kcal": 6.4,
+      "batter_g": 231.2,
+      "cost_gbp": 0.85
+    },
+    "R4 Chocolate Banana": {
+      "p": 24.3,
+      "c": 41.4,
+      "s": 9.5,
+      "fb": 9.1,
+      "f": 11.1,
+      "sf": 3.0,
+      "salt": 0.4,
+      "kcal": 380.4,
+      "fast_sugar": 6.1,
+      "protein_per_100kcal": 6.4,
+      "batter_g": 235.2,
+      "cost_gbp": 0.97
     }
   }
 }
