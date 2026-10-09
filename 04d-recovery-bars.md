@@ -82,6 +82,10 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 
 **Weigh the empty lined tin** and write it down.
 
+**Foil trays:** disposable foil trays work fine. Line them with baking paper, put them on a baking sheet or straight on the oven shelf (they bend when full and hot, so hold them from underneath), and bake with the lids off.
+
+**Baking all three at once:** mix one flavour at a time in the same bowl, washing it between: Vanilla, then Banana Bread, then Chocolate Peanut Butter last (peanuts). Let each rest in its tray, then bake all three together on the middle shelf. Take Vanilla and Chocolate Peanut Butter out at 25–30 minutes; Banana Bread stays in until 30–35 minutes.
+
 **Egg whites:** separate normal eggs, or use liquid egg white from a carton.
 - **To separate:** crack each egg over a cup, pass the yolk between the shell halves and let the white drop into the cup, then tip it into your bowl. Doing one egg at a time means a broken yolk only spoils one.
 - **Weigh the whites.** Two large whites are about 60–66 g. Top up from a third egg if short.
@@ -247,6 +251,6 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 ### What you can say
 - "~20 g protein from eggs, quark and oats. No protein powder, no sweeteners."
 - **"High protein":** ~30% of energy comes from protein, above the 20% the claim needs. Check the final label.
-- **Don't say "low sugar":** the Chocolate PB and Vanilla bars are at ~7 g sugar per 100 g, over the 5 g limit for that claim (Banana Bread ~5.4 g, also just over).
+- **Don't say "low sugar" yet:** the bars are at about 4.7–5.2 g sugar per 100 g (estimated weights), right on the 5 g limit for that claim. Wait until your tin weights confirm which bars qualify.
 
 *Superseded:* the bigger R1–R4 recovery bars (355–395 kcal), 8 Oct.
