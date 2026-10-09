@@ -14,14 +14,14 @@
 
 | Bar | Protein | Carbs | Sugar | of which honey/banana | Fat | Sat fat | Fibre | kcal | Ingredient cost |
 |---|---|---|---|---|---|---|---|---|---|
-| **Chocolate Peanut Butter** | **21.0 g** | **28.0 g** | 7.9 g | 4.9 g | 8.0 g | 1.8 g | 7.1 g | 282 | £1.09 |
-| **Vanilla** | **20.4 g** | **29.8 g** | 8.0 g | 4.9 g | 5.4 g | 1.1 g | 6.1 g | 262 | £1.16 |
-| **Banana Bread** | **20.5 g** | **30.7 g** | 6.9 g | 4.3 g | 5.4 g | 1.1 g | 7.0 g | 267 | £0.98 |
+| **Chocolate Peanut Butter** | **21.2 g** | **26.8 g** | 5.5 g | 2.5 g | 8.2 g | 1.8 g | 7.3 g | 280 | £1.07 |
+| **Vanilla** | **20.6 g** | **28.5 g** | 5.5 g | 2.5 g | 5.6 g | 1.1 g | 6.3 g | 259 | £1.14 |
+| **Banana Bread** | **20.6 g** | **29.9 g** | 5.7 g | 3.0 g | 5.5 g | 1.1 g | 6.9 g | 265 | £0.97 |
 
 **Spec, checked by the script:**
 - protein ≥20 g
 - carbs ≥25 g
-- sugar ≤8 g
+- sugar ≤6 g (lowered from 8 g on 9 Oct: half the honey, less banana)
 - fat ≤9 g
 - ≤285 kcal
 
@@ -30,13 +30,13 @@ All three pass. The sugar not from honey or banana is natural, mainly milk sugar
 ### Why egg whites (from normal eggs) and not whole eggs only
 You said to use normal eggs if possible, and to keep egg whites if the macros needed them. **They do.**
 - **Whole egg only:** a Chocolate Peanut Butter bar made with just a whole egg comes out at **~300 kcal and 11 g fat**. That's over your target.
-- **With whites:** **282 kcal and 8 g fat.**
+- **With whites:** **280 kcal and 8 g fat.**
 - **You still buy normal boxed eggs.** Separate 2 eggs per bar, and use the yolks elsewhere (scrambled eggs, an omelette). Liquid egg white in a carton is optional; it just saves separating.
 
 ### Why these numbers suit an athlete after training
 - **~20–21 g protein:** one recovery dose (~0.25–0.3 g per kg) for most athletes up to ~80 kg `[EVIDENCE: 01d]`.
 - **~28–31 g carbs, mostly from oats:** athletes tend to eat too few carbs `[EVIDENCE: 01d, Jenner 2019]`.
-- **~4–5 g fast sugar from honey or banana:** helps most on two-a-days and tournaments `[EVIDENCE: S23, S25]`. Don't claim it boosts muscle repair `[EVIDENCE: S26]`.
+- **~2.5–3 g fast sugar from honey or banana:** helps most on two-a-days and tournaments `[EVIDENCE: S23, S25]`. Don't claim it boosts muscle repair `[EVIDENCE: S26]`.
 - **~6–7 g fibre from oats, oat bran and chia:** everyday gut health `[EVIDENCE: 01d]`.
 - **Match days and two-a-days:** add a banana or a glass of milk for more carbs.
 
@@ -111,9 +111,9 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 | Egg whites | **65 g** (2 large eggs, separated, or carton) |
 | Fat-free quark | **45 g** (3 level tbsp) |
 | Peanut butter (100% peanuts) | **7 g** (1 heaped tsp) |
-| Honey | **6 g** (1 tsp) |
+| Honey | **3 g** (½ tsp) |
 | Oat bran | **25 g** |
-| Porridge oats | **12 g** |
+| Porridge oats | **14 g** |
 | Cocoa powder (unsweetened) | **4 g** (2 level tsp) |
 | Chia seeds | **2 g** (½ tsp) |
 | Salt | a small pinch |
@@ -136,7 +136,7 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 10. **Cool:** 10 minutes in the tin, lift out by the paper, then 20 minutes on a wire rack.
 11. **Chill** in the fridge for **1 hour**. It firms up and the cocoa flavour comes through.
 
-**Per bar (calculated):** 21.0 g protein · 28.0 g carbs · 7.9 g sugar · 8.0 g fat · 7.1 g fibre · 282 kcal
+**Per bar (calculated):** 21.2 g protein · 26.8 g carbs · 5.5 g sugar · 8.2 g fat · 7.3 g fibre · 280 kcal
 **Allergens:** egg, milk, oats (gluten), **peanuts**
 
 ---
@@ -149,10 +149,10 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 | Egg whites | **60 g** (2 large eggs, separated, or carton) |
 | Whole egg, beaten | **15 g** (1 tbsp) |
 | Fat-free quark | **45 g** (3 level tbsp) |
-| Honey | **6 g** (1 tsp). **Weigh it**: this bar is at the 8 g sugar limit |
+| Honey | **3 g** (½ tsp). Weigh it |
 | Vanilla **extract** (not "flavouring") | **3 g** (¾ tsp) |
 | Oat bran | **27 g** |
-| Porridge oats | **15 g** |
+| Porridge oats | **17 g** |
 | Chia seeds | **2 g** (½ tsp) |
 | Salt | a small pinch |
 
@@ -173,7 +173,7 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 10. **Cool:** 10 minutes in the tin, then 20 minutes on a rack.
 11. **Chill 1 hour.**
 
-**Per bar (calculated):** 20.4 g protein · 29.8 g carbs · 8.0 g sugar · 5.4 g fat · 6.1 g fibre · 262 kcal
+**Per bar (calculated):** 20.6 g protein · 28.5 g carbs · 5.5 g sugar · 5.6 g fat · 6.3 g fibre · 259 kcal
 **Allergens:** egg, milk, oats (gluten)
 
 ---
@@ -186,15 +186,15 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 | Egg whites | **60 g** (2 large eggs, separated, or carton) |
 | Whole egg, beaten | **15 g** (1 tbsp) |
 | Fat-free quark | **45 g** (3 level tbsp) |
-| Ripe banana (brown spots), peeled | **35 g** (about ⅓ of a medium banana) |
+| Ripe banana (brown spots), peeled | **25 g** (about ¼ of a medium banana) |
 | Ground cinnamon | **0.5 g** (a good pinch, about ¼ tsp) |
 | Oat bran | **25 g** |
-| Porridge oats | **15 g** |
+| Porridge oats | **17 g** |
 | Chia seeds | **2 g** (½ tsp) |
 | Salt | a small pinch |
 
 1. **Turn the oven on:** 160 °C fan / 180 °C / gas 4. Line the tin and weigh it empty.
-2. **Banana:** peel and weigh **35 g**, then mash it on a plate with a fork until almost smooth (a few small lumps are fine).
+2. **Banana:** peel and weigh **25 g**, then mash it on a plate with a fork until almost smooth (a few small lumps are fine).
 3. **Egg whites:** weigh **60 g** of whites into the main bowl. Beat a third egg (or a leftover yolk with a little white) and add **1 tablespoon (15 g)**.
 4. **Wet mix:** add the **mashed banana and quark**. Whisk for **30 seconds**.
 5. **Dry mix:** add the **oat bran, oats, cinnamon, chia and salt**. Stir until there are no dry patches. This batter is a little wetter than the others, which is normal.
@@ -210,7 +210,7 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 10. **Cool:** 10 minutes in the tin, then 20 minutes on a rack.
 11. **Chill 1 hour.**
 
-**Per bar (calculated):** 20.5 g protein · 30.7 g carbs · 6.9 g sugar · 5.4 g fat · 7.0 g fibre · 267 kcal
+**Per bar (calculated):** 20.6 g protein · 29.9 g carbs · 5.7 g sugar · 5.5 g fat · 6.9 g fibre · 265 kcal
 **Allergens:** egg, milk, oats (gluten)
 
 ---
@@ -236,7 +236,7 @@ You said to use normal eggs if possible, and to keep egg whites if the macros ne
 | Too wet or custard-like | Bake 5–10 min longer, or swap 10 g quark for 10 g extra oat bran |
 | Too eggy | Choc PB: 1 g more cocoa. Vanilla: ½ tsp more vanilla. Or swap 10 g egg white for 10 g quark |
 | Dry or crumbly | Bake 5 min less; add 1 tsp milk |
-| Not sweet enough | Choc PB: 1 g more honey is OK (sugar ~8.7 g). Banana Bread: riper banana. Vanilla is already at the limit |
+| Not sweet enough | Choc PB / Vanilla: go back to 6 g honey (sugar ~8 g). Banana Bread: riper banana, or 35 g banana (sugar ~7 g) |
 | Falls apart | Rest 15 min before baking; add another ½ tsp chia |
 
 ### Baking order and allergens

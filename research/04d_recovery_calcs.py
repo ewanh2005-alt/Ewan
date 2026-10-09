@@ -13,15 +13,15 @@ EXTRA_PRICE = {"vanilla_extract": 60.0}  # [ASSUMPTION] ~£3 per 50 ml supermark
 ING.setdefault("vanilla_extract", dict(label="vanilla extract", p=0.1, c=12.7, s=12.7, fb=0.0, f=0.1, sf=0.0, salt=0.02, allergen=None))
 
 # Spec (Ewan, 8 Oct): back to T20 size. >=20 g protein, >=25 g carbs, <=8 g sugar, <=9 g fat, <=285 kcal
-SPEC = dict(p_min=20, c_min=25, s_max=8, f_max=9, kcal_max=285)
+SPEC = dict(p_min=20, c_min=25, s_max=6, f_max=9, kcal_max=285)  # sugar cap lowered 8 -> 6 g (Ewan, 9 Oct)
 # Egg whites are separated from normal boxed eggs. A whole-egg-only version was tested in code and came out at
 # ~275-300 kcal with 8-11 g fat, over spec, so whites stay (Ewan's rule: keep whites if needed for the macros).
 BARS = {
-    "Chocolate Peanut Butter": dict(egg_white_fresh=65, quark=45, oat_bran=25, rolled_oats=12, peanut_butter=7,
-                                    cocoa=4, chia=2, honey=6, sea_salt=0.2),
-    "Vanilla": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=27, rolled_oats=15, chia=2, honey=6,
+    "Chocolate Peanut Butter": dict(egg_white_fresh=65, quark=45, oat_bran=25, rolled_oats=14, peanut_butter=7,
+                                    cocoa=4, chia=2, honey=3, sea_salt=0.2),
+    "Vanilla": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=27, rolled_oats=17, chia=2, honey=3,
                     vanilla_extract=3, sea_salt=0.15),
-    "Banana Bread": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=25, rolled_oats=15, banana=35, chia=2,
+    "Banana Bread": dict(egg_white_fresh=60, egg_fresh=15, quark=45, oat_bran=25, rolled_oats=17, banana=25, chia=2,
                          cinnamon=0.5, sea_salt=0.15),
     # whole-egg comparison (not a test recipe): shows why whites are kept
     "(comparison) Choc PB, whole egg only": dict(egg_fresh=58, quark=80, rolled_oats=15, oat_bran=15,

@@ -166,7 +166,7 @@ async function icon(Comp, color = "FFFFFF") {
     ["Veloforte Forza (70 g, \"real food\")", "12 g", "38 g", "28 g", "Apricot, almond, egg white, cane sugar"],
   ];
   const body = comp.map((r) => r.map((t) => ({ text: t, options: { color: C.text1 } })));
-  const ours = ["Our bar (calculated)", "~20–21 g", "~28–31 g", "~7–8 g", "Eggs, quark, oats, honey or banana. Nothing else"].map((t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.accent1 } } }));
+  const ours = ["Our bar (calculated)", "~21 g", "~27–30 g", "~5.5 g", "Eggs, quark, oats, honey or banana. Nothing else"].map((t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.accent1 } } }));
   s.addTable([hdr, ...body, ours], {
     x: 0.6, y: 1.4, w: 8.4, colW: [2.75, 0.95, 0.95, 0.85, 2.9], fontSize: 12, rowH: 0.52, valign: "middle",
     border: { type: "solid", pt: 0.75, color: HEX.accent6 }, fill: { color: C.background1 }, margin: 0.06, objectName: "Competitor table",
@@ -198,7 +198,7 @@ async function icon(Comp, color = "FFFFFF") {
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6 + i * 2.55, y: 1.9, w: 2.35, h: 0.6, rectRadius: 0.3, fill: { color: C.accent4 }, line: { type: "none" }, objectName: `Flavour ${i + 1}` });
     s.addText(flav[i], { x: 0.6 + i * 2.55, y: 1.9, w: 2.35, h: 0.6, fontSize: 14, bold: true, color: C.accent5, align: "center", valign: "middle", margin: 0, isTextBox: true, objectName: `Flavour ${i + 1} label` });
   }
-  s.addText("Each ~20 g protein · ~30 g carbs · ≤8 g sugar · ~260–280 kcal (calculated)", { x: 0.6, y: 2.6, w: 7.6, h: 0.4, fontSize: 14, color: C.accent3, margin: 0, isTextBox: true, objectName: "Flavour macros" });
+  s.addText("Each ~21 g protein · ~27–30 g carbs · ~5.5 g sugar · ~260–280 kcal (calculated)", { x: 0.6, y: 2.6, w: 7.6, h: 0.4, fontSize: 14, color: C.accent3, margin: 0, isTextBox: true, objectName: "Flavour macros" });
 
   const steps = [
     [fa.FaClipboardList, "Order", "Weekly orders and squad orders via coaches"],
