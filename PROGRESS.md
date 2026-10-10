@@ -64,6 +64,10 @@ Last updated: 8 Oct 2026 (Week 5)
 ## 8 Oct (later): scale and impact plan
 - [x] `10-scale-plan.md` + `research/10_scale_model.py`: 4 stages (home kitchen → Durham → North East unis → national chilled weekly box), stage gates, unit economics (national box only works at ~£2.50 + delivery fee), impact (UPF swap)
 
+## 10 Oct: first bake
+- [x] v1 single bars baked by Ewan: failed (dry, thin, bland; baked flat without a tin). v2 batch recipes in `04d-recovery-bars.md` (loaf tin, ~6 × 50 g bars, ~7–8 g protein each)
+- [ ] Ewan: bake v2, send tin weights + scores
+
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
 

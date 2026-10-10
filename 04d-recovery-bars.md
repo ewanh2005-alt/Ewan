@@ -1,4 +1,78 @@
-# 04d — Test bars: Chocolate Peanut Butter, Vanilla, Banana Bread (one bar each)
+# 04d — Test bars
+
+## ⚠️ v1 test result (10 Oct): failed
+Ewan baked all three v1 single bars:
+- **All three:** dry, thin, bland, bad texture.
+- **Vanilla:** the driest and blandest.
+- **Chocolate Peanut Butter:** far too nutty.
+- **Banana Bread:** good taste, same bad texture.
+
+**Photos show the main cause:** each bar was baked flat on a tray with no sides. The batter spread to about 5 mm, the edges burnt, liquid leaked, and it dried out.
+
+**Other causes:**
+- too much oat bran and chia (both soak up water)
+- almost no fat or sugar to keep it moist
+- too little salt and sweetness
+- peanut butter stronger than the cocoa
+
+## v2 (current test): batch in a loaf tin, cut into ~50 g bars
+Numbers from `research/04d_recovery_calcs.py` (v2 section, `research/04d_v2_output.json`), calculated with an **estimated 25% bake loss**.
+
+**What changed from v1:**
+- **Baked in a loaf tin** (1 lb / 450 g, about 16 × 10 cm), so the batter is about 3 cm deep.
+- **A whole egg goes back in.**
+- **More quark** and a **splash of milk**.
+- **Less oat bran, no chia,** except in Banana Bread.
+- **More flavour:** honey up, vanilla doubled, peanut butter halved, cocoa up, salt doubled.
+- **Gentler bake,** with foil over the top after 20 min.
+
+| v2 batch | Makes | Per ~50 g bar: protein | carbs | sugar | fat | kcal |
+|---|---|---|---|---|---|---|
+| Vanilla | ~6 bars | 7.3 g | 9.7 g | 3.4 g | 1.9 g | 88 |
+| Chocolate Peanut Butter | ~6 bars | 7.8 g | 9.6 g | 3.2 g | 2.9 g | 99 |
+| Banana Bread | ~6–7 bars | 6.5 g | 9.4 g | 2.6 g | 1.7 g | 82 |
+
+**Trade-off:**
+- A moist real-food bar holds more water, so a 50 g bar has about **7–8 g protein**. About **3 bars ≈ 20 g**.
+- The v1 bars had more protein per gram only because they dried out.
+
+**v2 batch recipes:**
+- **Vanilla:**
+  - 3 egg whites (~90 g) + 1 whole egg
+  - quark 150 g
+  - oats 48 g, oat bran 24 g
+  - honey 14 g, vanilla extract 10 g
+  - milk 20 ml, salt ⅛ tsp
+- **Chocolate Peanut Butter:**
+  - 3 egg whites + 1 whole egg
+  - quark 140 g
+  - oats 44 g, oat bran 24 g
+  - cocoa 12 g, peanut butter 8 g
+  - honey 14 g, milk 20 ml, salt ⅛ tsp
+- **Banana Bread:**
+  - 3 egg whites + 1 whole egg
+  - quark 140 g
+  - 1 small ripe banana (~90 g), mashed
+  - oats 48 g, oat bran 20 g
+  - cinnamon ½ tsp, salt ⅛ tsp
+  - no honey
+
+**Method:**
+1. **Oven:** 160 °C fan. Line a loaf tin, leaving paper hanging over the sides.
+2. **Wet:** whisk the whites, egg, quark, milk and flavour together.
+3. **Dry:** stir in the oats, oat bran, salt and the cocoa or cinnamon.
+4. **Rest:** 10 min.
+5. **Fill and weigh:** pour into the tin and weigh it.
+6. **Bake:** 30–35 min, with foil over the top after 20 min. It's done when a skewer shows a few moist crumbs and the centre is at 75 °C.
+7. **Weigh** straight out of the oven.
+8. **Cool and chill:** cool, then chill for 1 hour.
+9. **Slice and weigh:** slice into ~50 g bars and weigh one.
+
+---
+
+*Below: v1 single-bar recipes (failed test, kept for the record).*
+
+# v1 — Test bars: Chocolate Peanut Butter, Vanilla, Banana Bread (one bar each)
 
 **Date:** 8 Oct 2026 (updated) · **Numbers from:** `research/04d_recovery_calcs.py` (ingredient database in `04-nutrition.py`, prices in `04-costing.py`). These are calculated values, not lab results.
 **Who it's for:** athletes refuelling after training or matches. That's the coached athletes (C1, C7, C10) and the gym-goers in `03-persona.md`.

@@ -80,3 +80,29 @@ for name, g in BARS.items():
 
 (ROOT / "research" / "04d_recovery_output.json").write_text(
     json.dumps({"spec": SPEC, "bake_loss_estimate": BAKE_LOSS, "bars": BARS, "per_bar": rows, "label": label}, indent=2))
+
+# ---- v2 (10 Oct): v1 single bars failed (dry, thin, bland: baked flat on a tray with no sides).
+# Batch in a 1 lb loaf tin, more quark + a whole egg + milk for moisture, more flavour, cut into ~50 g bars.
+V2_BAKE_LOSS = 0.25  # ASSUMPTION: thicker batch, gentler bake, foil after 20 min (check with tin weights)
+V2_BAR_G = 50
+V2 = {
+    "v2 Vanilla": dict(egg_white_fresh=90, egg_fresh=58, quark=150, rolled_oats=48, oat_bran=24, honey=14,
+                       vanilla_extract=10, milk_semi=20, sea_salt=0.6),
+    "v2 Chocolate Peanut Butter": dict(egg_white_fresh=90, egg_fresh=58, quark=140, rolled_oats=44, oat_bran=24,
+                                       cocoa=12, peanut_butter=8, honey=14, milk_semi=20, sea_salt=0.6),
+    "v2 Banana Bread": dict(egg_white_fresh=90, egg_fresh=58, quark=140, banana=90, rolled_oats=48, oat_bran=20,
+                            cinnamon=1.5, sea_salt=0.6),
+}
+print("\n| v2 batch | Batter | Baked (est.) | Bars of 50 g | Per bar: protein | carbs | sugar | fat | kcal | % energy protein |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v2_out = {}
+for name, g in V2.items():
+    t = calc(g)
+    baked = t["batter_g"] * (1 - V2_BAKE_LOSS)
+    n = baked / V2_BAR_G
+    bar = {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    pct = round(4 * t["p"] / t["kcal"] * 100, 1)
+    v2_out[name] = dict(batch=g, batter_g=t["batter_g"], baked_g_estimate=round(baked), bars=round(n, 1), per_bar=bar, protein_pct_energy=pct)
+    print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} | {pct}% |")
+    assert pct >= 20, name
+(ROOT / "research" / "04d_v2_output.json").write_text(json.dumps({"bake_loss_estimate": V2_BAKE_LOSS, "bar_g": V2_BAR_G, "v2": v2_out}, indent=2))
