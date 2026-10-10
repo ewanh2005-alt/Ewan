@@ -106,3 +106,31 @@ for name, g in V2.items():
     print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} | {pct}% |")
     assert pct >= 20, name
 (ROOT / "research" / "04d_v2_output.json").write_text(json.dumps({"bake_loss_estimate": V2_BAKE_LOSS, "bar_g": V2_BAR_G, "v2": v2_out}, indent=2))
+
+# ---- v3 (10 Oct): "each bar needs more protein". More egg white + quark, fewer oats.
+# Weight model: baked weight = dry solids / (1 - final moisture). ASSUMPTION: a moist bake keeps ~42% water.
+WD = runpy.run_path(str(ROOT / "04-nutrition.py"), run_name="lib")["WATER_DEFAULT"]
+ING["vanilla_extract"]["w"] = 53
+V3_MOISTURE = 0.42
+V3 = {
+    "v3 Vanilla": dict(egg_white_fresh=150, egg_fresh=58, quark=250, rolled_oats=30, oat_bran=30, honey=16,
+                       vanilla_extract=10, sea_salt=0.8),
+    "v3 Chocolate Peanut Butter": dict(egg_white_fresh=150, egg_fresh=58, quark=240, rolled_oats=28, oat_bran=28,
+                                       cocoa=16, peanut_butter=10, honey=18, sea_salt=0.8),
+    "v3 Banana Bread": dict(egg_white_fresh=150, egg_fresh=58, quark=240, banana=90, rolled_oats=30, oat_bran=28,
+                            cinnamon=2, sea_salt=0.8),
+}
+print("\n| v3 batch | Batter | Baked (est.) | Bars of 50 g | Per bar: protein | carbs | sugar | fat | kcal | % energy protein |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v3_out = {}
+for name, g in V3.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    baked = (t["batter_g"] - water) / (1 - V3_MOISTURE)
+    n = baked / V2_BAR_G
+    bar = {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    pct = round(4 * t["p"] / t["kcal"] * 100, 1)
+    v3_out[name] = dict(batch=g, batter_g=t["batter_g"], baked_g_estimate=round(baked), bars=round(n, 1), per_bar=bar, protein_pct_energy=pct)
+    print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} | {pct}% |")
+    assert bar["p"] >= 11 and pct >= 20, name
+(ROOT / "research" / "04d_v3_output.json").write_text(json.dumps({"final_moisture_estimate": V3_MOISTURE, "bar_g": V2_BAR_G, "v3": v3_out}, indent=2))

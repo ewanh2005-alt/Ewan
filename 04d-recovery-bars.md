@@ -15,7 +15,52 @@ Ewan baked all three v1 single bars:
 - too little salt and sweetness
 - peanut butter stronger than the cocoa
 
-## v2 (current test): batch in a loaf tin, cut into ~50 g bars
+## v3 (current test, 10 Oct): higher protein, about 11.5–12 g per 50 g bar
+**Why:** Ewan wanted more protein per bar.
+**How:** more egg white and quark (the protein), fewer oats (mostly carbs). This also gives a denser, moister, cheesecake-like texture, which tackles v1's dryness.
+**Bake in:** a 2 lb loaf tin (about 21 × 11 cm), so the batter sits about 2.5–3 cm deep.
+**Numbers:** from `research/04d_recovery_calcs.py` (v3 section, `research/04d_v3_output.json`). The weight model assumes the baked bar keeps about 42% water; check with tin weights.
+
+| v3 batch | Makes | Per ~50 g bar: protein | carbs | sugar | fat | kcal |
+|---|---|---|---|---|---|---|
+| Vanilla | ~5 bars | 11.9 g | 11.0 g | 4.9 g | 2.0 g | 113 |
+| Chocolate Peanut Butter | ~6 bars | 11.4 g | 10.1 g | 4.5 g | 3.2 g | 119 |
+| Banana Bread | ~5 bars | 11.6 g | 11.4 g | 4.1 g | 2.0 g | 114 |
+
+**2 bars ≈ 23 g protein**, a full recovery serving.
+
+**v3 batch recipes** (each uses 6 eggs: 5 whites + 1 whole):
+- **Vanilla:**
+  - egg whites 150 g + 1 whole egg
+  - quark 250 g
+  - oats 30 g, oat bran 30 g
+  - honey 16 g, vanilla extract 10 g
+  - salt ⅛ tsp
+- **Chocolate Peanut Butter:**
+  - egg whites 150 g + 1 whole egg
+  - quark 240 g
+  - oats 28 g, oat bran 28 g
+  - cocoa 16 g, peanut butter 10 g
+  - honey 18 g, salt ⅛ tsp
+- **Banana Bread:**
+  - egg whites 150 g + 1 whole egg
+  - quark 240 g
+  - 1 small ripe banana (~90 g), mashed
+  - oats 30 g, oat bran 28 g
+  - cinnamon ¾ tsp, salt ⅛ tsp
+  - no honey
+
+**Method:**
+1. **Oven:** 160 °C fan. Line a 2 lb loaf tin.
+2. **Wet:** whisk the wet ingredients and flavour together.
+3. **Dry:** stir in the dry ingredients.
+4. **Rest:** 10 min.
+5. **Bake:** 35–45 min, with foil over the top after 20 min. It's done when set with a slight wobble-free spring and the centre is at 75 °C.
+6. **Cool and chill:** cool in the tin, then chill for 2 hours before slicing.
+
+*v2 below is superseded by v3.*
+
+## v2 (superseded): batch in a loaf tin, cut into ~50 g bars
 Numbers from `research/04d_recovery_calcs.py` (v2 section, `research/04d_v2_output.json`), calculated with an **estimated 25% bake loss**.
 
 **What changed from v1:**

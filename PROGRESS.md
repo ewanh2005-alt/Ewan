@@ -66,7 +66,8 @@ Last updated: 8 Oct 2026 (Week 5)
 
 ## 10 Oct: first bake
 - [x] v1 single bars baked by Ewan: failed (dry, thin, bland; baked flat without a tin). v2 batch recipes in `04d-recovery-bars.md` (loaf tin, ~6 × 50 g bars, ~7–8 g protein each)
-- [ ] Ewan: bake v2, send tin weights + scores
+- [x] v3 (higher protein, ~11.5–12 g per 50 g bar; 2 lb loaf tin) replaces v2
+- [ ] Ewan: bake v3, send tin weights + scores
 
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
