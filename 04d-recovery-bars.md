@@ -15,7 +15,48 @@ Ewan baked all three v1 single bars:
 - too little salt and sweetness
 - peanut butter stronger than the cocoa
 
-## v3 (current test, 10 Oct): higher protein, about 11.5–12 g per 50 g bar
+## v4 LOCKED (11 Oct): ~50 g bar, ~10 g protein, ~15 g carbs, ≤4 g sugar
+**Brief:** Ewan asked for a ~50 g bar with high carbs, good protein and low-ish sugar.
+**How:** oats bring the carbs back, while egg white and quark keep the protein at about 10 g.
+**Bake:** a batch in a **20 cm square tin** (or a 2 lb loaf tin), cut into 8 bars. Never use a flat tray.
+**Numbers:** from `research/04d_recovery_calcs.py` (v4 section, `research/04d_v4_output.json`). The weight model assumes about 36% water stays in after baking; check with tin weights.
+
+| v4 batch | Makes | Per ~50 g bar: protein | carbs | sugar | fat | kcal |
+|---|---|---|---|---|---|---|
+| Vanilla | ~8 bars | 10.4 g | 14.9 g | 3.7 g | 2.4 g | 127 |
+| Chocolate Peanut Butter | ~8 bars | 10.3 g | 13.9 g | 3.6 g | 3.2 g | 131 |
+| Banana Bread | ~8 bars | 10.2 g | 15.1 g | 3.2 g | 2.3 g | 127 |
+
+**Batch recipes** (each: 210 g egg white, from 7 whites or a carton, plus 1 whole egg):
+- **Vanilla:**
+  - quark 250 g
+  - oats 110 g, oat bran 45 g
+  - honey 18 g, vanilla extract 10 g
+  - salt ¼ tsp
+- **Chocolate Peanut Butter:**
+  - quark 240 g
+  - oats 100 g, oat bran 45 g
+  - cocoa 15 g, peanut butter 10 g
+  - honey 20 g, salt ¼ tsp
+- **Banana Bread:**
+  - quark 240 g
+  - ripe banana 100 g
+  - oats 110 g, oat bran 40 g
+  - cinnamon 2 g, salt ¼ tsp
+  - no honey
+
+**Method:**
+1. **Oven:** 160 °C fan. Line the tin.
+2. **Wet:** whisk the wet ingredients and flavour together.
+3. **Dry:** stir in the dry ingredients.
+4. **Rest:** 10 min.
+5. **Bake:** 25–30 min in a square tin (35–40 min in a loaf tin), with foil over the top after 20 min. The centre must reach 75 °C.
+6. **Cool and chill:** cool, then chill for 2 hours.
+7. **Cut:** cut into 8 bars.
+
+*v3 and v2 below are superseded by v4.*
+
+## v3 (superseded): higher protein, about 11.5–12 g per 50 g bar
 **Why:** Ewan wanted more protein per bar.
 **How:** more egg white and quark (the protein), fewer oats (mostly carbs). This also gives a denser, moister, cheesecake-like texture, which tackles v1's dryness.
 **Bake in:** a 2 lb loaf tin (about 21 × 11 cm), so the batter sits about 2.5–3 cm deep.
