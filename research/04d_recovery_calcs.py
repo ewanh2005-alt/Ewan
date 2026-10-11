@@ -160,3 +160,32 @@ for name, g in V4.items():
     print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} | {pct}% |")
     assert bar["p"] >= 10 and bar["c"] >= 13.5 and bar["s"] <= 4 and pct >= 20, name
 (ROOT / "research" / "04d_v4_output.json").write_text(json.dumps({"final_moisture_estimate": V4_MOISTURE, "bar_g": V2_BAR_G, "v4": v4_out}, indent=2))
+
+# ---- v5 (11 Oct): texture-first. Brief: 50 g bar, 20 g protein, high carbs, low sugar, fibre a bit high, zero dryness.
+# 20 g protein in a moist 50 g bar only works with egg white + quark and no oats (~4 g carbs, 0 fibre), so the
+# serving is a PACK of 2 x 50 g bars = ~20 g protein. Texture fixed by technique (soaked oats, whipped whites, water bath).
+V5_MOISTURE = 0.40  # ASSUMPTION: water-bath bake + soaked oats keep ~40% water (check with tin weights)
+V5 = {
+    "v5 Vanilla": dict(egg_white_fresh=270, egg_fresh=58, quark=250, milk_semi=80, rolled_oats=90, oat_bran=70, chia=8,
+                       honey=16, vanilla_extract=15, sea_salt=1.2),
+    "v5 Chocolate": dict(egg_white_fresh=270, egg_fresh=58, quark=250, milk_semi=80, rolled_oats=85, oat_bran=70, chia=8,
+                         cocoa=20, peanut_butter=5, honey=20, vanilla_extract=5, sea_salt=1.2),
+    "v5 Banana Bread": dict(egg_white_fresh=270, egg_fresh=58, quark=250, milk_semi=40, banana=130, rolled_oats=90,
+                            oat_bran=65, chia=8, cinnamon=2, vanilla_extract=5, sea_salt=1.2),
+}
+print("\n| v5 batch | Batter | Baked (est.) | Bars of 50 g | Bar: protein | carbs | sugar | fibre | kcal | Pack of 2: protein | carbs | sugar | fibre |")
+print("|---|---|---|---|---|---|---|---|---|---|---|---|---|")
+v5_out = {}
+for name, g in V5.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    baked = (t["batter_g"] - water) / (1 - V5_MOISTURE)
+    n = baked / V2_BAR_G
+    bar = {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    pack = {k: round(2 * t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    pct = round(4 * t["p"] / t["kcal"] * 100, 1)
+    v5_out[name] = dict(batch=g, batter_g=t["batter_g"], baked_g_estimate=round(baked), bars=round(n, 1), per_bar=bar, per_pack_of_2=pack, protein_pct_energy=pct)
+    print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['fb']} g | {bar['kcal']:.0f} | "
+          f"{pack['p']} g | {pack['c']} g | {pack['s']} g | {pack['fb']} g |")
+    assert pack["p"] >= 19 and pack["s"] <= 8 and pct >= 20, name
+(ROOT / "research" / "04d_v5_output.json").write_text(json.dumps({"final_moisture_estimate": V5_MOISTURE, "bar_g": V2_BAR_G, "v5": v5_out}, indent=2))

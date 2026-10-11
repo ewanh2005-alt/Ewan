@@ -15,7 +15,9 @@ Ewan baked all three v1 single bars:
 - too little salt and sweetness
 - peanut butter stronger than the cocoa
 
-## v4 LOCKED (11 Oct): ~50 g bar, ~10 g protein, ~15 g carbs, ≤4 g sugar
+> **Current plan: see `04e-texture-plan.md` (v5).** v4 and earlier still had texture problems. v5 is texture-first (overnight-soaked oats, whipped egg whites, water bath) and sold as a pack of 2 × 50 g bars = about 20 g protein.
+
+## v4 (superseded by v5, 11 Oct): ~50 g bar, ~10 g protein, ~15 g carbs, ≤4 g sugar
 **Brief:** Ewan asked for a ~50 g bar with high carbs, good protein and low-ish sugar.
 **How:** oats bring the carbs back, while egg white and quark keep the protein at about 10 g.
 **Bake:** a batch in a **20 cm square tin** (or a 2 lb loaf tin), cut into 8 bars. Never use a flat tray.

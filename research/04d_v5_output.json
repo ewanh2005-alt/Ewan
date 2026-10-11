@@ -1,0 +1,111 @@
+{
+  "final_moisture_estimate": 0.4,
+  "bar_g": 50,
+  "v5": {
+    "v5 Vanilla": {
+      "batch": {
+        "egg_white_fresh": 270,
+        "egg_fresh": 58,
+        "quark": 250,
+        "milk_semi": 80,
+        "rolled_oats": 90,
+        "oat_bran": 70,
+        "chia": 8,
+        "honey": 16,
+        "vanilla_extract": 15,
+        "sea_salt": 1.2
+      },
+      "batter_g": 858.2,
+      "baked_g_estimate": 461,
+      "bars": 9.2,
+      "per_bar": {
+        "p": 10.0,
+        "c": 12.9,
+        "s": 3.5,
+        "f": 2.4,
+        "fb": 2.3,
+        "kcal": 118.4
+      },
+      "per_pack_of_2": {
+        "p": 20.1,
+        "c": 25.8,
+        "s": 7.0,
+        "f": 4.9,
+        "fb": 4.6,
+        "kcal": 236.8
+      },
+      "protein_pct_energy": 33.9
+    },
+    "v5 Chocolate": {
+      "batch": {
+        "egg_white_fresh": 270,
+        "egg_fresh": 58,
+        "quark": 250,
+        "milk_semi": 80,
+        "rolled_oats": 85,
+        "oat_bran": 70,
+        "chia": 8,
+        "cocoa": 20,
+        "peanut_butter": 5,
+        "honey": 20,
+        "vanilla_extract": 5,
+        "sea_salt": 1.2
+      },
+      "batter_g": 872.2,
+      "baked_g_estimate": 492,
+      "bars": 9.8,
+      "per_bar": {
+        "p": 9.9,
+        "c": 12.3,
+        "s": 3.5,
+        "f": 2.9,
+        "fb": 2.7,
+        "kcal": 120.6
+      },
+      "per_pack_of_2": {
+        "p": 19.8,
+        "c": 24.6,
+        "s": 7.0,
+        "f": 5.9,
+        "fb": 5.5,
+        "kcal": 241.3
+      },
+      "protein_pct_energy": 32.8
+    },
+    "v5 Banana Bread": {
+      "batch": {
+        "egg_white_fresh": 270,
+        "egg_fresh": 58,
+        "quark": 250,
+        "milk_semi": 40,
+        "banana": 130,
+        "rolled_oats": 90,
+        "oat_bran": 65,
+        "chia": 8,
+        "cinnamon": 2,
+        "vanilla_extract": 5,
+        "sea_salt": 1.2
+      },
+      "batter_g": 919.2,
+      "baked_g_estimate": 473,
+      "bars": 9.5,
+      "per_bar": {
+        "p": 9.7,
+        "c": 13.4,
+        "s": 3.3,
+        "f": 2.3,
+        "fb": 2.6,
+        "kcal": 118.6
+      },
+      "per_pack_of_2": {
+        "p": 19.4,
+        "c": 26.8,
+        "s": 6.7,
+        "f": 4.6,
+        "fb": 5.3,
+        "kcal": 237.2
+      },
+      "protein_pct_energy": 32.7
+    }
+  }
+}
