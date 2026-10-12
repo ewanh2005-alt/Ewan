@@ -77,6 +77,7 @@ Last updated: 8 Oct 2026 (Week 5)
 
 ## 12 Oct: women 40–60 secondary research
 - [x] `02d-women-40-60-research.md` + `research/13_women_segment_numbers.py`: ~7.2m UK women 45–60; protein/fibre need real; Bio&Me (9 g protein, women 35–45, £1.40) is a direct competitor; provisional: athletes primary, women 40–60 second segment to test
+- [x] **v2 detailed report** (`02d`, 85 sources WR1–WR85; script v2): exec summary, sections 1–9, competitor table with £/10 g protein, scorecard **athletes 30/40 vs women 21/40**; verdict women = "vitamin" not "migraine"; primary research plan (12 interview Qs, 10 survey Qs, blind taste test vs Bio&Me + Trek, £40 Meta split test ~34 clicks = directional only). Gaps: ONS 5-yr bands, Active Lives by age×sex, NDNS women tables, WTP
 
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
