@@ -75,6 +75,9 @@ Last updated: 8 Oct 2026 (Week 5)
 ## 12 Oct: plan to Week 13
 - [x] `11-plan-to-week-13.md`: weekly plan mapped to judging criteria; targets 25+ interviews, 20-person blind taste test, 30+ waitlist, 1 paid pre-order
 
+## 12 Oct: women 40–60 secondary research
+- [x] `02d-women-40-60-research.md` + `research/13_women_segment_numbers.py`: ~7.2m UK women 45–60; protein/fibre need real; Bio&Me (9 g protein, women 35–45, £1.40) is a direct competitor; provisional: athletes primary, women 40–60 second segment to test
+
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
 
