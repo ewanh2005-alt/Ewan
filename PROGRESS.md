@@ -72,6 +72,9 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] v6 (option B, ~15 g protein per 50 g bar with a little dried egg white) for Wednesday's bake: `04e-texture-plan.md` §6
 - [ ] Ewan: buy food-grade dried egg white; bake v6 Wednesday (1 small loaf tray per flavour = ~4 bars)
 
+## 12 Oct: plan to Week 13
+- [x] `11-plan-to-week-13.md`: weekly plan mapped to judging criteria; targets 25+ interviews, 20-person blind taste test, 30+ waitlist, 1 paid pre-order
+
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
 
