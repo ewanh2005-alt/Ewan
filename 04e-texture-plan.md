@@ -123,3 +123,44 @@ Checked in code at 30%, 38% and 45% moisture:
 - **Front of pack:** "2 bars · 20 g protein · real food".
 - **Each bar:** about 10 g protein, about 13 g carbs, about 3.5 g sugar.
 - **"High protein" claim:** fine, because about 33% of the energy comes from protein.
+
+---
+
+## 6. v6 (Option B, 12 Oct): ~15 g protein per 50 g bar, for Wednesday's bake
+**Ewan's decision:** 10 g per bar isn't enough. He chose option B, a **small amount of dried egg white** (100% egg white) on top of fresh whites and quark, with carbs as high as they'll fit.
+**The limit:** with about 15 g protein in 50 g, carbs top out at about 13–15 g before the bar dries out.
+**Batch:** one small loaf tray (about 16 × 10 cm) per flavour, making about 4 bars of 50 g. That fills the tray about 2 cm deep, which avoids the thin, dry bake.
+
+| v6 batch | Per 50 g bar: protein | carbs | sugar | fibre | kcal |
+|---|---|---|---|---|---|
+| Vanilla | 14.9 g | 13.9 g | 3.8 g | 1.8 g | 134 |
+| Chocolate | 14.6 g | 13.2 g | 4.0 g | 2.3 g | 136 |
+| Banana Bread | 14.4 g | 14.8 g | 3.5 g | 2.3 g | 135 |
+
+**Recipes (one tray each):**
+- **Vanilla:**
+  - dried egg white 42 g, fresh egg white 65 g (2 whites)
+  - quark 95 g, milk 30 ml
+  - oats 60 g, oat bran 14 g
+  - honey 8 g, vanilla extract 8 g, a pinch of salt
+- **Chocolate:**
+  - dried egg white 42 g, fresh egg white 65 g
+  - quark 95 g, milk 35 ml
+  - oats 55 g, oat bran 14 g
+  - cocoa 11 g, peanut butter 3 g
+  - honey 11 g, vanilla extract 3 g, a pinch of salt
+- **Banana Bread:**
+  - dried egg white 42 g, fresh egg white 65 g
+  - quark 80 g
+  - ripe banana 70 g
+  - oats 60 g, oat bran 11 g
+  - cinnamon 1 g, a pinch of salt
+
+**Method:**
+1. **The night before:** blitz the oats, then soak them with the oat bran, milk or banana, and salt, covered in the fridge.
+2. **Next day, the protein mix:** whisk the dried egg white into the quark until smooth, then add the flavour.
+3. **Combine:** stir in the soaked oats.
+4. **Whites:** whisk the fresh whites to soft peaks and fold them in.
+5. **Bake:** in a water bath at 150 °C fan for 30–35 min, with foil over the top for the first 15 min. The centre must reach 75 °C.
+6. **Rest:** turn the oven off and leave the door ajar for 10 min.
+7. **Chill and cut:** chill overnight, then cut into 4 bars.

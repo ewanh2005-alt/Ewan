@@ -1,0 +1,82 @@
+{
+  "final_moisture_estimate": 0.3,
+  "bar_g": 50,
+  "v6": {
+    "v6 Vanilla": {
+      "batch": {
+        "egg_white": 42,
+        "egg_white_fresh": 65,
+        "quark": 95,
+        "milk_semi": 30,
+        "rolled_oats": 60,
+        "oat_bran": 14,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "sea_salt": 0.4
+      },
+      "batter_g": 322.4,
+      "baked_g_estimate": 208,
+      "bars": 4.2,
+      "per_bar": {
+        "p": 14.9,
+        "c": 13.9,
+        "s": 3.8,
+        "f": 1.6,
+        "fb": 1.8,
+        "kcal": 133.5
+      },
+      "protein_pct_energy": 44.8
+    },
+    "v6 Chocolate": {
+      "batch": {
+        "egg_white": 42,
+        "egg_white_fresh": 65,
+        "quark": 95,
+        "milk_semi": 35,
+        "rolled_oats": 55,
+        "oat_bran": 14,
+        "cocoa": 11,
+        "peanut_butter": 3,
+        "honey": 11,
+        "vanilla_extract": 3,
+        "sea_salt": 0.4
+      },
+      "batter_g": 334.4,
+      "baked_g_estimate": 222,
+      "bars": 4.4,
+      "per_bar": {
+        "p": 14.6,
+        "c": 13.2,
+        "s": 4.0,
+        "f": 2.3,
+        "fb": 2.3,
+        "kcal": 136.5
+      },
+      "protein_pct_energy": 42.7
+    },
+    "v6 Banana Bread": {
+      "batch": {
+        "egg_white": 42,
+        "egg_white_fresh": 65,
+        "quark": 80,
+        "banana": 70,
+        "rolled_oats": 60,
+        "oat_bran": 11,
+        "cinnamon": 1,
+        "sea_salt": 0.4
+      },
+      "batter_g": 329.4,
+      "baked_g_estimate": 207,
+      "bars": 4.1,
+      "per_bar": {
+        "p": 14.4,
+        "c": 14.8,
+        "s": 3.6,
+        "f": 1.5,
+        "fb": 2.3,
+        "kcal": 134.7
+      },
+      "protein_pct_energy": 42.7
+    }
+  }
+}

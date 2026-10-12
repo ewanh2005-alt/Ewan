@@ -69,7 +69,8 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] v3 (higher protein, ~11.5–12 g per 50 g bar; 2 lb loaf tin) replaces v2
 - [x] v4 LOCKED (~50 g bar: ~10 g protein, ~15 g carbs, ≤4 g sugar; 20 cm square tin, 8 bars) replaces v3
 - [x] v5 texture-first plan `04e-texture-plan.md`: 20 g protein needs a pack of 2 × 50 g bars (maths in doc); soak oats overnight, whip whites, water bath at 150 °C fan, chill overnight
-- [ ] Ewan: bake Banana Bread v5 first (texture test), then Vanilla + Chocolate
+- [x] v6 (option B, ~15 g protein per 50 g bar with a little dried egg white) for Wednesday's bake: `04e-texture-plan.md` §6
+- [ ] Ewan: buy food-grade dried egg white; bake v6 Wednesday (1 small loaf tray per flavour = ~4 bars)
 
 ## Final week (Week 13) pitch
 - Judging criteria + "Pitching your idea" sheet confirmed as the final-week brief (`inputs/judging-criteria.md`, with a gap checklist vs the current deck)
