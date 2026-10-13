@@ -1,4 +1,32 @@
-# 05 — Brand Guidelines: **fettle**
+# 05: Brand guidelines: **Graft** (current, 13 Oct 2026)
+
+| | |
+|---|---|
+| **Name** | **Graft**: British slang for hard work ("a grafter"), used most in the North. Not sporty, so it can grow beyond athletes |
+| **Slogan** | **Real food for grafters.** |
+| **Gym and poster line** | Graft or nowt. |
+| **Backup trading name** | Graft Kitchen, if the UK IPO search shows a clash. Other "Graft" uses found: Graft Mode clothing, rapper Graft, Gráft café in Derry (`research/sources.md` H7–H8). The official register is not yet checked `[GAP: Ewan to search trademarks.ipo.gov.uk]` |
+| **Logo** | Ewan's bubble "GRAFT." wordmark. Originals: `originals/`. Prepared by `prep_logo.py` |
+
+**Logo files**
+- `graft-logo-dark.png`: charcoal with white shine, for light backgrounds.
+- `graft-logo-light.png`: white, for dark or colour backgrounds; the shine is cut out.
+- `graft-icon.png` (512 px) and `graft-favicon.png` (64 px): for avatars and browser tabs.
+
+**Logo rules**
+- Use the wordmark **without** baked-in text. The original's tagline read "ENGINEERED NOT EARNED", which is the wrong way round, and that slogan was dropped anyway. Set the slogan as live text.
+- The shine lines get lost below about **40 px tall**. Below that, use it as a plain shape, or the icon.
+- Keep clear space around it equal to the height of the full stop.
+- Don't stretch it, recolour it outside charcoal or white, or add outlines.
+
+**Colours (landing page):** charcoal #2B2B2B · off-white #F7F5F0 · green #2F5D50 (accent).
+**Claims:** say "real food" and "high protein". Never say "fuel", "recover", "repair" or "boost".
+
+---
+
+> **Everything below is the earlier "fettle" brand (7 Oct), kept for history. Superseded by Graft.**
+
+# (Superseded) Brand Guidelines: **fettle**
 
 **Date:** 7 Oct 2026 · **Status:** working brand. Trade mark not yet searched on the UK IPO (blocked here). **Don't print anything until you've done the checks in §1c.**
 

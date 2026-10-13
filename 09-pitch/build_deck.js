@@ -66,7 +66,6 @@ async function icon(Comp, color = "FFFFFF") {
     { text: "The pivot: a ", options: {} },
     { text: "real-food", options: { color: C.accent1 } },
     { text: " recovery bar for athletes who train hard", options: {} },
-    { text: "  Graft.", options: { color: C.accent1 } },
   ], { placeholder: "title" });
   s.addText("Two 50 g bars ≈ 29 g protein + 28 g carbs  ·  egg, quark & oats  ·  no whey, sweeteners or sugar alcohols", {
     x: 0.6, y: 1.8, w: 12.1, h: 0.45, fontSize: 18, color: C.background1, margin: 0, isTextBox: true, objectName: "Subtitle",
@@ -84,7 +83,8 @@ async function icon(Comp, color = "FFFFFF") {
     s.addText(moments[i][1], { x: x + 0.3, y: 4.35, w: 3.2, h: 0.6, fontSize: 17, bold: true, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: `Moment ${i + 1} title` });
     s.addText(moments[i][2], { x: x + 0.3, y: 4.95, w: 3.2, h: 1.05, fontSize: 14, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: `Moment ${i + 1} text` });
   }
-  s.addText("Graft: British slang for hard work. For people who put the work in. Real food for grafters.", { x: 0.6, y: 6.35, w: 12.1, h: 0.4, fontSize: 14, italic: true, color: C.accent3, margin: 0, isTextBox: true, objectName: "Branding note" });
+  s.addImage({ path: path.join(__dirname, "..", "05-brand", "graft-logo-light.png"), x: 0.6, y: 6.2, w: 1.75, h: 0.49, objectName: "Graft logo", altText: "Graft logo" });
+  s.addText("Real food for grafters.  (Graft: British slang for hard work.)", { x: 2.6, y: 6.25, w: 10.1, h: 0.4, fontSize: 14, italic: true, color: C.accent3, margin: 0, valign: "middle", isTextBox: true, objectName: "Branding note" });
   s.addNotes("~60s. I've pivoted. The idea is now a recovery bar made from real food, for athletes who train hard. It came from my own training. After two MMA classes back to back I'd eat a full meal and still be after more. Going from MMA straight to football, I'm in a rush and need something quick but proper. On a same-day weigh-in I'm depleted after making weight and have a short window to refuel before I compete. Every time, the choice is a lab-made protein bar full of powders and sweeteners, or nothing. So I made Graft: a 50 g bar with ~15 g protein from egg, quark and oats, and athletes eat two after training, about 29 g protein and 28 g carbs. Graft is British slang for hard work: it is for people who put the work in. Real food for grafters. (Note for weigh-in days: fibre before competing can upset the gut, so a lower-fibre version may suit that use. Worth testing.)");
 
   // ---------------- Slide 2: why it's needed ----------------
@@ -193,6 +193,7 @@ async function icon(Comp, color = "FFFFFF") {
   pres.addSection({ title: "Model" });
   s = pres.addSlide({ masterName: "Content", sectionTitle: "Model" });
   s.addText("How it works: baked fresh, like Simmer Eats", { placeholder: "title" });
+  s.addImage({ path: path.join(__dirname, "..", "05-brand", "graft-logo-dark.png"), x: 11.15, y: 0.5, w: 1.55, h: 0.43, objectName: "Graft logo", altText: "Graft logo" });
   const flav = ["Chocolate Peanut Butter", "Vanilla", "Banana Bread"];
   s.addText("Three flavours in testing", { x: 0.6, y: 1.4, w: 5, h: 0.4, fontSize: 16, bold: true, color: C.text1, margin: 0, isTextBox: true, objectName: "Flavours heading" });
   for (let i = 0; i < 3; i++) {
