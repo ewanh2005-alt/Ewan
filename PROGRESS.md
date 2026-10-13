@@ -89,3 +89,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] Brand name direction: **Graft** ("Earned, not engineered."; gym line "Graft or nowt"). Logos/packs/landing still say fettle → rebuild once Ewan confirms and does the UK IPO trade mark check
 - [x] `13-pitch-friday-brief.md`: early adopters (coached Durham athletes + MMA club), persona (Jack, once a day), why they need it, why they want it, judge Q&A
 - [x] `09-pitch/pitch-deck.pptx` updated: Graft name/tagline, v6 numbers (2 × 50 g ≈ 29 g protein, 28 g carbs), persona once a day, early-adopter line
+- [x] `14-taste-test-kit.md`: gym owner message, allergen/consent sheet, 9-point score card, blind protocol (vs Barebells), pass marks
