@@ -93,3 +93,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: programme doesn't require revenue → `11-plan` updated (free squad trial / waitlist instead of paid pre-order; free pilot week)
 - [x] 13 Oct: slogan → **Real food for grafters** (deck, brief); landing page rebuilt for Graft (format-open, links to Google Form survey; logo slot waiting for Ewan's files)
 - [x] 13 Oct: bubble "GRAFT." logo chosen; `05-brand/prep_logo.py` makes dark, light, icon and favicon versions (wrong tagline cropped out); added to landing page (header + hero, dark mode) and deck (slides 1 and 5); brand guidelines updated
+- [x] 13 Oct: `15-founder-outreach.md`: precedent founders (JNCK, Mooski, Perfect Bar, RXBAR, Bounce), LinkedIn routes, message templates; sources H9 Mooski
