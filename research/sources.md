@@ -238,6 +238,16 @@ Supersedes W1–W17b for the report; older W rows kept for history.
 | WR84 | ONS, Regional GDHI | https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/latest | 12 Oct 2026 | Women 40–60 report v2 | search-extract |
 | WR85 | ukactive written evidence (Parliament) | https://committees.parliament.uk/writtenevidence/166594/html/ | 12 Oct 2026 | Women 40–60 report v2 | search-extract |
 
+## Precedents: similar companies, successes and failures (13 Oct 2026)
+| ID | Source | URL | Accessed | Used for | Access |
+|---|---|---|---|---|---|
+| H1 | RXBAR: Peter Rahal & Jared Smith, kitchen start 2012, Kellogg $600m (2017) | https://www.foodnavigator.com/Article/2017/10/06/Kellogg-strikes-600m-deal-to-buy-RXBAR/ · https://www.globalaginvesting.com/kellogg-spends-600m-acquire-better-snack-bar-maker/ | 13 Oct 2026 | Precedent (success) | search-extract |
+| H2 | Perfect Bar: Bill & Leigh Keith (+ Amyas, Charisse), recipe by father Bud Keith, started 2005; Mondelēz majority 2019; ~$70m sales 2018 | https://www.foodnavigator.com/Article/2015/03/20/Perfect-Bar-sales-grow-120-in-2014-says-CEO-Bill-Keith/ · https://www.cnbc.com/2019/06/19/mondelez-to-take-majority-stake-in-perfect-bar-parent-perfect-snacks.html | 13 Oct 2026 | Precedent (success, refrigerated) | search-extract |
+| H3 | JNCK Bakery: Alex & Sean Brassill; liquidation Sept 2025 (£250,722 debts) after Tesco delisting; struggled in fresh bakery aisle | https://www.thegrocer.co.uk/news/tesco-backed-healthier-cookie-brand-jnck-bakery-shuttered/709385.article · https://www.foodmanufacture.co.uk/Article/2025/09/15/jnck-bakery-enters-liquidation/ · https://www.insidermedia.com/news/national/healthy-treat-start-up-enters-liquidation | 13 Oct 2026 | Precedent (failure, UK) | search-extract |
+| H4 | Bounce: Andy & Paula Hannagan (2003); voluntary administration July 2023 after US expansion; brand sold to PharmaCare | https://www.just-food.com/news/australias-pharmacare-rescues-bounce-protein-snack-brand/ · https://convenienceworldmagazine.com.au/?p=33559 | 13 Oct 2026 | Precedent (failure) | search-extract |
+| H5 | Raw Rev (Raw Indulgence Ltd): Alice Benedetto; Chapter 11 May 2023; lost sales, new competitors, founder dispute | https://www.foodbusinessnews.net/articles/23840-vegan-protein-bar-maker-files-for-bankruptcy · https://westfaironline.com/?p=162557 | 13 Oct 2026 | Precedent (failure) | search-extract |
+| H6 | ZonePerfect: Barry Sears 1996; bought out 2001; Abbott 2003 (~$160m); bars discontinued Mar 2024 | https://en.wikipedia.org/wiki/ZonePerfect · https://www.nutraingredients.com/Article/2003/07/28/Abbot-acquires-burgeoning-nutrition-bars-business/ | 13 Oct 2026 | Precedent (discontinued) | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|
