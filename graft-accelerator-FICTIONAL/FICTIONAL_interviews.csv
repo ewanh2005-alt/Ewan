@@ -1,0 +1,51 @@
+id,name,group,sport,sessions_per_week,coached,last_post_training_food,missed_meal_freq_per_week,bars_last_month,bar_brands,bar_annoyances,coach_advice,first_reaction_1to5,barriers,price_gbp,taste_test_yes,quote,data_status
+F01,Alfie (fictional),squad athlete,rugby,5,yes,a banana,3,6,none,the chalky texture,avoid too many bars,2,would need to try it first,wouldn't buy,no,I'd probably just eat a meal.,FICTIONAL
+F02,Priya (fictional),squad athlete,rugby,5,yes,toast and peanut butter,4,2,Trek,nothing really,nothing specific,4,keeping it in the fridge,£1.50,no,I like that it's real food.,FICTIONAL
+F03,Callum (fictional),squad athlete,rowing,8,yes,nothing until dinner,2,0,Myprotein,the aftertaste from sweeteners,eat a proper meal after training,4,keeping it in the fridge,£2.50,yes,I like that it's real food.,FICTIONAL
+F04,Jade (fictional),squad athlete,hockey,5,yes,toast and peanut butter,2,6,Myprotein,nothing really,avoid too many bars,4,would need to try it first,£3.00,yes,"Sounds good, depends on taste.",FICTIONAL
+F05,Tom (fictional),squad athlete,netball,9,yes,a protein shake,4,6,none,the chalky texture,get protein in within a couple of hours,3,would need to try it first,wouldn't buy,no,Maybe. I'd need to try it.,FICTIONAL
+F06,Niamh (fictional),squad athlete,netball,8,yes,nothing until dinner,3,4,Myprotein,the chalky texture,more carbs on double days,2,would need to try it first,wouldn't buy,no,I'd probably just eat a meal.,FICTIONAL
+F07,Oscar (fictional),squad athlete,netball,7,yes,toast and peanut butter,3,4,none,they feel processed,nothing specific,5,not sure it'd fill me up,£2.50,yes,Honestly I'd buy that every week.,FICTIONAL
+F08,Leah (fictional),squad athlete,rugby,8,yes,toast and peanut butter,4,10,Myprotein,the chalky texture,get protein in within a couple of hours,4,would need to try it first,wouldn't buy,no,I like that it's real food.,FICTIONAL
+F09,Sam (fictional),squad athlete,hockey,5,yes,a protein bar,2,0,Grenade,the aftertaste from sweeteners,more carbs on double days,4,convenience,£2.00,yes,"Sounds good, depends on taste.",FICTIONAL
+F10,Imogen (fictional),squad athlete,netball,9,yes,nothing until dinner,4,12,none,they're expensive,eat whole food where you can,5,keeping it in the fridge,£1.50,yes,Honestly I'd buy that every week.,FICTIONAL
+F11,Ryan (fictional),squad athlete,athletics,6,yes,nothing until dinner,0,4,Fulfil,they're expensive,avoid too many bars,4,keeping it in the fridge,wouldn't buy,yes,I like that it's real food.,FICTIONAL
+F12,Amira (fictional),squad athlete,rugby,6,yes,a proper meal at home,2,10,none,the aftertaste from sweeteners,eat whole food where you can,5,convenience,£1.50,yes,Honestly I'd buy that every week.,FICTIONAL
+F13,Josh (fictional),squad athlete,netball,8,yes,a protein bar,1,6,Trek,nothing really,avoid too many bars,4,keeping it in the fridge,£2.00,yes,"Sounds good, depends on taste.",FICTIONAL
+F14,Hannah (fictional),squad athlete,rugby,5,yes,a proper meal at home,2,12,Trek,the chalky texture,eat a proper meal after training,5,not sure it'd fill me up,wouldn't buy,no,That's exactly what I'd want.,FICTIONAL
+F15,Kieran (fictional),squad athlete,athletics,9,yes,a protein bar,2,2,none,nothing really,eat whole food where you can,2,would need to try it first,£1.50,no,Bit pricey for what it is.,FICTIONAL
+F16,Sophie (fictional),squad athlete,hockey,6,yes,nothing until dinner,2,0,none,the chalky texture,more carbs on double days,5,has to taste good,£2.00,yes,Honestly I'd buy that every week.,FICTIONAL
+F17,Dan (fictional),squad athlete,hockey,5,yes,a meal deal,2,6,Fulfil,the aftertaste from sweeteners,nothing specific,5,allergens (egg/dairy),£1.50,yes,That's exactly what I'd want.,FICTIONAL
+F18,Maya (fictional),squad athlete,netball,5,yes,nothing until dinner,3,2,Fulfil,they upset my stomach,nothing specific,3,has to taste good,£2.50,no,Maybe. I'd need to try it.,FICTIONAL
+F19,Ben (fictional),squad athlete,athletics,5,yes,a protein shake,3,2,Myprotein,they upset my stomach,nothing specific,3,keeping it in the fridge,£2.00,yes,Not sure about the fridge bit.,FICTIONAL
+F20,Ellie (fictional),squad athlete,rowing,5,yes,chicken and rice from a tub,0,0,Grenade,they feel processed,eat whole food where you can,2,keeping it in the fridge,wouldn't buy,no,I'd probably just eat a meal.,FICTIONAL
+F21,Luca (fictional),MMA / combat,MMA,5,yes,chicken and rice from a tub,2,6,Trek,the chalky texture,more carbs on double days,3,not sure it'd fill me up,£2.50,no,Not sure about the fridge bit.,FICTIONAL
+F22,Grace (fictional),MMA / combat,MMA,5,yes,chicken and rice from a tub,0,2,none,they're full of sugar,eat a proper meal after training,5,allergens (egg/dairy),£2.50,yes,That's exactly what I'd want.,FICTIONAL
+F23,Harvey (fictional),MMA / combat,BJJ,6,yes,a banana,3,0,Grenade,they're expensive,avoid too many bars,4,has to taste good,£1.50,yes,"Sounds good, depends on taste.",FICTIONAL
+F24,Zara (fictional),MMA / combat,MMA,5,yes,chicken and rice from a tub,3,0,none,nothing really,more carbs on double days,3,would need to try it first,£2.50,yes,Not sure about the fridge bit.,FICTIONAL
+F25,Joe (fictional),MMA / combat,Muay Thai,4,yes,nothing until dinner,1,0,Barebells,the aftertaste from sweeteners,nothing specific,4,convenience,£2.50,yes,I like that it's real food.,FICTIONAL
+F26,Chloe (fictional),MMA / combat,MMA,4,yes,nothing until dinner,2,10,none,the aftertaste from sweeteners,eat a proper meal after training,4,allergens (egg/dairy),£3.00,yes,"Sounds good, depends on taste.",FICTIONAL
+F27,Adam (fictional),MMA / combat,Muay Thai,3,yes,a meal deal,1,6,Myprotein,they all taste the same,get protein in within a couple of hours,3,keeping it in the fridge,£3.00,yes,Not sure about the fridge bit.,FICTIONAL
+F28,Freya (fictional),MMA / combat,Muay Thai,6,yes,a protein bar,2,0,none,nothing really,eat whole food where you can,4,not sure it'd fill me up,£2.00,yes,I like that it's real food.,FICTIONAL
+F29,Liam (fictional),MMA / combat,MMA,5,yes,a banana,4,6,Myprotein,the aftertaste from sweeteners,more carbs on double days,3,would need to try it first,£1.50,yes,Maybe. I'd need to try it.,FICTIONAL
+F30,Ruby (fictional),MMA / combat,BJJ,3,yes,nothing until dinner,0,10,Trek,they're expensive,nothing specific,5,keeping it in the fridge,£2.00,yes,Honestly I'd buy that every week.,FICTIONAL
+F31,Matt (fictional),gym-goer,classes + weights,3,no,a meal deal,3,0,Barebells,they're expensive,nothing specific,1,convenience,wouldn't buy,no,"Not for me, I just wait for dinner.",FICTIONAL
+F32,Isla (fictional),gym-goer,weights,3,no,a protein shake,2,2,Trek,they're expensive,avoid too many bars,3,convenience,£3.00,yes,Maybe. I'd need to try it.,FICTIONAL
+F33,Nathan (fictional),gym-goer,classes + weights,3,no,nothing until dinner,4,0,none,the chalky texture,more carbs on double days,2,has to taste good,wouldn't buy,no,I'd probably just eat a meal.,FICTIONAL
+F34,Erin (fictional),gym-goer,weights,5,no,nothing until dinner,2,12,Trek,they're expensive,nothing specific,4,would need to try it first,£1.50,yes,I like that it's real food.,FICTIONAL
+F35,Charlie (fictional),gym-goer,classes + weights,4,yes,a meal deal,2,4,none,they feel processed,get protein in within a couple of hours,4,would need to try it first,£2.00,yes,"Sounds good, depends on taste.",FICTIONAL
+F36,Megan (fictional),gym-goer,classes + weights,4,no,a protein bar,3,10,Myprotein,they feel processed,nothing specific,2,price,£2.00,no,I'd probably just eat a meal.,FICTIONAL
+F37,Jack (fictional),gym-goer,weights,5,no,chicken and rice from a tub,2,0,Nakd,they feel processed,more carbs on double days,3,keeping it in the fridge,£2.00,yes,Maybe. I'd need to try it.,FICTIONAL
+F38,Aisha (fictional),gym-goer,weights + running,3,no,chicken and rice from a tub,2,12,Nakd,they all taste the same,eat whole food where you can,4,has to taste good,£2.50,yes,"Sounds good, depends on taste.",FICTIONAL
+F39,Will (fictional),gym-goer,weights + padel,3,no,a protein shake,3,10,Trek,the aftertaste from sweeteners,eat whole food where you can,2,price,wouldn't buy,no,Bit pricey for what it is.,FICTIONAL
+F40,Holly (fictional),gym-goer,weights + padel,3,yes,chicken and rice from a tub,4,6,Fulfil,they upset my stomach,eat whole food where you can,3,keeping it in the fridge,£1.50,no,Maybe. I'd need to try it.,FICTIONAL
+F41,Ethan (fictional),gym-goer,weights + padel,4,no,toast and peanut butter,2,4,none,they're full of sugar,eat whole food where you can,3,not sure it'd fill me up,£2.00,yes,Maybe. I'd need to try it.,FICTIONAL
+F42,Lucy (fictional),gym-goer,weights + padel,4,no,chicken and rice from a tub,2,0,Barebells,nothing really,eat whole food where you can,2,not sure it'd fill me up,£2.00,no,Bit pricey for what it is.,FICTIONAL
+F43,Owen (fictional),gym-goer,classes + weights,5,no,a meal deal,2,0,Grenade,they're expensive,nothing specific,1,allergens (egg/dairy),wouldn't buy,no,I don't really snack after training.,FICTIONAL
+F44,Katie (fictional),gym-goer,weights + running,3,yes,nothing until dinner,4,4,Fulfil,they all taste the same,nothing specific,3,not sure it'd fill me up,£2.00,yes,Maybe. I'd need to try it.,FICTIONAL
+F45,Rob (fictional),gym-goer,weights,5,yes,nothing until dinner,2,12,Fulfil,they're expensive,nothing specific,4,convenience,£2.50,yes,"Sounds good, depends on taste.",FICTIONAL
+F46,Nadia (fictional),coach,rugby coach,,no,toast and peanut butter,3,0,Myprotein,they feel processed,avoid too many bars,4,keeping it in the fridge,£2.50,no,"Sounds good, depends on taste.",FICTIONAL
+F47,Finn (fictional),coach,PT,,yes,toast and peanut butter,0,0,Grenade,they all taste the same,avoid too many bars,2,allergens (egg/dairy),£1.50,no,Bit pricey for what it is.,FICTIONAL
+F48,Beth (fictional),coach,S&C coach,,no,chicken and rice from a tub,1,12,Fulfil,they feel processed,get protein in within a couple of hours,4,not sure it'd fill me up,£3.00,no,"Sounds good, depends on taste.",FICTIONAL
+F49,Max (fictional),coach,football coach,,no,a meal deal,4,0,Myprotein,the chalky texture,avoid too many bars,1,convenience,£2.00,no,I don't really snack after training.,FICTIONAL
+F50,Tara (fictional),coach,MMA coach,,yes,a protein shake,1,0,none,they feel processed,more carbs on double days,5,has to taste good,£2.50,yes,That's exactly what I'd want.,FICTIONAL

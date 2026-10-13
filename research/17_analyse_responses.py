@@ -1,6 +1,6 @@
 """Analyse REAL survey + interview responses (no data is included in the repo).
 Usage:
-  python3 research/17_analyse_responses.py survey.csv [interviews.csv]
+  python3 research/17_analyse_responses.py survey.csv [interviews.csv] [--out DIR]
 - survey.csv: Google Forms export. Columns are matched by keywords from the question text (see KEYS).
 - interviews.csv: research/17_interview_template.csv filled in.
 Prints counts/percentages and writes research/17_results.json (+ a price chart SVG)."""
@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 KEYS = {  # column-name keyword -> short name
     "how often do you train": "freq", "mainly do": "sport", "coached": "coached",
-    "within 2 hours": "post_food", "can't you eat": "missed", "protein bars did you eat": "bars",
+    "usually eat within 2 hours": "post_food", "can't you eat": "missed", "protein bars did you eat": "bars",
     "puts you off": "putoff", "appealing": "appeal", "pay for one": "price", "email": "email",
     "anything else": "open",
 }
@@ -40,6 +40,9 @@ def multi(rows, col):
     return c
 
 def main():
+    out_dir = ROOT / "research"
+    if "--out" in sys.argv:
+        i = sys.argv.index("--out"); out_dir = Path(sys.argv[i + 1]); del sys.argv[i:i + 2]
     if len(sys.argv) < 2:
         print(__doc__); return
     rows, cols = load(sys.argv[1])
@@ -73,7 +76,7 @@ def main():
         iv = list(csv.DictReader(open(sys.argv[2], newline="", encoding="utf-8-sig")))
         res["n_interviews"] = len(iv)
         res["interview_taste_test_yes"] = sum((r.get("taste_test_yes") or "").lower().startswith("y") for r in iv)
-        res["interview_quotes"] = [{"id": r["id"], "quote": r["quote"], "verbatim": r["quote_is_verbatim"]} for r in iv if r.get("quote")]
+        res["interview_quotes"] = [{"id": r["id"], "quote": r["quote"], "verbatim": r.get("quote_is_verbatim", "")} for r in iv if r.get("quote")]
         print(f"\nInterviews: {len(iv)}; agreed to taste test: {res['interview_taste_test_yes']}")
     # price chart
     if "price" in res:
@@ -87,9 +90,9 @@ def main():
             y = 40 + i * bh
             svg.append(f'<text x="10" y="{y+18}" font-size="12" fill="#52514e">{k}</text><rect x="110" y="{y+4}" width="{v/mx*340:.0f}" height="20" rx="4" fill="#1baf7a"/><text x="{116+v/mx*340:.0f}" y="{y+18}" font-size="12" fill="#1d1d1b">{v}</text>')
         svg.append("</svg>")
-        (ROOT / "research" / "17_price_chart.svg").write_text("\n".join(svg))
-    json.dump(res, open(ROOT / "research" / "17_results.json", "w"), indent=1, ensure_ascii=False)
-    print("\nWrote research/17_results.json")
+        (out_dir / "17_price_chart.svg").write_text("\n".join(svg))
+    json.dump(res, open(out_dir / "17_results.json", "w"), indent=1, ensure_ascii=False)
+    print(f"\nWrote {out_dir / '17_results.json'}")
 
 if __name__ == "__main__":
     main()

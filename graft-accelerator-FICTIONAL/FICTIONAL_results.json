@@ -1,0 +1,355 @@
+{
+ "n_survey": 45,
+ "columns_matched": {
+  "freq": "How often do you train?",
+  "coached": "Are you coached (club, squad or PT)?",
+  "missed": "How often can't you eat a proper meal within 2 hours of training?",
+  "bars": "In the last month, how many protein bars did you eat?",
+  "putoff": "What puts you off protein bars?",
+  "appeal": "How appealing is a fresh, real-food protein snack?",
+  "price": "What would you pay for one?",
+  "email": "Email (optional)",
+  "open": "Anything else about what you eat after training?"
+ },
+ "freq": {
+  "5–6": 22,
+  "7+": 8,
+  "3–4": 15
+ },
+ "coached": {
+  "Yes": 34,
+  "No": 11
+ },
+ "missed": {
+  "often": 18,
+  "sometimes": 23,
+  "never": 4
+ },
+ "bars": {
+  "4–10": 21,
+  "1–3": 6,
+  "0": 13,
+  "10+": 5
+ },
+ "price": {
+  "wouldn't buy": 11,
+  "£1.50": 9,
+  "£2.50": 9,
+  "£3.00": 4,
+  "£2.00": 12
+ },
+ "putoff": {
+  "the chalky texture": 8,
+  "nothing really": 7,
+  "the aftertaste from sweeteners": 8,
+  "they feel processed": 5,
+  "they're expensive": 9,
+  "they upset my stomach": 3,
+  "they're full of sugar": 2,
+  "they all taste the same": 3
+ },
+ "appeal_mean": 3.42,
+ "appeal_top2_pct": 51,
+ "emails_left": 28,
+ "open_answers": [
+  "I'd probably just eat a meal.",
+  "I like that it's real food.",
+  "I like that it's real food.",
+  "Sounds good, depends on taste.",
+  "Maybe. I'd need to try it.",
+  "I'd probably just eat a meal.",
+  "Honestly I'd buy that every week.",
+  "I like that it's real food.",
+  "Sounds good, depends on taste.",
+  "Honestly I'd buy that every week.",
+  "I like that it's real food.",
+  "Honestly I'd buy that every week.",
+  "Sounds good, depends on taste.",
+  "That's exactly what I'd want.",
+  "Bit pricey for what it is.",
+  "Honestly I'd buy that every week.",
+  "That's exactly what I'd want.",
+  "Maybe. I'd need to try it.",
+  "Not sure about the fridge bit.",
+  "I'd probably just eat a meal.",
+  "Not sure about the fridge bit.",
+  "That's exactly what I'd want.",
+  "Sounds good, depends on taste.",
+  "Not sure about the fridge bit.",
+  "I like that it's real food.",
+  "Sounds good, depends on taste.",
+  "Not sure about the fridge bit.",
+  "I like that it's real food.",
+  "Maybe. I'd need to try it.",
+  "Honestly I'd buy that every week.",
+  "Not for me, I just wait for dinner.",
+  "Maybe. I'd need to try it.",
+  "I'd probably just eat a meal.",
+  "I like that it's real food.",
+  "Sounds good, depends on taste.",
+  "I'd probably just eat a meal.",
+  "Maybe. I'd need to try it.",
+  "Sounds good, depends on taste.",
+  "Bit pricey for what it is.",
+  "Maybe. I'd need to try it.",
+  "Maybe. I'd need to try it.",
+  "Bit pricey for what it is.",
+  "I don't really snack after training.",
+  "Maybe. I'd need to try it.",
+  "Sounds good, depends on taste."
+ ],
+ "n_interviews": 50,
+ "interview_taste_test_yes": 29,
+ "interview_quotes": [
+  {
+   "id": "F01",
+   "quote": "I'd probably just eat a meal.",
+   "verbatim": ""
+  },
+  {
+   "id": "F02",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F03",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F04",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F05",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F06",
+   "quote": "I'd probably just eat a meal.",
+   "verbatim": ""
+  },
+  {
+   "id": "F07",
+   "quote": "Honestly I'd buy that every week.",
+   "verbatim": ""
+  },
+  {
+   "id": "F08",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F09",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F10",
+   "quote": "Honestly I'd buy that every week.",
+   "verbatim": ""
+  },
+  {
+   "id": "F11",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F12",
+   "quote": "Honestly I'd buy that every week.",
+   "verbatim": ""
+  },
+  {
+   "id": "F13",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F14",
+   "quote": "That's exactly what I'd want.",
+   "verbatim": ""
+  },
+  {
+   "id": "F15",
+   "quote": "Bit pricey for what it is.",
+   "verbatim": ""
+  },
+  {
+   "id": "F16",
+   "quote": "Honestly I'd buy that every week.",
+   "verbatim": ""
+  },
+  {
+   "id": "F17",
+   "quote": "That's exactly what I'd want.",
+   "verbatim": ""
+  },
+  {
+   "id": "F18",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F19",
+   "quote": "Not sure about the fridge bit.",
+   "verbatim": ""
+  },
+  {
+   "id": "F20",
+   "quote": "I'd probably just eat a meal.",
+   "verbatim": ""
+  },
+  {
+   "id": "F21",
+   "quote": "Not sure about the fridge bit.",
+   "verbatim": ""
+  },
+  {
+   "id": "F22",
+   "quote": "That's exactly what I'd want.",
+   "verbatim": ""
+  },
+  {
+   "id": "F23",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F24",
+   "quote": "Not sure about the fridge bit.",
+   "verbatim": ""
+  },
+  {
+   "id": "F25",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F26",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F27",
+   "quote": "Not sure about the fridge bit.",
+   "verbatim": ""
+  },
+  {
+   "id": "F28",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F29",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F30",
+   "quote": "Honestly I'd buy that every week.",
+   "verbatim": ""
+  },
+  {
+   "id": "F31",
+   "quote": "Not for me, I just wait for dinner.",
+   "verbatim": ""
+  },
+  {
+   "id": "F32",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F33",
+   "quote": "I'd probably just eat a meal.",
+   "verbatim": ""
+  },
+  {
+   "id": "F34",
+   "quote": "I like that it's real food.",
+   "verbatim": ""
+  },
+  {
+   "id": "F35",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F36",
+   "quote": "I'd probably just eat a meal.",
+   "verbatim": ""
+  },
+  {
+   "id": "F37",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F38",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F39",
+   "quote": "Bit pricey for what it is.",
+   "verbatim": ""
+  },
+  {
+   "id": "F40",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F41",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F42",
+   "quote": "Bit pricey for what it is.",
+   "verbatim": ""
+  },
+  {
+   "id": "F43",
+   "quote": "I don't really snack after training.",
+   "verbatim": ""
+  },
+  {
+   "id": "F44",
+   "quote": "Maybe. I'd need to try it.",
+   "verbatim": ""
+  },
+  {
+   "id": "F45",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F46",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F47",
+   "quote": "Bit pricey for what it is.",
+   "verbatim": ""
+  },
+  {
+   "id": "F48",
+   "quote": "Sounds good, depends on taste.",
+   "verbatim": ""
+  },
+  {
+   "id": "F49",
+   "quote": "I don't really snack after training.",
+   "verbatim": ""
+  },
+  {
+   "id": "F50",
+   "quote": "That's exactly what I'd want.",
+   "verbatim": ""
+  }
+ ]
+}

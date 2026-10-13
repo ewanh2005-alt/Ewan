@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" font-family="Arial"><rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="10" y="22" font-size="15" font-weight="bold" fill="#1d1d1b">What would you pay? (n=45)</text>
+<text x="10" y="58" font-size="12" fill="#52514e">£1.50</text><rect x="110" y="44" width="255" height="20" rx="4" fill="#1baf7a"/><text x="371" y="58" font-size="12" fill="#1d1d1b">9</text>
+<text x="10" y="92" font-size="12" fill="#52514e">£2.00</text><rect x="110" y="78" width="340" height="20" rx="4" fill="#1baf7a"/><text x="456" y="92" font-size="12" fill="#1d1d1b">12</text>
+<text x="10" y="126" font-size="12" fill="#52514e">£2.50</text><rect x="110" y="112" width="255" height="20" rx="4" fill="#1baf7a"/><text x="371" y="126" font-size="12" fill="#1d1d1b">9</text>
+<text x="10" y="160" font-size="12" fill="#52514e">£3.00</text><rect x="110" y="146" width="113" height="20" rx="4" fill="#1baf7a"/><text x="229" y="160" font-size="12" fill="#1d1d1b">4</text>
+<text x="10" y="194" font-size="12" fill="#52514e">wouldn't buy</text><rect x="110" y="180" width="312" height="20" rx="4" fill="#1baf7a"/><text x="428" y="194" font-size="12" fill="#1d1d1b">11</text>
+</svg>
