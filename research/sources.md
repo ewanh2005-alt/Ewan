@@ -251,6 +251,22 @@ Supersedes W1–W17b for the report; older W rows kept for history.
 | H8 | Other "Graft" uses: Graft (UK rapper, Wikipedia); Gráft café Derry (toasties, tray bakes); Graft Wine Company (London importer); GRAFT community garden Swansea | https://en.wikipedia.org/wiki/Graft_(rapper) · https://ie.irishnews.com/life/food-drink/graft-cafe-review-love-effort-and-the-best-toasties-in-derry-eating-out-OVCHOZKWZFHWPLKHOVGNZEKQW4 · https://rekki.com/gb/food-wholesalers/leatherhead?page=16 | 13 Oct 2026 | Name check: Graft | search-extract |
 | H9 | Mooski (US): chilled oat bar; founder Robert Broome (ex-RXBAR, Clio Snacks); RXBAR co-founder Jared Smith investor and adviser; 2–3k bars/day self-made → 30–40k per shift with a manufacturer | https://www.foodbusinessnews.net/articles/24760-rxbar-co-founder-bets-on-fresh-granola-bar-brand · https://www.foodnavigator.com/Article/2022/06/03/Fresher-cleaner-granola-bar-Mooski-enters-refrigerated-bar-space-with-chilled-oat-bar-line/ · https://www.nosh.com/news/2022/mooski-aims-to-clean-up-granola-bars-backed-by-rxbar-and-clio-insight/ | 13 Oct 2026 | Precedent (success, chilled oat bar) | search-extract |
 
+## Accelerators and support (13 Oct 2026)
+| ID | Source | URL | Accessed | Used for | Access |
+|---|---|---|---|---|---|
+| A1 | Durham Venture Lab / Venture School / Blueprint Startup Challenge | https://dur.ac.uk/study/careers-employability-enterprise/our-services/start-new-ventures/start-up/durham-venture-lab · https://dur.ac.uk/study/careers-employability-enterprise/our-services/start-new-ventures/start-up/durham-venture-school/ | 13 Oct 2026 | Support | search-extract |
+| A2 | BIPC North East: free IP surgeries, databases | https://growthhub.northeast-ca.gov.uk/resource/research-your-idea · https://newcastle.gov.uk/citylife-news/business-ip-centre-newcastle-celebrates-momentous-milestone-style | 13 Oct 2026 | Trade mark advice | search-extract |
+| A3 | North East Growth Hub (NECA) | https://growthhub.northeast-ca.gov.uk/resource/durham-county-council-retail-start-up-grant | 13 Oct 2026 | Support directory | search-extract |
+| A4 | Business Durham start-up support select list 2026–28 (UKSPF) | https://www.find-tender.service.gov.uk/Notice/017738-2026 | 13 Oct 2026 | Local support | search-extract |
+| A5 | Santander X UK Awards 2026 (£150k, 10 prizes £5k–£30k; deadline 6 May 2026) | https://enspire.ox.ac.uk/node/4872756 · https://studentcentral.qmu.ac.uk/students/news/detail/640/santander-x-uk-awards-2026 | 13 Oct 2026 | Competition | search-extract |
+| A6 | Innovate UK Young Innovators (18–30; past: £5k + coaching + allowance) | https://www.voicemag.uk/opportunity/9275/Young-Innovators-Awards | 13 Oct 2026 | Grant | search-extract |
+| A7 | Mission Ventures Good Food Programme (up to £15k equity-free, 2 yrs support; 2022) | https://www.foodmanufacture.co.uk/Article/2022/12/12/healthier-challenger-brands-are-recruited-to-the-good-food-programme · https://www.just-food.com/news/uks-mission-ventures-launches-new-accelerator-for-health-food-start-ups | 13 Oct 2026 | Accelerator | search-extract |
+| A8 | Sustainable Food Accelerator (Imperial / Undaunted) | https://undaunted-hq.org/programmes/sustainable-food-accelerator/ | 13 Oct 2026 | Accelerator | search-extract |
+| A9 | Tesco Accelerator 2026 cohort; supermarket schemes explained (Ocado, Iceland, Sainsbury's) | https://www.grocerygazette.co.uk/2026/10/05/tesco-unveils-its-2026-accelerator-programme-cohort/ · https://www.thegrocer.co.uk/analysis-and-features/how-supermarket-accelerators-and-incubators-are-changing-retail/697717.article | 13 Oct 2026 | Retail accelerators | search-extract |
+| A10 | Top UK startup accelerators 2026 (Hotbed criteria) | https://seedlegals.com/resources/top-uk-startup-accelerators/ | 13 Oct 2026 | Accelerators | search-extract |
+| A11 | EIT Food Accelerator Network 2026 | https://www.eitfood.eu/open-calls/eit-food-accelerator-network-fan-call-for-startups-2026 | 13 Oct 2026 | Accelerator (weak fit) | search-extract |
+| A12 | Opportunity North East food & drink accelerator (Scotland) | https://opportunitynortheast.com/food-drink-agriculture/startupaccelerator | 13 Oct 2026 | Excluded (Scotland) | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|
