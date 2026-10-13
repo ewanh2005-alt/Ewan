@@ -44,7 +44,16 @@
 - Who are **you**?
 - What is your next **milestone** and **what do you need** to get there?
 
-## Final-week checklist: current 5-slide deck (`09-pitch/pitch-deck.pptx`) vs Sheet 2
+## Status update (13 Oct 2026)
+- **Problem and research:** gap analysis done (`16-market-gap.md`: 25 snacks, 0 pass all 4 tests). Real interviews: still 10 + 2 experts; the sprint plan for 50 real responses is in `17-research-sprint.md`.
+- **Innovation:** Graft is the only (calculated) product passing all four tests; the deck slide 4 is now the gap chart.
+- **Early adopters:** named (coached Durham squads, MMA club) in `13-pitch-friday-brief.md`; still 0 commitments.
+- **MVP / pilot:** taste test kit ready (`14-taste-test-kit.md`); the v6 recipe is untested.
+- **Who are you:** still missing from the deck. Add a founder line to slide 1 or 5.
+- **Milestone and ask:** taste test ≥7/9, then a free squad trial; needs kitchen access and coach introductions.
+- **Photos of the sheets:** `inputs/judging-criteria-sheet.jpg`, `inputs/pitching-your-idea-sheet.jpg`.
+
+## Final-week checklist (written 8 Oct): 5-slide deck (`09-pitch/pitch-deck.pptx`) vs Sheet 2
 | Sheet 2 question | Covered now? | What to add by the final week |
 |---|---|---|
 | What is the problem? | ✅ Slides 1–2 | — |

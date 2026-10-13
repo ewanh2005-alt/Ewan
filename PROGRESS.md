@@ -98,3 +98,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: `17-research-sprint.md` (5-day plan to 50 REAL responses: survey, 10-min interview, coach questions, messages) + `research/17_analyse_responses.py` + interview template. Declined to fabricate interviews
 - [x] 13 Oct: `graft-accelerator-FICTIONAL/`: 50 script-generated FICTIONAL interviews + survey + worked analysis for Ewan's fictional Graft Accelerator teaching programme. **Not evidence; never use in the DVS pitch, persona or sources.** `17_analyse_responses.py` gained --out and a key fix
 - [x] 13 Oct: `18-accelerators-and-support.md` (now / 6–12 months / later; sources A1–A12) and `START-HERE.md` index
+- [x] 13 Oct: `CLAUDE.md` project memory (judging criteria + pitching questions + rules, loaded every session); sheet photos saved in `inputs/`; criteria status update
