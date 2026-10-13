@@ -40,7 +40,7 @@ async function icon(Comp, color = "FFFFFF") {
     background: { color: C.text1 },
     objects: [
       { placeholder: { options: { name: "title", type: "title", x: 0.6, y: 0.45, w: 12.1, h: 1.3, fontSize: 36, bold: true, color: C.background1, valign: "top", align: "left", margin: 0 }, text: "" } },
-      { text: { text: "Graft · Earned, not engineered. · Durham Venture School", options: { x: 0.6, y: 7.0, w: 8, h: 0.3, fontSize: 10, color: C.accent3, margin: 0 } } },
+      { text: { text: "Graft · Real food for grafters · Durham Venture School", options: { x: 0.6, y: 7.0, w: 8, h: 0.3, fontSize: 10, color: C.accent3, margin: 0 } } },
     ],
     slideNumber: { x: 12.4, y: 7.0, w: 0.4, h: 0.3, fontSize: 10, color: C.accent3 },
   });
@@ -49,7 +49,7 @@ async function icon(Comp, color = "FFFFFF") {
     background: { color: C.background1 },
     objects: [
       { placeholder: { options: { name: "title", type: "title", x: 0.6, y: 0.35, w: 12.1, h: 0.85, fontSize: 32, bold: true, color: C.text1, valign: "middle", align: "left", margin: 0 }, text: "" } },
-      { text: { text: "Graft · Earned, not engineered. · Durham Venture School", options: { x: 0.6, y: 7.0, w: 8, h: 0.3, fontSize: 10, color: C.accent3, margin: 0 } } },
+      { text: { text: "Graft · Real food for grafters · Durham Venture School", options: { x: 0.6, y: 7.0, w: 8, h: 0.3, fontSize: 10, color: C.accent3, margin: 0 } } },
     ],
     slideNumber: { x: 12.4, y: 7.0, w: 0.4, h: 0.3, fontSize: 10, color: C.accent3 },
   });
@@ -84,8 +84,8 @@ async function icon(Comp, color = "FFFFFF") {
     s.addText(moments[i][1], { x: x + 0.3, y: 4.35, w: 3.2, h: 0.6, fontSize: 17, bold: true, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: `Moment ${i + 1} title` });
     s.addText(moments[i][2], { x: x + 0.3, y: 4.95, w: 3.2, h: 1.05, fontSize: 14, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: `Moment ${i + 1} text` });
   }
-  s.addText("Graft: Northern for hard work. For people who put the work in. Earned, not engineered.", { x: 0.6, y: 6.35, w: 12.1, h: 0.4, fontSize: 14, italic: true, color: C.accent3, margin: 0, isTextBox: true, objectName: "Branding note" });
-  s.addNotes("~60s. I've pivoted. The idea is now a recovery bar made from real food, for athletes who train hard. It came from my own training. After two MMA classes back to back I'd eat a full meal and still be after more. Going from MMA straight to football, I'm in a rush and need something quick but proper. On a same-day weigh-in I'm depleted after making weight and have a short window to refuel before I compete. Every time, the choice is a lab-made protein bar full of powders and sweeteners, or nothing. So I made Graft: a 50 g bar with ~15 g protein from egg, quark and oats, and athletes eat two after training, about 29 g protein and 28 g carbs. Graft is Northern for hard work: it's for people who put the work in. Earned, not engineered. (Note for weigh-in days: fibre before competing can upset the gut, so a lower-fibre version may suit that use. Worth testing.)");
+  s.addText("Graft: British slang for hard work. For people who put the work in. Real food for grafters.", { x: 0.6, y: 6.35, w: 12.1, h: 0.4, fontSize: 14, italic: true, color: C.accent3, margin: 0, isTextBox: true, objectName: "Branding note" });
+  s.addNotes("~60s. I've pivoted. The idea is now a recovery bar made from real food, for athletes who train hard. It came from my own training. After two MMA classes back to back I'd eat a full meal and still be after more. Going from MMA straight to football, I'm in a rush and need something quick but proper. On a same-day weigh-in I'm depleted after making weight and have a short window to refuel before I compete. Every time, the choice is a lab-made protein bar full of powders and sweeteners, or nothing. So I made Graft: a 50 g bar with ~15 g protein from egg, quark and oats, and athletes eat two after training, about 29 g protein and 28 g carbs. Graft is British slang for hard work: it is for people who put the work in. Real food for grafters. (Note for weigh-in days: fibre before competing can upset the gut, so a lower-fibre version may suit that use. Worth testing.)");
 
   // ---------------- Slide 2: why it's needed ----------------
   pres.addSection({ title: "Problem" });

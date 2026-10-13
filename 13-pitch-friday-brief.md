@@ -1,6 +1,6 @@
 # 13: Friday pitch brief: early adopters, persona, need, want
 
-**Date:** 13 Oct 2026 · **Brand:** **Graft**, "Earned, not engineered." · **Deck:** `09-pitch/pitch-deck.pptx` (updated to these answers)
+**Date:** 13 Oct 2026 · **Brand:** **Graft**, "Real food for grafters." · **Deck:** `09-pitch/pitch-deck.pptx` (updated to these answers)
 
 **Tags:** `[EVIDENCE: id]` (IDs in `research/sources.md`; C1–C10 / E1–E2 = your interviews, `03-persona.md`; R = Reddit, `02c`) · `[ASSUMPTION]` · `[GAP]`
 
@@ -15,6 +15,15 @@
 
 ## 1. Who are your early adopters, and why?
 **Answer:** coached student athletes in Durham, starting with **Team Durham squads** (via the S&C coach) and **my MMA club**.
+
+**Exactly who (say it this precisely):**
+- **Durham University students on the Team Durham squads my S&C coach works with.** Roughly 18–23 `[ASSUMPTION]`. They train most days, often twice, and live in college or shared student houses.
+- **Adult members of my MMA club** who train before or after work.
+- **What they have in common:**
+  - they train hard most days
+  - a coach tells them to eat whole food `[EVIDENCE: C7, E1]`
+  - they can't always cook between lectures, work and training `[EVIDENCE: S29; C7, C10]`
+- **Format is open:** a soft-baked bar, bites or a flapjack slice. Same ingredients, same problem; the taste test decides.
 
 | Why them | Evidence |
 |---|---|
@@ -90,7 +99,7 @@
 | **The wider trend** | 71% of UK adults try to avoid ultra-processed food `[EVIDENCE: WR53, Mintel 2025]` |
 | **Taste brings people back** | Every repeat-buy reason on Reddit was taste (6/13) `[EVIDENCE: 02c]`. That's why the taste test comes before anything else |
 
-**Say it (~15 s):** "Athletes already prefer real food: it was the number one choice in a study of 405 athletes, and they rate it tastier, cheaper and safer. Sports bars only win on convenience. Graft gives them both. Earned, not engineered."
+**Say it (~15 s):** "Athletes already prefer real food: it was the number one choice in a study of 405 athletes, and they rate it tastier, cheaper and safer. Sports bars only win on convenience. Graft gives them both. Real food for grafters."
 
 ---
 
@@ -104,7 +113,7 @@
 | **Does it taste good?** | Honestly: early bakes failed on texture. I've fixed the method and I'm testing v6 this week, then a blind taste test vs Barebells (target ≥7/9) |
 | **Why not women 40–60?** | I researched them: a real need, but it feels like a nice-to-have for them, and Bio&Me already targets them. Scorecard: athletes 30/40 vs women 21/40 `[EVIDENCE: 02d §8]`. I'm testing them as a second segment |
 | **How do you make money?** | Squad orders first: one drop for 25 athletes. Then North East universities, then a national weekly box `[EVIDENCE: 10-scale-plan.md]` |
-| **Why "Graft"?** | Northern for hard work. It's for people who put the work in, and it isn't a sporty name, so it can grow beyond athletes |
+| **Why "Graft"?** | British slang for hard work ("a grafter"), used most in the North. It's for people who put the work in, and it isn't a sporty name, so it can grow beyond athletes |
 
 ## Claim safety
 - **Say:** "real food", "high protein", "after training".

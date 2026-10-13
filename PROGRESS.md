@@ -91,3 +91,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] `09-pitch/pitch-deck.pptx` updated: Graft name/tagline, v6 numbers (2 × 50 g ≈ 29 g protein, 28 g carbs), persona once a day, early-adopter line
 - [x] `14-taste-test-kit.md`: gym owner message, allergen/consent sheet, 9-point score card, blind protocol (vs Barebells), pass marks
 - [x] 13 Oct: programme doesn't require revenue → `11-plan` updated (free squad trial / waitlist instead of paid pre-order; free pilot week)
+- [x] 13 Oct: slogan → **Real food for grafters** (deck, brief); landing page rebuilt for Graft (format-open, links to Google Form survey; logo slot waiting for Ewan's files)

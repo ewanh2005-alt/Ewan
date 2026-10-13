@@ -3,499 +3,202 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>fettle: real-food recovery bar</title>
-<meta name="description" content="A fresh-baked recovery bar for people who train hard: about 20 g protein and 30 g carbs from eggs, quark and oats. No protein powder, no sweeteners, no sugar alcohols. Baked to order and delivered chilled. Join the waitlist.">
-<link rel="canonical" href="https://www.example.co.uk/"><!-- PLACEHOLDER: replace with your real domain -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="fettle: real-food recovery bar">
-<meta property="og:description" content="About 20 g protein and 30 g carbs from eggs, quark and oats, baked fresh each week. Join the waitlist for the first batch.">
-<meta property="og:image" content="https://www.example.co.uk/assets/og-image.png"><!-- PLACEHOLDER: export a 1200×630 PNG of the hero -->
-<meta property="og:url" content="https://www.example.co.uk/">
-<meta property="og:locale" content="en_GB">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#F4EFE6">
-<link rel="icon" href="assets/logo-mark-light.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<!-- ANALYTICS PLACEHOLDER: e.g. Plausible (cookieless, no consent banner needed):
-<script defer data-domain="example.co.uk" src="https://plausible.io/js/script.js"></script>
-Do not add Google Analytics without a cookie-consent banner (UK GDPR / PECR). -->
+<title>Graft: real food for grafters</title>
+<meta name="description" content="A real-food protein snack made from egg, quark and oats. No protein powder, no sweeteners. In development in Durham with athletes and coaches.">
+<meta property="og:title" content="Graft: real food for grafters">
+<meta property="og:description" content="Egg, quark and oats. No protein powder, no sweeteners. Help us build it.">
 <style>
-:root{
-  --bg:#F4EFE6; --surface:#FFFFFF; --ink:#1C1B19; --stone:#5E5A52; --line:#E2DBCE;
-  --ember:#B93D0B; --ember-ink:#FFFFFF; --cocoa:#5A3A29; --rasp:#A3203F; --honey:#8A5A0B; --soft:#EDE6D9;
-  --focus:#1C1B19; --ok:#24521F; --err:#A3203F;
-}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#151412; --surface:#1E1C19; --ink:#F4EFE6; --stone:#C9C2B5; --line:#2E2B27;
-  --ember:#F0804A; --ember-ink:#151412; --soft:#22201D; --focus:#F4EFE6; --ok:#A9D9A2; --err:#F2B0B0;
-}}
-:root[data-theme="dark"]{
-  --bg:#151412; --surface:#1E1C19; --ink:#F4EFE6; --stone:#C9C2B5; --line:#2E2B27;
-  --ember:#F0804A; --ember-ink:#151412; --soft:#22201D; --focus:#F4EFE6; --ok:#A9D9A2; --err:#F2B0B0;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
-img,svg{max-width:100%;height:auto}
-a{color:inherit}
-h1,h2,h3{font-family:Archivo,Inter,sans-serif;letter-spacing:-.015em;line-height:1.1;margin:0 0 12px}
-h1{font-size:clamp(36px,7vw,64px);font-weight:800}
-h2{font-size:clamp(28px,4.5vw,40px);font-weight:800}
-h3{font-size:20px;font-weight:700}
-p{margin:0 0 14px}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
-section{padding:72px 0;border-top:1px solid var(--line);scroll-margin-top:64px}
-thead .hint{text-transform:none;letter-spacing:0;font-size:13px}
-.eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ember);margin-bottom:10px}
-.lede{font-size:clamp(17px,2.2vw,20px);color:var(--stone);max-width:58ch}
-.muted{color:var(--stone)} .small{font-size:14px}
-.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:var(--bg);padding:8px 12px;border-radius:8px;z-index:10}
-.skip:focus{left:8px}
-:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:4px}
-/* header */
-header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.bar{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
-.logo img{height:30px;width:auto;display:block}
-.logo .dark{display:none}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .logo .light{display:none}:root:not([data-theme="light"]) .logo .dark{display:block}}
-:root[data-theme="dark"] .logo .light{display:none} :root[data-theme="dark"] .logo .dark{display:block}
-nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;font-size:15px}
-nav a{text-decoration:none;color:var(--stone)} nav a:hover{color:var(--ink)}
-@media (max-width:760px){nav ul li:not(.cta-li){display:none}}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font-size:16px;font-family:inherit}
-.btn-primary{background:var(--ember);color:var(--ember-ink)}
-.btn-primary:hover{filter:brightness(1.07)}
-.btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
-.btn-sm{min-height:40px;padding:0 16px;font-size:15px}
-/* hero */
-.hero{border-top:0;padding:56px 0 72px}
-.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
-@media (max-width:860px){.hero-grid{grid-template-columns:1fr}}
-.macros{display:flex;gap:28px;flex-wrap:wrap;margin:22px 0 26px}
-.macro b{display:block;font-family:Archivo;font-weight:800;font-size:clamp(34px,5vw,44px);line-height:1;font-variant-numeric:tabular-nums}
-.macro span{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--stone)}
-.ctas{display:flex;gap:12px;flex-wrap:wrap}
-.hero-visual{background:var(--soft);border-radius:24px;padding:24px}
-.hero-visual img{display:block;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.12)}
-.note{font-size:13px;color:var(--stone);margin-top:12px}
-/* cards & grids */
-.grid{display:grid;gap:16px}
-.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
-.card h3{margin-bottom:6px}
-.pill{display:inline-block;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--soft);color:var(--stone);margin-bottom:10px}
-.ing{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px;padding:0;list-style:none}
-.ing li{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:500}
-/* table */
-.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
-table{border-collapse:collapse;width:100%;min-width:640px;font-size:15px}
-th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
-thead th{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--stone);font-weight:600}
-tbody th{font-weight:600}
-td.us,th.us{background:color-mix(in srgb,var(--ember) 8%,transparent)}
-tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
-/* flavours */
-.flav{border-radius:18px;padding:22px;color:#F4EFE6;min-height:200px;display:flex;flex-direction:column;justify-content:space-between}
-.flav h3{color:#F4EFE6} .flav p{margin:0;color:#F4EFE6}
-.flav .tag{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.9}
-.f-a{background:var(--cocoa)} .f-b{background:var(--honey)} .f-c{background:var(--rasp)}
-/* placeholders */
-.ph{border:2px dashed var(--line);border-radius:18px;padding:22px;background:var(--surface)}
-.ph-label{display:inline-block;background:#FFF3C4;color:#5A4300;font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px;margin-bottom:10px}
-/* faq */
-details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:4px 18px;margin-bottom:10px}
-summary{cursor:pointer;font-weight:600;padding:14px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
-summary::-webkit-details-marker{display:none}
-summary::after{content:"+";font-size:22px;line-height:1;color:var(--stone)}
-details[open] summary::after{content:"–"}
-details p{color:var(--stone)}
-/* forms */
-form{display:grid;gap:18px}
-.form-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:clamp(18px,4vw,32px)}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media (max-width:640px){.two{grid-template-columns:1fr}}
-label,legend{font-weight:600;display:block;margin-bottom:6px}
-.hint{font-weight:400;color:var(--stone);font-size:14px}
-input[type=email],input[type=text],select,textarea{width:100%;min-height:48px;padding:10px 14px;border-radius:12px;border:1.5px solid var(--stone);background:var(--bg);color:var(--ink);font:inherit}
-textarea{min-height:96px;resize:vertical}
-fieldset{border:0;margin:0;padding:0}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chips label{font-weight:500;display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;cursor:pointer;margin:0;background:var(--bg)}
-.chips input{accent-color:var(--ember);width:18px;height:18px}
-.consent{display:flex;gap:10px;align-items:flex-start;font-weight:400}
-.consent input{width:20px;height:20px;margin-top:3px;accent-color:var(--ember);flex:none}
-.hp{position:absolute;left:-5000px}
-.status{min-height:24px;font-weight:600}
-.status.ok{color:var(--ok)} .status.err{color:var(--err)}
-.embed{border:2px dashed var(--line);border-radius:16px;min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;color:var(--stone);background:var(--bg)}
-/* footer */
-footer{border-top:1px solid var(--line);padding:40px 0 56px;font-size:14px;color:var(--stone)}
-.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
-
-/* steps */
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;counter-reset:step;margin-top:24px}
-.step{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;position:relative}
-.step::before{counter-increment:step;content:counter(step);display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--ember);color:var(--ember-ink);font-family:Archivo;font-weight:800;margin-bottom:10px}
-.quote-band{background:#1C1B19;color:#F4EFE6;border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,36px);margin-top:24px}
-.quote-band p{margin:0;font-size:clamp(18px,2.4vw,22px)}
-.quote-band b{color:#F0804A}
-/* flavour cards with packs */
-.packs{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin-top:24px}
-.pack{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px;display:flex;flex-direction:column;gap:12px}
-.pack img{display:block;width:100%;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.10)}
-.pack h3{margin:4px 0 0}
-.pack .mini{display:flex;gap:18px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
-.pack .mini b{font-family:Archivo;font-size:22px;font-weight:800}
-.pack .mini span{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--stone)}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
-.stat b{display:block;font-family:Archivo;font-weight:800;font-size:40px;line-height:1;color:var(--ember);margin-bottom:8px}
+  :root {
+    --bg: #F7F5F0; --surface: #FFFFFF; --ink: #1D1D1B; --muted: #5E5B55; --line: #E3DED4;
+    --accent: #2F5D50; --accent-ink: #FFFFFF; --soft: #E7EEEA;
+    --radius: 14px; --wrap: 1080px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151614; --surface: #1F201E; --ink: #F2F0EB; --muted: #ABA79F; --line: #34352F;
+      --accent: #7FB3A2; --accent-ink: #10201B; --soft: #22302B;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  a { color: inherit; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 16px; }
+  header { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .logo { display: flex; align-items: center; text-decoration: none; }
+  .logo img { height: 34px; width: auto; display: block; }
+  .wordmark { font-weight: 800; font-size: 26px; letter-spacing: -0.03em; }
+  .btn { display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 650; padding: 12px 20px; border-radius: 999px; border: 2px solid var(--accent); }
+  .btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+  .btn:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  section { padding: 72px 0; border-bottom: 1px solid var(--line); }
+  .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: 13px; font-weight: 700; color: var(--accent); margin: 0 0 10px; }
+  h1 { font-size: clamp(40px, 7vw, 76px); line-height: 1.02; letter-spacing: -0.035em; margin: 0 0 20px; }
+  h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 16px; }
+  h3 { font-size: 19px; margin: 0 0 6px; }
+  p { margin: 0 0 14px; }
+  .lead { font-size: 20px; color: var(--muted); max-width: 640px; }
+  .hero { padding: 88px 0 72px; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+  .tag { display: inline-block; background: var(--soft); color: var(--accent); font-size: 14px; font-weight: 650; padding: 6px 12px; border-radius: 999px; margin-bottom: 22px; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 28px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+  .card p { color: var(--muted); margin: 0; }
+  .stat { font-size: 52px; font-weight: 800; letter-spacing: -0.03em; color: var(--accent); line-height: 1; margin-bottom: 10px; }
+  .src { font-size: 13px; color: var(--muted); margin-top: 10px; }
+  .ingredients { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0; }
+  .ingredients span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 18px; font-weight: 650; }
+  .nots { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .nots li::before { content: "✕"; color: var(--accent); font-weight: 800; margin-right: 10px; }
+  .split { display: grid; gap: 32px; grid-template-columns: 1fr; }
+  @media (min-width: 820px) { .split { grid-template-columns: 1.1fr 1fr; align-items: start; } }
+  .steps { counter-reset: s; list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .steps li { counter-increment: s; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
+  .steps li::before { content: counter(s); display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-weight: 800; margin-bottom: 10px; }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 10px; }
+  summary { cursor: pointer; font-weight: 650; }
+  details p { color: var(--muted); margin: 10px 0 0; }
+  .join { background: var(--accent); color: var(--accent-ink); border-radius: 22px; padding: 44px 28px; text-align: center; }
+  .join h2 { color: var(--accent-ink); }
+  .join p { opacity: .9; max-width: 560px; margin: 0 auto 22px; }
+  .join .btn { background: var(--accent-ink); color: var(--accent); border-color: var(--accent-ink); }
+  .join .btn.ghost { background: transparent; color: var(--accent-ink); border-color: color-mix(in srgb, var(--accent-ink) 50%, transparent); }
+  footer { padding: 36px 0 48px; color: var(--muted); font-size: 14px; }
+  .small { font-size: 14px; color: var(--muted); }
 </style>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
 
 <header>
   <div class="wrap bar">
-    <a class="logo" href="#top" aria-label="fettle home">
-      <img class="light" src="assets/logo-lockup-light.svg" alt="fettle" width="190" height="30">
-      <img class="dark" src="assets/logo-lockup-dark.svg" alt="fettle" width="190" height="30">
+    <a class="logo" href="#top" aria-label="Graft home">
+      <!-- LOGO: drop Ewan's file into assets/ (e.g. assets/graft-logo.png) and replace the span below with:
+           <img src="assets/graft-logo.png" alt="Graft" height="34"> -->
+      <span class="wordmark">graft</span>
     </a>
-    <nav aria-label="Main">
-      <ul>
-        <li><a href="#bars">The bars</a></li>
-        <li><a href="#how">How it works</a></li>
-        <li><a href="#compare">Compare</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#squads">Squads &amp; coaches</a></li>
-        <li class="cta-li"><a class="btn btn-primary btn-sm" href="#waitlist">Join the waitlist</a></li>
-      </ul>
-    </nav>
+    <a class="btn" href="#join">Join the waitlist</a>
   </div>
 </header>
 
-<main id="main">
-<!-- 1. HERO -->
-<section class="hero" id="top">
-  <div class="wrap hero-grid">
-    <div>
-      <p class="eyebrow">Real-food recovery bar · baked fresh</p>
-      <h1>Recover on real food.</h1>
-      <p class="lede">About 20 g protein, 27–30 g carbs and around 5.5 g sugar from eggs, quark and oats. No protein powder, no sweeteners, no sugar alcohols. Baked to order each week and delivered chilled, like a fresh meal.</p>
-      <div class="macros" aria-label="Per bar, Chocolate Peanut Butter">
-        <div class="macro"><b>~20 g</b><span>protein</span></div>
-        <div class="macro"><b>~30 g</b><span>carbs</span></div>
-        <div class="macro"><b>~5.5 g</b><span>sugar</span></div>
-      </div>
-      <div class="ctas">
-        <a class="btn btn-primary" href="#waitlist">Get the first batch</a>
-        <a class="btn btn-ghost" href="#squads">Coach or club? Book a squad taste test</a>
-      </div>
-      <p class="note">Nutrition figures are calculated from the recipes and will be confirmed by lab analysis before we sell.</p>
-    </div>
-    <div class="hero-visual">
-      <img src="assets/packaging-front-choc-pb.svg" width="760" height="320" alt="fettle Chocolate Peanut Butter recovery bar wrapper: 21 g protein, 27 g carbs, 5.5 g sugar. No protein powder, no sweeteners. Keep refrigerated. High protein.">
-    </div>
-  </div>
-</section>
+<main id="top">
 
-<!-- 2. PROBLEM -->
-<section id="problem" aria-labelledby="problem-h">
+<section class="hero">
   <div class="wrap">
-    <p class="eyebrow">The problem</p>
-    <h2 id="problem-h">After training, every option makes you give something up.</h2>
-    <p class="lede">You need protein and carbs to recover. When you can't sit down to a proper meal, this is what's left.</p>
-    <div class="grid g3" style="margin-top:24px">
-      <div class="card"><span class="pill">Meal prep</span><h3>Right food, hard to keep up</h3><p class="muted">Chicken and rice works, but it means cooking ahead and carrying a tub around, and it falls apart on busy weeks.</p></div>
-      <div class="card"><span class="pill">Fruit</span><h3>Quick, but no protein</h3><p class="muted">A banana is real food and fast carbs, with about 1 g of protein.</p></div>
-      <div class="card"><span class="pill">Protein bars</span><h3>Protein, plus a long label</h3><p class="muted">Most reach 20 g with protein powder, sweeteners and sugar alcohols. Some carry a laxative warning.</p></div>
-      <div class="card"><span class="pill">"Natural" bars</span><h3>Real food, mostly sugar</h3><p class="muted">Dates, syrups and dried fruit hold them together: 10–28 g sugar and around 12 g protein is normal.</p></div>
-    </div>
-    <div class="stats">
-      <div class="stat"><b>80%</b><p class="muted small" style="margin:0">of Canadian university athletes say their schedule limits their ability to cook (Morassutti, York University, 2024).</p></div>
-      <div class="stat"><b>Carbs</b><p class="muted small" style="margin:0">are what team-sport athletes miss: most hit protein targets but fall short on carbohydrate (Jenner et al., 2019, 21 studies).</p></div>
-      <div class="stat"><b>Tastier</b><p class="muted small" style="margin:0">Athletes rate everyday food tastier, cheaper and safer than sports foods, which win only on convenience (Forsyth &amp; Mantzioris, 2023).</p></div>
+    <span class="tag">In development in Durham · not on sale yet</span>
+    <h1>Real food<br>for grafters.</h1>
+    <p class="lead">A protein snack made from egg, quark and oats. No protein powder, no sweeteners, no sugar alcohols. Built with athletes who train hard and can't always cook.</p>
+    <div class="cta-row">
+      <a class="btn" href="#join">Join the waitlist</a>
+      <a class="btn ghost" href="#problem">Why we're making it</a>
     </div>
   </div>
 </section>
 
-<!-- 3. THE BARS -->
-<section id="bars" aria-labelledby="bars-h">
-  <div class="wrap">
-    <p class="eyebrow">The bars</p>
-    <h2 id="bars-h">Three flavours in testing.</h2>
-    <p class="lede">Every bar starts with eggs, quark and oats. Flavour comes from real food: cocoa, peanut butter, vanilla, banana. Nothing from a lab.</p>
-    <div class="packs">
-      <article class="pack">
-        <img src="assets/packaging-front-choc-pb.svg" width="760" height="320" alt="Chocolate Peanut Butter wrapper: 21 g protein, 27 g carbs, 5.5 g sugar.">
-        <h3>Chocolate Peanut Butter</h3>
-        <div class="mini"><div><b>21 g</b><span>protein</span></div><div><b>27 g</b><span>carbs</span></div><div><b>5.5 g</b><span>sugar</span></div><div><b>280</b><span>kcal</span></div></div>
-        <p class="muted small" style="margin:0">Egg whites, quark, oat bran, oats, peanut butter, honey, cocoa, chia. Contains <strong>peanuts, egg, milk, oats</strong>.</p>
-      </article>
-      <article class="pack">
-        <img src="assets/packaging-front-vanilla.svg" width="760" height="320" alt="Vanilla wrapper: 21 g protein, 29 g carbs, 5.5 g sugar.">
-        <h3>Vanilla</h3>
-        <div class="mini"><div><b>21 g</b><span>protein</span></div><div><b>29 g</b><span>carbs</span></div><div><b>5.5 g</b><span>sugar</span></div><div><b>259</b><span>kcal</span></div></div>
-        <p class="muted small" style="margin:0">Egg whites, quark, oat bran, eggs, oats, honey, vanilla extract, chia. Contains <strong>egg, milk, oats</strong>.</p>
-      </article>
-      <article class="pack">
-        <img src="assets/packaging-front-banana-bread.svg" width="760" height="320" alt="Banana Bread wrapper: 21 g protein, 30 g carbs, 6 g sugar.">
-        <h3>Banana Bread</h3>
-        <div class="mini"><div><b>21 g</b><span>protein</span></div><div><b>30 g</b><span>carbs</span></div><div><b>5.7 g</b><span>sugar</span></div><div><b>265</b><span>kcal</span></div></div>
-        <p class="muted small" style="margin:0">Egg whites, quark, banana, oat bran, eggs, oats, chia, cinnamon. No added honey. Contains <strong>egg, milk, oats</strong>.</p>
-      </article>
-    </div>
-    <div class="grid g3" style="margin-top:20px">
-      <div class="card"><h3>High protein</h3><p class="muted">About 20 g per bar, around 30% of its energy. Protein contributes to a growth in muscle mass. Enjoy as part of a varied, balanced diet and a healthy lifestyle.</p></div>
-      <div class="card"><h3>Real carbs</h3><p class="muted">About 27–30 g, mostly from oats, with a touch of honey or banana.</p></div>
-      <div class="card"><h3>Fibre from food</h3><p class="muted">About 6–7 g from oats, oat bran and chia, not added fibre syrups. Best eaten after training, not before.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- 4. HOW IT WORKS -->
-<section id="how" aria-labelledby="how-h">
-  <div class="wrap">
-    <p class="eyebrow">How it works</p>
-    <h2 id="how-h">Baked fresh, like a fresh-meal delivery.</h2>
-    <p class="lede">Real eggs and quark don't last for months on a shelf, so we bake to order, the same way fresh-meal services do.</p>
-    <div class="steps">
-      <div class="step"><h3>Order</h3><p class="muted" style="margin:0">Pick your bars for the week, or your coach orders for the squad.</p></div>
-      <div class="step"><h3>We bake</h3><p class="muted" style="margin:0">Baked to order in small batches, with no long-life additives.</p></div>
-      <div class="step"><h3>Delivered chilled</h3><p class="muted" style="margin:0">Hand-delivered around Durham to start, kept cold all the way.</p></div>
-      <div class="step"><h3>Eat or freeze</h3><p class="muted" style="margin:0">Keep in the fridge and eat within the use-by date, or freeze for later.</p></div>
-    </div>
-    <div class="quote-band"><p><b>Baked this week, not 12 months ago.</b> The short shelf life is how you know it's real food.</p></div>
-  </div>
-</section>
-
-<!-- 5. COMPARISON -->
-<section id="compare" aria-labelledby="compare-h">
-  <div class="wrap">
-    <p class="eyebrow">How it compares</p>
-    <h2 id="compare-h">An honest comparison.</h2>
-    <p class="lede">Per bar as sold. The protein bars match us on protein using powders and sweeteners; the "natural" bars use real food but carry far more sugar.</p>
-    <div class="tablewrap" tabindex="0" role="region" aria-label="Comparison table, scrolls sideways on small screens">
-      <table>
-        <thead><tr><th scope="col"></th><th scope="col" class="us">fettle<br><span class="hint">Choc Peanut Butter (~106 g)</span></th><th scope="col">Myprotein THE Re-Fuel<br><span class="hint">80 g</span></th><th scope="col">HIGH5 Recovery Protein<br><span class="hint">50 g</span></th><th scope="col">Styrkr BAR+ Recovery<br><span class="hint">74 g</span></th><th scope="col">Veloforte Forza<br><span class="hint">70 g</span></th></tr></thead>
-        <tbody>
-          <tr><th scope="row">Protein</th><td class="us">21 g*</td><td>22 g</td><td>19 g</td><td>15 g</td><td>12 g</td></tr>
-          <tr><th scope="row">Carbohydrate</th><td class="us">27 g*</td><td>32 g</td><td>19 g</td><td>47 g</td><td>38 g</td></tr>
-          <tr><th scope="row">Sugars</th><td class="us">5.5 g*</td><td>not published</td><td>not published</td><td>28 g</td><td>28 g</td></tr>
-          <tr><th scope="row">Main ingredients</th><td class="us">Egg whites, quark, oat bran, oats</td><td>Maltitol (first ingredient), oats, whey</td><td>Milk protein, glucose syrup, sugar</td><td>Glucose syrup, soy protein, sugar</td><td>Apricot, almond, egg white, cane sugar</td></tr>
-          <tr><th scope="row">Sweeteners or sugar alcohols</th><td class="us">None</td><td>Yes (maltitol)</td><td>No</td><td>No</td><td>No</td></tr>
-          <tr><th scope="row">Storage</th><td class="us">Fridge (baked fresh)</td><td>Cupboard</td><td>Cupboard</td><td>Cupboard</td><td>Cupboard</td></tr>
-          <tr><th scope="row">Typical price</th><td class="us">£2.00–2.75 (testing)</td><td>~£1.54 (12-pack)</td><td>~£2.79</td><td>~£2.75</td><td>~£2.75</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="note">*fettle figures are calculated from the recipe, not yet lab-tested. Other figures are from brand and UK retailer pages checked 7–8 October 2026; "not published" means we couldn't find the value on the pages checked. Prices vary by retailer and promotion.</p>
-  </div>
-</section>
-
-<!-- 6. WHO IT'S FOR -->
 <section id="who" aria-labelledby="who-h">
   <div class="wrap">
     <p class="eyebrow">Who it's for</p>
-    <h2 id="who-h">For people who train hard and can't always cook.</h2>
-    <div class="grid g3" style="margin-top:20px">
-      <div class="card"><h3>Gym, then straight on</h3><p class="muted">You've trained, and lectures, work or the drive home come before your next proper meal.</p></div>
-      <div class="card"><h3>Club and squad nights</h3><p class="muted">Football, rugby, MMA, rowing: a hard session, then a late dinner.</p></div>
-      <div class="card"><h3>Coached athletes</h3><p class="muted">Your coach says eat whole food. This is whole food you can grab and eat in two minutes.</p></div>
+    <h2 id="who-h">For athletes who put the work in.</h2>
+    <p class="lead">Starting with Durham's coached squads and combat-sports gyms: people who train most days, are told to eat real food, and can't always cook between lectures, work and training.</p>
+    <div class="grid">
+      <div class="card"><h3>Squad athletes</h3><p>Training most days, often twice. Your coach says whole food. Your timetable says otherwise.</p></div>
+      <div class="card"><h3>Fighters &amp; lifters</h3><p>Straight from class to work or the next session, with a kit bag and no kitchen.</p></div>
+      <div class="card"><h3>Coaches</h3><p>Want something you'd actually let your squad eat, and that they'd actually finish.</p></div>
     </div>
   </div>
 </section>
 
-<!-- 7. FOUNDER -->
+<section id="problem" aria-labelledby="problem-h">
+  <div class="wrap">
+    <p class="eyebrow">The problem</p>
+    <h2 id="problem-h">After training, every quick option is a compromise.</h2>
+    <div class="grid">
+      <div class="card"><div class="stat">80%</div><p>of university athletes say their schedule limits their ability to cook.</p><p class="src">Morassutti 2024, survey of Canadian university athletes</p></div>
+      <div class="card"><h3>Fruit</h3><p>Real food, but very little protein.</p></div>
+      <div class="card"><h3>Protein bars</h3><p>Plenty of protein, mostly from powders, with sweeteners and sugar alcohols.</p></div>
+      <div class="card"><h3>"Natural" bars</h3><p>Real ingredients, but often 13–28 g of sugar and not much protein.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="what" aria-labelledby="what-h">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">What we're making</p>
+      <h2 id="what-h">Ingredients you'd find in a kitchen.</h2>
+      <div class="ingredients"><span>Egg</span><span>Quark</span><span>Oats</span><span>A little honey or banana</span></div>
+      <ul class="nots">
+        <li>No protein powder or whey</li>
+        <li>No sweeteners</li>
+        <li>No sugar alcohols</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Still being perfected</h3>
+      <p>We're testing the recipe and the format: a soft-baked bar, bites or a flapjack-style slice. Early recipes come out at around <strong>15 g protein per 50 g</strong> (calculated from the recipe, not yet lab-tested).</p>
+      <p class="src">Join the waitlist to taste the test batches and tell us which format you'd actually eat.</p>
+    </div>
+  </div>
+</section>
+
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <p class="eyebrow">How it will work</p>
+    <h2 id="how-h">Baked fresh, not stored for a year.</h2>
+    <ol class="steps">
+      <li><h3>Order weekly</h3><p class="small">Individually, or as a squad through your coach.</p></li>
+      <li><h3>Baked to order</h3><p class="small">Small batches, no long-life additives.</p></li>
+      <li><h3>Delivered chilled</h3><p class="small">Around Durham to start, dropped at training.</p></li>
+      <li><h3>Fridge or freezer</h3><p class="small">Eat within a few days, or freeze for later.</p></li>
+    </ol>
+  </div>
+</section>
+
 <section id="founder" aria-labelledby="founder-h">
-  <div class="wrap">
-    <p class="eyebrow">Who's behind it</p>
-    <h2 id="founder-h">Made by someone who trains.</h2>
-    <div class="ph">
-      <span class="ph-label">DRAFT: Ewan to check and edit</span>
-      <p><strong>[Photo of Ewan: alt text to describe it]</strong></p>
-      <p>"I'm Ewan. I train MMA, play football and lift. After two MMA classes back to back I'd eat a full meal and still be after more. Going straight from MMA to football, there was no time to cook. On a same-day weigh-in I'd be depleted with a short window before competing. Every time, the choice was a lab bar or nothing, so I started baking my own."</p>
-      <p class="muted small" style="margin:0">Business Management graduate, building this through Durham Venture School.</p>
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Who's behind it</p>
+      <h2 id="founder-h">Made by someone who trains.</h2>
+    </div>
+    <div>
+      <p>I'm Ewan, a Business Management graduate in Durham. I train MMA, play football and lift. Going from back-to-back classes to the next session, the choice was always a lab-made bar or nothing.</p>
+      <p>I'm building Graft at Durham Venture School with input from athletes, a strength and conditioning coach and a nutrition professor.</p>
     </div>
   </div>
 </section>
 
-<!-- 8. WHAT WE'VE HEARD -->
-<section id="proof" aria-labelledby="proof-h">
-  <div class="wrap">
-    <p class="eyebrow">What we've heard so far</p>
-    <h2 id="proof-h">Shaped by athletes and coaches.</h2>
-    <p class="lede">We've interviewed 10 athletes and gym-goers, a Team Durham strength and conditioning coach and a nutrition professor.</p>
-    <div class="grid g3" style="margin-top:20px">
-      <div class="card"><h3>7 of 10</h3><p class="muted">liked the idea. Their top asks: high protein and real ingredients.</p></div>
-      <div class="card"><h3>Taste and price</h3><p class="muted">were the biggest worries, so taste tests come first and price is still being tested.</p></div>
-      <div class="ph"><span class="ph-label">PLACEHOLDER: real tester quote only</span><p>[Quote from a named taste-tester, with their written permission. Do not invent.]</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- 9. FAQ -->
 <section id="faq" aria-labelledby="faq-h">
   <div class="wrap">
-    <p class="eyebrow">FAQ</p>
-    <h2 id="faq-h">Questions</h2>
-    <details><summary>Why does it need to be kept in the fridge?</summary><p>It's a fresh bake made with real eggs and quark, with no preservatives. Like a fresh meal, it's chilled with a use-by date. You can freeze it on the day it arrives and defrost it overnight in the fridge.</p></details>
-    <details><summary>How long does it keep?</summary><p>For our test bakes, we're using a 3-day use-by while we gather evidence for a longer one. The date will always be on the label.</p></details>
-    <details><summary>Where does the protein come from?</summary><p>Egg whites, eggs, quark (a soft cheese) and oat bran. No whey, soy or pea protein powder.</p></details>
-    <details><summary>Why is there some sugar?</summary><p>Half a teaspoon of honey (or a little banana in Banana Bread) adds a touch of sweetness and quick energy. Each bar has about 5.5 g of sugar, around half of it the natural sugar in quark and oats.</p></details>
-    <details><summary>What allergens does it contain?</summary><p>All bars contain <strong>egg, milk</strong> and <strong>oats</strong> (a cereal containing gluten). Chocolate Peanut Butter also contains <strong>peanuts</strong>, and all bars are made in a kitchen that handles peanuts. Not suitable for vegans or anyone with these allergies.</p></details>
-    <details><summary>How much will it cost?</summary><p>We're testing £2.00–2.75 a bar, with weekly boxes and squad orders cheaper per bar. Tell us what you'd pay in the form below: it genuinely shapes the price.</p></details>
-    <details><summary>Where do you deliver?</summary><p>Durham to start, hand-delivered and chilled. If you're further away, join the waitlist and tell us where; it helps us plan.</p></details>
-    <details><summary>Is it tested for banned substances (e.g. Informed Sport)?</summary><p>Not yet. If you're a drug-tested athlete, check with your support team before eating any product that isn't batch-tested.</p></details>
-    <details><summary>Is it a supplement or meal replacement?</summary><p>No. It's food: a snack for after training with protein and carbohydrate. We don't claim it does anything a balanced diet doesn't.</p></details>
+    <p class="eyebrow">Questions</p>
+    <h2 id="faq-h">Good to know.</h2>
+    <details><summary>Can I buy it?</summary><p>Not yet. Graft is a student venture in development. Join the waitlist to hear about free taste tests and trials first.</p></details>
+    <details><summary>Why does it need the fridge?</summary><p>Because it's real food with no preservatives, it's kept chilled like fresh food. You can freeze it to keep it longer.</p></details>
+    <details><summary>What are the allergens?</summary><p>Egg, milk and oats (gluten). Some flavours contain peanuts. Made in a kitchen that handles peanuts.</p></details>
+    <details><summary>Why the name Graft?</summary><p>Graft is British slang for hard work. It's for people who put the work in.</p></details>
   </div>
 </section>
 
-<!-- 10. WAITLIST -->
-<section id="waitlist" aria-labelledby="wl-h">
+<section id="join" aria-labelledby="join-h" style="border-bottom:0">
   <div class="wrap">
-    <p class="eyebrow">First batch</p>
-    <h2 id="wl-h">Join the waitlist.</h2>
-    <p class="lede">Takes a minute. You'll get first access, and your answers help us decide flavours, price and delivery.</p>
-    <div class="form-card">
-      <!-- PLACEHOLDER ENDPOINT: see AUTOMATION.md. Until replaced, the form shows a demo message and sends nothing. -->
-      <form id="waitlist-form" action="https://formspree.io/f/YOUR_WAITLIST_FORM_ID" method="POST" novalidate data-form="waitlist">
-        <input type="hidden" name="_subject" value="New fettle waitlist sign-up">
-        <input type="hidden" name="form" value="waitlist">
-        <div class="hp" aria-hidden="true"><label for="wl-company">Leave this empty</label><input id="wl-company" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
-        <div class="two">
-          <div><label for="wl-email">Email</label><input id="wl-email" name="email" type="email" autocomplete="email" required></div>
-          <div><label for="wl-sport">What do you mainly train? <span class="hint">(optional)</span></label>
-            <select id="wl-sport" name="sport"><option value="">Choose one</option><option>Gym / weights</option><option>Football</option><option>Rugby</option><option>MMA / combat sports</option><option>Running</option><option>Cycling</option><option>Rowing</option><option>Other team sport</option><option>Other</option></select></div>
-        </div>
-        <fieldset><legend>How often do you train? <span class="hint">(optional)</span></legend>
-          <div class="chips">
-            <label><input type="radio" name="frequency" value="1-2"> 1–2× a week</label>
-            <label><input type="radio" name="frequency" value="3-4"> 3–4×</label>
-            <label><input type="radio" name="frequency" value="5-6"> 5–6×</label>
-            <label><input type="radio" name="frequency" value="7+"> 7+</label>
-          </div></fieldset>
-        <fieldset><legend>Which flavours would you try? <span class="hint">(pick any)</span></legend>
-          <div class="chips">
-            <label><input type="checkbox" name="flavours" value="choc-pb"> Chocolate Peanut Butter</label>
-            <label><input type="checkbox" name="flavours" value="vanilla"> Vanilla</label>
-            <label><input type="checkbox" name="flavours" value="banana-bread"> Banana Bread</label>
-          </div></fieldset>
-        <fieldset><legend>How would you want them? <span class="hint">(optional)</span></legend>
-          <div class="chips">
-            <label><input type="radio" name="format" value="weekly-box"> Weekly box</label>
-            <label><input type="radio" name="format" value="one-off"> One-off order</label>
-            <label><input type="radio" name="format" value="squad"> Through my club or coach</label>
-          </div></fieldset>
-        <fieldset><legend>What's the most you'd happily pay for one bar? <span class="hint">(optional)</span></legend>
-          <div class="chips">
-            <label><input type="radio" name="price" value="<=2.00"> £2.00 or less</label>
-            <label><input type="radio" name="price" value="2.25"> £2.25</label>
-            <label><input type="radio" name="price" value="2.50"> £2.50</label>
-            <label><input type="radio" name="price" value="2.75"> £2.75</label>
-            <label><input type="radio" name="price" value=">2.75"> More than £2.75</label>
-          </div></fieldset>
-        <div><label for="wl-now">What did you eat after your last session, and how long after? <span class="hint">(optional)</span></label><input id="wl-now" name="current_habit" type="text" placeholder="e.g. protein bar straight away, nothing until dinner 3 hours later"></div>
-        <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>I'd like to hear about the first batch and taste tests. I can unsubscribe at any time. My details will be used as described in the <a href="#privacy">privacy notice</a>.</span></label>
-        <div><button class="btn btn-primary" type="submit">Join the waitlist</button></div>
-        <p class="status" role="status" aria-live="polite"></p>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- 11. SQUADS -->
-<section id="squads" aria-labelledby="sq-h">
-  <div class="wrap">
-    <p class="eyebrow">Coaches, clubs &amp; squads</p>
-    <h2 id="sq-h">Book a squad taste test.</h2>
-    <p class="lede">We'll bring bars to a training session for your squad to try, and talk through weekly squad orders. Durham and nearby to start.</p>
-    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:20px">
-      <div class="form-card">
-        <h3>Option A: pick a time</h3>
-        <!-- SCHEDULER PLACEHOLDER: paste your Cal.com or Calendly inline embed here (see AUTOMATION.md §3). -->
-        <div class="embed" id="scheduler"><div><strong>Booking calendar goes here</strong><br><span class="small">Cal.com / Calendly embed placeholder</span></div></div>
-      </div>
-      <div class="form-card">
-        <h3>Option B: request a taste test</h3>
-        <form id="partner-form" action="https://formspree.io/f/YOUR_PARTNER_FORM_ID" method="POST" novalidate data-form="partner">
-          <input type="hidden" name="_subject" value="New fettle squad taste-test request">
-          <input type="hidden" name="form" value="partner">
-          <div class="hp" aria-hidden="true"><label for="pt-company2">Leave this empty</label><input id="pt-company2" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
-          <div><label for="pt-name">Your name</label><input id="pt-name" name="name" type="text" autocomplete="name" required></div>
-          <div><label for="pt-email">Email</label><input id="pt-email" name="email" type="email" autocomplete="email" required></div>
-          <div><label for="pt-org">Club, team or gym</label><input id="pt-org" name="organisation" type="text" autocomplete="organization" required></div>
-          <div><label for="pt-type">You are a…</label><select id="pt-type" name="partner_type" required><option value="">Choose one</option><option>Coach / S&amp;C coach</option><option>Club or team captain</option><option>Gym or combat-sports club</option><option>University sports club</option><option>Other</option></select></div>
-          <div><label for="pt-size">Squad size <span class="hint">(optional)</span></label><input id="pt-size" name="squad_size" type="text" placeholder="e.g. 25"></div>
-          <div><label for="pt-when">Best training session to visit <span class="hint">(optional)</span></label><input id="pt-when" name="preferred_times" type="text" placeholder="e.g. Wednesday evening session"></div>
-          <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>Please contact me about a taste test. My details will be used as described in the <a href="#privacy">privacy notice</a>.</span></label>
-          <div><button class="btn btn-primary" type="submit">Request a taste test</button></div>
-          <p class="status" role="status" aria-live="polite"></p>
-        </form>
+    <div class="join">
+      <h2 id="join-h">Help us build it.</h2>
+      <p>Take the 2-minute survey and join the waitlist for free taste tests. Coach or club? Tell us in the survey and we'll bring a squad taste test to you.</p>
+      <div class="cta-row" style="justify-content:center">
+        <!-- Add ?utm_source=meta_a / meta_b etc. via a Google Forms pre-filled link to tell ad sets apart -->
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeilE_9BxwhT6vIkU1nCfyYJWHIz9uEGCxyQN73SMp-4-bJqw/viewform" target="_blank" rel="noopener">Take the survey &amp; join</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PRIVACY NOTICE PLACEHOLDER -->
-<section id="privacy" aria-labelledby="pv-h">
-  <div class="wrap">
-    <div class="ph">
-      <span class="ph-label">PLACEHOLDER: privacy notice (UK GDPR)</span>
-      <h2 id="pv-h" style="font-size:24px">Privacy notice</h2>
-      <p>[Who we are: business name, contact email. What we collect (email, training info, answers), why (waitlist, product research, arranging taste tests), lawful basis (consent), who processes it (e.g. form and email providers, named), where it's stored, how long we keep it (e.g. until launch + 12 months, or until you unsubscribe), your rights (access, deletion, withdraw consent) and how to complain to the ICO (ico.org.uk). Check whether you need to pay the ICO data protection fee.]</p>
-    </div>
-  </div>
-</section>
 </main>
 
-<!-- 12. FOOTER -->
 <footer>
-  <div class="wrap foot">
-    <div>
-      <img src="assets/logo-mark-light.svg" alt="" width="64" height="30">
-      <p style="margin-top:10px">Real-food recovery bars, baked fresh.<br>Made in [Durham], UK.</p>
-    </div>
-    <ul aria-label="Contact"><li><strong>Contact</strong></li><li><a href="mailto:hello@example.co.uk">hello@example.co.uk</a> <span class="hint">[placeholder]</span></li></ul>
-    <ul aria-label="Social"><li><strong>Follow</strong></li><li><a href="#" aria-label="Instagram (placeholder link)">Instagram [placeholder]</a></li><li><a href="#" aria-label="TikTok (placeholder link)">TikTok [placeholder]</a></li></ul>
-    <ul aria-label="Legal"><li><strong>Legal</strong></li><li><a href="#privacy">Privacy notice</a></li><li><a href="#">Terms [placeholder]</a></li><li><span>[Business name · company/sole-trader details]</span></li></ul>
+  <div class="wrap">
+    <p>Graft is a student venture in development at Durham Venture School. Not yet for sale. Product details will change during testing. Nutrition figures are calculated from recipes, not lab-tested.</p>
+    <p>Your survey answers are collected by Google Forms and used only for this project. You can ask for your details to be deleted at any time.</p>
   </div>
-  <div class="wrap"><p class="small" style="margin-top:24px">fettle is a working name for a student venture in development at Durham Venture School; branding is not final. Product details may change before launch. © 2026 [Business name].</p></div>
 </footer>
 
-<script>
-/* Form handling. Until a real endpoint replaces YOUR_..._FORM_ID, nothing is sent: a demo message shows instead. */
-document.querySelectorAll("form[data-form]").forEach(form => {
-  const status = form.querySelector(".status");
-  form.addEventListener("submit", async e => {
-    e.preventDefault();
-    status.className = "status";
-    const email = form.querySelector('input[type=email]');
-    const consent = form.querySelector('input[name=consent]');
-    const missing = [...form.querySelectorAll("[required]")].find(el => el.type === "checkbox" ? !el.checked : !el.value.trim());
-    if (email && email.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) { status.textContent = "Please enter a valid email address."; status.classList.add("err"); email.focus(); return; }
-    if (missing) { status.textContent = missing === consent ? "Please tick the consent box so we can contact you." : "Please fill in the required fields."; status.classList.add("err"); missing.focus(); return; }
-    if (form.action.includes("YOUR_")) {
-      status.textContent = "Demo mode: form not connected yet, so nothing was sent. (See AUTOMATION.md.)";
-      status.classList.add("ok");
-      return;
-    }
-    try {
-      const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
-      if (!res.ok) throw new Error();
-      form.reset();
-      status.textContent = form.dataset.form === "waitlist" ? "You're on the list. Check your inbox for a confirmation email." : "Thanks! We'll email you within two working days to arrange a taste test.";
-      status.classList.add("ok");
-      // ANALYTICS PLACEHOLDER: e.g. window.plausible && plausible(form.dataset.form + "-submit");
-    } catch {
-      status.textContent = "Sorry, something went wrong. Please try again or email hello@example.co.uk.";
-      status.classList.add("err");
-    }
-  });
-});
-</script>
 </body>
 </html>
