@@ -1,9 +1,11 @@
 # Project memory: Graft (Durham Venture School)
 
-## Always judge work against these two sheets
+## Always judge work against these two sheets (the judging criteria come FIRST)
+**Priority:** the judging criteria are the most important. They decide the score. Every deliverable should be checked against all six criteria first, then against the "Pitching your idea" questions.
+
 The final pitch (Week 13) is scored on the **Durham Venture School judging criteria**. Every piece of work should answer the **"Pitching your idea"** questions. Full transcription: `inputs/judging-criteria.md`. Photos: `inputs/judging-criteria-sheet.jpg`, `inputs/pitching-your-idea-sheet.jpg`.
 
-**Judging criteria**
+**Judging criteria (most important)**
 1. **Problem & Market Research:** is the problem real, significant, clear and evidence-backed? Has meaningful customer discovery or market research been carried out? Is there evidence of real demand or a gap in the market?
 2. **Innovation & Value Proposition:** is the solution distinctive? Does it create a clear competitive advantage?
 3. **Feasibility & Business Model:** is the business model credible and realistic? (Revenue is **not** required.)
