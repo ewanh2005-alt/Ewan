@@ -84,3 +84,8 @@ Last updated: 8 Oct 2026 (Week 5)
 
 ## Decisions open for Ewan
 1. Confirm v6 vs core-list v5 · 2. Persona (Jack) · 3. Price test £2.00–2.75 · 4. Name (fettle) after IPO check
+
+## 13 Oct: Friday pitch prep + brand name
+- [x] Brand name direction: **Graft** ("Earned, not engineered."; gym line "Graft or nowt"). Logos/packs/landing still say fettle → rebuild once Ewan confirms and does the UK IPO trade mark check
+- [x] `13-pitch-friday-brief.md`: early adopters (coached Durham athletes + MMA club), persona (Jack, once a day), why they need it, why they want it, judge Q&A
+- [x] `09-pitch/pitch-deck.pptx` updated: Graft name/tagline, v6 numbers (2 × 50 g ≈ 29 g protein, 28 g carbs), persona once a day, early-adopter line
