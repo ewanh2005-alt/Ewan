@@ -1,6 +1,7 @@
 # 11 — Plan to the final pitch (Week 13), mapped to the judging criteria
 
 **Date:** 12 Oct 2026 (about Week 6) · **Source criteria:** `inputs/judging-criteria.md`
+**Update 13 Oct:** the programme does **not** require revenue. Focus on the idea, the problem, who has it, why it matters and the solution, backed by evidence. Business model stays as one simple slide (price, cost per bar, how it would make money).
 **Rule:** every week has to produce **evidence** (numbers, quotes, photos, money), not just activity.
 
 ---
@@ -22,7 +23,7 @@
 1. **Interviews:** 25+ in total (now 12). Add 8 athletes and 5–8 women aged 35–55.
 2. **Blind taste test:** 20+ people, your bar vs Barebells, with **taste ≥7/9** and **"would buy again" ≥50%**.
 3. **Waitlist:** 30+ sign-ups.
-4. **Money:** **at least one paid pre-order**, e.g. a squad trial week or 10 boxes. Money is the strongest proof of demand.
+4. **Commitment (not revenue):** at least one **free squad trial** agreed, or people asking to be in the next batch. The programme doesn't require revenue (Ewan, 13 Oct), so commitment = time, a trial or a waitlist sign-up.
 
 ---
 
@@ -34,7 +35,7 @@
 | **7** | Product + interviews | Fix v6 from the scores (one change at a time). Interview 4 athletes and 3 women aged 35–55 with the same questions (what they eat after training or as a snack, what annoys them, what they pay). Post on Mumsnet or a local Facebook group | A bake that scores taste ≥7; 7 interview notes | Problem & Research, Innovation |
 | **8** | Taste test | **Blind taste test with 20 people** (your bar vs Barebells): taste, texture, "would you buy?", price willingness (£2 / £2.50 / £3). Do it at the gym, MMA club, Team Durham and the Durham Market (Health Barn) | Taste-test scores and charts | Research, Innovation |
 | **9** | Early adopters | Ask the S&C coach for a **squad trial**. Ask your MMA club too. Turn the landing page waitlist on (connect a free form). Ask every taster to sign up | Named early adopters; waitlist count | Research ("early adopters") |
-| **10** | MVP / pilot | **Pilot week:** sell a small batch (e.g. 10–20 bars or 1 squad) at your test price. Track who re-orders. Registration should come through around now | First revenue; re-order rate | Feasibility ("MVP or pilot") |
+| **10** | MVP / pilot | **Free pilot week:** give a small batch (e.g. 10–20 bars or 1 squad) and ask who'd want more and what they'd pay. No selling needed. Registration should come through around now | Pilot feedback; % who ask for more; stated price | Feasibility ("MVP or pilot") |
 | **11** | Business model + deck | Update costs (with dried egg white, packaging and delivery) and the price from test data. **Rebuild the deck** around the evidence. Choose the market (athletes or women 35–55) from the interview and taste-test numbers | Updated unit economics; deck v2 | Feasibility, Impact & Scale |
 | **12** | Rehearse | Practise the pitch 5+ times, timed to under 5 min. Pitch to 2–3 people (course mates, a mentor) for feedback. Prepare answers to tough questions (shelf life, price vs Barebells, why fridge, why you) | Feedback and a Q&A sheet | Pitch & Communication |
 | **13** | Pitch | Final tweaks; bring sample bars for the judges if allowed | Final pitch | All |
