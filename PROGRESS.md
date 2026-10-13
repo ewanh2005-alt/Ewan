@@ -95,3 +95,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: bubble "GRAFT." logo chosen; `05-brand/prep_logo.py` makes dark, light, icon and favicon versions (wrong tagline cropped out); added to landing page (header + hero, dark mode) and deck (slides 1 and 5); brand guidelines updated
 - [x] 13 Oct: `15-founder-outreach.md`: precedent founders (JNCK, Mooski, Perfect Bar, RXBAR, Bounce), LinkedIn routes, message templates; sources H9 Mooski
 - [x] 13 Oct: market gap: `research/16_gap_analysis.py` (25 UK snacks × 4 tests; 0 pass all four; Graft calculated passes), `16-gap-chart.svg/png`, `16-market-gap.md`; deck slide 4 now the gap chart
+- [x] 13 Oct: `17-research-sprint.md` (5-day plan to 50 REAL responses: survey, 10-min interview, coach questions, messages) + `research/17_analyse_responses.py` + interview template. Declined to fabricate interviews
