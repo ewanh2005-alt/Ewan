@@ -99,3 +99,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: `graft-accelerator-FICTIONAL/`: 50 script-generated FICTIONAL interviews + survey + worked analysis for Ewan's fictional Graft Accelerator teaching programme. **Not evidence; never use in the DVS pitch, persona or sources.** `17_analyse_responses.py` gained --out and a key fix
 - [x] 13 Oct: `18-accelerators-and-support.md` (now / 6–12 months / later; sources A1–A12) and `START-HERE.md` index
 - [x] 13 Oct: `CLAUDE.md` project memory (judging criteria + pitching questions + rules, loaded every session); sheet photos saved in `inputs/`; criteria status update
+- [x] 13 Oct: `19-mom-test-questions.md`: Mom Test rules, bad→good pairs, athlete and coach question banks, commitment asks; linked from START-HERE and 17

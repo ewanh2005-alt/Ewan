@@ -24,6 +24,7 @@
 | `02d-women-40-60-research.md` | Women 40–60 segment research |
 | `research/sources.md` | Every source, with links |
 | `17-research-sprint.md` | Plan for 50 real responses + analysis script |
+| `19-mom-test-questions.md` | Mom Test interview questions (athletes, gym-goers, coaches) |
 
 ## Plans and contacts
 `10-scale-plan.md` · `11-plan-to-week-13.md` · `15-founder-outreach.md` · `18-accelerators-and-support.md`

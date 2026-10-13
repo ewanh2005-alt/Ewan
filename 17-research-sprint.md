@@ -52,6 +52,7 @@ Add **one optional open question**: "Anything else about what you eat after trai
 ---
 
 ## 10-minute interview script (athletes and gym-goers)
+*For the full Mom Test question bank and rules, see `19-mom-test-questions.md`.*
 Ask about real past behaviour, not opinions about your idea. Don't mention the product until question 7.
 1. Talk me through your last training day: what did you do, and what did you eat after?
 2. When did you last *not* manage a proper meal after training? What happened, and what did you eat instead?
