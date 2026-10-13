@@ -156,38 +156,23 @@ async function icon(Comp, color = "FFFFFF") {
   // ---------------- Slide 4: competition ----------------
   pres.addSection({ title: "Market" });
   s = pres.addSlide({ masterName: "Content", sectionTitle: "Market" });
-  s.addText("Competition: powders and sweeteners, or sugar", { placeholder: "title" });
-  const hdr = ["Bar (per bar)", "Protein", "Carbs", "Sugar", "What it's made with"].map((t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.text1 } } }));
-  const comp = [
-    ["Myprotein THE Re-Fuel (80 g)", "22 g", "32 g", "n/p", "Maltitol (1st ingredient), whey, glycerol"],
-    ["Amacx Recovery (55 g, XMiles)", "20 g", "22 g", "n/p", "Soy/whey/milk protein mix, glucose-fructose syrup"],
-    ["HIGH5 Recovery Protein (50 g)", "19 g", "19 g", "n/p", "Glucose syrup, invert sugar, sugar, milk & soy protein"],
-    ["Styrkr BAR+ Recovery (74 g)", "15 g", "47 g", "28 g", "Glucose syrup, soy protein isolate, sugar"],
-    ["Huel Bar (55 g)", "15 g", "17 g", "2 g", "Maltitol, rice & pea protein, corn fibre"],
-    ["Veloforte Forza (70 g, \"real food\")", "12 g", "38 g", "28 g", "Apricot, almond, egg white, cane sugar"],
-  ];
-  const body = comp.map((r) => r.map((t) => ({ text: t, options: { color: C.text1 } })));
-  const ours = ["Graft, 2 × 50 g bars (calculated)", "~29 g", "~28 g", "~8 g", "Egg, quark, oats, a little honey or banana. No whey, no sweeteners"].map((t) => ({ text: t, options: { bold: true, color: C.background1, fill: { color: C.accent1 } } }));
-  s.addTable([hdr, ...body, ours], {
-    x: 0.6, y: 1.4, w: 8.4, colW: [2.75, 0.95, 0.95, 0.85, 2.9], fontSize: 12, rowH: 0.52, valign: "middle",
-    border: { type: "solid", pt: 0.75, color: HEX.accent6 }, fill: { color: C.background1 }, margin: 0.06, objectName: "Competitor table",
-  });
-  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 9.3, y: 1.4, w: 3.4, h: 4.15, rectRadius: 0.12, fill: { color: C.background2 }, line: { type: "none" }, objectName: "Gap card" });
-  await circleIcon(s, fa.FaCheck, 9.55, 1.6, 0.6, "What we have", C.accent2);
-  s.addText("What they don't have, and we do", { x: 9.55, y: 2.3, w: 3.0, h: 0.7, fontSize: 16, bold: true, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: "Gap card title" });
+  s.addText("The gap: nobody does all three", { placeholder: "title" });
+  s.addImage({ path: path.join(__dirname, "..", "16-gap-chart.png"), x: 0.6, y: 1.35, w: 8.6, h: 5.35, objectName: "Gap chart", altText: "Scatter of 25 UK protein snacks: protein vs sugar per 50 g. Every high-protein, low-sugar bar uses powders; real-food bars are high in sugar; Graft is the only real-food point in the gap." });
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 9.45, y: 1.35, w: 3.25, h: 5.35, rectRadius: 0.12, fill: { color: C.background2 }, line: { type: "none" }, objectName: "Gap card" });
+  s.addText("25 snacks, 4 tests", { x: 9.7, y: 1.55, w: 2.8, h: 0.4, fontSize: 16, bold: true, color: C.text1, margin: 0, isTextBox: true, objectName: "Tests title" });
   s.addText([
-    { text: "Protein from egg & quark, not powder", options: { bullet: true, breakLine: true } },
-    { text: "Real carbs from oats", options: { bullet: true, breakLine: true } },
-    { text: "No powders, sweeteners or sugar alcohols", options: { bullet: true, breakLine: true } },
-    { text: "Baked fresh", options: { bullet: true } },
-  ], { x: 9.55, y: 3.05, w: 3.0, h: 2.35, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 6, isTextBox: true, objectName: "Gap card list" });
-  s.addText("Checked 32+ UK bars: the high-protein ones use powders and sweeteners; the real-food ones are high in sugar, low in protein.", {
-    x: 0.6, y: 5.75, w: 12.1, h: 0.55, fontSize: 14, bold: true, color: C.text1, margin: 0, isTextBox: true, objectName: "Market summary",
-  });
-  s.addText("Per bar, from brand/retailer pages, Oct 2026. n/p = not published where checked. Our figures are calculated from ingredients, not lab-tested.", {
-    x: 0.6, y: 6.35, w: 12.1, h: 0.35, fontSize: 10, italic: true, color: C.accent3, margin: 0, isTextBox: true, objectName: "Table source",
-  });
-  s.addNotes("~60s. These are the recovery bars athletes see: Myprotein's Re-Fuel, Amacx, HIGH5, Styrkr, Huel. The ones with 20 g protein get it from protein powder, and most rely on syrups or sugar alcohols. Re-Fuel's first ingredient is maltitol. The 'real food' bars like Veloforte have lots of sugar and only 12 g protein. Across 32+ UK bars I checked, none gets its protein from real food with low sugar. Graft does: two 50 g bars give about 29 g protein and 28 g carbs from egg, quark and oats, with a little honey or banana and no sweeteners. Our numbers are calculated from the ingredients and will be lab-checked.");
+    { text: "≥10 g protein: 20", options: { bullet: true, breakLine: true } },
+    { text: "Low sugar: 11", options: { bullet: true, breakLine: true } },
+    { text: "Real-food protein: 4", options: { bullet: true, breakLine: true } },
+    { text: "All four: 0", options: { bullet: true, bold: true, color: C.accent1 } },
+  ], { x: 9.7, y: 2.0, w: 2.8, h: 1.5, fontSize: 13, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 3, isTextBox: true, objectName: "Tests list" });
+  s.addText("Why the gap exists", { x: 9.7, y: 3.65, w: 2.8, h: 0.4, fontSize: 16, bold: true, color: C.text1, margin: 0, isTextBox: true, objectName: "Why title" });
+  s.addText([
+    { text: "Shops need months of shelf life; real food lasts days", options: { bullet: true, breakLine: true } },
+    { text: "Powders and sweeteners keep bars soft and cheap", options: { bullet: true, breakLine: true } },
+    { text: "Graft bakes to order and sells direct to squads", options: { bullet: true, bold: true } },
+  ], { x: 9.7, y: 4.1, w: 2.8, h: 2.4, fontSize: 13, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 4, isTextBox: true, objectName: "Why list" });
+  s.addNotes("~60s. I scored 25 UK protein snacks on four tests: at least 10 g protein, protein from real food rather than powders, no sweeteners, and low sugar. 20 have the protein, 11 are low in sugar, only 4 use real-food protein, and none pass all four. The high-protein, low-sugar bars all use powders, mostly with sweeteners. The real-food bars carry 13 to 20 g of sugar. Why? Shops need months of shelf life, and real food lasts days. Graft designs around that: bake to order, sell direct to squads. Graft's numbers are calculated, not yet lab-tested. OLD NOTES: These are the recovery bars athletes see: Myprotein's Re-Fuel, Amacx, HIGH5, Styrkr, Huel. The ones with 20 g protein get it from protein powder, and most rely on syrups or sugar alcohols. Re-Fuel's first ingredient is maltitol. The 'real food' bars like Veloforte have lots of sugar and only 12 g protein. Across 32+ UK bars I checked, none gets its protein from real food with low sugar. Graft does: two 50 g bars give about 29 g protein and 28 g carbs from egg, quark and oats, with a little honey or banana and no sweeteners. Our numbers are calculated from the ingredients and will be lab-checked.");
 
   // ---------------- Slide 5: model ----------------
   pres.addSection({ title: "Model" });
