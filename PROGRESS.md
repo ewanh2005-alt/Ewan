@@ -101,3 +101,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: `CLAUDE.md` project memory (judging criteria + pitching questions + rules, loaded every session); sheet photos saved in `inputs/`; criteria status update
 - [x] 13 Oct: `19-mom-test-questions.md`: Mom Test rules, bad→good pairs, athlete and coach question banks, commitment asks; linked from START-HERE and 17
 - [x] 14 Oct: `20-interview-template-open.md`: open-conversation Mom Test template (copy into a doc), for interviewees whose sport isn't known
+- [x] 14 Oct: `21-master-brief.md` (story vs pitch sheet, judging scorecard, concepts, landing page flow, next steps to Monday/pitch, risks, copy-paste big prompt); poster refreshed with Graft logo/slogan, 'protein snack', offer 'Sign up to try the first batch, free' (1 A4 page). Ewan: not registering as a food business (not selling)
