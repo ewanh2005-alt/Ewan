@@ -2,7 +2,7 @@
 
 **Date:** 13 Oct 2026 · **Method:** *The Mom Test* (Rob Fitzpatrick): ask questions that even your mum can't lie to you about.
 **Judging link:** Problem & Market Research ("meaningful customer discovery"); sheet questions "How do you know? Proof about customers" and "Why will they care? (migraine)".
-**Write-up:** use `research/17_interview_template.csv`; analyse with `research/17_analyse_responses.py`.
+**Copy-into-a-doc version:** `20-interview-template-open.md` · **Write-up:** use `research/17_interview_template.csv`; analyse with `research/17_analyse_responses.py`.
 
 ---
 

@@ -100,3 +100,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: `18-accelerators-and-support.md` (now / 6–12 months / later; sources A1–A12) and `START-HERE.md` index
 - [x] 13 Oct: `CLAUDE.md` project memory (judging criteria + pitching questions + rules, loaded every session); sheet photos saved in `inputs/`; criteria status update
 - [x] 13 Oct: `19-mom-test-questions.md`: Mom Test rules, bad→good pairs, athlete and coach question banks, commitment asks; linked from START-HERE and 17
+- [x] 14 Oct: `20-interview-template-open.md`: open-conversation Mom Test template (copy into a doc), for interviewees whose sport isn't known
