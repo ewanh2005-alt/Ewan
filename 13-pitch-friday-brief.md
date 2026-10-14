@@ -11,6 +11,11 @@
 - **Two bars after training:** ~29 g protein, ~28 g carbs.
 - **Ingredients:** egg (fresh and dried white), quark and oats. No whey, sweeteners or sugar alcohols `[EVIDENCE: research/04d_recovery_calcs.py v6]`.
 
+
+> ## Say this first and last
+> **"Graft is a fresh, baked protein snack made from real food (egg, quark and oats) for athletes who train hard and can't always cook. Baked to order and delivered to squads."**
+> Test: after a practice run, ask a friend "What is Graft?" Their answer should match this sentence.
+
 ---
 
 ## 1. Who are your early adopters, and why?

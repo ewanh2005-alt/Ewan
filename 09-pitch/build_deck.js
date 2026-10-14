@@ -10,7 +10,7 @@ const { applyTheme } = require(process.env.APPLY_THEME);
 
 const OUT = path.join(__dirname, "pitch-deck.pptx");
 const THEME = {
-  name: "Recovery Bar Pitch",
+  name: "Graft Pitch",
   headFontFace: "Arial",
   bodyFontFace: "Calibri",
   colors: {
@@ -30,7 +30,7 @@ async function icon(Comp, color = "FFFFFF") {
 (async () => {
   const pres = new pptxgen();
   pres.layout = "LAYOUT_WIDE"; // 13.33 x 7.5 in
-  pres.title = "Real-food recovery bar: pitch";
+  pres.title = "Graft: pitch";
   pres.author = "Ewan";
   pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
   const C = pres.SchemeColor;
@@ -63,12 +63,12 @@ async function icon(Comp, color = "FFFFFF") {
   pres.addSection({ title: "Concept" });
   let s = pres.addSlide({ masterName: "Dark title", sectionTitle: "Concept" });
   s.addText([
-    { text: "The pivot: a ", options: {} },
-    { text: "real-food", options: { color: C.accent1 } },
-    { text: " recovery bar for athletes who train hard", options: {} },
+    { text: "Graft: ", options: {} },
+    { text: "real food", options: { color: C.accent1 } },
+    { text: " for people who train hard", options: {} },
   ], { placeholder: "title" });
-  s.addText("Two 50 g bars ≈ 29 g protein + 28 g carbs  ·  egg, quark & oats  ·  no whey, sweeteners or sugar alcohols", {
-    x: 0.6, y: 1.8, w: 12.1, h: 0.45, fontSize: 18, color: C.background1, margin: 0, isTextBox: true, objectName: "Subtitle",
+  s.addText("Graft is a fresh, baked protein snack made from real food (egg, quark and oats) for athletes who train hard and can't always cook. Baked to order and delivered to squads.", {
+    x: 0.6, y: 1.55, w: 12.1, h: 0.9, fontSize: 18, color: C.background1, margin: 0, isTextBox: true, objectName: "Subtitle",
   });
   s.addText("Where it came from: my own training", { x: 0.6, y: 2.65, w: 12.1, h: 0.4, fontSize: 16, bold: true, color: C.accent1, margin: 0, isTextBox: true, objectName: "Story heading" });
   const moments = [
@@ -84,13 +84,13 @@ async function icon(Comp, color = "FFFFFF") {
     s.addText(moments[i][2], { x: x + 0.3, y: 4.95, w: 3.2, h: 1.05, fontSize: 14, color: C.background1, margin: 0, valign: "top", isTextBox: true, objectName: `Moment ${i + 1} text` });
   }
   s.addImage({ path: path.join(__dirname, "..", "05-brand", "graft-logo-light.png"), x: 0.6, y: 6.2, w: 1.75, h: 0.49, objectName: "Graft logo", altText: "Graft logo" });
-  s.addText("Real food for grafters.  (Graft: British slang for hard work.)", { x: 2.6, y: 6.25, w: 10.1, h: 0.4, fontSize: 14, italic: true, color: C.accent3, margin: 0, valign: "middle", isTextBox: true, objectName: "Branding note" });
-  s.addNotes("~60s. I've pivoted. The idea is now a recovery bar made from real food, for athletes who train hard. It came from my own training. After two MMA classes back to back I'd eat a full meal and still be after more. Going from MMA straight to football, I'm in a rush and need something quick but proper. On a same-day weigh-in I'm depleted after making weight and have a short window to refuel before I compete. Every time, the choice is a lab-made protein bar full of powders and sweeteners, or nothing. So I made Graft: a 50 g bar with ~15 g protein from egg, quark and oats, and athletes eat two after training, about 29 g protein and 28 g carbs. Graft is British slang for hard work: it is for people who put the work in. Real food for grafters. (Note for weigh-in days: fibre before competing can upset the gut, so a lower-fibre version may suit that use. Worth testing.)");
+  s.addText("Ewan Hetherington · Durham Business Management graduate · MMA, football, gym · Real food for grafters.", { x: 2.6, y: 6.25, w: 10.1, h: 0.4, fontSize: 14, italic: true, color: C.accent3, margin: 0, valign: "middle", isTextBox: true, objectName: "Branding note" });
+  s.addNotes("~60s. SAY FIRST: 'Graft is a fresh, baked protein snack made from real food (egg, quark and oats) for athletes who train hard and can't always cook. Baked to order and delivered to squads.' I'm Ewan: Durham Business Management graduate; I train MMA, play football and lift. It came from my own training. After two MMA classes back to back I'd eat a full meal and still be after more. Going from MMA straight to football, I'm in a rush and need something quick but proper. On a same-day weigh-in I'm depleted after making weight and have a short window to refuel before I compete. Every time, the choice is a lab-made protein bar full of powders and sweeteners, or nothing. So I made Graft: about 15 g protein per 50 g from egg, quark and oats, no powders or sweeteners. The format (soft-baked bar, bites or slice) is decided by taste test. Graft is British slang for hard work: it is for people who put the work in. Real food for grafters. (Note for weigh-in days: fibre before competing can upset the gut, so a lower-fibre version may suit that use. Worth testing.)");
 
   // ---------------- Slide 2: why it's needed ----------------
   pres.addSection({ title: "Problem" });
   s = pres.addSlide({ masterName: "Content", sectionTitle: "Problem" });
-  s.addText("Why it's needed: told to eat real food, no time to make it", { placeholder: "title" });
+  s.addText("The problem: told to eat real food, no time to make it", { placeholder: "title" });
   const stats = [
     ["80%", "of Canadian university athletes say their schedule limits their ability to cook and prepare meals", "Morassutti 2024, U Sports survey"],
     ["Carbs", "are what athletes miss: team-sport athletes meet protein targets but fall short on carbohydrate and energy", "Jenner et al. 2019, 21 studies"],
@@ -115,7 +115,7 @@ async function icon(Comp, color = "FFFFFF") {
   // ---------------- Slide 3: customers ----------------
   pres.addSection({ title: "Customers" });
   s = pres.addSlide({ masterName: "Content", sectionTitle: "Customers" });
-  s.addText("What athletes told me, and who it's for", { placeholder: "title" });
+  s.addText("Who it's for: Jack, and the squads who'll try it first", { placeholder: "title" });
   // left column: who + persona
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 1.45, w: 4.3, h: 2.55, rectRadius: 0.12, fill: { color: C.background2 }, line: { type: "none" }, objectName: "Spoken to card" });
   await circleIcon(s, fa.FaComments, 0.85, 1.65, 0.6, "Spoken to");
@@ -148,8 +148,8 @@ async function icon(Comp, color = "FFFFFF") {
     s.addText(rows[i][1], { x: 6.1, y, w: 6.6, h: 0.38, fontSize: 16, bold: true, color: C.accent1, margin: 0, isTextBox: true, objectName: `Row ${i + 1} title` });
     s.addText(rows[i][2], { x: 6.1, y: y + 0.38, w: 6.6, h: 0.72, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true, objectName: `Row ${i + 1} text` });
   }
-  s.addText("Early adopters: coached athletes (Team Durham squads, my MMA club). One coach = ~25 athletes = one drop. Still to prove: 0/10 committed yet.", {
-    x: 5.3, y: 6.35, w: 7.4, h: 0.55, fontSize: 13, italic: true, color: C.accent3, margin: 0, valign: "top", isTextBox: true, objectName: "Still to prove",
+  s.addText("Early adopters: coached Durham squads + my MMA club. One coach = ~25 athletes = one drop. (0/10 committed yet; the squad trial tests this.)", {
+    x: 5.3, y: 6.3, w: 7.4, h: 0.6, fontSize: 14, bold: true, color: C.accent1, margin: 0, valign: "top", isTextBox: true, objectName: "Still to prove",
   });
   s.addNotes("~70s. I've spoken to 10 athletes and gym-goers, including a pro footballer, a rugby player and an aspiring bodybuilder, plus the Team Durham S&C coach and a nutrition professor. I've got more interviews lined up [say who]. 7 of 10 liked the idea. They want high protein and real food. The problems with what's out there: price, taste, and ingredients they don't trust. The S&C coach watched students fail to finish boxes of Grenade bars. Why it's a migraine: after training they need protein and carbs. Chicken-and-rice meal prep works when they manage it, but it means cooking ahead and carrying a tub. The quick options fall short: fruit has no protein, lab bars are full of powders and sweeteners, 'natural' bars are mostly sugar. So they compromise or go without, after almost every session, which for someone training 5-6 days a week is 5-6 times a week. My persona is Jack: trains once a day, plays a sport, is trying to eat well and trusts his coach. My early adopters are the sharpest slice of Jack: coached athletes, starting with Team Durham squads and my MMA club. Why them: they train hardest, their coach tells them to eat whole food, and one coach means about 25 athletes and one delivery, which suits a fresh bar. Honestly: nobody has committed yet; that's what the squad trial is for. Interview notes are paraphrased, not quotes.");
 
@@ -172,20 +172,20 @@ async function icon(Comp, color = "FFFFFF") {
     { text: "Powders and sweeteners keep bars soft and cheap", options: { bullet: true, breakLine: true } },
     { text: "Graft bakes to order and sells direct to squads", options: { bullet: true, bold: true } },
   ], { x: 9.7, y: 4.1, w: 2.8, h: 2.4, fontSize: 13, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 4, isTextBox: true, objectName: "Why list" });
-  s.addNotes("~60s. I scored 25 UK protein snacks on four tests: at least 10 g protein, protein from real food rather than powders, no sweeteners, and low sugar. 20 have the protein, 11 are low in sugar, only 4 use real-food protein, and none pass all four. The high-protein, low-sugar bars all use powders, mostly with sweeteners. The real-food bars carry 13 to 20 g of sugar. Why? Shops need months of shelf life, and real food lasts days. Graft designs around that: bake to order, sell direct to squads. Graft's numbers are calculated, not yet lab-tested. OLD NOTES: These are the recovery bars athletes see: Myprotein's Re-Fuel, Amacx, HIGH5, Styrkr, Huel. The ones with 20 g protein get it from protein powder, and most rely on syrups or sugar alcohols. Re-Fuel's first ingredient is maltitol. The 'real food' bars like Veloforte have lots of sugar and only 12 g protein. Across 32+ UK bars I checked, none gets its protein from real food with low sugar. Graft does: two 50 g bars give about 29 g protein and 28 g carbs from egg, quark and oats, with a little honey or banana and no sweeteners. Our numbers are calculated from the ingredients and will be lab-checked.");
+  s.addNotes("~60s. I scored 25 UK protein snacks on four tests: at least 10 g protein, protein from real food rather than powders, no sweeteners, and low sugar. 20 have the protein, 11 are low in sugar, only 4 use real-food protein, and none pass all four. The high-protein, low-sugar bars all use powders, mostly with sweeteners. The real-food bars carry 13 to 20 g of sugar. Why? Shops need months of shelf life, and real food lasts days. Graft designs around that: bake to order, sell direct to squads. Graft's numbers are calculated, not yet lab-tested. OLD NOTES (competitor detail): These are the bars athletes see: Myprotein's Re-Fuel, Amacx, HIGH5, Styrkr, Huel. The ones with 20 g protein get it from protein powder, and most rely on syrups or sugar alcohols. Re-Fuel's first ingredient is maltitol. The 'real food' bars like Veloforte have lots of sugar and only 12 g protein. Across 32+ UK bars I checked, none gets its protein from real food with low sugar. Graft does: two 50 g bars give about 29 g protein and 28 g carbs from egg, quark and oats, with a little honey or banana and no sweeteners. Our numbers are calculated from the ingredients and will be lab-checked.");
 
   // ---------------- Slide 5: model ----------------
   pres.addSection({ title: "Model" });
   s = pres.addSlide({ masterName: "Content", sectionTitle: "Model" });
-  s.addText("How it works: baked fresh, like Simmer Eats", { placeholder: "title" });
+  s.addText("Graft: how it works and what's next", { placeholder: "title" });
   s.addImage({ path: path.join(__dirname, "..", "05-brand", "graft-logo-dark.png"), x: 11.15, y: 0.5, w: 1.55, h: 0.43, objectName: "Graft logo", altText: "Graft logo" });
-  const flav = ["Chocolate Peanut Butter", "Vanilla", "Banana Bread"];
-  s.addText("Three flavours in testing", { x: 0.6, y: 1.4, w: 5, h: 0.4, fontSize: 16, bold: true, color: C.text1, margin: 0, isTextBox: true, objectName: "Flavours heading" });
+  const flav = ["Soft-baked bar", "Bites", "Slice"];
+  s.addText("Formats in testing", { x: 0.6, y: 1.4, w: 5, h: 0.4, fontSize: 16, bold: true, color: C.text1, margin: 0, isTextBox: true, objectName: "Flavours heading" });
   for (let i = 0; i < 3; i++) {
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6 + i * 2.55, y: 1.9, w: 2.35, h: 0.6, rectRadius: 0.3, fill: { color: C.accent4 }, line: { type: "none" }, objectName: `Flavour ${i + 1}` });
     s.addText(flav[i], { x: 0.6 + i * 2.55, y: 1.9, w: 2.35, h: 0.6, fontSize: 14, bold: true, color: C.accent5, align: "center", valign: "middle", margin: 0, isTextBox: true, objectName: `Flavour ${i + 1} label` });
   }
-  s.addText("Each 50 g bar: ~15 g protein · ~14 g carbs · ~4 g sugar · ~135 kcal (calculated) · eat two after training", { x: 0.6, y: 2.6, w: 12.1, h: 0.4, fontSize: 14, color: C.accent3, margin: 0, isTextBox: true, objectName: "Flavour macros" });
+  s.addText("~15 g protein per 50 g · egg, quark & oats · no powders or sweeteners · ~4 g sugar (calculated, not lab-tested)", { x: 0.6, y: 2.6, w: 12.1, h: 0.4, fontSize: 14, color: C.accent3, margin: 0, isTextBox: true, objectName: "Flavour macros" });
 
   const steps = [
     [fa.FaClipboardList, "Order", "Weekly orders and squad orders via coaches"],
@@ -203,10 +203,13 @@ async function icon(Comp, color = "FFFFFF") {
   }
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 5.55, w: 12.1, h: 1.2, rectRadius: 0.12, fill: { color: C.text1 }, line: { type: "none" }, objectName: "Close box" });
   s.addText([
-    { text: "\"Baked this week, not 12 months ago.\" ", options: { bold: true, color: C.accent1 } },
-    { text: "The short shelf life is the proof it's real food, the same model as Simmer Eats' fresh meals. Next: taste tests vs Barebells, a squad trial with Team Durham, and more interviews.", options: { color: C.background1 } },
+    { text: "Next: ", options: { bold: true, color: C.accent1 } },
+    { text: "blind taste test (≥7/9) → free squad trial.  ", options: { color: C.background1 } },
+    { text: "Need: ", options: { bold: true, color: C.accent1 } },
+    { text: "kitchen access + coach intros.", options: { color: C.background1, breakLine: true } },
+    { text: "Graft: fresh, baked, real-food protein for people who train hard. Real food for grafters.", options: { bold: true, color: C.background1 } },
   ], { x: 0.9, y: 5.65, w: 11.5, h: 1.0, fontSize: 15, margin: 0, valign: "middle", isTextBox: true, objectName: "Close text" });
-  s.addNotes("~60s. Three flavours in testing: Chocolate Peanut Butter, Vanilla and Banana Bread. Each 50 g bar is about 15 g protein and 14 g carbs; athletes eat two after training. Because it's real food, it's fresh and chilled, not shelf-stable, so I'm using the Simmer Eats model. Simmer cooks fresh meals that last up to 5 days in the fridge and can be frozen on arrival. People order weekly (and squads order through their coach), I bake to order, deliver chilled around Durham to start, and they eat it within 3 days or freeze it. 'Baked this week, not 12 months ago.' Next steps: blind taste tests against Barebells, a squad trial with Team Durham, registering as a food business, and more interviews. Thank you.");
+  s.addNotes("~60s. I'm testing three formats with the same ingredients: a soft-baked bar, bites and a slice; the taste test decides. About 15 g protein per 50 g, calculated. Because it's real food, it's fresh and chilled, not shelf-stable, so I'm using the Simmer Eats model. Simmer cooks fresh meals that last up to 5 days in the fridge and can be frozen on arrival. People order weekly (and squads order through their coach), I bake to order, deliver chilled around Durham to start, and they eat it within 3 days or freeze it. 'Baked this week, not 12 months ago.' Next: a blind taste test against Barebells, aiming for 7 out of 9, then a free squad trial. What I need: kitchen access and coach introductions. SAY LAST: 'Graft is a fresh, baked protein snack made from real food (egg, quark and oats) for athletes who train hard and can't always cook. Baked to order and delivered to squads. Real food for grafters.' Thank you.");
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);

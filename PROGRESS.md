@@ -102,3 +102,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 13 Oct: `19-mom-test-questions.md`: Mom Test rules, bad→good pairs, athlete and coach question banks, commitment asks; linked from START-HERE and 17
 - [x] 14 Oct: `20-interview-template-open.md`: open-conversation Mom Test template (copy into a doc), for interviewees whose sport isn't known
 - [x] 14 Oct: `21-master-brief.md` (story vs pitch sheet, judging scorecard, concepts, landing page flow, next steps to Monday/pitch, risks, copy-paste big prompt); poster refreshed with Graft logo/slogan, 'protein snack', offer 'Sign up to try the first batch, free' (1 A4 page). Ewan: not registering as a food business (not selling)
+- [x] 14 Oct: deck clarity pass: one-sentence idea on slide 1 and in the close; titles tell the story (idea → problem → who → gap → how it works and next); 'recovery bar' removed; formats in testing; Next/Need box; founder line; brief has 'say first and last'
