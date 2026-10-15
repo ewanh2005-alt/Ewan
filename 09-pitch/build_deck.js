@@ -107,8 +107,8 @@ async function icon(Comp, color = "FFFFFF") {
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 5.0, w: 12.1, h: 1.25, rectRadius: 0.12, fill: { color: C.accent4 }, line: { type: "none" }, objectName: "Gap box" });
   await circleIcon(s, fa.FaExclamation, 0.85, 5.25, 0.75, "Gap");
   s.addText([
-    { text: "The convenient options don't fit. ", options: { bold: true } },
-    { text: "Low-sugar bars rely on protein powders, sweeteners and sugar alcohols; \"real-food\" bars carry 10–28 g sugar and little protein. Only ~4% of UK adults get enough fibre." },
+    { text: "Why this needs to happen: ", options: { bold: true } },
+    { text: "the quick options are lab bars (powders, sweeteners, sugar alcohols) or sugary \"natural\" bars. Over half of UK adults' energy already comes from ultra-processed food, and 71% are trying to avoid it." },
   ], { x: 1.8, y: 5.1, w: 10.7, h: 1.05, fontSize: 15, color: C.text1, margin: 0, valign: "middle", isTextBox: true, objectName: "Gap text" });
   s.addNotes("~60s. This isn't just me. A survey of Canadian university athletes found 80% say their schedule limits their ability to cook. A review of 21 studies found team-sport athletes hit their protein but fall short on carbs, which is exactly what you need to refuel. Given the choice, athletes prefer whole-food products (405 athletes), and they rate everyday food as tastier, cheaper and safer. Sports foods only win on convenience. So athletes are stuck between real food they can't always make and convenient bars built on powders, sweeteners and sugar alcohols, or 'natural' bars full of sugar. Sources: Morassutti 2024 (York University); Jenner 2019; Carey 2023; Forsyth & Mantzioris 2023; NDNS fibre data.");
 
@@ -123,7 +123,7 @@ async function icon(Comp, color = "FFFFFF") {
   s.addText([
     { text: "10 athletes & gym-goers: pro footballer, rugby player, bodybuilder, gym/football/padel", options: { bullet: true, breakLine: true } },
     { text: "Team Durham S&C coach + nutrition professor", options: { bullet: true, breakLine: true } },
-    { text: "Lined up: [add who's booked]", options: { bullet: true, bold: true, color: C.accent1 } },
+    { text: "Next: 3–5 Mom Test interviews + poster survey (live Monday)", options: { bullet: true, bold: true, color: C.accent1 } },
   ], { x: 0.85, y: 2.35, w: 3.9, h: 1.55, fontSize: 14, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 4, isTextBox: true, objectName: "Spoken to list" });
 
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 4.2, w: 4.3, h: 2.6, rectRadius: 0.12, fill: { color: C.text1 }, line: { type: "none" }, objectName: "Persona card" });
@@ -170,7 +170,8 @@ async function icon(Comp, color = "FFFFFF") {
   s.addText([
     { text: "Shops need months of shelf life; real food lasts days", options: { bullet: true, breakLine: true } },
     { text: "Powders and sweeteners keep bars soft and cheap", options: { bullet: true, breakLine: true } },
-    { text: "Graft bakes to order and sells direct to squads", options: { bullet: true, bold: true } },
+    { text: "Graft bakes to order and sells direct to squads", options: { bullet: true, bold: true, breakLine: true } },
+    { text: "Proof it can work: RXBAR (egg-white bar, $600m) and Perfect Bar (fridge bar) in the US", options: { bullet: true } },
   ], { x: 9.7, y: 4.1, w: 2.8, h: 2.4, fontSize: 13, color: C.text1, margin: 0, valign: "top", paraSpaceAfter: 4, isTextBox: true, objectName: "Why list" });
   s.addNotes("~60s. I scored 25 UK protein snacks on four tests: at least 10 g protein, protein from real food rather than powders, no sweeteners, and low sugar. 20 have the protein, 11 are low in sugar, only 4 use real-food protein, and none pass all four. The high-protein, low-sugar bars all use powders, mostly with sweeteners. The real-food bars carry 13 to 20 g of sugar. Why? Shops need months of shelf life, and real food lasts days. Graft designs around that: bake to order, sell direct to squads. Graft's numbers are calculated, not yet lab-tested. OLD NOTES (competitor detail): These are the bars athletes see: Myprotein's Re-Fuel, Amacx, HIGH5, Styrkr, Huel. The ones with 20 g protein get it from protein powder, and most rely on syrups or sugar alcohols. Re-Fuel's first ingredient is maltitol. The 'real food' bars like Veloforte have lots of sugar and only 12 g protein. Across 32+ UK bars I checked, none gets its protein from real food with low sugar. Graft does: two 50 g bars give about 29 g protein and 28 g carbs from egg, quark and oats, with a little honey or banana and no sweeteners. Our numbers are calculated from the ingredients and will be lab-checked.");
 
