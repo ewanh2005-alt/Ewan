@@ -109,3 +109,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 15 Oct: `23-pitch-script.md` (brand-free spoken script for the 5 slides + Q&A + delivery tips)
 - [x] 15 Oct: landing page + poster waitlist added to slide 5 'Next', script and Q&A
 - [x] 15 Oct: deck rebuilt minimal: far less text per slide, gap explained in words (protein bars / natural bars / quark pots, 0 of 25), no images or branding; full talk track kept in speaker notes
+- [x] 15 Oct: deck: gap slide = competitor table (Barebells/Grenade/Fulfil, Nākd/Veloforte, Bio&Me, quark pots vs our aim); no ingredients or protein figure (recipe not final); 'who it's for' says interested athletes then interviewed, no named clubs; script updated

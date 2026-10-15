@@ -1,56 +1,63 @@
 # 23: Pitch script (5 slides, about 4½ minutes, no branding)
 
-**Deck:** `09-pitch/pitch-deck.pptx`: no logo, name or slogan. **Say the one sentence first and last.**
+**Deck:** `09-pitch/pitch-deck.pptx`: minimal text, no logo, name or slogan, no ingredients. **Say the one sentence first and last.**
 
-> **One sentence:** "A fresh, baked protein snack made from real food (egg, quark and oats) for athletes who train hard and can't always cook. Baked to order and delivered to squads."
+> **One sentence:** "A fresh, baked protein snack made from real food for athletes who train hard and can't always cook. Baked to order."
+> **Don't name ingredients** (the recipe isn't final) and **don't name clubs** (no agreements yet).
 
 ---
 
-## Slide 1: The idea and who I am (~50 s)
+## Slide 1: The idea (~45 s)
 "I'm Ewan, a Durham Business Management graduate. I train MMA, play football and lift.
 
-My idea is a fresh, baked protein snack made from real food (egg, quark and oats) for athletes who train hard and can't always cook. It's baked to order and delivered to squads.
+My idea is a fresh, baked protein snack made from real food for athletes who train hard and can't always cook. It's baked to order, with no powders or sweeteners.
 
-It came from my own training. After two MMA classes back to back, I'd eat a full meal and still be hungry. Going from MMA straight to football, I had no time to cook. On a same-day weigh-in, I had a short window to eat before competing. Every time, the choice was a lab-made protein bar full of powders and sweeteners, or nothing."
+It came from my own training. After two MMA classes back to back, I'd eat a full meal and still be hungry. Going from MMA to football, I had no time to cook. Every time, the choice was a lab-made protein bar full of powders and sweeteners, or nothing."
 
-## Slide 2: The problem, and why this needs to happen (~55 s)
-"This isn't just me. 80% of university athletes say their schedule limits their ability to cook. Team-sport athletes generally hit their protein but fall short on carbs. Given the choice, athletes prefer whole food: it was the number one preference among 405 athletes. They rate everyday food as tastier, cheaper and safer. Sports foods only win on convenience.
+## Slide 2: The problem (~50 s)
+"This isn't just me. 80% of university athletes say their schedule limits their ability to cook. Whole food is athletes' number one choice, and they rate it tastier, cheaper and safer. Sports foods only win on convenience. And 71% of UK adults are trying to avoid ultra-processed food.
 
-So why does this need to happen? The quick options are lab bars (powders, sweeteners, sugar alcohols) or 'natural' bars full of sugar. Over half of what UK adults eat is already ultra-processed, and 71% are trying to avoid it. After Joe Wicks' documentary on ultra-processed food last year, Grenade's sales fell 16%. People are looking for something better."
+But the quick options today are lab bars or sugary bars. That's why this needs to happen. After Joe Wicks' ultra-processed food documentary last year, Grenade's sales fell 16%. People want something better."
 
-## Slide 3: Who it's for (~55 s)
-"I've spoken to 10 athletes and gym-goers, including a pro footballer and a rugby player, plus the Team Durham strength and conditioning coach and a nutrition professor.
+## Slide 3: Who it's for (~50 s)
+"My customer is Jack. He trains daily, is trying to eat well and listens to his coach.
 
-My typical customer is Jack. He trains once a day, often plays a sport, is trying to eat well and listens to his coach. Eight of the ten train in the gym and are trying to eat better. Their deal-breakers are taste and price.
+Athletes who fit this profile told me they were interested, and I then interviewed them. They want real food and high protein, and they worry about taste and price. I also spoke to a strength and conditioning coach and a nutrition professor. The coach told me boxes of protein bars given to students went uneaten.
 
-My early adopters are the sharpest slice of Jack: coached Durham squads and my MMA club. They train hardest, their coaches tell them to eat whole food, and the Team Durham coach watched boxes of Grenade bars go uneaten. One coach means about 25 athletes and one delivery, which is perfect for a fresh product. It's a migraine problem, not a vitamin: it happens after almost every session."
+I'll test first with coached and combat-sport athletes, because one coach can reach a whole squad. There are no agreements yet; that's my next step."
 
-## Slide 4: The gap (~55 s)
-"I scored 25 UK protein snacks on four tests: at least 10 grams of protein, protein from real food not powder, no sweeteners, and low sugar.
+## Slide 4: The gap (~60 s)
+"Here's the competition, and where the gap comes from.
 
-Twenty have the protein. Eleven are low in sugar. Only four use real-food protein. **None pass all four.** *(pause)*
+Protein bars like Barebells, Grenade and Fulfil have the protein and low sugar, but it comes from powders, with sweeteners and sugar alcohols.
 
-Why does the gap exist? Shops need bars that last months, and real food lasts days, so brands use powders, sweeteners and sugar alcohols. I'm designing around shelf life, not fighting it: bake to order and sell direct to squads.
+'Natural' bars like Nākd and Veloforte are real food, but they're high in sugar.
 
-And it can work. In the US, RXBAR built an egg-white bar from a kitchen and sold for 600 million dollars, and Perfect Bar proved people will buy protein bars from the fridge. Nobody's doing fresh-baked here yet."
+Bio&Me is clean, but has only 9 grams of protein.
 
-## Slide 5: How it works and what's next (~50 s)
-"Same ingredients, three formats in testing: a soft-baked bar, bites and a slice. The taste test decides. About 15 grams of protein per 50 grams, no powders or sweeteners. That's calculated, not lab-tested yet.
+Protein quark pots are real protein, but they're a pot with a spoon, not something you grab after training.
 
-Squads order weekly through their coach. I bake to order, deliver chilled around Durham, and it's eaten within a few days or frozen.
+I checked 25 UK snacks. **None pass all four tests.** *(pause)*
 
-Next: on Monday my gym poster and a simple landing page go live. Both send people to a two-minute survey and a waitlist, so I'm counting real sign-ups, not just compliments. Then a blind taste test against Barebells, aiming for 7 out of 9, then a free trial week with a squad. What I need is kitchen access and introductions to coaches.
+Why? Shops need bars that last months. Real food lasts days, so brands use powders and sweeteners. I'm designing around that: bake to order and sell direct. And it can work. In the US, RXBAR built a real-food bar from a kitchen and sold for 600 million dollars, and Perfect Bar proved people buy protein bars from the fridge."
 
-So: a fresh, baked protein snack made from real food, for athletes who train hard and can't always cook. Baked to order, delivered to squads. Thank you."
+## Slide 5: How it works and what's next (~45 s)
+"People order weekly, I bake to order, and deliver chilled. The recipe is still in testing, aiming for high protein and low sugar with no powders or sweeteners, so I'm not quoting exact numbers yet.
+
+Next: on Monday my gym poster and a simple landing page go live. Both send people to a two-minute survey and a waitlist, so I'm counting real sign-ups, not compliments. Then a blind taste test against Barebells, then a free squad trial.
+
+What I need is kitchen access and introductions to coaches.
+
+A fresh, baked protein snack made from real food, for athletes who train hard and can't always cook. Thank you."
 
 ---
 
 ## Q&A cheat sheet
 | Question | Answer |
 |---|---|
-| Why not a quark pot? | It needs a spoon and a fridge, and it isn't grab-and-go after training. Quark is in mine, made portable, with carbs from oats |
+| Why not a quark pot? | It needs a spoon and a fridge, and it isn't grab-and-go after training. Mine is a baked snack you can carry |
 | Isn't the fridge a weakness? | It proves there are no preservatives. It works like fresh meal delivery (Simmer Eats), and you can freeze it |
-| Only 15 g of protein? | That's per 50 g. Real food holds water, so athletes eat two: about 29 g protein and 28 g carbs |
+| How much protein? | The recipe is still in testing. The aim is high protein (at least 10 g per serving) with low sugar. Real food holds water, so the portion matters; I'll confirm with lab tests |
 | Does it taste good? | Honestly, early bakes failed on texture. I've changed the method six times based on feedback. Next is the blind taste test |
 | Why not supermarkets? | JNCK Bakery (UK healthier cookies) closed in 2025 after Tesco dropped them. Selling direct avoids depending on one retailer and needing months of shelf life |
 | Why not women 40–60? | Researched: a real need, but more of a nice-to-have, and Bio&Me already targets them. Athletes scored 30/40 vs women 21/40, so they're a second segment |
@@ -61,6 +68,6 @@ So: a fresh, baked protein snack made from real food, for athletes who train har
 
 ## Delivery
 - Rehearse twice, timed: aim for 4½ minutes.
-- Stats to remember: **80%, 405, 0 of 25, 71%**.
+- Stats to remember: **80%, 71%, 25 snacks / none pass, 16%**.
 - Pause after "None pass all four."
 - Don't describe your own product as "fuelling" or "recovery", as these can read as health claims.
