@@ -6,7 +6,8 @@
 | File | What |
 |---|---|
 | `21-master-brief.md` | **Read first:** the whole story, judging scorecard, landing page explained, next steps, copy-paste AI prompt |
-| `09-pitch/pitch-deck.pptx` | The 5-slide deck (download and open in PowerPoint) |
+| `09-pitch/pitch-deck.pptx` | The 5-slide deck, no branding (download and open in PowerPoint) |
+| `23-pitch-script.md` | Word-for-word pitch script + Q&A cheat sheet |
 | `13-pitch-friday-brief.md` | Early adopters, persona, need, want + judge Q&A |
 | `16-market-gap.md` + `16-gap-chart.png` | The gap in the market, with the chart |
 | `03-persona.md` | Persona "Jack", from your 10 interviews |
