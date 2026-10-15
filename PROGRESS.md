@@ -107,3 +107,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 15 Oct: deck made brand-free on request (no logo, no 'Graft' name or slogan; unbranded gap chart `16-gap-chart-unbranded.png` via GAP_LABEL env); new logo pending
 - [x] 15 Oct: `22-jtbd-audience-research.md` (JTBD: 5 avatars, 10 pains with extract quotes [V]/[P], try/pay/abandon, objections, hidden motivations, their words, 5 testable hypotheses, market context; Reddit blocked)
 - [x] 15 Oct: `23-pitch-script.md` (brand-free spoken script for the 5 slides + Q&A + delivery tips)
+- [x] 15 Oct: landing page + poster waitlist added to slide 5 'Next', script and Q&A

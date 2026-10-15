@@ -39,7 +39,7 @@ And it can work. In the US, RXBAR built an egg-white bar from a kitchen and sold
 
 Squads order weekly through their coach. I bake to order, deliver chilled around Durham, and it's eaten within a few days or frozen.
 
-Next: a blind taste test against Barebells, aiming for 7 out of 9, then a free trial week with a squad. My survey poster goes live in the gym on Monday. What I need is kitchen access and introductions to coaches.
+Next: on Monday my gym poster and a simple landing page go live. Both send people to a two-minute survey and a waitlist, so I'm counting real sign-ups, not just compliments. Then a blind taste test against Barebells, aiming for 7 out of 9, then a free trial week with a squad. What I need is kitchen access and introductions to coaches.
 
 So: a fresh, baked protein snack made from real food, for athletes who train hard and can't always cook. Baked to order, delivered to squads. Thank you."
 
@@ -56,6 +56,7 @@ So: a fresh, baked protein snack made from real food, for athletes who train har
 | Why not women 40–60? | Researched: a real need, but more of a nice-to-have, and Bio&Me already targets them. Athletes scored 30/40 vs women 21/40, so they're a second segment |
 | Price? | Around £1 in ingredients. I'm testing £2–2.50, below the £2.90 full price of Barebells and Grenade |
 | "Most people get enough protein" | Agreed, so I'm targeting people who train hard, and the point is real food, not more protein |
+| What's the landing page for? | It's the online front door: it explains the idea and sends people to the survey and waitlist. The sign-ups are my evidence of demand and my list of early adopters for the taste test |
 | How does it scale? | Durham squads → North East universities (student ambassadors) → a national weekly chilled box |
 
 ## Delivery
