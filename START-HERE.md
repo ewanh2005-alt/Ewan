@@ -26,6 +26,7 @@
 | `research/sources.md` | Every source, with links |
 | `17-research-sprint.md` | Plan for 50 real responses + analysis script |
 | `19-mom-test-questions.md` | Mom Test interview questions (athletes, gym-goers, coaches) |
+| `22-jtbd-audience-research.md` | Jobs To Be Done: avatars, pains with quotes, try/pay/abandon, hypotheses |
 | `20-interview-template-open.md` | Open-conversation interview template to copy into a doc |
 
 ## Plans and contacts
