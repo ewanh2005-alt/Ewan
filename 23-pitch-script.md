@@ -64,7 +64,7 @@ A fresh, baked protein snack made from real food, for athletes who train hard an
 | Price? | Around £1 in ingredients. I'm testing £2–2.50, below the £2.90 full price of Barebells and Grenade |
 | "Most people get enough protein" | Agreed, so I'm targeting people who train hard, and the point is real food, not more protein |
 | What's the landing page for? | It's the online front door: it explains the idea and sends people to the survey and waitlist. The sign-ups are my evidence of demand and my list of early adopters for the taste test |
-| How does it scale? | Durham squads → North East universities (student ambassadors) → a national weekly chilled box |
+| How does it scale? | Durham athletes → North East universities (student ambassadors) → a national weekly chilled box |
 
 ## Delivery
 - Rehearse twice, timed: aim for 4½ minutes.
