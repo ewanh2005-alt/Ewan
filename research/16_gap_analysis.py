@@ -3,7 +3,7 @@
 3) no sweeteners or polyols    4) <=5 g sugar per 50 g
 Data: 02-competitors.csv (bars with protein + sugar known) + rows from 02d (WR40-WR52) + RXBAR label.
 Run: python3 research/16_gap_analysis.py  -> research/16_gap_output.json + 16-gap-chart.svg"""
-import csv, json
+import csv, json, os
 from html import escape
 from pathlib import Path
 
@@ -100,15 +100,15 @@ for o in comp:
 g = out[-1]
 gx, gy = X(g["sugar_50g"]), Y(g["protein_50g"])
 s.append(f'<path d="M{gx},{gy-11} L{gx+3.2},{gy-3.5} L{gx+11},{gy-3.5} L{gx+4.8},{gy+1.5} L{gx+7},{gy+9.5} L{gx},{gy+4.5} L{gx-7},{gy+9.5} L{gx-4.8},{gy+1.5} L{gx-11},{gy-3.5} L{gx-3.2},{gy-3.5} Z" fill="{INK}" stroke="#fcfcfb" stroke-width="2"/>')
-s.append(f'<text x="{gx+14}" y="{gy+5}" font-size="13" font-weight="bold" fill="{INK}">Graft (calculated)</text>')
+s.append(f'<text x="{gx+14}" y="{gy+5}" font-size="13" font-weight="bold" fill="{INK}">{os.environ.get("GAP_LABEL", "Graft (calculated)")}</text>')
 # legend
 lx, ly = X(13), Y(19.2)
 s += [f'<circle cx="{lx}" cy="{ly}" r="6" fill="{REAL}" stroke="{REAL}" stroke-width="2.5"/><text x="{lx+12}" y="{ly+4}" font-size="12" fill="{INK}">Protein from real food (egg, dairy, nuts)</text>',
       f'<circle cx="{lx}" cy="{ly+22}" r="6" fill="{POWDER}" stroke="{POWDER}" stroke-width="2.5"/><text x="{lx+12}" y="{ly+26}" font-size="12" fill="{INK}">Protein from powders / isolates</text>',
       f'<circle cx="{lx}" cy="{ly+44}" r="6" fill="#fcfcfb" stroke="{MUTED}" stroke-width="2.5"/><text x="{lx+12}" y="{ly+48}" font-size="12" fill="{INK}">Hollow = contains sweeteners or sugar alcohols</text>']
-s.append(f'<text x="{L}" y="{H-6}" font-size="10" fill="{MUTED}">Sources: brand/retailer pages Oct 2026 (02-competitors.csv; 02d WR40–WR52); RXBAR US/CA label. Sugar capped at 25 g on chart. Graft figures calculated, not lab-tested.</text>')
+s.append(f'<text x="{L}" y="{H-6}" font-size="10" fill="{MUTED}">Sources: brand/retailer pages Oct 2026 (02-competitors.csv; 02d WR40–WR52); RXBAR US/CA label. Sugar capped at 25 g on chart. {os.environ.get("GAP_LABEL", "Graft (calculated)").split(" (")[0]} figures calculated, not lab-tested.</text>')
 s.append("</svg>")
-(ROOT / "16-gap-chart.svg").write_text("\n".join(s))
+(ROOT / os.environ.get("GAP_SVG", "16-gap-chart.svg")).write_text("\n".join(s))
 
 print(json.dumps(summary, indent=1))
 for o in out:

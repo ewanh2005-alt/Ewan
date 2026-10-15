@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="560" fill="#fcfcfb"/>
+<text x="70" y="28" font-size="20" font-weight="bold" fill="#1d1d1b">The gap: nobody combines high protein, low sugar AND real food</text>
+<text x="70" y="48" font-size="13" fill="#52514e">UK grab-and-go protein snacks, per 50 g. Every bar in the shaded zone (≥10 g protein, ≤5 g sugar) gets its protein from powders; most add sweeteners.</text>
+<rect x="70.0" y="60.0" width="160.0" height="215.0" fill="#1baf7a" fill-opacity="0.10" stroke="#1baf7a" stroke-dasharray="4 4"/>
+<line x1="70.0" x2="70.0" y1="490.0" y2="60.0" stroke="#e4e3de"/><text x="70.0" y="508.0" font-size="12" fill="#52514e" text-anchor="middle">0</text>
+<line x1="230.0" x2="230.0" y1="490.0" y2="60.0" stroke="#e4e3de"/><text x="230.0" y="508.0" font-size="12" fill="#52514e" text-anchor="middle">5</text>
+<line x1="390.0" x2="390.0" y1="490.0" y2="60.0" stroke="#e4e3de"/><text x="390.0" y="508.0" font-size="12" fill="#52514e" text-anchor="middle">10</text>
+<line x1="550.0" x2="550.0" y1="490.0" y2="60.0" stroke="#e4e3de"/><text x="550.0" y="508.0" font-size="12" fill="#52514e" text-anchor="middle">15</text>
+<line x1="710.0" x2="710.0" y1="490.0" y2="60.0" stroke="#e4e3de"/><text x="710.0" y="508.0" font-size="12" fill="#52514e" text-anchor="middle">20</text>
+<line x1="870.0" x2="870.0" y1="490.0" y2="60.0" stroke="#e4e3de"/><text x="870.0" y="508.0" font-size="12" fill="#52514e" text-anchor="middle">25</text>
+<line x1="70.0" x2="870.0" y1="490.0" y2="490.0" stroke="#e4e3de"/><text x="62.0" y="494.0" font-size="12" fill="#52514e" text-anchor="end">0</text>
+<line x1="70.0" x2="870.0" y1="382.5" y2="382.5" stroke="#e4e3de"/><text x="62.0" y="386.5" font-size="12" fill="#52514e" text-anchor="end">5</text>
+<line x1="70.0" x2="870.0" y1="275.0" y2="275.0" stroke="#e4e3de"/><text x="62.0" y="279.0" font-size="12" fill="#52514e" text-anchor="end">10</text>
+<line x1="70.0" x2="870.0" y1="167.5" y2="167.5" stroke="#e4e3de"/><text x="62.0" y="171.5" font-size="12" fill="#52514e" text-anchor="end">15</text>
+<line x1="70.0" x2="870.0" y1="60.0" y2="60.0" stroke="#e4e3de"/><text x="62.0" y="64.0" font-size="12" fill="#52514e" text-anchor="end">20</text>
+<text x="470.0" y="535" font-size="13" fill="#52514e" text-anchor="middle">Sugar per 50 g (g)</text>
+<text transform="translate(20,275.0) rotate(-90)" font-size="13" fill="#52514e" text-anchor="middle">Protein per 50 g (g)</text>
+<circle cx="700.4" cy="305.1" r="6" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.5"><title>Veloforte Forza: 8.6 g protein, 19.7 g sugar per 50 g</title></circle>
+<text x="709.4" y="309.1" font-size="11" fill="#52514e">Veloforte Forza</text>
+<circle cx="684.4" cy="272.9" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Styrkr BAR+ Recovery Bar: 10.1 g protein, 19.2 g sugar per 50 g</title></circle>
+<circle cx="630.0" cy="268.5" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>TORQ Recovery Bar: 10.3 g protein, 17.5 g sugar per 50 g</title></circle>
+<circle cx="95.6" cy="130.9" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Grenade Carb Killa: 16.7 g protein, 0.8 g sugar per 50 g</title></circle>
+<circle cx="111.6" cy="98.7" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Barebells Protein Bar: 18.2 g protein, 1.3 g sugar per 50 g</title></circle>
+<text x="120.6" y="102.7" font-size="11" fill="#52514e">Barebells</text>
+<circle cx="102.0" cy="109.4" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Fulfil Vitamin &amp; Protein Bar: 17.7 g protein, 1.0 g sugar per 50 g</title></circle>
+<circle cx="124.4" cy="130.9" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Myprotein Layered Bar: 16.7 g protein, 1.7 g sugar per 50 g</title></circle>
+<circle cx="470.0" cy="221.2" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Myprotein Protein Flapjack: 12.5 g protein, 12.5 g sugar per 50 g</title></circle>
+<circle cx="121.2" cy="137.4" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>PhD Nutrition Smart Bar: 16.4 g protein, 1.6 g sugar per 50 g</title></circle>
+<circle cx="105.2" cy="107.3" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Misfits Vegan Protein Bar: 17.8 g protein, 1.1 g sugar per 50 g</title></circle>
+<circle cx="470.0" cy="173.9" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Clif Builders: 14.7 g protein, 12.5 g sugar per 50 g</title></circle>
+<circle cx="118.0" cy="197.6" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Huel Complete Nutrition Bar: 13.6 g protein, 1.5 g sugar per 50 g</title></circle>
+<circle cx="300.4" cy="163.2" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Veloforte Protein Crunch: 15.2 g protein, 7.2 g sugar per 50 g</title></circle>
+<circle cx="454.0" cy="279.3" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Trek Protein Flapjack: 9.8 g protein, 12.0 g sugar per 50 g</title></circle>
+<circle cx="678.0" cy="275.0" r="6" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.5"><title>33Fuel Eroica bar: 10.0 g protein, 19.0 g sugar per 50 g</title></circle>
+<circle cx="498.8" cy="232.0" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Perfect Snacks Perfect Bar Original Peanut Butter: 12.0 g protein, 13.4 g sugar per 50 g</title></circle>
+<circle cx="137.2" cy="201.9" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Warrior RAW Protein Flapjack: 13.4 g protein, 2.1 g sugar per 50 g</title></circle>
+<circle cx="322.8" cy="242.8" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Bio&amp;Me Daily Boost: 11.5 g protein, 7.9 g sugar per 50 g</title></circle>
+<text x="331.8" y="246.8" font-size="11" fill="#52514e">Bio&amp;Me</text>
+<circle cx="207.6" cy="197.6" r="6" fill="#fcfcfb" stroke="#eb6834" stroke-width="2.5"><title>Trek High Protein: 13.6 g protein, 4.3 g sugar per 50 g</title></circle>
+<text x="216.6" y="201.6" font-size="11" fill="#52514e">Trek High Protein</text>
+<circle cx="345.2" cy="232.0" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>KIND Protein: 12.0 g protein, 8.6 g sugar per 50 g</title></circle>
+<text x="354.2" y="236.0" font-size="11" fill="#52514e">KIND Protein</text>
+<circle cx="530.8" cy="318.0" r="6" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.5"><title>Nakd Protein: 8.0 g protein, 14.4 g sugar per 50 g</title></circle>
+<text x="539.8" y="322.0" font-size="11" fill="#52514e">Nākd Protein</text>
+<circle cx="358.0" cy="318.0" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Perkier Protein: 8.0 g protein, 9.0 g sugar per 50 g</title></circle>
+<circle cx="105.2" cy="113.8" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>H&amp;B Precision Engineered: 17.5 g protein, 1.1 g sugar per 50 g</title></circle>
+<circle cx="214.0" cy="421.2" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"><title>Graze Oat Boosts: 3.2 g protein, 4.5 g sugar per 50 g</title></circle>
+<circle cx="502.0" cy="242.8" r="6" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.5"><title>RXBAR (US label): 11.5 g protein, 13.5 g sugar per 50 g</title></circle>
+<text x="511.0" y="246.8" font-size="11" fill="#52514e">RXBAR (US)</text>
+<path d="M191.6,165.10000000000002 L194.79999999999998,172.60000000000002 L202.6,172.60000000000002 L196.4,177.60000000000002 L198.6,185.60000000000002 L191.6,180.60000000000002 L184.6,185.60000000000002 L186.79999999999998,177.60000000000002 L180.6,172.60000000000002 L188.4,172.60000000000002 Z" fill="#1d1d1b" stroke="#fcfcfb" stroke-width="2"/>
+<text x="205.6" y="181.10000000000002" font-size="13" font-weight="bold" fill="#1d1d1b">Our snack (calculated)</text>
+<circle cx="486.0" cy="77.19999999999999" r="6" fill="#1baf7a" stroke="#1baf7a" stroke-width="2.5"/><text x="498.0" y="81.19999999999999" font-size="12" fill="#1d1d1b">Protein from real food (egg, dairy, nuts)</text>
+<circle cx="486.0" cy="99.19999999999999" r="6" fill="#eb6834" stroke="#eb6834" stroke-width="2.5"/><text x="498.0" y="103.19999999999999" font-size="12" fill="#1d1d1b">Protein from powders / isolates</text>
+<circle cx="486.0" cy="121.19999999999999" r="6" fill="#fcfcfb" stroke="#52514e" stroke-width="2.5"/><text x="498.0" y="125.19999999999999" font-size="12" fill="#1d1d1b">Hollow = contains sweeteners or sugar alcohols</text>
+<text x="70" y="554" font-size="10" fill="#52514e">Sources: brand/retailer pages Oct 2026 (02-competitors.csv; 02d WR40–WR52); RXBAR US/CA label. Sugar capped at 25 g on chart. Our snack figures calculated, not lab-tested.</text>
+</svg>

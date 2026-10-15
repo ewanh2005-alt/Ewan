@@ -104,3 +104,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 14 Oct: `21-master-brief.md` (story vs pitch sheet, judging scorecard, concepts, landing page flow, next steps to Monday/pitch, risks, copy-paste big prompt); poster refreshed with Graft logo/slogan, 'protein snack', offer 'Sign up to try the first batch, free' (1 A4 page). Ewan: not registering as a food business (not selling)
 - [x] 14 Oct: deck clarity pass: one-sentence idea on slide 1 and in the close; titles tell the story (idea → problem → who → gap → how it works and next); 'recovery bar' removed; formats in testing; Next/Need box; founder line; brief has 'say first and last'
 - [x] 15 Oct: deck final touches: 'why this needs to happen' box (UPF 71%), precedents (RXBAR, Perfect Bar) on gap slide, placeholder removed on slide 3
+- [x] 15 Oct: deck made brand-free on request (no logo, no 'Graft' name or slogan; unbranded gap chart `16-gap-chart-unbranded.png` via GAP_LABEL env); new logo pending
