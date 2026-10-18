@@ -241,9 +241,9 @@ for name, g in V7.items():
 (ROOT / "research" / "04d_v7_output.json").write_text(json.dumps({"final_moisture_estimate": V7_MOISTURE, "bar_g": V2_BAR_G, "v7": v7_out}, indent=2))
 
 # ---- v7 Vanilla, REAL bake (18 Oct, Ewan's tin weights). Enamel dish 168 g; 528 g with batter; 508 g after baking.
-# 508 g was an early reading; Ewan corrected the final bake to 298 g (bake only, out of the dish), so 466 g with the dish.
+# 508 g was an early reading; Ewan corrected the final bake to 198 g (bake only, out of the dish; an interim "298" was a typo).
 # Only 360 g of batter reached the dish (vs 388 g recipe), so scale the recipe down. Assumes losses were spread evenly.
-DISH_G, FULL_G, BAKED_FULL_G = 168, 528, 168 + 298
+DISH_G, FULL_G, BAKED_FULL_G = 168, 528, 168 + 198
 real_batter = FULL_G - DISH_G
 real_baked = BAKED_FULL_G - DISH_G
 g = V7["v7 Vanilla"]

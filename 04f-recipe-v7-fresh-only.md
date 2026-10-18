@@ -87,11 +87,10 @@
 - **Weights:**
   - dish empty: 168 g
   - with batter: 528 g, so **360 g of batter**
-  - final bake: **298 g** (Ewan's corrected figure, taken as the bake alone; an earlier reading of 508 g with the dish was superseded)
-  - lost **62 g (17%)**
-- **Moisture:** final moisture is ~62%. The model assumed 35%, so the "~11 g protein per 50 g" estimate was too high.
+  - final bake: **198 g** (Ewan's corrected figure, bake alone; earlier readings of 508 g and 298 g were superseded)
+  - lost **162 g (45%)**
+- **Moisture:** final moisture is ~43%. The model assumed 35%, so it's a little moister than planned.
 - **Real macros** (recipe scaled to 360 g; `research/04d_recovery_calcs.py`, "REAL" section):
-  - per 100 g: **12.9 g protein**, 17.7 g carbs, 4.9 g sugar, 2.0 g fat, 2.2 g fibre, ~145 kcal
-  - per 50 g: **6.4 g protein**, ~73 kcal
-  - cut 4 (~74 g each): 9.6 g protein, ~108 kcal
-- **Lesson:** quote protein **per 100 g** (~13 g). ~15 g per 50 g is not reachable without dried egg white and a much drier bake.
+  - per 100 g: **19.4 g protein**, 26.6 g carbs, 7.4 g sugar, 3.1 g fat, 3.4 g fibre, ~219 kcal
+  - **4 bars of ~50 g each: 9.6 g protein**, 13.2 g carbs, 3.7 g sugar, 1.5 g fat, 1.7 g fibre, ~108 kcal
+- **Lesson:** fresh-only gives ~10 g protein per 50 g bar. ~15 g per 50 g needs dried egg white (v6).

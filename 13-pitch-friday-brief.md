@@ -7,7 +7,7 @@
 > **Interview notes are your paraphrases, not quotes.** Say "told me", not "said, quote".
 
 **Product (calculated, v6; not yet lab-tested or baked successfully)**
-- **One bar:** ~15 g protein per 50 g was a calculated target (with dried egg white, dry bake) and is **not achieved yet**. The first real fresh-only bake (18 Oct) measured ~13 g protein per 100 g. In the pitch, say "recipe in testing" and don't quote per-bar protein.
+- **One bar:** ~15 g protein per 50 g was a calculated target (with dried egg white, dry bake) and is **not achieved yet**. The first real fresh-only bake (18 Oct) measured ~19 g protein per 100 g (~10 g per 50 g bar). In the pitch, say "recipe in testing" and don't quote per-bar protein.
 - **Two bars after training:** ~29 g protein, ~28 g carbs.
 - **Ingredients:** egg (fresh and dried white), quark and oats. No whey, sweeteners or sugar alcohols `[EVIDENCE: research/04d_recovery_calcs.py v6]`.
 
