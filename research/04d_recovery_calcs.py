@@ -216,3 +216,26 @@ for name, g in V6.items():
     print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['fb']} g | {bar['kcal']:.0f} | {pct}% |")
     assert bar["p"] >= 14 and bar["c"] >= 13 and bar["s"] <= 4.5, name
 (ROOT / "research" / "04d_v6_output.json").write_text(json.dumps({"final_moisture_estimate": V6_MOISTURE, "bar_g": V2_BAR_G, "v6": v6_out}, indent=2))
+
+# ---- v7 (18 Oct): NO dried egg white (Ewan didn't buy it). Fresh whites + quark only. ~4 bars of 50 g per small loaf tray.
+V7_MOISTURE = 0.35  # ASSUMPTION: foil-tent bake, no water bath (check with tin weights)
+V7 = {
+    "v7 Vanilla": dict(egg_white_fresh=130, quark=150, milk_semi=20, rolled_oats=60, oat_bran=12, honey=8, vanilla_extract=8, sea_salt=0.4),
+    "v7 Chocolate": dict(egg_white_fresh=130, quark=150, milk_semi=25, rolled_oats=55, oat_bran=12, cocoa=11, peanut_butter=3,
+                         honey=11, vanilla_extract=3, sea_salt=0.4),
+    "v7 Banana Bread": dict(egg_white_fresh=130, quark=130, banana=70, rolled_oats=60, oat_bran=10, cinnamon=1, sea_salt=0.4),
+}
+print("\n| v7 batch (fresh only) | Batter | Baked (est.) | Bars of 50 g | Per bar: protein | carbs | sugar | fibre | kcal | % energy protein |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v7_out = {}
+for name, g in V7.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    baked = (t["batter_g"] - water) / (1 - V7_MOISTURE)
+    n = baked / V2_BAR_G
+    bar = {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    pct = round(4 * t["p"] / t["kcal"] * 100, 1)
+    v7_out[name] = dict(batch=g, batter_g=t["batter_g"], baked_g_estimate=round(baked), bars=round(n, 1), per_bar=bar, protein_pct_energy=pct)
+    print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['fb']} g | {bar['kcal']:.0f} | {pct}% |")
+    assert bar["p"] >= 10 and bar["s"] <= 4.6 and pct >= 20, name
+(ROOT / "research" / "04d_v7_output.json").write_text(json.dumps({"final_moisture_estimate": V7_MOISTURE, "bar_g": V2_BAR_G, "v7": v7_out}, indent=2))

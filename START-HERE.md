@@ -13,7 +13,7 @@
 | `03-persona.md` | Persona "Jack", from your 10 interviews |
 
 ## Product and recipes
-`04e-texture-plan.md` (v6 recipes and method) · `04d-recovery-bars.md` (bake history) · `14-taste-test-kit.md`
+`04f-recipe-v7-fresh-only.md` (**current recipes, no dried egg white**) · `04e-texture-plan.md` (v6, with dried egg white) · `04d-recovery-bars.md` (bake history) · `14-taste-test-kit.md`
 
 ## Brand and website
 `05-brand/` (logo files, brand guidelines) · `06-landing/index.html` (landing page)
