@@ -26,7 +26,7 @@ The final pitch (Week 13) is scored on the **Durham Venture School judging crite
 
 ## Current state (Oct 2026)
 - **Brand:** Graft (bubble "GRAFT." logo, `05-brand/`). Slogan "Real food for grafters".
-- **Product:** a real-food protein snack (egg, quark, oats; ~15 g protein per 50 g, calculated). The format (bar, bites or slice) is open.
+- **Product:** a real-food protein snack (egg, quark, oats; ~15 g per 50 g was a calculated target that assumed dried egg white and a dry bake; the first real fresh-only bake (18 Oct) measured ~11 g protein per 100 g, see `04f`). The format (bar, bites or slice) is open.
 - **Early adopters:** coached Durham squad athletes and Ewan's MMA club.
 - **Persona:** "Jack, the committed gym-goer" (trains once a day).
 - **Index of files:** `START-HERE.md`. **Log:** `PROGRESS.md`.
