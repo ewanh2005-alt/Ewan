@@ -113,3 +113,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - [x] 18 Oct: v7 recipes without dried egg white (`04f-recipe-v7-fresh-only.md`, calc v7 in 04d script): ~11 g protein, ~15 g carbs, ~4 g sugar per 50 g; loaf tray, foil tent, no water bath
 
 - 18 Oct 2026: First real v7 Vanilla bake. 360 g batter → 340 g baked (only 5.6% lost, ~67% moisture vs 35% assumed). Real macros per 100 g: 11.3 g protein / 15.5 g carbs / 4.3 g sugar / ~127 kcal. Logged in 04f and the calcs script.
+- 18 Oct 2026: Corrected the v7 Vanilla final weight to 298 g (bake only): 17% loss, ~62% moisture. Per 100 g: 12.9 g protein / ~145 kcal; per 50 g: 6.4 g protein.
