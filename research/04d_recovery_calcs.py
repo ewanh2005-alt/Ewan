@@ -239,3 +239,22 @@ for name, g in V7.items():
     print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['fb']} g | {bar['kcal']:.0f} | {pct}% |")
     assert bar["p"] >= 10 and bar["s"] <= 4.6 and pct >= 20, name
 (ROOT / "research" / "04d_v7_output.json").write_text(json.dumps({"final_moisture_estimate": V7_MOISTURE, "bar_g": V2_BAR_G, "v7": v7_out}, indent=2))
+
+# ---- v7 Vanilla, REAL bake (18 Oct, Ewan's tin weights). Enamel dish 168 g; 528 g with batter; 508 g after baking.
+# Only 360 g of batter reached the dish (vs 388 g recipe), so scale the recipe down. Assumes losses were spread evenly.
+DISH_G, FULL_G, BAKED_FULL_G = 168, 528, 508
+real_batter = FULL_G - DISH_G
+real_baked = BAKED_FULL_G - DISH_G
+g = V7["v7 Vanilla"]
+scale = real_batter / sum(g.values())
+t = calc({i: v * scale for i, v in g.items()})
+water_in = sum(ING[i].get("w", WD.get(i, 5)) * v * scale / 100 for i, v in g.items())
+water_left = water_in - (real_batter - real_baked)
+per100 = {k: round(t[k] / real_baked * 100, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+print(f"\nv7 Vanilla REAL: batter {real_batter} g -> baked {real_baked} g (lost {real_batter - real_baked} g, "
+      f"{(real_batter - real_baked) / real_batter:.1%}); final moisture {water_left / real_baked:.0%} (model assumed {V7_MOISTURE:.0%})")
+print("whole batch:", {k: t[k] for k in ("p", "c", "s", "f", "fb", "kcal")})
+print("per 100 g:", per100)
+for n in (4, 5, 6):
+    print(f"cut {n}: {real_baked / n:.0f} g each ->", {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")})
+print(f"for 11 g protein: {11 / per100['p'] * 100:.0f} g piece")

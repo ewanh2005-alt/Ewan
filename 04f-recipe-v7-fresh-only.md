@@ -81,3 +81,16 @@
 3. **If it's dry:** bake 5 minutes less, or add 30 g quark.
 4. **If it's wet in the middle:** bake 5 minutes more.
 5. **If it's flat:** whisk the whites stiffer and fold more gently.
+
+## Real bake 1: Vanilla (18 Oct 2026, Ewan) `[EVIDENCE: Ewan's tin weights]`
+- Same-day method: hot-milk oat soak for about 10 minutes, whites frothed by hand, greased enamel dish (no paper), foil-tent bake.
+- **Weights:**
+  - dish empty: 168 g
+  - with batter: 528 g, so **360 g of batter**
+  - after baking: 508 g, so **340 g baked**
+  - lost only **20 g (5.6%)**
+- **Moisture:** final moisture is ~67%. The model assumed 35%, so **the "~187 g baked, 11 g protein per 50 g" figures were wrong**: the bake keeps most of its water.
+- **Real macros** (calculated from the recipe scaled to 360 g; `research/04d_recovery_calcs.py`, "REAL" section):
+  - per 100 g: **11.3 g protein**, 15.5 g carbs, 4.3 g sugar, 1.8 g fat, 2.0 g fibre, ~127 kcal
+  - cut 4 (~85 g each): 9.6 g protein, ~108 kcal
+- **Lesson:** quote protein **per 100 g** (~11 g) until the texture is fixed. A 50 g piece of this bake has only ~5.7 g protein.
