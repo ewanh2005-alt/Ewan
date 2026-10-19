@@ -326,3 +326,22 @@ for name, g in V10.items():
     assert rows[0]["per_50g"]["p"] >= 15 and rows[0]["per_50g"]["c"] >= 15 and rows[0]["per_50g"]["s"] <= 4.5, name
     v10_out[name] = dict(batch=g, batter_g=t["batter_g"], options=rows)
 (ROOT / "research" / "04d_v10_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v10": v10_out}, indent=2))
+
+# ---- v11 (19 Oct): Ewan: "few more g of carbs". Grid search: each +1 g carbs per 50 g costs ~2.5 points of moisture.
+# ~18 g carbs needs ~25% water left (firm, flapjack-like). More puffed rice, slightly fewer oats.
+V11 = {"v11 Vanilla": dict(egg_white_fresh=375, quark=80, rolled_oats=25, puffed_rice=50, honey=8, vanilla_extract=8, cinnamon=1, sea_salt=0.4)}
+print("\n| v11 batch | Batter | Stop at | Moisture | Per 50 g: protein | carbs | sugar | fat | fibre | kcal |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v11_out = {}
+for name, g in V11.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    rows = []
+    for target in (t["p"] * V2_BAR_G / 15, 210, 230):
+        m = 1 - (t["batter_g"] - water) / target
+        bar = {k: round(t[k] * V2_BAR_G / target, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+        rows.append(dict(target_baked_g=round(target), moisture=round(m, 2), per_50g=bar))
+        print(f"| {name} | {t['batter_g']:.0f} g | {target:.0f} g | {m:.0%} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['fb']} g | {bar['kcal']:.0f} |")
+    assert rows[0]["per_50g"]["p"] >= 15 and rows[0]["per_50g"]["c"] >= 18 and rows[0]["per_50g"]["s"] <= 4.5, name
+    v11_out[name] = dict(batch=g, batter_g=t["batter_g"], options=rows)
+(ROOT / "research" / "04d_v11_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v11": v11_out}, indent=2))

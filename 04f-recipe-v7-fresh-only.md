@@ -174,3 +174,25 @@ Ewan wanted more carbs than v9 while keeping 15 g protein. The limit: if 15 g of
 5. Weigh both bakes (dish weight minus 168 g each). If they're over 177 g together, give them 5 more minutes.
 
 **Risk:** at 30% water it's firmer and drier than bake 1, close to the dryness problem from earlier bakes. Check the texture at ~190 g before pushing on to 177 g.
+
+## v11 Vanilla: 15 g protein + ~18 g carbs per 50 g (19 Oct)
+"A few more grams of carbs" than v10. It has more puffed rice and is baked drier. Each extra 1 g of carbs per 50 g costs about 2.5 points of water.
+
+**Ingredients:**
+- egg whites 375 g
+- quark 80 g
+- oats 25 g, toasted
+- **puffed brown rice 50 g**
+- honey 8 g
+- vanilla 8 g
+- cinnamon 1 g
+- a pinch of salt
+
+**Batter:** ~547 g. **Bake it down to 189 g.**
+
+| Stop at | Water left | Per 50 g: protein | carbs | sugar | kcal |
+|---|---|---|---|---|---|
+| **189 g** | 25% | **15.0 g** | **18.2 g** | 3.6 g | 144 |
+| 210 g | 33% | 13.5 g | 16.4 g | 3.3 g | 130 |
+
+**Method:** as v10 (2 dishes, preheated tray, foil 15 minutes, then off for ~30–35 minutes, weigh it down to target). **Texture:** at 25% water it's firm, like a soft flapjack, not fluffy.
