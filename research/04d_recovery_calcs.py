@@ -304,3 +304,25 @@ for name, g in V9.items():
     print(f"| {name} | {t['batter_g']:.0f} g | {t['p']} g | {target:.0f} g | {n:.1f} | {m:.0%} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} |")
     assert bar["p"] >= 15 and m >= 0.35, name  # 35%+ water left = still a moist bake, not a rusk
 (ROOT / "research" / "04d_v9_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v9": v9_out}, indent=2))
+
+# ---- v10 (19 Oct): Ewan: "need more carbs", keep 15 g protein per 50 g. Grid search (scratch) found the ceiling:
+# ~13 g carbs at 35% moisture; ~15.7 g at 30% moisture with unsweetened puffed brown rice (81% carbs, almost no water).
+# Physics: 15 g of every 50 g is protein, so carbs can only grow if there's less water. Bake to target weight again.
+V10 = {
+    "v10 Vanilla": dict(egg_white_fresh=350, quark=80, rolled_oats=30, puffed_rice=30, honey=8, vanilla_extract=8, cinnamon=1, sea_salt=0.4),
+}
+print("\n| v10 batch | Batter | Stop at | Moisture | Per 50 g: protein | carbs | sugar | fat | fibre | kcal |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v10_out = {}
+for name, g in V10.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    rows = []
+    for target in (t["p"] * V2_BAR_G / 15, 200):
+        m = 1 - (t["batter_g"] - water) / target
+        bar = {k: round(t[k] * V2_BAR_G / target, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+        rows.append(dict(target_baked_g=round(target), moisture=round(m, 2), per_50g=bar))
+        print(f"| {name} | {t['batter_g']:.0f} g | {target:.0f} g | {m:.0%} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['fb']} g | {bar['kcal']:.0f} |")
+    assert rows[0]["per_50g"]["p"] >= 15 and rows[0]["per_50g"]["c"] >= 15 and rows[0]["per_50g"]["s"] <= 4.5, name
+    v10_out[name] = dict(batch=g, batter_g=t["batter_g"], options=rows)
+(ROOT / "research" / "04d_v10_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v10": v10_out}, indent=2))

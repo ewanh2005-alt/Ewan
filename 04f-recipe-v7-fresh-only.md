@@ -145,3 +145,32 @@ Ewan's target: **15 g per 50 g**. Oats dilute the protein, so v9 cuts them right
 - Carbs drop to ~10 g per bar (the E3 professor said carbs matter).
 - It tastes more eggy than bake 1. That's why the oats are toasted and the cinnamon is in.
 - It needs about 9 whites per batch, so buying cartons of egg white is cheaper and wastes no yolks.
+
+## v10 Vanilla: 15 g protein + ~16 g carbs per 50 g, fresh only (19 Oct)
+Ewan wanted more carbs than v9 while keeping 15 g protein. The limit: if 15 g of every 50 g is protein, carbs can only go up if there's **less water**. So v10 uses **puffed brown rice** (81% carbs, almost dry) and is baked a bit drier. Numbers are in `research/04d_recovery_calcs.py`, v10 section.
+
+**Ingredients:**
+- **egg whites 350 g** (a carton of liquid egg white is easiest)
+- quark 80 g
+- oats 30 g, toasted and blitzed
+- **unsweetened puffed brown rice 30 g** (new: plain, no sugar)
+- honey 8 g
+- vanilla 8 g
+- cinnamon 1 g
+- a pinch of salt
+
+**Batter:** ~507 g. **Bake it down to 177 g in total.**
+
+| Stop at | Water left | Per 50 g: protein | carbs | sugar | kcal |
+|---|---|---|---|---|---|
+| **177 g** | 30% | **15.0 g** | **15.7 g** | 3.8 g | 135 |
+| 200 g | 38% | 13.3 g | 13.9 g | 3.4 g | 120 |
+
+**Method:**
+1. Whisk the whites to soft peaks.
+2. Mix the quark, toasted oats, honey, vanilla, cinnamon and salt. Fold in the whites, then **fold in the puffed rice last**.
+3. Split between the 2 enamel dishes on a preheated metal tray, lower-middle shelf, 150 °C fan.
+4. Foil on for 15 minutes, then off for **25–30 minutes**.
+5. Weigh both bakes (dish weight minus 168 g each). If they're over 177 g together, give them 5 more minutes.
+
+**Risk:** at 30% water it's firmer and drier than bake 1, close to the dryness problem from earlier bakes. Check the texture at ~190 g before pushing on to 177 g.

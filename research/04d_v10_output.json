@@ -1,0 +1,44 @@
+{
+  "bar_g": 50,
+  "v10": {
+    "v10 Vanilla": {
+      "batch": {
+        "egg_white_fresh": 350,
+        "quark": 80,
+        "rolled_oats": 30,
+        "puffed_rice": 30,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "cinnamon": 1,
+        "sea_salt": 0.4
+      },
+      "batter_g": 507.4,
+      "options": [
+        {
+          "target_baked_g": 177,
+          "moisture": 0.3,
+          "per_50g": {
+            "p": 15.0,
+            "c": 15.7,
+            "s": 3.8,
+            "f": 1.1,
+            "fb": 1.2,
+            "kcal": 134.9
+          }
+        },
+        {
+          "target_baked_g": 200,
+          "moisture": 0.38,
+          "per_50g": {
+            "p": 13.3,
+            "c": 13.9,
+            "s": 3.4,
+            "f": 1.0,
+            "fb": 1.0,
+            "kcal": 119.6
+          }
+        }
+      ]
+    }
+  }
+}
