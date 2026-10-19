@@ -18,6 +18,7 @@
 | F1 | DVS Judging Criteria + "Pitching your idea" handouts (photos) → `inputs/judging-criteria.md` | 7 Oct 2026 | Phase 1 | primary |
 | F2 | Ewan, chat 7 Oct 2026: "interview notes I cannot access… people have said yes to the idea" | 7 Oct 2026 | Phase 3 | primary (unquantified) |
 | F4 | Ewan's interview notes: 10 customers + 2 experts (S&C coach, Team Durham; nutrition professor) → `inputs/customer-persona.md` | 8 Oct 2026 | Phases 3, 4, 7 | primary (paraphrased) |
+| F5 | Ewan's interview note: E3, sport & exercise nutrition professor, Durham University → `inputs/customer-persona.md` | 19 Oct 2026 | Problem, product, feasibility | primary (paraphrased) |
 | F3 | `stage-1-competitor-research.md`, `stage-2-differentiation.md`, `findings-report.md` | 6–7 Oct 2026 | Background, decisions | primary (earlier desk research) |
 
 ## Competitors and prices
