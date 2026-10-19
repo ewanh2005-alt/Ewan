@@ -1,0 +1,29 @@
+{
+  "bar_g": 50,
+  "v9": {
+    "v9 Vanilla": {
+      "batch": {
+        "egg_white_fresh": 300,
+        "quark": 120,
+        "rolled_oats": 25,
+        "oat_bran": 10,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "cinnamon": 1,
+        "sea_salt": 0.4
+      },
+      "batter_g": 472.4,
+      "target_baked_g": 172,
+      "bars": 3.4,
+      "moisture_at_target": 0.41,
+      "per_bar": {
+        "p": 15.0,
+        "c": 10.0,
+        "s": 4.2,
+        "f": 1.0,
+        "fb": 1.2,
+        "kcal": 111.8
+      }
+    }
+  }
+}

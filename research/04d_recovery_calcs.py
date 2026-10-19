@@ -284,3 +284,23 @@ for name, g in V8.items():
     v8_out[name] = dict(batch=g, batter_g=t["batter_g"], baked_g_estimate=round(baked), bars=round(n, 1), per_bar=bar, protein_per_100kcal=p100)
     print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} | {p100} |")
 (ROOT / "research" / "04d_v8_output.json").write_text(json.dumps({"final_moisture_measured": V8_MOISTURE, "bar_g": V2_BAR_G, "v8": v8_out}, indent=2))
+
+# ---- v9 (19 Oct): Ewan: "we need 15 g in 50 g". Fresh only (no dried egg white): oats dilute protein, so cut them hard
+# and let egg white + quark carry it. Bake to a TARGET WEIGHT: baked weight that gives exactly 15 g per 50 g.
+V9 = {
+    "v9 Vanilla": dict(egg_white_fresh=300, quark=120, rolled_oats=25, oat_bran=10, honey=8, vanilla_extract=8, cinnamon=1, sea_salt=0.4),
+}
+print("\n| v9 batch | Batter | Protein (batch) | Target baked weight for 15 g/50 g | Bars | Moisture at target | Per bar: protein | carbs | sugar | fat | kcal |")
+print("|---|---|---|---|---|---|---|---|---|---|---|")
+v9_out = {}
+for name, g in V9.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    target = t["p"] * V2_BAR_G / 15
+    m = 1 - (t["batter_g"] - water) / target
+    n = target / V2_BAR_G
+    bar = {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    v9_out[name] = dict(batch=g, batter_g=t["batter_g"], target_baked_g=round(target), bars=round(n, 1), moisture_at_target=round(m, 2), per_bar=bar)
+    print(f"| {name} | {t['batter_g']:.0f} g | {t['p']} g | {target:.0f} g | {n:.1f} | {m:.0%} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} |")
+    assert bar["p"] >= 15 and m >= 0.35, name  # 35%+ water left = still a moist bake, not a rusk
+(ROOT / "research" / "04d_v9_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v9": v9_out}, indent=2))

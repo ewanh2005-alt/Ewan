@@ -117,3 +117,31 @@ Numbers are in `research/04d_recovery_calcs.py`, v8 section, using the measured 
 - **Check the base:** push a knife into the centre all the way to the bottom. It should come out with no wet batter.
 
 **About nuts (checked in code):** they **don't raise protein per 50 g bar**. Nuts add fat and weight, so 20 g of peanuts takes a bar from ~9.7 g to ~9.4 g protein and adds ~8 kcal. Add 10 g chopped only if you want them for taste or crunch. Two things do raise protein per bar: a **drier bake** (~11 g at 35% moisture, ~12 g at 30%) or **dried egg white**.
+
+## v9 Vanilla: 15 g protein per 50 g, fresh only (19 Oct)
+Ewan's target: **15 g per 50 g**. Oats dilute the protein, so v9 cuts them right down and lets egg white and quark carry it. Numbers are in `research/04d_recovery_calcs.py`, v9 section.
+
+**Ingredients:**
+- **egg whites 300 g** (about 9 eggs, or a carton of liquid egg white: still fresh egg, not powder)
+- quark 120 g
+- oats 25 g, toasted and blitzed
+- oat bran 10 g
+- honey 8 g
+- vanilla 8 g
+- cinnamon 1 g
+- a pinch of salt
+- no milk
+
+**Batter:** ~472 g. **Bake it down to 172 g in total** (target weight). At that weight it's **15.0 g protein**, 10 g carbs, 4.2 g sugar, 1 g fat and ~112 kcal per 50 g. That makes about 3½ bars, with ~41% water left, similar to bake 1.
+- If it weighs more than 172 g, there's less protein per 50 g. At ~200 g it's ~12.9 g.
+
+**Method:**
+- Same as v8: whisk the whites to soft peaks, fold them into the quark, oats and flavourings, and use a preheated metal tray under the dish.
+- **Split the mix between your 2 enamel dishes.** Thinner layers dry out more and the bottoms cook through.
+- Bake at 150 °C fan: foil on for 15 minutes, then off for 20–25 minutes.
+- **Weigh the bake out of the dish** (or the dish minus 168 g). If it's over target, give it 5 more minutes and weigh again.
+
+**Trade-offs:**
+- Carbs drop to ~10 g per bar (the E3 professor said carbs matter).
+- It tastes more eggy than bake 1. That's why the oats are toasted and the cinnamon is in.
+- It needs about 9 whites per batch, so buying cartons of egg white is cheaper and wastes no yolks.
