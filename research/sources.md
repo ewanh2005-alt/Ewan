@@ -268,6 +268,28 @@ Supersedes W1–W17b for the report; older W rows kept for history.
 | A11 | EIT Food Accelerator Network 2026 | https://www.eitfood.eu/open-calls/eit-food-accelerator-network-fan-call-for-startups-2026 | 13 Oct 2026 | Accelerator (weak fit) | search-extract |
 | A12 | Opportunity North East food & drink accelerator (Scotland) | https://opportunitynortheast.com/food-drink-agriculture/startupaccelerator | 13 Oct 2026 | Excluded (Scotland) | search-extract |
 
+## Food contacts: manufacturing, feasibility, safety (19 Oct 2026, web search; `24-food-contacts.md`)
+| ID | Source | URL | Accessed | Used for | Type |
+|---|---|---|---|---|---|
+| N1 | Search results on UK protein bar contract manufacturers (Brighter Foods profile, YouBars, localpage Q&A: low reliability) | https://www.preqin.com/data/profile/asset/brighter-foods-limited/588171 ; https://localpage.uk/question/health-and-wellbeing/what-suppliers-offer-contract-manufacturing-of-protein-bars-for-a-new-health-food-brand-based-in-birmingham | 19 Oct 2026 | Tier 3 | search-extract |
+| N2 | CPI Novel Food Innovation Centre (Tees Valley) | https://uk-cpi.com/about/national-centres/novel-food-innovation-centre | 19 Oct 2026 | Tier 2 | search-extract |
+| N7 | Durham County Council, Food law advice for businesses | https://durham.gov.uk/article/3835/Food-law-advice-for-businesses | 19 Oct 2026 | Tier 1 | search-extract |
+| N9 | Food and Drink North East (Growth Hub listing) | https://growthhub.northeast-ca.gov.uk/resource/food-and-drink-north-east | 19 Oct 2026 | Tier 1 | search-extract |
+| N10 | IFST North East hub at Teesside University (Tees Business) | https://teesbusiness.co.uk/?p=1880 | 19 Oct 2026 | Tier 1 | search-extract |
+| N11 | Teesside University Food Science and Biotechnology (Prospects) | https://www.prospects.ac.uk/universities/teesside-university-4019/school-of-health-and-life-sciences-14119/courses/food-science-and-biotechnology-113236 | 19 Oct 2026 | Tier 1 | search-extract |
+| N12 | Northumbria University BSc Food Science and Nutrition | https://corp.northumbria.ac.uk/study-at-northumbria/courses/food-science-and-nutrition-uusfsu1/ | 19 Oct 2026 | Tier 1 | search-extract |
+| N13 | Newcastle University HNRC; NU-Food sensory facility | https://www.ncl.ac.uk/healthier-lives/partnerships-funding/hnrc ; https://www.foodingredientsfirst.com/news/state-of-the-art-sensory-testing-facility-launched-at-newcastle-university.html | 19 Oct 2026 | Tier 1 | search-extract |
+| N14 | Campden BRI, help for small businesses and start-ups (incl. FSA MyHACCP) | https://www.campdenbri.co.uk/services/startup-companies-info.php | 19 Oct 2026 | Tier 2 | search-extract |
+| N15 | Campden BRI microbiology / shelf-life services; FSS shelf-life guidance 2025 (aw ≥0.9 for most bacterial growth) | https://campden.co.uk/services/microbiology.php ; https://www.foodstandards.gov.scot/downloads/Shelf-life_guidance_2025.pdf | 19 Oct 2026 | Tier 2, v13 safety | search-extract |
+| N16 | SALSA scheme and mentoring (NFU) | https://www.nfuonline.com/news/salsa-food-safety-assurance-for-small-food-producers/ | 19 Oct 2026 | Tier 2 | search-extract |
+| N17 | Innovate UK Business Connect AgriFood | https://iuk-business-connect.org.uk/agrifood | 19 Oct 2026 | Tier 2 | search-extract |
+| N18 | Labcell water activity analyser (Bakery & Snacks) | https://bakeryandsnacks.com/Article/2005/06/29/Portable-water-content-reader-gives-results-in-five-minutes | 19 Oct 2026 | Tier 2 | search-extract (old) |
+| N19 | Traybakes Ltd, SALSA directory | https://www.salsafood.co.uk/pages/directory/detail_NewDir.php?sID=758 | 19 Oct 2026 | Tier 3 | search-extract |
+| N20 | Handmade Speciality Products (TUCO); Queensland Bakery (great.gov.uk); Bramble Foods (CB Insights) | https://www.tuco.ac.uk/procurement/our-suppliers/handmade-speciality-products-cr24 ; https://www.great.gov.uk/international/buy-from-the-uk/find-a-supplier/supplier/OC370059 ; https://www.cbinsights.com/compare/batchd-vs-bramble-foods | 19 Oct 2026 | Tier 3 | search-extract |
+| N21 | St. Ewe liquid egg range (Restaurant Online, Aug 2026) | https://www.restaurantonline.co.uk/Article/2026/08/11/st-ewe-launches-free-range-liquid-egg-range/ | 19 Oct 2026 | Tier 4 | search-extract |
+| N22 | Two Chicks liquid egg white (The Caterer) | https://thecaterer.com/products/liquid-egg-white-from-two-chicks | 19 Oct 2026 | Tier 4 | search-extract (old) |
+| N23 | British Lion liquid egg white guide; Noble Egg Innovations | https://www.egginfo.co.uk/british-lion-egg/products/guide/liquid-egg-white ; https://egginfo.co.uk/noble-egg-innovations | 19 Oct 2026 | Tier 4 | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|

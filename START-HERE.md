@@ -31,7 +31,7 @@
 | `20-interview-template-open.md` | Open-conversation interview template to copy into a doc |
 
 ## Plans and contacts
-`10-scale-plan.md` · `11-plan-to-week-13.md` · `15-founder-outreach.md` · `18-accelerators-and-support.md`
+`24-food-contacts.md` (**food manufacturers, labs, food scientists to contact**) · `10-scale-plan.md` · `11-plan-to-week-13.md` · `15-founder-outreach.md` · `18-accelerators-and-support.md`
 
 ## ⚠️ Fictional (teaching only, never evidence)
 `graft-accelerator-FICTIONAL/`

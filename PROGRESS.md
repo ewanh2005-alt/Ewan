@@ -122,3 +122,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - 19 Oct 2026: v11 Vanilla: whites 375 g, quark 80 g, oats 25 g, puffed rice 50 g; bake to 189 g → 15.0 g protein / 18.2 g carbs / 3.6 g sugar / ~144 kcal per 50 g (calculated, 25% moisture).
 - 19 Oct 2026: v12 Vanilla: whites 425 g, quark 80 g, oats 30 g, puffed rice 70 g; bake to 214 g → 15.0 g protein / 20.7 g carbs / 3.4 g sugar / ~155 kcal per 50 g (calculated, ~20% moisture, firm bar).
 - 19 Oct 2026: v13 Bag Bar (vanilla): no quark/dairy, twice-baked to ~16% water, egg + oats only allergens. Whites 475 g, oats 40 g, puffed rice 70 g; bake to 204 g → 15.0 g protein / 22.5 g carbs / 2.9 g sugar / ~165 kcal per 50 g (calculated). Ambient safety is an ASSUMPTION until a water-activity test; home 1–3 day bag check planned.
+- 19 Oct 2026: `24-food-contacts.md`: 25 food contacts in 4 tiers (local experts/unis/council, shelf-life & safety bodies, co-packers, liquid egg suppliers) + outreach message. Sources N1–N23.
