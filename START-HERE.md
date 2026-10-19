@@ -24,6 +24,7 @@
 | `01d-athlete-nutrition-needs.md` | Athlete nutrition science |
 | `02c-reddit-insights.md` | Reddit comment themes |
 | `02d-women-40-60-research.md` | Women 40–60 segment research |
+| `25-secondary-research.md` | Secondary market research: market size, sizing, polyols, prices, UPF attitudes, shelf life, counter-evidence |
 | `research/sources.md` | Every source, with links |
 | `17-research-sprint.md` | Plan for 50 real responses + analysis script |
 | `19-mom-test-questions.md` | Mom Test interview questions (athletes, gym-goers, coaches) |
