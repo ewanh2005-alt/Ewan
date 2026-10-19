@@ -4,7 +4,7 @@
 **Judging link:** Feasibility & Business Model (credible route to make it safely), Team Capability (coachability: acting on expert advice), and "Next milestone, what you need".
 
 **Rules:**
-- Sources are N1–N25 in `research/sources.md`, found by web search on 19 Oct 2026. **Check each company is still trading** before you contact it.
+- Sources are N-numbered (N1–N23) in `research/sources.md`, found by web search on 19 Oct 2026. **Check each company is still trading** before you contact it.
 - **No email addresses are guessed.** Use the contact form on each website, or LinkedIn. The only email given here (Durham County Council) is the council's own published address.
 - **Ewan sends everything himself.** Claude hasn't contacted anyone.
 
