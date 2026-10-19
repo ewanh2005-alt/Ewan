@@ -259,3 +259,28 @@ print("per 100 g:", per100)
 for n in (4, 5, 6):
     print(f"cut {n}: {real_baked / n:.0f} g each ->", {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")})
 print(f"for 11 g protein: {11 / per100['p'] * 100:.0f} g piece")
+
+# ---- v8 options (19 Oct): Ewan's feedback on real bake 1: tasted too much like yoghurt, bottom not cooked (22 min only),
+# fluffy (good), protein low; asked about adding nuts. Moisture now from the real bake (~43%) instead of the 35% guess.
+V8_MOISTURE = round(water_left / real_baked, 2)
+base = V7["v7 Vanilla"]
+V8 = {
+    "v7 Vanilla (as baked)": base,
+    "+ 20 g peanuts": {**base, "peanuts": 20},
+    "+ 20 g pumpkin seeds": {**base, "pumpkin_seeds": 20},
+    "v8: less quark, more white": {**base, "quark": 100, "egg_white_fresh": 180},
+    "v8 + 15 g pumpkin seeds": {**base, "quark": 100, "egg_white_fresh": 180, "pumpkin_seeds": 15},
+}
+print(f"\n| v8 option (moisture {V8_MOISTURE:.0%}) | Batter | Baked | Bars of 50 g | Per bar: protein | carbs | sugar | fat | kcal | protein per 100 kcal |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v8_out = {}
+for name, g in V8.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    baked = (t["batter_g"] - water) / (1 - V8_MOISTURE)
+    n = baked / V2_BAR_G
+    bar = {k: round(t[k] / n, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+    p100 = round(bar["p"] / bar["kcal"] * 100, 1)
+    v8_out[name] = dict(batch=g, batter_g=t["batter_g"], baked_g_estimate=round(baked), bars=round(n, 1), per_bar=bar, protein_per_100kcal=p100)
+    print(f"| {name} | {t['batter_g']:.0f} g | ~{baked:.0f} g | ~{n:.1f} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['kcal']:.0f} | {p100} |")
+(ROOT / "research" / "04d_v8_output.json").write_text(json.dumps({"final_moisture_measured": V8_MOISTURE, "bar_g": V2_BAR_G, "v8": v8_out}, indent=2))

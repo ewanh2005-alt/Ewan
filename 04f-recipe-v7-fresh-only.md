@@ -94,3 +94,26 @@
   - per 100 g: **19.4 g protein**, 26.6 g carbs, 7.4 g sugar, 3.1 g fat, 3.4 g fibre, ~219 kcal
   - **4 bars of ~50 g each: 9.6 g protein**, 13.2 g carbs, 3.7 g sugar, 1.5 g fat, 1.7 g fibre, ~108 kcal
 - **Lesson:** fresh-only gives ~10 g protein per 50 g bar. ~15 g per 50 g needs dried egg white (v6).
+
+### Feedback on bake 1 (Ewan, 19 Oct)
+- Tasted too much like yoghurt.
+- The bottom wasn't cooked.
+- Fluffy (good).
+- Protein felt low.
+- Baked **22 minutes only** (the plan was 30–35). The 198 g final weight may be off because the base was wet.
+
+## v8 Vanilla (next bake): fixes for taste and the raw bottom
+Numbers are in `research/04d_recovery_calcs.py`, v8 section, using the measured ~43% moisture. Per 50 g bar: ~9.9 g protein, 13.3 g carbs, 3.4 g sugar, 1.6 g fat, ~111 kcal.
+
+**Changes from v7:**
+- **Less yoghurt taste:** quark 150 → **100 g**, egg whites 130 → **180 g** (about 5–6 whites).
+- **Toast the oats:** 60 g in a dry pan for 4–5 minutes until they smell nutty, then blitz. This gives a baked, biscuity flavour instead of a dairy one.
+- Add a pinch of **cinnamon** (optional). Keep the honey, vanilla, oat bran, milk and salt the same.
+
+**Fixing the raw bottom:**
+- Put a **metal baking tray in the oven while it heats**, and stand the dish on it. This sends heat straight into the base.
+- Bake on the **lower-middle shelf**.
+- **Foil for 15 minutes only**, then uncovered for **15–20 minutes**: **30–35 minutes in total**.
+- **Check the base:** push a knife into the centre all the way to the bottom. It should come out with no wet batter.
+
+**About nuts (checked in code):** they **don't raise protein per 50 g bar**. Nuts add fat and weight, so 20 g of peanuts takes a bar from ~9.7 g to ~9.4 g protein and adds ~8 kcal. Add 10 g chopped only if you want them for taste or crunch. Two things do raise protein per bar: a **drier bake** (~11 g at 35% moisture, ~12 g at 30%) or **dried egg white**.

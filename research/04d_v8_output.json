@@ -1,0 +1,129 @@
+{
+  "final_moisture_measured": 0.43,
+  "bar_g": 50,
+  "v8": {
+    "v7 Vanilla (as baked)": {
+      "batch": {
+        "egg_white_fresh": 130,
+        "quark": 150,
+        "milk_semi": 20,
+        "rolled_oats": 60,
+        "oat_bran": 12,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "sea_salt": 0.4
+      },
+      "batter_g": 388.4,
+      "baked_g_estimate": 213,
+      "bars": 4.3,
+      "per_bar": {
+        "p": 9.7,
+        "c": 13.4,
+        "s": 3.7,
+        "f": 1.5,
+        "fb": 1.7,
+        "kcal": 109.8
+      },
+      "protein_per_100kcal": 8.8
+    },
+    "+ 20 g peanuts": {
+      "batch": {
+        "egg_white_fresh": 130,
+        "quark": 150,
+        "milk_semi": 20,
+        "rolled_oats": 60,
+        "oat_bran": 12,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "sea_salt": 0.4,
+        "peanuts": 20
+      },
+      "batter_g": 408.4,
+      "baked_g_estimate": 247,
+      "bars": 4.9,
+      "per_bar": {
+        "p": 9.4,
+        "c": 11.8,
+        "s": 3.4,
+        "f": 3.3,
+        "fb": 1.8,
+        "kcal": 118.4
+      },
+      "protein_per_100kcal": 7.9
+    },
+    "+ 20 g pumpkin seeds": {
+      "batch": {
+        "egg_white_fresh": 130,
+        "quark": 150,
+        "milk_semi": 20,
+        "rolled_oats": 60,
+        "oat_bran": 12,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "sea_salt": 0.4,
+        "pumpkin_seeds": 20
+      },
+      "batter_g": 408.4,
+      "baked_g_estimate": 246,
+      "bars": 4.9,
+      "per_bar": {
+        "p": 9.6,
+        "c": 11.8,
+        "s": 3.3,
+        "f": 3.2,
+        "fb": 1.7,
+        "kcal": 118.1
+      },
+      "protein_per_100kcal": 8.1
+    },
+    "v8: less quark, more white": {
+      "batch": {
+        "egg_white_fresh": 180,
+        "quark": 100,
+        "milk_semi": 20,
+        "rolled_oats": 60,
+        "oat_bran": 12,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "sea_salt": 0.4
+      },
+      "batter_g": 388.4,
+      "baked_g_estimate": 208,
+      "bars": 4.2,
+      "per_bar": {
+        "p": 9.9,
+        "c": 13.3,
+        "s": 3.4,
+        "f": 1.6,
+        "fb": 1.7,
+        "kcal": 110.6
+      },
+      "protein_per_100kcal": 9.0
+    },
+    "v8 + 15 g pumpkin seeds": {
+      "batch": {
+        "egg_white_fresh": 180,
+        "quark": 100,
+        "milk_semi": 20,
+        "rolled_oats": 60,
+        "oat_bran": 12,
+        "honey": 8,
+        "vanilla_extract": 8,
+        "sea_salt": 0.4,
+        "pumpkin_seeds": 15
+      },
+      "batter_g": 403.4,
+      "baked_g_estimate": 233,
+      "bars": 4.7,
+      "per_bar": {
+        "p": 9.8,
+        "c": 12.1,
+        "s": 3.1,
+        "f": 2.9,
+        "fb": 1.7,
+        "kcal": 117.1
+      },
+      "protein_per_100kcal": 8.4
+    }
+  }
+}
