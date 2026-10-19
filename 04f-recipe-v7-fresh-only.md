@@ -214,3 +214,39 @@ Ewan wanted more carbs than v9 while keeping 15 g protein. The limit: if 15 g of
   - 150 °C fan: foil on for 15 minutes, then off for ~35 minutes.
   - If it's still over target, **drop to 120 °C** and dry it in 10-minute steps, weighing each time.
 - **Texture:** a firm, flapjack-style bar, not fluffy. Upside: drier bars keep better out of the fridge, which matches E3's "stay in a bag all day" point. This still needs testing.
+
+## v13 Bag Bar (vanilla): no fridge, keeps in a bag all day (19 Oct)
+**Why:** E3 (the sport nutrition professor) said a snack that can stay in a bag all day is the way to go. Ewan wants no refrigeration, while keeping ≥15 g protein and ≥20 g carbs per 50 g.
+
+**What changes:**
+- **No quark**, so no fresh dairy. That also removes the **milk allergen**: allergens are now just **egg and oats (gluten)**.
+- **Twice-baked** down to ~16% water, so it's firm and chewy, like a flapjack or soft granola bar.
+
+**Ingredients:**
+- **egg whites 475 g** (one 500 ml carton of liquid egg white, or ~14 eggs)
+- oats 40 g, toasted and blitzed
+- puffed brown rice 70 g
+- honey 8 g
+- vanilla 8 g
+- cinnamon 1 g
+- a pinch of salt
+
+**Batter:** ~602 g. **Bake and dry it down to 204 g in total.** At that weight, per 50 g: **15.0 g protein, 22.5 g carbs**, 2.9 g sugar, 1.4 g fat, 1.5 g fibre, ~165 kcal. That's about 4 bars.
+
+**Method:**
+1. **Prepare:** toast the oats in a dry pan for 4–5 minutes, then blitz. Heat the oven to 150 °C fan with a metal tray inside.
+2. **Mix:** whisk the whites to soft peaks. Mix the oats, honey, vanilla, cinnamon and salt, then fold in the whites. Fold in the puffed rice last.
+3. **Bake 1:** split between the 2 greased dishes, stand them on the hot tray, and bake for 15 minutes with foil, then ~20 minutes without, until set.
+4. **Cut:** cut into bars while warm. Lay them on a baking-paper-lined tray with gaps between them.
+5. **Bake 2 (dry):** **120 °C fan for 20–40 minutes**, turning the bars halfway. Weigh every 10 minutes and stop at **204 g in total**.
+6. **Cool completely:** at least 1 hour on a rack. Wrapping them warm traps steam, and that causes mould.
+7. **Wrap:** each bar in baking paper, then into a zip bag.
+
+**Safety, to be honest about:**
+- Whether it's safe out of the fridge depends on **water activity (aw)**, not just % water. Cakes and flapjacks with egg are routinely kept at room temperature once fully baked, so ambient storage for a day is `[ASSUMPTION]` plausible, not proven.
+- **To prove it:**
+  1. **Home check (not proof of safety):** keep 1 bar in a bag at room temperature for 1, 2 and 3 days. Note the smell, texture, any mould, and whether it's gone soft.
+  2. **Real proof:** a food lab water-activity test (target aw below ~0.85 for safety, lower for a longer life) `[GAP]`. This is part of the "speak to food manufacturers or feasibility experts" step E3 suggested.
+- Until then: make them fresh, carry them for the day, and tell testers to eat them the same day.
+
+**Pitch impact:** if this works, "deliver chilled" changes to "**keeps in your bag all day**". That removes the biggest practical objection. Don't change the deck until the home check is done.

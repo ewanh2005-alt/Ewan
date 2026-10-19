@@ -364,3 +364,25 @@ for name, g in V12.items():
     assert rows[0]["per_50g"]["p"] >= 15 and rows[0]["per_50g"]["c"] >= 20 and rows[0]["per_50g"]["s"] <= 4.5, name
     v12_out[name] = dict(batch=g, batter_g=t["batter_g"], options=rows)
 (ROOT / "research" / "04d_v12_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v12": v12_out}, indent=2))
+
+# ---- v13 (19 Oct): Ewan: no refrigeration, something athletes can keep in a bag all day; keep >=15 g protein and >=20 g carbs per 50 g.
+# Approach: no quark (no fresh dairy, and one fewer allergen), twice-baked down to ~16% water (shop bars are drier still).
+# Ambient safety depends on water activity (aw), not % water: [ASSUMPTION] until a lab aw test is done.
+V13 = {"v13 Bag Bar (vanilla)": dict(egg_white_fresh=475, rolled_oats=40, puffed_rice=70, honey=8, vanilla_extract=8, cinnamon=1, sea_salt=0.4)}
+print("\n| v13 batch | Batter | Stop at | Moisture | Per 50 g: protein | carbs | sugar | fat | fibre | kcal |")
+print("|---|---|---|---|---|---|---|---|---|---|")
+v13_out = {}
+for name, g in V13.items():
+    t = calc(g)
+    water = sum(ING[i].get("w", WD.get(i, 5)) * v / 100 for i, v in g.items())
+    rows = []
+    for target in (t["p"] * V2_BAR_G / 15, 230):
+        m = 1 - (t["batter_g"] - water) / target
+        bar = {k: round(t[k] * V2_BAR_G / target, 1) for k in ("p", "c", "s", "f", "fb", "kcal")}
+        rows.append(dict(target_baked_g=round(target), moisture=round(m, 2), per_50g=bar))
+        print(f"| {name} | {t['batter_g']:.0f} g | {target:.0f} g | {m:.0%} | {bar['p']} g | {bar['c']} g | {bar['s']} g | {bar['f']} g | {bar['fb']} g | {bar['kcal']:.0f} |")
+    r = rows[0]
+    assert r["per_50g"]["p"] >= 15 and r["per_50g"]["c"] >= 20 and r["per_50g"]["s"] <= 4.5 and r["moisture"] <= 0.17, name
+    assert "quark" not in g and "milk_semi" not in g, "no fresh dairy in the bag bar"
+    v13_out[name] = dict(batch=g, batter_g=t["batter_g"], options=rows)
+(ROOT / "research" / "04d_v13_output.json").write_text(json.dumps({"bar_g": V2_BAR_G, "v13": v13_out}, indent=2))
