@@ -338,6 +338,16 @@ All read via web-search extracts only (page fetches blocked). "Type" = search-ex
 | M41 | Wikipedia, Water activity (table: batter cake ~0.81, bread 0.93) | https://en.wikipedia.org/wiki/Water_activity | 19 Oct 2026 | 6a | search-extract (low) |
 | M42 | aw growth limits: Manitoba Agriculture (S. aureus 0.86; xerophilic moulds 0.60–0.62); FDA aw guide (C. botulinum 0.93); Aqualab (Listeria 0.92) | https://gov.mb.ca/agriculture/food-safety/education-resources/water-content-water-activity.html · https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods · https://aqualab.com/learn/how-water-activity-controls-microbial-growth | 19 Oct 2026 | 6b | search-extract |
 
+## MMA focus (19 Oct 2026, `27-mma-focus.md`)
+| ID | Source | URL | Accessed | Used for | Type |
+|---|---|---|---|---|---|
+| X1 | Hillier et al. 2019, "High prevalence and magnitude of rapid weight loss in mixed martial arts athletes" (n = 314) | https://pure.hud.ac.uk/en/publications/high-prevalence-and-magnitude-of-rapid-weight-loss-in-mixed-marti/ ; https://durham-repository.worktribe.com/output/1338051 | 19 Oct 2026 | Weight cutting prevalence | search-extract |
+| X2 | California State Athletic Commission data, 512 pro fighters 2015–18 (via Combat Sports Law) | https://combatsportslaw.com/2021/02/28/study-average-mma-fighter-gains-over-8-body-mass-from-weigh-ins-to-fight-time | 19 Oct 2026 | Weigh-in to fight regain | search-extract |
+| X3 | Bueno et al. 2024, anthropometric profile and dietary intake of amateur and pro MMA athletes (Rev. Artes Marciales Asiáticas) | https://doaj.org/article/b64fe6a1d9e443eb9eb8d2149827b263 | 19 Oct 2026 | Energy/carb deficit | search-extract |
+| X4 | North-West University dissertation on weight-making in MMA | https://repository.nwu.ac.za/bitstreams/39eb8b5b-b4b4-47e6-9f7b-919808573785/download | 19 Oct 2026 | Low carbs; coach-led advice | search-extract |
+| X5 | UKAD, Managing supplement risks | https://www.ukad.org.uk/athletes/managing-supplement-risks | 19 Oct 2026 | Supplement contamination risk | search-extract |
+| X6 | Monash FODMAP, GI symptoms and exercise (30–70% of athletes) | https://monashfodmap.com/blog/research-update-gi-symptoms-and-exercise/ | 19 Oct 2026 | GI complaints in sport | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|

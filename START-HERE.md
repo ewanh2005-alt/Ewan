@@ -2,6 +2,9 @@
 
 **Brand:** Graft ("Real food for grafters") · **Pitch:** Durham Venture School · **Log of everything done:** `PROGRESS.md`
 
+## Current focus
+`27-mma-focus.md`: **narrowing to amateur MMA fighters** (advisor's advice): evidence, hypotheses, YouTube poll + gym interview plan
+
 ## For Friday's pitch
 | File | What |
 |---|---|
