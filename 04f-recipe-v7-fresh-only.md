@@ -196,3 +196,21 @@ Ewan wanted more carbs than v9 while keeping 15 g protein. The limit: if 15 g of
 | 210 g | 33% | 13.5 g | 16.4 g | 3.3 g | 130 |
 
 **Method:** as v10 (2 dishes, preheated tray, foil 15 minutes, then off for ~30–35 minutes, weigh it down to target). **Texture:** at 25% water it's firm, like a soft flapjack, not fluffy.
+
+## v12 Vanilla: 15 g protein + ~21 g carbs per 50 g (19 Oct)
+- **Ingredients:**
+  - egg whites 425 g (carton)
+  - quark 80 g
+  - oats 30 g, toasted
+  - **puffed brown rice 70 g**
+  - honey 8 g
+  - vanilla 8 g
+  - cinnamon 1 g
+  - a pinch of salt
+- **Batter:** ~622 g. **Bake it down to 214 g.** That gives **15.0 g protein, 20.7 g carbs**, 3.4 g sugar, 1.1 g fat and ~155 kcal per 50 g. About 20% water is left.
+  - At 240 g: 13.4 g protein, 18.4 g carbs.
+- **Method:**
+  - Split between 2 dishes on a preheated tray.
+  - 150 °C fan: foil on for 15 minutes, then off for ~35 minutes.
+  - If it's still over target, **drop to 120 °C** and dry it in 10-minute steps, weighing each time.
+- **Texture:** a firm, flapjack-style bar, not fluffy. Upside: drier bars keep better out of the fridge, which matches E3's "stay in a bag all day" point. This still needs testing.
