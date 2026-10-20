@@ -54,6 +54,11 @@ You are sceptical by default:
   - 78% of UK adults concerned about UPF (FSA, 2025).
   - 7 of 7 major UK protein bars use polyols; 5 confirmed to carry the laxative warning.
   - ~97% of MMA athletes cut weight (Hillier et al., 2019).
+  - MMA fighters eat ~3.3 g/kg/day of carbohydrate vs a 6–10 g/kg guideline (Bueno et al., 2024; Thomas et al., 2016).
+  - 0 of 21 UK-available products pass all 5 tests in section D2.
+  - The UFC co-owns the "Main Event" protein bar (with FoodStory; launched 16 Sep 2026, US only; no polyols or artificial sweeteners, but uses protein isolates).
+  - A draft persona, "Callum, the double-session amateur", is labelled DRAFT because no interviewee is an MMA fighter.
+  - The founder's measured real-food bake (18 Oct) gave 9.6 g protein / 13.2 g carbs per 50 g; the v13 recipe is calculated only.
 
 ## 2. ASSESSMENT FRAME (structure the whole report around this)
 **Durham Venture School judging criteria (in priority order):**
