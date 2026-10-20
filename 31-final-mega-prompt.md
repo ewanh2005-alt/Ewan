@@ -1,4 +1,4 @@
-# 31: FINAL MEGA PROMPT: UK MMA post-training snack
+# 31: FINAL MEGA PROMPT: UK MMA post-training snack (v2: + voice of customer + landing page code)
 
 **Date:** 20 Oct 2026. This is the latest version: `30` plus hypotheses H1–H13. Copy everything below the line, then paste `inputs/customer-persona.md` (the interview notes) underneath.
 
@@ -191,12 +191,56 @@ These came from 40 imagined fighters Ewan used for practice. **They are not find
 - **H12:** not every fighter cuts; heavier divisions want more calories. Target lighter divisions and fighters in camp first.
 - **H13:** women fighters feel underserved by fight-nutrition brands.
 
+### I. Voice of the customer: what they have, don't have, want and said
+Build a **voice-of-customer table** from the pasted interview notes (C1–C10, E1–E3, plus any new MMA interviews C11+). One row per person, with columns:
+- ID and who they are (as described)
+- **What they use now** (current solution, competitors named, workarounds)
+- **What they don't have** (the unmet need, friction, barrier)
+- **What they want** (outcome or feature they asked for)
+- **What they said** (a short **paraphrase** of the notes; never invent or "improve" quotes, and mark it "paraphrase")
+- MMA fit (yes / partial / no)
+
+Then:
+- **Theme count:** code every row against themes (e.g. time, taste, digestion, protein, carbs, price, whole food, shelf life, trust, convenience). Give counts **out of the real number of interviewees** (e.g. "4/10"). Never use percentages from fewer than 10 people without the raw count.
+- **Secondary voice of customer:** repeat the have / don't have / want analysis using published sources (peer-reviewed surveys, reviews, forums, fighter interviews in the media). **Grade each (A–E) and label anecdote as anecdote.** Keep it **separate** from the founder's interviews.
+- **"Have vs want" gap summary:** in 5 bullets, the biggest distances between what customers use now and what they say they want. Those distances are the gap.
+- **Never** mix in the fictional H1–H13 practice set as if it were real customer voice.
+
+### J. Landing page (code + test design)
+Write a **complete, single-file landing page** (`index.html`: HTML + CSS + vanilla JavaScript, no frameworks, no build step) to test demand from MMA athletes. Requirements:
+- **Message:**
+  - headline about the post-training problem for fighters
+  - 3 short benefit bullets
+  - a "how it's made" line (real-food protein, no artificial sweeteners or sugar alcohols)
+  - founder credibility (Ewan, MMA athlete with a ~25k-subscriber MMA YouTube channel)
+  - clear call to action: "Join the first batch"
+  - **No health claims** ("recovery", "fuel", "repair", "boost"). Use compliant wording: "for after training", "high protein" (only if ≥20% of energy from protein).
+  - No nutrition numbers until they're lab-tested; say "recipe in testing".
+- **Form:**
+  - name (optional), email (required)
+  - "Do you compete / train / just watch?"
+  - "What do you eat after training now?" (multiple choice + other)
+  - "Biggest food struggle in camp?" (multiple choice)
+  - optional price question (Van Westendorp "too cheap / bargain / getting expensive / too expensive")
+  - a **GDPR consent checkbox** (unticked by default) and a link to a short privacy notice section on the page
+  - Submit to a **clearly marked placeholder endpoint** (e.g. `const FORM_ENDPOINT = "PASTE_YOUR_FORM_URL_HERE";`) that works with a no-code form service (Google Forms, Formspree, Tally). **No real API keys.**
+  - If no endpoint is set, store submissions in `localStorage` and show a "test mode" banner.
+- **Tracking (privacy-friendly):**
+  - read **UTM parameters** (`utm_source`, `utm_medium`, `utm_campaign`) and attach them to the submission, so YouTube, gym poster and Instagram sign-ups can be compared
+  - count page views and button clicks with a placeholder analytics snippet (e.g. Plausible or GA4) behind a clearly marked comment, **off by default** until a cookie notice is accepted
+- **Design:** mobile-first; fast (<100 KB, no external images, or one optimised image); accessible (labels, contrast, keyboard focus, `prefers-reduced-motion`); neutral design with **no logo** (branding is undecided).
+- **Also give:**
+  - (1) step-by-step instructions to publish it free (e.g. GitHub Pages or Netlify drop) and connect a form service
+  - (2) **pre-set success thresholds** (e.g. visit→sign-up ≥10%; ≥100 sign-ups in 2 weeks; ≥40% of sign-ups say "compete" or "train")
+  - (3) a small **Python script** (stdlib only) that reads an exported CSV of sign-ups and prints conversion by UTM source, the compete/train/watch split, current-snack counts, struggle counts and the price-question summary
+  - (4) 3 A/B headline variants to test
+
 ## 5. OUTPUT (format strictly)
 1. **Executive summary** (≤300 words):
    - problem, customer, why it's a migraine, gap, why now, why Ewan
    - the **single riskiest assumption** and how to test it this month
 2. **"7 numbers for the pitch":** each with source, year and evidence grade.
-3. **Sections A–H** (H as a table: hypothesis / verdict / evidence and grade / Mom Test question), each ending with:
+3. **Sections A–J** (H as a table: hypothesis / verdict / evidence and grade / Mom Test question; I as the voice-of-customer table + theme counts; J as code blocks: `index.html`, then the Python analysis script), each ending with:
    - **"So what for the pitch"** (1 sentence)
    - **confidence:** high, medium or low, with the reason
    - **evidence grade mix:** e.g. "2×A, 3×C, 1×E"
@@ -211,6 +255,7 @@ These came from 40 imagined fighters Ewan used for practice. **They are not find
    - Lean Canvas
    - Van Westendorp questions
    - validation thresholds
+   - voice-of-customer table (have / don't have / want / said)
 5. **Judging scorecard:** for each of the 6 criteria, give a score (1–5), the evidence behind it, the gap, and the single highest-value action before Week 13.
 6. **"What is not happening"** list.
 7. **Become an expert:** a 20–30 item **annotated bibliography**, grouped into:

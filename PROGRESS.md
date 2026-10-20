@@ -131,3 +131,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - 20 Oct 2026: FICTIONAL 20 imagined MMA fighters (`graft-accelerator-FICTIONAL/FICTIONAL_mma_20_fighters.md`), clearly labelled not evidence; turned into hypotheses H1–H8 for real gym interviews.
 - 20 Oct 2026: Expanded FICTIONAL fighter set to 40 (`FICTIONAL_mma_40_fighters.md`), hypotheses H1–H13; not evidence.
 - 20 Oct 2026: `31-final-mega-prompt.md`: final mega prompt (academic version + hypotheses H1–H13 to test).
+- 20 Oct 2026: Mega prompt v2: added I (voice of customer: have/don't have/want/said + theme counts) and J (single-file landing page code, GDPR form, UTM tracking, analysis script, thresholds).
