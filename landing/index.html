@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Real-food snack for fighters | First batch</title>
+<meta name="description" content="A real-food snack for MMA athletes who train twice a day. Recipe in testing. Join the first batch.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #555; --line: #d0d0d0;
+    --accent: #1f4e79; --accent-fg: #ffffff; --warn-bg: #fff4ce; --warn-fg: #4a3b00;
+    --ok-bg: #e6f4ea; --ok-fg: #0d4720; --focus: #c25e00; --card: #f6f6f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212; --fg: #f0f0f0; --muted: #b8b8b8; --line: #444;
+      --accent: #8cc4ff; --accent-fg: #0b1a2a; --warn-bg: #3a3000; --warn-fg: #ffe680;
+      --ok-bg: #0f2e18; --ok-fg: #b6f0c6; --focus: #ffb366; --card: #1d1d1d;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 1rem/1.55 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main, header, footer { max-width: 40rem; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 2rem; }
+  h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 .75rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+  p.lede { font-size: 1.1rem; color: var(--muted); margin-top: 0; }
+  ul.benefits { padding-left: 1.2rem; }
+  ul.benefits li { margin: .4rem 0; }
+  .note { background: var(--card); border-left: 4px solid var(--accent); padding: .75rem 1rem; margin: 1rem 0; }
+  .banner { padding: .6rem 16px; text-align: center; font-weight: 600; }
+  .banner.test { background: var(--warn-bg); color: var(--warn-fg); }
+  form { margin: 1rem 0 2rem; }
+  fieldset { border: 1px solid var(--line); border-radius: 6px; margin: 0 0 1rem; padding: .75rem 1rem 1rem; }
+  legend { font-weight: 600; padding: 0 .25rem; }
+  label { display: block; margin: .5rem 0 .25rem; font-weight: 600; }
+  .opt { display: flex; gap: .5rem; align-items: flex-start; font-weight: 400; margin: .35rem 0; }
+  .opt input { margin-top: .3rem; }
+  input[type=text], input[type=email], input[type=number], select {
+    width: 100%; padding: .6rem; font: inherit; color: var(--fg); background: var(--bg);
+    border: 1px solid var(--muted); border-radius: 4px; }
+  .hint { color: var(--muted); font-size: .9rem; margin: .1rem 0 .4rem; }
+  .req { color: var(--muted); font-weight: 400; }
+  button { font: inherit; font-weight: 700; padding: .8rem 1.4rem; border: 0; border-radius: 6px;
+    background: var(--accent); color: var(--accent-fg); cursor: pointer; width: 100%; }
+  button.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); width: auto; padding: .5rem 1rem; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .status { margin-top: 1rem; padding: .75rem 1rem; border-radius: 6px; }
+  .status.ok { background: var(--ok-bg); color: var(--ok-fg); }
+  .status.err { background: var(--warn-bg); color: var(--warn-fg); }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  #cookie { position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--line);
+    padding: 1rem 16px; display: none; }
+  #cookie p { max-width: 40rem; margin: 0 auto .5rem; }
+  #cookie .row { max-width: 40rem; margin: 0 auto; display: flex; gap: .5rem; flex-wrap: wrap; }
+  footer { color: var(--muted); font-size: .9rem; padding-bottom: 6rem; }
+  details { margin: .5rem 0; }
+  @media (prefers-reduced-motion: no-preference) { button { transition: filter .15s; } button:hover { filter: brightness(1.1); } }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+<div id="test-banner" class="banner test" role="status" hidden>
+  Test mode: no form endpoint is set, so sign-ups are saved only in this browser.
+</div>
+
+<header>
+  <!-- A/B: swap the h1 text using the variants in the report (Section M). Record which one ran in utm_content. -->
+  <h1 id="headline">Two sessions today and nothing real to eat in between?</h1>
+  <p class="lede">A real-food snack built for MMA athletes who train twice a day. It lives in your kit bag, not the fridge.</p>
+</header>
+
+<main>
+  <ul class="benefits">
+    <li><strong>Grab it between sessions:</strong> no cooking, no fridge, no shaker.</li>
+    <li><strong>Made from food you recognise:</strong> real-food ingredients such as egg white and oats.</li>
+    <li><strong>No artificial sweeteners or sugar alcohols:</strong> a short ingredient list you can read in five seconds.</li>
+  </ul>
+
+  <p class="note"><strong>How it's made:</strong> baked from real-food protein, with no artificial sweeteners or sugar alcohols. The recipe is in testing, so nutrition figures will be published only after independent lab analysis.</p>
+
+  <h2>Who's making it</h2>
+  <p>I'm Ewan. I train MMA, play football and lift, and I run an MMA YouTube channel. After back-to-back classes I was always hungry, with no time to cook and nothing in my bag but lab-style bars. I'm building this through Durham Venture School, and I want fighters to shape it before anything goes on sale.</p>
+
+  <h2 id="join">Join the first batch</h2>
+  <p>Sign up for a chance to try the first test batch and help shape the recipe. It takes about a minute. Nothing is for sale yet and there is nothing to pay.</p>
+
+  <form id="signup" novalidate>
+    <label for="name">First name <span class="req">(optional)</span></label>
+    <input id="name" name="name" type="text" autocomplete="given-name">
+
+    <label for="email">Email <span class="req">(required)</span></label>
+    <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-hint">
+    <p id="email-hint" class="hint">We'll use this only to contact you about the test batch.</p>
+
+    <fieldset>
+      <legend>Do you compete, train or just watch? <span class="req">(required)</span></legend>
+      <label class="opt"><input type="radio" name="status" value="compete" required> I compete (amateur or pro)</label>
+      <label class="opt"><input type="radio" name="status" value="train"> I train but don't compete</label>
+      <label class="opt"><input type="radio" name="status" value="watch"> I just watch</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>What did you eat after your last training session?</legend>
+      <p class="hint">Tick all that apply.</p>
+      <label class="opt"><input type="checkbox" name="post_training" value="protein_bar"> Protein bar (e.g. Grenade, Barebells)</label>
+      <label class="opt"><input type="checkbox" name="post_training" value="shake"> Protein shake</label>
+      <label class="opt"><input type="checkbox" name="post_training" value="fruit"> Fruit (e.g. banana)</label>
+      <label class="opt"><input type="checkbox" name="post_training" value="milk_yoghurt"> Milk, yoghurt or quark</label>
+      <label class="opt"><input type="checkbox" name="post_training" value="home_meal"> A meal I cooked</label>
+      <label class="opt"><input type="checkbox" name="post_training" value="bought_meal"> Takeaway or meal deal</label>
+      <label class="opt"><input type="checkbox" name="post_training" value="nothing"> Nothing until later</label>
+      <label for="post_other">Something else</label>
+      <input id="post_other" name="post_other" type="text">
+    </fieldset>
+
+    <label for="struggle">Biggest food struggle around training, especially in camp</label>
+    <select id="struggle" name="struggle">
+      <option value="">Choose one</option>
+      <option value="no_time">No time to cook between sessions</option>
+      <option value="hunger">Staying full while managing weight</option>
+      <option value="gut">Food sitting badly before sparring or rolling</option>
+      <option value="macros">Knowing what's actually in my food</option>
+      <option value="cost">Cost</option>
+      <option value="taste">Healthy options taste bad</option>
+      <option value="portable">Nothing that keeps in my bag</option>
+      <option value="none">No real struggle</option>
+    </select>
+
+    <details>
+      <summary>Optional: four quick price questions</summary>
+      <p class="hint">For a single snack of this kind, in pounds (e.g. 1.50).</p>
+      <label for="vw_too_cheap">At what price would it be so cheap you'd doubt the quality?</label>
+      <input id="vw_too_cheap" name="vw_too_cheap" type="number" min="0" max="20" step="0.05" inputmode="decimal">
+      <label for="vw_cheap">At what price would it be a bargain?</label>
+      <input id="vw_cheap" name="vw_cheap" type="number" min="0" max="20" step="0.05" inputmode="decimal">
+      <label for="vw_expensive">At what price would it start to feel expensive, though you'd still consider it?</label>
+      <input id="vw_expensive" name="vw_expensive" type="number" min="0" max="20" step="0.05" inputmode="decimal">
+      <label for="vw_too_expensive">At what price would it be too expensive to consider?</label>
+      <input id="vw_too_expensive" name="vw_too_expensive" type="number" min="0" max="20" step="0.05" inputmode="decimal">
+    </details>
+
+    <fieldset>
+      <legend class="sr-only">Consent</legend>
+      <label class="opt"><input id="consent" type="checkbox" name="consent" value="yes" required>
+        <span>I agree that my answers and email can be stored and used to contact me about this test batch, as described in the privacy notice below. <span class="req">(required)</span></span></label>
+    </fieldset>
+
+    <button type="submit">Join the first batch</button>
+    <div id="form-status" class="status" role="status" aria-live="polite" hidden></div>
+  </form>
+
+  <h2 id="privacy">Privacy notice</h2>
+  <p><strong>Who:</strong> Ewan, a student founder on Durham Venture School (Durham University). This is a student research project, not a registered company yet.</p>
+  <p><strong>What and why:</strong> your email, optional name and answers, plus the link source (for example "youtube"). They are used to understand what fighters eat and to invite you to try the test batch. Lawful basis: your consent.</p>
+  <p><strong>Where and how long:</strong> stored in [FORM SERVICE, e.g. Google Forms] and deleted by [DATE, e.g. 31 August 2027] or sooner if you ask. Never sold or shared.</p>
+  <p><strong>Your rights:</strong> you can withdraw consent, or ask to see or delete your data, at any time by emailing [CONTACT EMAIL]. You can complain to the ICO (ico.org.uk).</p>
+  <p><strong>Analytics:</strong> off unless you accept the cookie notice.</p>
+  <div id="export-row" hidden>
+    <button type="button" class="secondary" id="export-btn">Download test-mode sign-ups (CSV)</button>
+  </div>
+</main>
+
+<footer>
+  <p>Recipe in testing. No product is for sale. Allergens in the current recipe: egg and oats (gluten).</p>
+</footer>
+
+<div id="cookie" role="dialog" aria-labelledby="cookie-text">
+  <p id="cookie-text">Can we use a privacy-friendly analytics tool to count visits? It's off unless you say yes.</p>
+  <div class="row">
+    <button type="button" class="secondary" id="cookie-yes">Accept analytics</button>
+    <button type="button" class="secondary" id="cookie-no">No thanks</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- Configuration -------------------------------------------------------
+  // Paste a Formspree, Tally or Google Forms endpoint here. Leave as-is for test mode.
+  const FORM_ENDPOINT = "PASTE_YOUR_FORM_URL_HERE";
+
+  // Google Forms only: map each field to its entry.NNNN id (see the report, Section M).
+  // Leave empty for Formspree or Tally, which accept these field names directly.
+  const GOOGLE_FORM_FIELDS = {
+    // name: "entry.000000001",
+    // email: "entry.000000002",
+    // status: "entry.000000003",
+    // post_training: "entry.000000004",
+    // post_other: "entry.000000005",
+    // struggle: "entry.000000006",
+    // vw_too_cheap: "entry.000000007",
+    // vw_cheap: "entry.000000008",
+    // vw_expensive: "entry.000000009",
+    // vw_too_expensive: "entry.000000010",
+    // utm_source: "entry.000000011",
+    // utm_medium: "entry.000000012",
+    // utm_campaign: "entry.000000013",
+    // utm_content: "entry.000000014",
+    // consent: "entry.000000015"
+  };
+
+  // Analytics stays off until the visitor accepts. Choose "plausible", "ga4" or "" (none).
+  const ANALYTICS = { provider: "", plausibleDomain: "example.github.io", ga4Id: "G-XXXXXXXXXX" };
+
+  const STORE_KEY = "fb_signups_v1";
+  const CONSENT_KEY = "fb_analytics_consent";
+  const COLUMNS = ["timestamp", "name", "email", "status", "post_training", "post_other", "struggle",
+    "vw_too_cheap", "vw_cheap", "vw_expensive", "vw_too_expensive",
+    "utm_source", "utm_medium", "utm_campaign", "utm_content", "consent"];
+
+  const testMode = !FORM_ENDPOINT || FORM_ENDPOINT === "PASTE_YOUR_FORM_URL_HERE";
+
+  // ---- Storage helpers (browser storage can be blocked) -------------------
+  function load(key, fallback) {
+    try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); }
+    catch (e) { return fallback; }
+  }
+  function save(key, value) {
+    try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch (e) { return false; }
+  }
+
+  // ---- UTM capture ---------------------------------------------------------
+  const params = new URLSearchParams(window.location.search);
+  const utm = {};
+  ["utm_source", "utm_medium", "utm_campaign", "utm_content"].forEach(function (k) {
+    utm[k] = (params.get(k) || "").slice(0, 100);
+  });
+  if (!utm.utm_source) {
+    utm.utm_source = document.referrer ? "referral" : "direct";
+  }
+
+  // ---- Test mode UI --------------------------------------------------------
+  if (testMode) {
+    document.getElementById("test-banner").hidden = false;
+    document.getElementById("export-row").hidden = false;
+  }
+
+  // ---- Form ----------------------------------------------------------------
+  const form = document.getElementById("signup");
+  const statusBox = document.getElementById("form-status");
+
+  function showStatus(msg, ok) {
+    statusBox.textContent = msg;
+    statusBox.className = "status " + (ok ? "ok" : "err");
+    statusBox.hidden = false;
+    statusBox.setAttribute("tabindex", "-1");
+    statusBox.focus();
+  }
+
+  function collect() {
+    const fd = new FormData(form);
+    const rec = { timestamp: new Date().toISOString() };
+    COLUMNS.forEach(function (c) {
+      if (c === "timestamp") return;
+      if (c.indexOf("utm_") === 0) { rec[c] = utm[c]; return; }
+      if (c === "post_training") { rec[c] = fd.getAll(c).join(";"); return; }
+      rec[c] = (fd.get(c) || "").toString().trim();
+    });
+    return rec;
+  }
+
+  function validate(rec) {
+    const email = document.getElementById("email");
+    if (!rec.email || !email.checkValidity()) { email.focus(); return "Please enter a valid email address."; }
+    if (!rec.status) { form.querySelector('input[name="status"]').focus(); return "Please tell us whether you compete, train or watch."; }
+    if (rec.consent !== "yes") { document.getElementById("consent").focus(); return "Please tick the consent box so we can store your answers."; }
+    const p = ["vw_too_cheap", "vw_cheap", "vw_expensive", "vw_too_expensive"].map(function (k) { return parseFloat(rec[k]); });
+    if (p.every(function (x) { return !isNaN(x); }) && !(p[0] <= p[1] && p[1] <= p[2] && p[2] <= p[3])) {
+      return "The price answers should rise from 'too cheap' to 'too expensive'. Please check them, or leave them blank.";
+    }
+    return "";
+  }
+
+  function toBody(rec) {
+    const body = new FormData();
+    const isGoogle = FORM_ENDPOINT.indexOf("docs.google.com/forms") !== -1;
+    Object.keys(rec).forEach(function (k) {
+      const key = isGoogle ? GOOGLE_FORM_FIELDS[k] : k;
+      if (!key) return;
+      if (isGoogle && k === "post_training") {
+        rec[k].split(";").filter(Boolean).forEach(function (v) { body.append(key, v); });
+      } else {
+        body.append(key, rec[k]);
+      }
+    });
+    return { body: body, isGoogle: isGoogle };
+  }
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    const rec = collect();
+    const err = validate(rec);
+    if (err) { showStatus(err, false); return; }
+
+    if (testMode) {
+      const list = load(STORE_KEY, []);
+      list.push(rec);
+      const stored = save(STORE_KEY, list);
+      showStatus(stored ? "Saved in test mode (" + list.length + " in this browser). Thanks!"
+                        : "Test mode: this browser blocked storage, so nothing was saved.", stored);
+      form.reset();
+      return;
+    }
+
+    const payload = toBody(rec);
+    const opts = { method: "POST", body: payload.body };
+    if (payload.isGoogle) { opts.mode = "no-cors"; } else { opts.headers = { "Accept": "application/json" }; }
+    fetch(FORM_ENDPOINT, opts).then(function (res) {
+      if (!payload.isGoogle && !res.ok) { throw new Error("HTTP " + res.status); }
+      showStatus("You're on the list. Thanks! We'll email you when the test batch is ready.", true);
+      form.reset();
+    }).catch(function () {
+      showStatus("Something went wrong sending your answers. Please try again in a minute.", false);
+    });
+  });
+
+  // ---- CSV export (test mode) ----------------------------------------------
+  function csvCell(v) { v = (v === undefined || v === null) ? "" : String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  document.getElementById("export-btn").addEventListener("click", function () {
+    const list = load(STORE_KEY, []);
+    const lines = [COLUMNS.join(",")].concat(list.map(function (r) { return COLUMNS.map(function (c) { return csvCell(r[c]); }).join(","); }));
+    const blob = new Blob([lines.join("\n")], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "signups.csv";
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+
+  // ---- Analytics (off by default) -------------------------------------------
+  function startAnalytics() {
+    if (ANALYTICS.provider === "plausible") {
+      const s = document.createElement("script");
+      s.defer = true; s.setAttribute("data-domain", ANALYTICS.plausibleDomain);
+      s.src = "https://plausible.io/js/script.js";
+      document.head.appendChild(s);
+    } else if (ANALYTICS.provider === "ga4") {
+      const s = document.createElement("script");
+      s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(ANALYTICS.ga4Id);
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag("js", new Date());
+      window.gtag("config", ANALYTICS.ga4Id, { anonymize_ip: true });
+    }
+  }
+  const cookieBox = document.getElementById("cookie");
+  if (ANALYTICS.provider) {
+    const choice = load(CONSENT_KEY, null);
+    if (choice === "yes") { startAnalytics(); }
+    else if (choice === null) { cookieBox.style.display = "block"; }
+  }
+  document.getElementById("cookie-yes").addEventListener("click", function () { save(CONSENT_KEY, "yes"); cookieBox.style.display = "none"; startAnalytics(); });
+  document.getElementById("cookie-no").addEventListener("click", function () { save(CONSENT_KEY, "no"); cookieBox.style.display = "none"; });
+})();
+</script>
+</body>
+</html>
