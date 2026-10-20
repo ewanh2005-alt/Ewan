@@ -19,8 +19,11 @@
 | 1 | UK protein and sports nutrition market | 28 | 0% | SEARCH-CONFIRMED |
 | 5 | Combat-sport participation | 14 | 29% | SEARCH-CONFIRMED |
 | 7 | Weight cutting | 8 | 100% | SEARCH-CONFIRMED |
-| **Total** | | **50** | **24%** | |
-| Next (priority order) | 12 competitors · 15 food safety / aw · 17 GB regulation · 3 UPF and sweeteners · 9 post-exercise nutrition · 10 GI and polyols · then the rest | | | |
+| 12 | Competitors | 12 | 0% | SEARCH-CONFIRMED |
+| 15 | Food safety / water activity | 10 | 50% | SEARCH-CONFIRMED |
+| 17 | GB regulation | 10 | 60% | SEARCH-CONFIRMED |
+| **Total** | | **82** | **28%** (A 4, B 19, C 37, D 21, E 1) | |
+| Next (priority order) | 3 UPF and sweeteners · 9 post-exercise nutrition · 10 GI and polyols · 13 sponsorship/gyms · 14 precedents · 16 manufacturing · then the rest | | | |
 
 ## Phase 2: Analysis
 Sections A–O are already drafted in `../mma-venture-report.md` (20 Oct 2026). Update it after each batch.
@@ -34,3 +37,8 @@ Sections A–O are already drafted in `../mma-venture-report.md` (20 Oct 2026). 
 | Weight-cut prevalence | Hillier 2019 only | Triangulated: Hillier 2019 + Connor and Egan 2019 + Matthews and Nicholas 2017 + Zhong 2024 SR | B7-001 to B7-004 |
 | Who advises fighters | Coaches (Hillier) | Coaches; sports scientists have little influence (Zhong 2024) | B7-004 |
 | Performance angle | Implicit | **Drop it.** Moderate cuts don't impair performance (2022 MA), and regain doesn't predict winning (Kirk 2020) | B7-007, B7-008 |
+| Competitor gut argument | "Polyols, laxative warning" | Plus: 13–18 g polyols per Grenade/Fulfil bar vs ~20 g/day EU laxative threshold; Misfits matches v13 macros but uses maltitol | B12-001 to B12-005, B17-008 |
+| RXBAR | US success only | **UK launch via D2C + 200+ gyms (2018), exited UK within ~2 years**: key counter-precedent | B12-009 to B12-011 |
+| JNCK Bakery | "Closed after Tesco delisting" | Liquidated Sept 2025 after a Tesco listing; **delisting not confirmed** | B12-008 |
+| Shelf-life plan | aw test | Add **texture tracking** (egg-white hardening) and packaging barrier; target aw ≤0.65 | B15-007, B15-010 |
+| Free samples | GAP | FSA: free supply can still be a food business; a regular pilot needs registration | B17-005 |

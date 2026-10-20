@@ -71,7 +71,7 @@
 | Combat sports trend | Statista series runs to 2023–24; values paywalled | — | Statista | `[GAP: 2023–24 value not visible; searched Active Lives tables 20 Oct 2026]` |
 | Active Lives 2024–25 | Report covering Nov 2023–Nov 2024 published Apr 2025; no 2024–25 combat breakdown found | — | Sport England | `[GAP]` |
 | Boxing (England Boxing) | 36,000+ members, 1,086 clubs (2024/25) | Members ≠ competitors | England Boxing (as supplied) | C |
-| BJJ (UKBJJA) | ~40,000 members, 300+ clubs | — | UKBJJA (as supplied) | E (weak; figure looks high for a membership body) |
+| BJJ (UKBJJA) | **1,000+ clubs, ~100,000+ participants (est.), ~50% members** | — | UKBJJA 2025 AGM (updated 20 Oct; replaces the ~40k figure) | C (NGB estimate) |
 | MMA (UK) | **No official count** | — | Searched Active Lives, Statista, governing bodies | `[GAP]` |
 | Wales / Scotland / NI | Not found in this search | — | — | `[GAP: check Sport Wales School/Adult Survey, sportscotland, Sport NI Continuous Household Survey]` |
 | Judo, wrestling, Muay Thai | Not re-checked | — | — | `[GAP: British Judo and British Wrestling annual reports]` |
@@ -117,7 +117,7 @@ All SAM headcounts are `[ASSUMPTION]`: the MMA count is a `[GAP]`, and the BJJ f
 
 | Market | Size | Source / grade | Fit |
 |---|---|---|---|
-| BJJ | ~40k (UKBJJA) | E | High: same gyms, same double sessions |
+| BJJ | ~100k participants, 1,000+ clubs (UKBJJA 2025 AGM est.) | C | High: same gyms, same double sessions |
 | Boxing | 36k+ members, 1,086 clubs | C | High: weight classes |
 | Muay Thai / kickboxing | `[GAP]` | — | High |
 | Judo / wrestling | `[GAP]` | — | Medium–high |
@@ -306,7 +306,8 @@ Values are per serving (brand says / retailer listing). Where per 100 g isn't sh
 | RXBAR (US) | Egg-white "no B.S." bar; sold to Kellogg for ~$600m (2017) (C) | Egg white + short ingredient list can win; packaging that lists ingredients on the front | US scale; dates give RXBAR sugar and stickiness (high sugar) |
 | Perfect Bar (US) | Refrigerated protein bar | Proves "fresh" can be a premium position | Needs a cold chain; Ewan has chosen ambient |
 | Mooski, Bounce (UK) | Grew from small batches to retail (as supplied, D) | Founder-led, sampling-heavy | Bounce now uses mixed protein sources |
-| JNCK Bakery (UK) | Closed 2025 after Tesco delisting (as supplied, C) | **Warning:** a single big retailer is a single point of failure | — |
+| JNCK Bakery (UK) | Went into liquidation Sept 2025 after a 2024 Tesco listing (Food Manufacture, C). A Tesco *delisting* is not confirmed | **Warning:** a big listing doesn't guarantee survival | — |
+| RXBAR in the UK | Kellogg launched it in the UK via D2C and 200+ gyms (2018), then quit the UK within ~2 years (The Grocer; Food Business News, C) | **Closest precedent, and a warning.** Explain how a fighter-community, low-sugar launch differs; find out why it exited | — |
 | Prime, Feastables | Creator-led food at huge scale (C) | Creator audiences can drive trial | 25k subscribers is not millions; Prime's UK sales collapsed after the hype; don't promise virality |
 
 **So what for the pitch:** "No product in the UK is a real-food, low-sugar, high-carb snack built for fighters, because shelf life and MOQs make it hard for big brands, and that's exactly where a small founder can start."
@@ -898,7 +899,7 @@ const ANALYTICS = { provider: "", plausibleDomain: "…", ga4Id: "G-XXXXXXXXXX" 
 |---|---|---|
 | 1 | How do you know fighters want this? | "I don't yet. None of my 10 interviewees were fighters. That's this month's test: 10 fighter interviews with a pass mark of 6 describing the problem unprompted." |
 | 2 | Why not a quark pot? | "It's great nutritionally, but it needs a fridge and a spoon. Fighters' bags sit in a car or locker all day." |
-| 3 | Why not supermarkets? | "Margins and MOQs would kill a pilot, and JNCK Bakery closed after a Tesco delisting. We start direct and in gyms." |
+| 3 | Why not supermarkets? | "Margins and MOQs would kill a pilot, and a big listing is no guarantee: JNCK Bakery went into liquidation in 2025 a year after getting into Tesco. We start direct and in gyms." |
 | 4 | Is it safe out of the fridge? | "Not proven. We'll measure water activity in a lab before selling anything." |
 | 5 | What about Main Event? | "It's US-only and uses a protein blend. If it comes here, we're the UK, real-food, fighter-made alternative, and it proves the category." |
 | 6 | How big is the market really? | "About 293,000 combat athletes in England; a serviceable market of £3–16 million depending on method; a year-3 target of about £40–80k." |
