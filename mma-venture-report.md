@@ -36,7 +36,7 @@
 
 **Gap.** Of 21 UK products checked on five tests, **none** combined ≥10 g protein, ≥20 g carbs, ≤5 g sugar, low saturated fat and no sweeteners or polyols with whole-food protein `[EVIDENCE: founder audit + repo matrix, D]`.
 
-**Why now.** UPF concern is mainstream (78% concerned; FSA tracker as supplied, `[B, not re-checked]`); Grenade's sales fell after a UPF documentary `[C]`; UFC has just launched its own bar, but in the US only `[D]`.
+**Why now.** UPF concern is mainstream (~78% concerned; FSA tracker, March 2025, `[B]`); the market leader's (Grenade's) unit sales fell 15.9% in 2025 as protein bars came under public scrutiny (Channel 4, Oct 2025; causation contested) `[C]`; UFC has just launched its own bar, but in the US only `[D]`.
 
 **Why Ewan.** A fighter with ~25k YouTube subscribers, gym access, and 13 evidence-driven recipe iterations.
 
@@ -200,12 +200,12 @@ All SAM headcounts are `[ASSUMPTION]`: the MMA count is a `[GAP]`, and the BJJ f
 | | Food business registration: free, ≥28 days before trading; applies to home kitchens and online sellers | B (FSA campaign; council notices) | Register by early Week 9 for a Week 13 pilot (J1) |
 | **Economic** | Cost of living pressure; 3/10 interviewees raise price (C1, C5, C6) | E | £2.00 entry price, multipacks |
 | **Social** | 78% of UK adults concerned about UPF; 72% of 16–34s (FSA tracker, June 2026, as supplied) | B `[not re-checked]` | "Real food" resonates |
-| | Grenade sales fell ~16% after a UPF documentary; turnover £93.2m → £80.5m (as supplied) | C `[not re-checked]` | Incumbent vulnerability |
+| | Grenade unit sales −15.9% in 2025 (The Grocer Top Products via CB Insights); Channel 4's *Joe Wicks: Licensed to Kill* (Oct 2025) put protein bars under scrutiny, but **causation is contested**; turnover £93.2m → £80.5m (as supplied, unverified) | C | Incumbent vulnerability; don't claim the documentary caused it |
 | | Women's MMA growth; UK UFC events | `[GAP: no participation data found]` | Test H13 |
 | **Technological** | Water-activity meters and lab tests are cheap; barrier films widely available | C/D | Ambient safety is testable for <£200 (I2) |
 | **Environmental** | Egg-white recipes create yolk waste (475 g white ≈ 14–16 eggs per batch) | `[ASSUMPTION: ~30–33 g white per egg]` | Buy liquid egg white (yolks used elsewhere) or partner with a bakery |
 
-**So what for the pitch:** "Consumers are turning on ultra-processed snacks and the biggest UK protein bar brand is shrinking; UFC has just launched its own bar, but not here."
+**So what for the pitch:** "~78% of UK adults worry about ultra-processed food (FSA, 2025) and the biggest UK protein bar brand lost 15.9% of volume last year; UFC has just launched its own bar, but not here."
 **Confidence:** medium. Several figures are supplied and not re-checked today.
 **Evidence mix:** B ×5, C ×3, E ×1.
 
@@ -1071,3 +1071,20 @@ See **Section H** (10 points, each tagged).
 - Repo sources (Stage 1, checked 6 Oct 2026): retailer listings for Styrkr, Veloforte, TORQ, Barebells, Grenade, PhD, Fulfil, Myprotein, Trek, Clif, Huel, Herbalife and others. See `stage-1-competitor-research.md` §1b for URLs.
 
 *Items marked "as supplied" (e.g. Leisure DB 2026, FSA UPF tracker June 2026, Grenade turnover, England Boxing, UKBJJA, BUCS, Hillier coach-influence detail) come from the founder's brief and were not re-checked on 20 Oct 2026. Find the primary source before each goes on a slide.*
+
+
+---
+
+## Update log (20 Oct 2026, after source-library Batches 1–17)
+
+Corrections and additions from `source-library/` (see `RUN-LOG.md` for source IDs):
+1. **Grenade decline:** don't attribute it to the documentary. Channel 4's *Joe Wicks: Licensed to Kill* (6 Oct 2025) put protein bars under scrutiny, but causation is contested (B3-007/008).
+2. **Gut argument is overstated.** One lab bar (13–18 g polyols) is far below maltitol laxative thresholds (~60–92 g). Use "no sugar alcohols" plus the laxative-warning fact, and test H2 in interviews (B10-003).
+3. **Between-session science favours carbs.** Protein doesn't speed glycogen refill, and intake should start immediately (B9-001/007/008). Consider a 2-bar session pack or a higher-carb between-session variant.
+4. **Carb guidance:** say "well below the 3–10 g/kg/day range most athletes are advised" until the ACSM 6–10 band is checked (B9-003).
+5. **RXBAR UK precedent:** Kellogg launched it via D2C and 200+ gyms (2018), then exited within ~2 years. Prepare the judge answer (B12-009 to B12-011).
+6. **JNCK:** liquidated after a Tesco *listing*; a delisting is unconfirmed (B12-008).
+7. **BJJ:** 1,000+ clubs, ~100k participants (UKBJJA 2025 AGM estimate) (B5-006).
+8. **Performance angle:** drop it. Moderate cuts don't impair performance, and regain doesn't predict winning (B7-007/008).
+9. **Shelf life:** add texture tracking (egg-white hardening) and a packaging barrier; target aw ≤0.65 (B15-007/010).
+10. **Free samples:** FSA says free supply can make you a food business; register before a regular pilot (B17-005).

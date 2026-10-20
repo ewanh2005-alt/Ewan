@@ -22,8 +22,11 @@
 | 12 | Competitors | 12 | 0% | SEARCH-CONFIRMED |
 | 15 | Food safety / water activity | 10 | 50% | SEARCH-CONFIRMED |
 | 17 | GB regulation | 10 | 60% | SEARCH-CONFIRMED |
-| **Total** | | **82** | **28%** (A 4, B 19, C 37, D 21, E 1) | |
-| Next (priority order) | 3 UPF and sweeteners · 9 post-exercise nutrition · 10 GI and polyols · 13 sponsorship/gyms · 14 precedents · 16 manufacturing · then the rest | | | |
+| 3 | UPF and sweeteners | 9 | 56% | SEARCH-CONFIRMED |
+| 9 | Post-exercise nutrition | 10 | 90% | SEARCH-CONFIRMED |
+| 10 | GI and polyols | 7 | 71% | SEARCH-CONFIRMED |
+| **Total** | | **108** | **39%** (A 15, B 27, C 43, D 22, E 1) | |
+| Next (priority order) | 13 sponsorship/gyms · 14 precedents · 16 manufacturing · 18 pricing · 4 students and price · 6 MMA industry · then 2, 8, 11, 19, 20 | | | |
 
 ## Phase 2: Analysis
 Sections A–O are already drafted in `../mma-venture-report.md` (20 Oct 2026). Update it after each batch.
@@ -42,3 +45,9 @@ Sections A–O are already drafted in `../mma-venture-report.md` (20 Oct 2026). 
 | JNCK Bakery | "Closed after Tesco delisting" | Liquidated Sept 2025 after a Tesco listing; **delisting not confirmed** | B12-008 |
 | Shelf-life plan | aw test | Add **texture tracking** (egg-white hardening) and packaging barrier; target aw ≤0.65 | B15-007, B15-010 |
 | Free samples | GAP | FSA: free supply can still be a food business; a regular pilot needs registration | B17-005 |
+| Grenade decline cause | "Fell ~16% after a UPF documentary" | Channel 4 *Joe Wicks: Licensed to Kill* (6 Oct 2025); **causation contested**. Say "protein bars came under scrutiny; leader's volumes fell 15.9%" | B3-007, B3-008 |
+| UPF stat | "78% (June 2026)" | **~78% (FSA tracker, March 2025)**; 76–78% across Apr 2024–Mar 2025 | B3-001, B3-002 |
+| Sweeteners | "No sweeteners" | WHO 2023 advises against non-sugar sweeteners for weight control; **polyols excluded**, so keep the two statements separate | B3-006 |
+| Gut argument | "Polyols upset fighters' stomachs" | **Overstated.** Maltitol diarrhoea threshold ~60–92 g; one bar is 13–18 g. Say "no sugar alcohols" plus the laxative-warning fact; test H2 | B10-003 |
+| Carb guidance | "6–10 g/kg heavy training" | Confirmed overall "3–10 (up to 12) g/kg/day by load"; check the 6–10 band in the ACSM table | B9-003 |
+| Product design | 15 g P / 22.5 g C | **Between sessions, carbs matter most**; protein doesn't speed glycogen refill. Consider a 2-bar session pack or a higher-carb between-session variant | B9-001, B9-007, B9-008 |
