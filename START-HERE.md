@@ -3,7 +3,7 @@
 **Brand:** Graft ("Real food for grafters") · **Pitch:** Durham Venture School · **Log of everything done:** `PROGRESS.md`
 
 ## Current focus
-`29-mma-market-research.md`: **MMA market research report** (market size, UFC sponsors, 21-product gap, persona "Callum" DRAFT) · `30-mma-research-prompt-academic.md`: **academic-grade prompt + verified reading list** · `28-mma-mega-prompt.md`: **mega research prompt** (market, need, gap, competitors, UFC sponsors, persona, reading list) · `27-mma-focus.md`: **narrowing to amateur MMA fighters** (advisor's advice): evidence, hypotheses, YouTube poll + gym interview plan
+`31-final-mega-prompt.md`: **FINAL mega prompt (use this one)** · `29-mma-market-research.md`: **MMA market research report** (market size, UFC sponsors, 21-product gap, persona "Callum" DRAFT) · `30-mma-research-prompt-academic.md`: **academic-grade prompt + verified reading list** · `28-mma-mega-prompt.md`: **mega research prompt** (market, need, gap, competitors, UFC sponsors, persona, reading list) · `27-mma-focus.md`: **narrowing to amateur MMA fighters** (advisor's advice): evidence, hypotheses, YouTube poll + gym interview plan
 
 ## For Friday's pitch
 | File | What |
