@@ -72,6 +72,12 @@ Also answer the programme's **"Pitching your idea" questions**:
     - anything **marketed to combat sports**
     - ready-to-drink protein, Huel, quark or skyr pots
     For each: protein g, carbs g, sugar g, sat fat g, kcal per serving and per 100 g; protein source (whole food vs isolate/concentrate); sweeteners or polyols (yes/no and which); price (£, retailer, date); £ per 10 g protein; claims made.
+14b. **Competitor research method (programme guidance), for the top 5 competitors:**
+    - **Public profile:** product and key features; customer segments; pricing model; partnerships (sponsorships, gyms, retailers); technical approach (protein source, sweeteners, shelf life); funding and growth (filings, press); stage. Sources: company websites, LinkedIn, press releases and news, Companies House filings, UK IPO trade marks, industry reports, funding announcements.
+    - **Ecosystem view:** what customers, experts and trade press say. Is it credible? What are the barriers to adoption? What alternatives are customers considering? **Don't treat marketing claims as facts until independently verified.**
+    - **Analysis:** what we know with confidence; assumptions still to test; missing information; where my offering is differentiated.
+    - **Focus on what matters:** market readiness, customer adoption, pricing and business model, technical strengths and weaknesses, partnerships and distribution, competitive advantages and barriers to entry.
+    - **Engage directly?** List 3 clear questions I could ask each competitor (or its ex-staff or founders), and whether it's worth the risk.
 15. Score each against **5 tests**:
     - (1) high protein (≥10 g per serving)
     - (2) high carbohydrate (≥20 g per serving)
@@ -82,15 +88,16 @@ Also answer the programme's **"Pitching your idea" questions**:
 16. **Why doesn't the gap exist already?** Explain the real reasons: shelf-life economics, water activity, protein density versus taste and texture, retailer margins, scale, MMA being a niche. Then explain **how a small founder could get around them** (direct-to-gym, made to order, subscription, YouTube distribution).
 17. **Failed or struggling precedents** (e.g. JNCK Bakery) and **successful ones** (e.g. RXBAR, Perfect Bar, Mooski, Bounce): what can be learned from them?
 
-### E. Customer persona
-18. Build **one** detailed persona: an amateur UK MMA fighter in or out of camp. Cover:
-    - age, job or student, training schedule (sessions per week, double days)
-    - weight class and cutting habits
-    - what they eat after training today, and their budget
-    - where they buy food, who influences them (coach, YouTube, teammates)
-    - their pains and their "jobs to be done"
-    - what would make them switch, and what would stop them
-    **Base every detail on evidence and mark which parts are assumptions.**
+### E. Customer persona (programme method: evidence-based, from interview notes)
+18. Build **one** persona: the **typical or most likely customer based on evidence gathered so far**. It is **a summary of patterns across interviews, not an individual**. Use my interview notes (pasted below or in `inputs/customer-persona.md`: C1–C10 customers, E1–E3 experts) plus secondary evidence. For **every line, mark** `[EVIDENCE: interview IDs or source]` or `[ASSUMPTION]`. If nobody mentioned it, say so.
+    - **Who are they?** The characteristics that appeared most often: age and stage of life; occupation or role; location; relevant interests and behaviours (training schedule, double days, weight class, cutting habits).
+    - **What are they trying to achieve?** Goals mentioned; what they want to improve or solve; what success looks like for them.
+    - **What challenges do they face?** Recurring frustrations and pain points; barriers; what's difficult, time-consuming or expensive.
+    - **How do they solve it now?** Alternatives used, competitors mentioned (e.g. Grenade, Fulfil), workarounds.
+    - **Where do they look for information, and who do they trust?** Social platforms (YouTube, Instagram, TikTok), online communities, coaches, teammates, publications.
+    - **How does my solution help?** Which problem, why it matters to them, what's different or better.
+    - **Give the persona a name**, and add 3 "Would [name] use this?" test questions.
+    - **Be honest about evidence strength:** say how many interviewees actually match the MMA persona. If MMA-specific interview evidence is thin, label the persona as a **draft** and list exactly what to ask MMA fighters to confirm it.
 19. List the **early adopters** (e.g. fighters in camp, coaches who stock gym fridges, YouTube audience members who compete) and why each is most likely to buy first.
 
 ### F. What isn't happening (the white space)
