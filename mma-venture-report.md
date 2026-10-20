@@ -305,10 +305,11 @@ Values are per serving (brand says / retailer listing). Where per 100 g isn't sh
 |---|---|---|---|
 | RXBAR (US) | Egg-white "no B.S." bar; sold to Kellogg for ~$600m (2017) (C) | Egg white + short ingredient list can win; packaging that lists ingredients on the front | US scale; dates give RXBAR sugar and stickiness (high sugar) |
 | Perfect Bar (US) | Refrigerated protein bar | Proves "fresh" can be a premium position | Needs a cold chain; Ewan has chosen ambient |
-| Mooski, Bounce (UK) | Grew from small batches to retail (as supplied, D) | Founder-led, sampling-heavy | Bounce now uses mixed protein sources |
+| Bounce (UK/AU) | UK arm reached ~£16m revenue, then losses from US expansion; UK sold to Wholebake; Australian parent went into administration in 2023 (The Grocer; Just Food, C) | Whole-food protein snacks can scale in the UK | Over-expansion and debt killed the parent. Not a clean success |
+| Mooski | **US (San Diego) chilled oat bar, not UK** (Nosh, C) | — | Drop from UK precedents |
 | JNCK Bakery (UK) | Went into liquidation Sept 2025 after a 2024 Tesco listing (Food Manufacture, C). A Tesco *delisting* is not confirmed | **Warning:** a big listing doesn't guarantee survival | — |
 | RXBAR in the UK | Kellogg launched it in the UK via D2C and 200+ gyms (2018), then quit the UK within ~2 years (The Grocer; Food Business News, C) | **Closest precedent, and a warning.** Explain how a fighter-community, low-sugar launch differs; find out why it exited | — |
-| Prime, Feastables | Creator-led food at huge scale (C) | Creator audiences can drive trial | 25k subscribers is not millions; Prime's UK sales collapsed after the hype; don't promise virality |
+| Prime, Feastables | Creator-led food at huge scale; Prime UK turnover fell £112.2m → £32.8m in a year (Grocery Gazette, C); Feastables went UK D2C then Asda (The Grocer, C) | Creator audiences drive trial; D2C-first sequence | 25k subscribers is not millions; hype fades. Don't promise virality |
 
 **So what for the pitch:** "No product in the UK is a real-food, low-sugar, high-carb snack built for fighters, because shelf life and MOQs make it hard for big brands, and that's exactly where a small founder can start."
 **Confidence:** medium. Many cells are still `[GAP]`; the 0/21 result relies on the founder's audit.
@@ -1088,3 +1089,8 @@ Corrections and additions from `source-library/` (see `RUN-LOG.md` for source ID
 8. **Performance angle:** drop it. Moderate cuts don't impair performance, and regain doesn't predict winning (B7-007/008).
 9. **Shelf life:** add texture tracking (egg-white hardening) and a packaging barrier; target aw ≤0.65 (B15-007/010).
 10. **Free samples:** FSA says free supply can make you a food business; register before a regular pilot (B17-005).
+11. **Gym members confirmed:** 12.1m / 7,463 clubs (Leisure DB 2026), and UK Active says 12.2m (B13-006).
+12. **Precedents corrected:** Bounce isn't a clean success (Australian parent in administration 2023); Mooski is a US brand; Prime UK revenue fell >70% (B14).
+13. **H5 price:** students spend ~£34/week on groceries, so a daily £2.50 bar is about half of it. Lead with working amateurs and fighters in camp; offer packs to students (B18-001).
+14. **Informed Sport:** example certification fees £3,750–£5,000 + batch testing. Phase 2 only (B13-007).
+15. **Gym counter risk:** an anecdote has familiar brands (Mars/Snickers protein) outselling specialist ones ~4:1. Test before assuming gyms will stock (B13-005).

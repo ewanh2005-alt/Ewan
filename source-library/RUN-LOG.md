@@ -25,8 +25,12 @@
 | 3 | UPF and sweeteners | 9 | 56% | SEARCH-CONFIRMED |
 | 9 | Post-exercise nutrition | 10 | 90% | SEARCH-CONFIRMED |
 | 10 | GI and polyols | 7 | 71% | SEARCH-CONFIRMED |
-| **Total** | | **108** | **39%** (A 15, B 27, C 43, D 22, E 1) | |
-| Next (priority order) | 13 sponsorship/gyms · 14 precedents · 16 manufacturing · 18 pricing · 4 students and price · 6 MMA industry · then 2, 8, 11, 19, 20 | | | |
+| 13 | Sponsorship and gyms | 9 | 11% | SEARCH-CONFIRMED |
+| 14 | Precedents | 8 | 0% | SEARCH-CONFIRMED |
+| 16 | Manufacturing | 6 | 0% | SEARCH-CONFIRMED |
+| 18 | Pricing and students | 5 | 0% | SEARCH-CONFIRMED |
+| **Total** | | **136** | **32%** (A 16, B 27, C 60, D 32, E 1) | All rows in `MASTER-source-library.csv` |
+| Next | 4 young adults/protein trend · 6 MMA industry/women's MMA · 2 snack bars and channels · 8 REDs/intake · 11 anti-doping · 19 methods · 20 sustainability | | | |
 
 ## Phase 2: Analysis
 Sections A–O are already drafted in `../mma-venture-report.md` (20 Oct 2026). Update it after each batch.
@@ -51,3 +55,10 @@ Sections A–O are already drafted in `../mma-venture-report.md` (20 Oct 2026). 
 | Gut argument | "Polyols upset fighters' stomachs" | **Overstated.** Maltitol diarrhoea threshold ~60–92 g; one bar is 13–18 g. Say "no sugar alcohols" plus the laxative-warning fact; test H2 | B10-003 |
 | Carb guidance | "6–10 g/kg heavy training" | Confirmed overall "3–10 (up to 12) g/kg/day by load"; check the 6–10 band in the ACSM table | B9-003 |
 | Product design | 15 g P / 22.5 g C | **Between sessions, carbs matter most**; protein doesn't speed glycogen refill. Consider a 2-bar session pack or a higher-carb between-session variant | B9-001, B9-007, B9-008 |
+| Gym members | 12.1m (as supplied) | **Confirmed:** Leisure DB 2026 12.1m / 7,463 clubs; UK Active 12.2m | B13-006 |
+| Gym counter behaviour | Assumed gyms want specialist products | Anecdote: Mars/Snickers protein bars outsell specialist brands ~4:1. Test H8/H11 | B13-005 |
+| Informed Sport cost | £400–800/batch (unsourced) | Example certification fees **£3,750–£5,000** + batch testing (INFORMED webinar) | B13-007 |
+| Bounce | "Success" | UK ~£16m, then losses from US push; UK sold to Wholebake; AU parent **administration 2023** | B14-001/002 |
+| Mooski | UK-relevant success | **US (San Diego) brand**: drop it | B14-008 |
+| Prime | Creator caveat | UK turnover £112.2m → £32.8m: creator hype fades | B14-003 |
+| Students and price (H5) | Unknown | Students spend ~£34/week on groceries; a daily £2.50 bar ≈ half of it. Students are not the first segment at £2.50 | B18-001 |
