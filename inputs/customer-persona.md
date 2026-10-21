@@ -30,3 +30,11 @@
 ## Advisor and alum (19 Oct 2026, Ewan's summary)
 - **Advisor:** narrow down to one specific idea; find out exactly what this person wants that they don't have; the gap needs to fill this. Ewan suggested MMA fighters, using his ~25k-subscriber MMA YouTube channel and his MMA gym.
 - **Past alum:** spoken to; notes not yet given `[GAP]`.
+
+## MMA fighters (21 Oct 2026, Ewan's summary of 8 conversations) `[EVIDENCE: Ewan]`
+IDs C11–C18 are assigned to the 8 fighters as a group. Individual notes haven't been provided yet `[GAP]`, so counts below are only as precise as the summary.
+- **What they want (all 8, per Ewan):** a natural, high-protein, high-carb, low-sugar option for after training.
+- **Taste:** "some" said they would sacrifice taste for the nutritional benefit.
+- **Format:** real food or a natural bar would both work.
+- **Satisfaction with current options:** "some" said the options out there are fine and still work, but this idea would be nice.
+- Not yet captured: how many are in each "some" group; what each eats now and spends; any unprompted pain; willingness to pre-order or pay.
