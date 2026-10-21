@@ -38,14 +38,15 @@ You are a **principal analyst and venture coach**: sports nutrition (combat spor
 **For:** UK amateur and semi-pro MMA fighters after hard training (often double sessions), who manage weight in camp and out of camp.
 **What:** a **natural, high-protein, high-carb, low-sugar, low-saturated-fat snack** with no artificial sweeteners or sugar alcohols, that keeps in a kit bag all day.
 **Open question:** real food only (egg white, oats, puffed rice) **or** natural protein sources (e.g. milk protein, dried egg white) for a longer shelf life. **Fighters said either would work.**
-**Prototype v13 "Bag Bar" (calculated, not lab-tested), per 50 g:**
+**The recipe is NOT fixed.** Ingredients, format (bar, bites, flapjack, cookie, slice), method (baked, cold-pressed, no-bake) and protein source can all change if the evidence points elsewhere. Treat the prototype below only as a **starting point and benchmark**, not a constraint.
+**Must-haves from fighters:** natural, high protein, high carbs, low sugar (and low saturated fat for weight management); no artificial sweeteners or sugar alcohols; easy to carry after training. **Nice-to-haves:** keeps in a bag all day, good taste (some fighters would trade taste for nutrition), clean and short ingredient list.
+**Current prototype for reference only: v13 "Bag Bar" (calculated, not lab-tested), per 50 g:**
 - 15 g protein, 22.5 g carbs, 2.9 g sugar, ~1.4 g fat, ~165 kcal
 - egg white, oats, puffed brown rice, honey, vanilla; twice-baked to ~16% moisture
 - allergens: egg, oats (gluten)
-- **ambient safety unproven** (needs a water-activity test)
-- ingredient cost ~£1.27 per bar at retail prices
+- ambient safety unproven; ingredient cost ~£1.27 per bar at retail prices
 **Measured reality so far:** a fresh-only bake (18 Oct) gave 9.6 g protein / 13.2 g carbs per 50 g.
-**Legal check needed:** 2.9 g per 50 g = ~5.8 g sugar per 100 g, so it may **not** qualify for a GB "low sugar" claim (≤5 g/100 g).
+**Legal check:** 2.9 g per 50 g = ~5.8 g sugar per 100 g, which may not qualify for a GB "low sugar" claim (≤5 g/100 g). Any new recipe should be checked against claim thresholds.
 **Price under test:** £2.00–£2.50.
 
 # EVIDENCE SO FAR (build on it)
@@ -136,7 +137,7 @@ A numbered list of what **no one is doing** for UK fighters after training: prod
 - 6a. **State the gap in one sentence**, backed by the 5-test matrix and the fighter conversations.
 - 6b. **Why the gap persists:** shelf life and water activity; protein density vs taste; retailer margins; minimum order quantities; niche size; big brands optimising for supermarkets.
 - 6c. **How Ewan fills it:**
-  - product (the v13 spec, or the natural-protein option)
+  - product (whichever formulation from 6f best meets the must-haves; v13 is only a benchmark)
   - **route to market** (his gym → his 25k channel → other gyms → events → online)
   - **business model** (direct packs, weekly or camp box, gym wholesale)
   - **why he can do it when big brands don't** (niche focus, direct access, founder credibility)
@@ -148,6 +149,11 @@ A numbered list of what **no one is doing** for UK fighters after training: prod
   - unit economics at £2.00 and £2.50, direct and via gyms
   - GB labelling and claims (which claims v13 can legally make)
   - when food business registration is required (Durham County Council)
+
+- 6f. **Formulation options (the recipe is open):** propose **3–5 alternative formulations or formats** that meet the fighter must-haves:
+  - e.g. a natural-protein baked bar (milk protein or dried egg white + oats); a no-bake date-free oat and nut-butter bar with milk protein; a high-protein flapjack; protein bites; a savoury option
+  - **for each:** likely macros per 50 g (state assumptions), key ingredients, sweetener source, shelf life (ambient or chilled), allergens, ingredient cost band, manufacturability, taste risk, and which GB claims it could make
+  - **recommend one to test next**, and say what a fighter taste test should compare it against
 
 ## 7. Customer persona and voice of the customer (programme method)
 - 7a. **One persona** built from evidence (the 8 fighters first, then the partial matches C7 and C10, then secondary data). Answer:
