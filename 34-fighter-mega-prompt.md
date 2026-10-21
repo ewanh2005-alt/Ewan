@@ -38,7 +38,7 @@ You are a **principal analyst and venture coach**: sports nutrition (combat spor
 **For:** UK amateur and semi-pro MMA fighters after hard training (often double sessions), who manage weight in camp and out of camp.
 **What:** a **natural, high-protein, high-carb, low-sugar, low-saturated-fat snack** with no artificial sweeteners or sugar alcohols, that keeps in a kit bag all day.
 **Open question:** real food only (egg white, oats, puffed rice) **or** natural protein sources (e.g. milk protein, dried egg white) for a longer shelf life. **Fighters said either would work.**
-**The recipe is NOT fixed.** Ingredients, format (bar, bites, flapjack, cookie, slice), method (baked, cold-pressed, no-bake) and protein source can all change if the evidence points elsewhere. Treat the prototype below only as a **starting point and benchmark**, not a constraint.
+**The recipe is NOT fixed.** Ingredients, format (bar, bites, flapjack, cookie, slice), method (baked, cold-pressed, no-bake) and protein source can all change if the evidence points elsewhere. Treat the prototype below only as a **starting point and benchmark**, not a constraint. **The product concept can change too.** It does not have to stay a twice-baked ambient bar just because of refrigeration logistics. A chilled product, a different format or a different delivery model is fine **if it creates a more meaningful USP for fighters**.
 **Must-haves from fighters:** natural, high protein, high carbs, low sugar (and low saturated fat for weight management); no artificial sweeteners or sugar alcohols; easy to carry after training. **Nice-to-haves:** keeps in a bag all day, good taste (some fighters would trade taste for nutrition), clean and short ingredient list.
 **Current prototype for reference only: v13 "Bag Bar" (calculated, not lab-tested), per 50 g:**
 - 15 g protein, 22.5 g carbs, 2.9 g sugar, ~1.4 g fat, ~165 kcal
@@ -154,6 +154,25 @@ A numbered list of what **no one is doing** for UK fighters after training: prod
   - e.g. a natural-protein baked bar (milk protein or dried egg white + oats); a no-bake date-free oat and nut-butter bar with milk protein; a high-protein flapjack; protein bites; a savoury option
   - **for each:** likely macros per 50 g (state assumptions), key ingredients, sweetener source, shelf life (ambient or chilled), allergens, ingredient cost band, manufacturability, taste risk, and which GB claims it could make
   - **recommend one to test next**, and say what a fighter taste test should compare it against
+
+- 6g. **USP (unique selling point): make it meaningful.** The concept must have a USP that fighters care about **and** competitors can't easily copy.
+  - Propose **3–5 USP options**, e.g.:
+    - built for weight management, with exact fixed-portion macros
+    - real-food protein with no sweeteners or sugar alcohols, so it's easy on the stomach before or after rolling
+    - high carb + high protein, which no UK product combines with low sugar
+    - fighter-made and fighter-tested (founder plus a 25k MMA audience)
+    - fresh or chilled made-to-order camp boxes delivered to gyms
+    - anti-doping-conscious real-food ingredients (careful with claims)
+  - **For each USP option:**
+    - which fighter pain it answers (cite the 8 conversations or the research)
+    - evidence strength
+    - how defensible it is vs Grenade, Barebells, Veloforte and the UFC's Main Event
+    - whether it is legally claimable in GB
+    - the product and logistics it implies (ambient vs chilled, format, channel)
+  - **Recommend one USP** and write it as:
+    - (i) a one-sentence value proposition
+    - (ii) a 6-word tagline with no health claims
+    - (iii) how to test it with fighters (A/B landing-page headlines, an interview question, a taste test)
 
 ## 7. Customer persona and voice of the customer (programme method)
 - 7a. **One persona** built from evidence (the 8 fighters first, then the partial matches C7 and C10, then secondary data). Answer:
