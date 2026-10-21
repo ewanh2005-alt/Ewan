@@ -399,6 +399,19 @@ All read via web-search summaries only (page fetches blocked); none read in full
 | U44 | Convenience Store: Grenade £6m sponsorship push (Baller League, Tough Mudder), 2025 | https://conveniencestore.co.uk/products/grenade-secures-partnerships-with-new-baller-league-and-tough-mudder/702913.article | 20 Oct 2026 | D3 | search summary |
 | U45 | Tapology UK & Ireland regional MMA listings (several promotions on one weekend, e.g. 17 Oct) | https://www.tapology.com/regions/united-kingdom-ireland | 20 Oct 2026 | A2 (events) | search summary (anecdotal) |
 
+## Adult women (21 Oct 2026, `33-women-adult-research.md`)
+| ID | Source | URL | Accessed | Used for | Type |
+|---|---|---|---|---|---|
+| WA1 | The Grocer: 10 charts on UK attitudes to protein (taste 66% women vs 52% men; 25% of women never use bars/shakes) | https://www.thegrocer.co.uk/consumer-trends/gender-bias-health-concerns-and-sports-shy-consumers-10-charts-explaining-uk-attitudes-to-protein/598311.article | 21 Oct 2026 | Taste, non-use | search-extract |
+| WA2 | NutraIngredients: Myprotein breaking stereotypes in sports nutrition (2024) | https://www.nutraingredients.com/Article/2024/02/20/Myprotein-Breaking-down-stereotypes-in-sports-nutrition | 21 Oct 2026 | Male-coded marketing | search-extract |
+| WA3 | NutraIngredients: Protein Pow, gendered protein messages (2019) | https://nutraingredients.com/Article/2019/09/23/Sports-nutrition-startup-stomps-out-misleading-male-and-female-focused-protein-messages | 21 Oct 2026 | Male-coded marketing | search-extract |
+| WA4 | The Plant Base: Bio&Me launches protein and fibre bars targeting women (Oct 2025) | https://www.theplantbasemag.com/news/bio-me-launches-new-protein-and-fibre-bars-targeting-female-consumers | 21 Oct 2026 | Competitor | search-extract |
+| WA5 | Euromonitor via Fitt Insider: women 51% of consumers seeking more protein (Sept 2025, global) | https://insider.fitt.co/press-release/women-now-outnumber-men-globally-in-seeking-higher-protein-intake-euromonitor-international/ | 21 Oct 2026 | Protein interest | search-extract |
+| WA6 | Mintel: Brits build up appetite for sports nutrition (women 16–24 powder use 7%→18%, 2015–17) | https://www.mintel.com/press-centre/brits-build-up-eager-appetite-for-sports-nutrition/ | 21 Oct 2026 | Protein interest | search-extract (old) |
+| WA7 | Health Club Management: Jetts UK women's lifting programme (YouGov 13% muscle-building goal; 25% aged 25–34) | https://www.healthclubmanagement.co.uk/health-club-management-news/Jetts-UK-empowers-women-to-lift-with-new-programme/361507 | 21 Oct 2026 | Strength-training growth | search-extract |
+| WA8 | ukactive written evidence to Parliament (BPS0039) | https://committees.parliament.uk/writtenevidence/166594/html/ | 21 Oct 2026 | Women's fitness participation | search-extract |
+| WA9 | Attest: UPF consumer confusion survey | https://www.askattest.com/blog/research/ultra-processed-foods-tackling-consumer-confusion.md | 21 Oct 2026 | UPF understanding by sex | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|

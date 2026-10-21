@@ -38,3 +38,6 @@ IDs C11–C18 are assigned to the 8 fighters as a group. Individual notes haven'
 - **Format:** real food or a natural bar would both work.
 - **Satisfaction with current options:** "some" said the options out there are fine and still work, but this idea would be nice.
 - Not yet captured: how many are in each "some" group; what each eats now and spends; any unprompted pain; willingness to pre-order or pay.
+
+## Women (21 Oct 2026, Ewan's summary) `[EVIDENCE: Ewan]`
+- Women Ewan spoke to said a good-tasting, natural, real-food bar is something they would "definitely consider". Number, ages and activity levels not recorded yet `[GAP]`.
