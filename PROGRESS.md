@@ -138,3 +138,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - 21 Oct 2026: `34-fighter-mega-prompt.md`: fighter-only mega prompt incl. 8 fighter conversations, gap and how it's filled, what's not happening, landing page code + Meta ads smoke-test plan with thresholds.
 - 21 Oct 2026: Fighter prompt updated: recipe is open (v13 = benchmark only); added 6f formulation options.
 - 21 Oct 2026: Fighter prompt: concept can change (not bound to ambient/refrigeration); added 6g meaningful USP options and test.
+- 21 Oct 2026: USP proposal added to `27-mma-focus.md`: fight-camp snack in two day-matched versions (Double Session / Single Session), fighter-made, gym-collected; tests listed.

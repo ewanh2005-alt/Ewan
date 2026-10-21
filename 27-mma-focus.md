@@ -62,3 +62,16 @@ Write each one up like E1–E3 (paraphrased, never invented). Count the themes i
 - **Early adopters:** your gym and your 25k audience. This is far stronger than "Durham athletes in general".
 - **Market test:** a taste test at the gym, a YouTube poll, a pre-order list.
 - **Scale:** UK MMA/BJJ gyms, then combat sports in general (boxing, judo, wrestling), then general athletes.
+
+## USP proposal (21 Oct 2026, to test, not proven)
+**Recommended USP:** *the fight-camp snack, made by a fighter, in two versions matched to your training day.*
+- **"Double Session":** higher carb + protein, for heavy days.
+- **"Single Session":** fewer calories, still high protein, for lighter days in camp.
+- Exact fixed-portion macros, real-food protein, no sweeteners or sugar alcohols; fighter-made and fighter-tested; collected at the gym or sent in a weekly camp box.
+- **Why it's meaningful:** fighters manage weight in camp and out (X1); they under-eat carbs (X3); coaches, not dietitians, advise them (X1); the 8 fighters asked for natural, high protein, high carb, low sugar `[EVIDENCE: C11–C18]`.
+- **Why it's hard to copy:** the big brands sell one bar to everyone through supermarkets. The UFC's Main Event is US-only and isolate-based. The founder's gym, 25k MMA channel and fighter feedback loop are his own.
+- **Claims caution:** avoid names like "Cut", "Lean" or "Light". "Light" is a regulated nutrition claim, and weight-loss wording is restricted.
+- **Tests:**
+  - A/B landing-page headlines (two-version camp snack vs a single "real-food protein bar")
+  - interview question: "Do you eat differently on double-session days vs lighter days?"
+  - a menu-choice test at the gym (which version do they pick?)
