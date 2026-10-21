@@ -412,6 +412,16 @@ All read via web-search summaries only (page fetches blocked); none read in full
 | WA8 | ukactive written evidence to Parliament (BPS0039) | https://committees.parliament.uk/writtenevidence/166594/html/ | 21 Oct 2026 | Women's fitness participation | search-extract |
 | WA9 | Attest: UPF consumer confusion survey | https://www.askattest.com/blog/research/ultra-processed-foods-tackling-consumer-confusion.md | 21 Oct 2026 | UPF understanding by sex | search-extract |
 
+## Reading list additions (21 Oct 2026, `36-reading-list.md`)
+| ID | Source | URL | Accessed | Used for | Type |
+|---|---|---|---|---|---|
+| RL1 | Matthews & Nicholas (2017) UK MMA rapid weight loss/gain, IJSNEM 27(2) | https://www.open-access.bcu.ac.uk/6824 | 21 Oct 2026 | UK fighter weight cutting | search-extract |
+| RL2 | Kasper et al. (2019) case study, IJSNEM 29(3), doi:10.1123/ijsnem.2018-0029 | https://researchonline.ljmu.ac.uk/id/eprint/9413 | 21 Oct 2026 | Harms of extreme weight making | search-extract |
+| RL3 | Langan-Evans, Close & Morton (2011) Making weight in combat sports, SCJ 33 | https://lida.sport-iat.de/ta/Record/4023804 | 21 Oct 2026 | Gradual weight making | search-extract |
+| RL4 | ACSM consensus statement on weight making (LJMU PDF) | https://researchonline.ljmu.ac.uk/id/eprint/17789/1/ACSM%20Consensus%20Statement%20Weight%20Making.pdf | 21 Oct 2026 | Weight-category sports guidance | search-extract |
+| RL5 | Lenhart & Chey (2017) polyols systematic review, Adv Nutr 8(4) | https://pmc.ncbi.nlm.nih.gov/articles/PMC5508768 | 21 Oct 2026 | Polyol GI effects | search-extract |
+| RL6 | Jäger et al. (2017) ISSN protein position stand, doi:10.1186/s12970-017-0177-8 | https://doaj.org/article/fcc34534a75d466aa37abda0042df7a7 | 21 Oct 2026 | Protein guidance | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|

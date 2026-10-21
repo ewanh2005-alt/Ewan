@@ -139,3 +139,4 @@ Last updated: 8 Oct 2026 (Week 5)
 - 21 Oct 2026: Fighter prompt updated: recipe is open (v13 = benchmark only); added 6f formulation options.
 - 21 Oct 2026: Fighter prompt: concept can change (not bound to ambient/refrigeration); added 6g meaningful USP options and test.
 - 21 Oct 2026: USP proposal added to `27-mma-focus.md`: fight-camp snack in two day-matched versions (Double Session / Single Session), fighter-made, gym-collected; tests listed.
+- 21 Oct 2026: `35-master-mega-prompt.md` (everything: fighters, 8 conversations, women as scale, flexible recipe/concept, USP hypothesis, gap, Meta ads + landing page, verified reading list, Scholar strings) and `36-reading-list.md` (verified articles, ★ read-first 6, Scholar tips). Sources RL1–RL6.
