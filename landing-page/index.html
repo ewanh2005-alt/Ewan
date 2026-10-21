@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fighter Snack — Join the first batch</title>
+<meta name="description" content="A real-food snack for fighters after training. No sweeteners, no sugar alcohols. Join the first batch.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #111418; --muted: #4a5360; --line: #d6dbe1;
+    --accent: #b3261e; --accent-fg: #ffffff; --card: #f4f6f8; --focus: #1a5fb4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1215; --fg: #eef1f4; --muted: #aab3bd; --line: #2b323a;
+            --accent: #e5534b; --accent-fg: #0f1215; --card: #181d22; --focus: #8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: .5rem 0 1rem; }
+  h2 { font-size: 1.25rem; margin: 2rem 0 .75rem; }
+  p { margin: 0 0 1rem; }
+  .lede { color: var(--muted); font-size: 1.05rem; }
+  .cta { display: inline-block; background: var(--accent); color: var(--accent-fg); font-weight: 700;
+         padding: .85rem 1.3rem; border-radius: .5rem; text-decoration: none; border: 0; font-size: 1rem; cursor: pointer; }
+  .cta:hover { filter: brightness(1.08); }
+  ul.benefits { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; }
+  ul.benefits li { background: var(--card); border: 1px solid var(--line); border-radius: .5rem; padding: .85rem 1rem; }
+  ul.benefits strong { display: block; }
+  .founder { border-left: 4px solid var(--accent); padding: .25rem 0 .25rem 1rem; margin: 1.5rem 0; }
+  form { background: var(--card); border: 1px solid var(--line); border-radius: .75rem; padding: 1.25rem 1rem; }
+  fieldset { border: 0; padding: 0; margin: 0 0 1.1rem; }
+  legend, label.q { font-weight: 600; display: block; margin-bottom: .35rem; }
+  .hint { color: var(--muted); font-size: .9rem; font-weight: 400; }
+  input[type=text], input[type=email], input[type=number], textarea {
+    width: 100%; padding: .7rem .75rem; font: inherit; color: var(--fg); background: var(--bg);
+    border: 1px solid var(--line); border-radius: .4rem; }
+  textarea { min-height: 4.5rem; resize: vertical; }
+  .opts label { display: flex; align-items: center; gap: .5rem; padding: .35rem 0; }
+  .opts input, .consent input { width: 1.2rem; height: 1.2rem; flex: none; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+  .consent { display: flex; gap: .6rem; align-items: flex-start; }
+  details { margin: .5rem 0 1rem; }
+  summary { cursor: pointer; font-weight: 600; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .msg { padding: .85rem 1rem; border-radius: .4rem; margin-top: 1rem; }
+  .msg.ok { background: #e6f4ea; color: #0d3b1e; }
+  .msg.err { background: #fce8e6; color: #5c0f0b; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  #cookie { position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--line);
+            padding: 1rem; display: none; z-index: 10; }
+  #cookie .inner { max-width: 40rem; margin: 0 auto; display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+  #cookie p { margin: 0; flex: 1 1 16rem; font-size: .9rem; }
+  .btn2 { background: transparent; color: var(--fg); border: 1px solid var(--line); padding: .6rem 1rem; border-radius: .4rem; font: inherit; cursor: pointer; }
+  @media (max-width: 30rem) { .row { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="hint">For people who train MMA, BJJ, boxing, Muay Thai or wrestling</p>
+  <h1>Two sessions done. Still hungry. Nothing in your bag but a sweetened lab bar.</h1>
+  <p class="lede">We're making a snack for fighters to eat after training: real food, built around protein and carbs, with no sweeteners or sugar alcohols, and designed to last a day in a kit bag.</p>
+  <a class="cta" href="#join">Join the first batch</a>
+
+  <h2>What we're building</h2>
+  <ul class="benefits">
+    <li><strong>Real-food protein</strong>Made from egg white and oats. No sweeteners or sugar alcohols.</li>
+    <li><strong>Carbs and protein together</strong>Built for the gap between your last session and your next meal.</li>
+    <li><strong>Made for your kit bag</strong>Fixed portions you can grab after training. We're testing how long it keeps out of the fridge before we promise anything.</li>
+  </ul>
+
+  <p class="founder">Made by a fighter. I train MMA and run an MMA YouTube channel. After back-to-back sessions I wanted something better than a sweetened bar, so I'm making it with fighters and testing it at the gym.</p>
+
+  <h2 id="join">Join the first batch</h2>
+  <p>Tell us how you train and what you eat now. Early members get first access to the test batch. Nutrition figures will be published once the bars are lab-tested.</p>
+
+  <form id="signup" novalidate>
+    <fieldset>
+      <label class="q" for="email">Email <span class="hint">(required)</span></label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+    </fieldset>
+    <fieldset>
+      <label class="q" for="name">First name <span class="hint">(optional)</span></label>
+      <input id="name" name="name" type="text" autocomplete="given-name">
+    </fieldset>
+    <fieldset class="opts">
+      <legend>Which fits you best?</legend>
+      <label><input type="radio" name="role" value="compete"> I compete (amateur or pro)</label>
+      <label><input type="radio" name="role" value="train"> I train but don't compete</label>
+      <label><input type="radio" name="role" value="watch"> I just watch</label>
+    </fieldset>
+    <fieldset>
+      <label class="q" for="current_snack">What do you usually eat after training now?</label>
+      <textarea id="current_snack" name="current_snack" maxlength="400"></textarea>
+    </fieldset>
+    <fieldset>
+      <label class="q" for="struggle">What's your biggest food struggle in fight camp?</label>
+      <textarea id="struggle" name="struggle" maxlength="400"></textarea>
+    </fieldset>
+    <fieldset class="opts">
+      <legend>Would you pre-order a 5-pack at £10? <span class="hint">(optional, no payment taken now)</span></legend>
+      <label><input type="radio" name="preorder" value="yes"> Yes</label>
+      <label><input type="radio" name="preorder" value="maybe"> Maybe</label>
+      <label><input type="radio" name="preorder" value="no"> No</label>
+    </fieldset>
+    <details>
+      <summary>Optional: 4 quick price questions (per snack, in £)</summary>
+      <div class="row" style="margin-top:.75rem">
+        <div><label class="q" for="p_too_cheap">So cheap you'd doubt the quality</label>
+          <input id="p_too_cheap" name="price_too_cheap" type="number" min="0" max="20" step="0.05" inputmode="decimal"></div>
+        <div><label class="q" for="p_bargain">A bargain</label>
+          <input id="p_bargain" name="price_bargain" type="number" min="0" max="20" step="0.05" inputmode="decimal"></div>
+        <div><label class="q" for="p_expensive">Getting expensive, but you'd consider it</label>
+          <input id="p_expensive" name="price_expensive" type="number" min="0" max="20" step="0.05" inputmode="decimal"></div>
+        <div><label class="q" for="p_too_exp">Too expensive to consider</label>
+          <input id="p_too_exp" name="price_too_expensive" type="number" min="0" max="20" step="0.05" inputmode="decimal"></div>
+      </div>
+    </details>
+    <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign">
+    <input type="hidden" name="utm_content"><input type="hidden" name="landing_variant">
+    <div class="sr"><label for="website">Leave this empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+    <fieldset class="consent">
+      <input id="consent" name="consent" type="checkbox" value="yes" required>
+      <label for="consent">I agree that my answers and email can be stored and used to contact me about the first batch and this research. I can ask for them to be deleted at any time. <a href="#privacy">Privacy notice</a></label>
+    </fieldset>
+    <button class="cta" type="submit">Join the first batch</button>
+    <div id="formmsg" role="status" aria-live="polite"></div>
+  </form>
+
+  <footer>
+    <h2 id="privacy" style="font-size:1rem">Privacy notice</h2>
+    <p><strong>Who:</strong> this is a student venture research project run by the founder (Durham Venture School). <strong>What:</strong> your email, optional name and answers, and the link you arrived from (UTM tags). <strong>Why:</strong> to measure interest, improve the product and email you about the first batch (lawful basis: your consent). <strong>Where:</strong> stored in the form service named on this page (e.g. Google Forms) and not sold or shared. <strong>How long:</strong> deleted within 12 months, or sooner if you ask. <strong>Your rights:</strong> ask to see, correct or delete your data at any time by emailing <span id="contact">[CONTACT EMAIL]</span>. You can complain to the ICO (ico.org.uk).</p>
+    <p><strong>Cookies:</strong> no tracking cookies are set unless you accept them. <button class="btn2" type="button" id="cookie-settings">Cookie settings</button></p>
+    <p>This is a product in development. No orders or payments are taken on this page.</p>
+  </footer>
+</main>
+
+<div id="cookie" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <div class="inner">
+    <p>We'd like to use analytics cookies to see which links bring people here. They are off unless you accept.</p>
+    <button class="cta" type="button" id="cookie-accept">Accept</button>
+    <button class="btn2" type="button" id="cookie-reject">Reject</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- Settings: edit these before publishing ----
+  // Google Forms: paste the form's .../viewform URL and fill GOOGLE_ENTRY_IDS (see README).
+  // Formspree or Tally: paste the endpoint URL; fields are sent with the names used above.
+  const FORM_ENDPOINT = "PASTE_YOUR_FORM_URL_HERE";
+  const GOOGLE_ENTRY_IDS = {
+    email: "entry.0000000001", name: "entry.0000000002", role: "entry.0000000003",
+    current_snack: "entry.0000000004", struggle: "entry.0000000005", preorder: "entry.0000000006",
+    price_too_cheap: "entry.0000000007", price_bargain: "entry.0000000008",
+    price_expensive: "entry.0000000009", price_too_expensive: "entry.0000000010",
+    utm_source: "entry.0000000011", utm_medium: "entry.0000000012", utm_campaign: "entry.0000000013",
+    utm_content: "entry.0000000014", landing_variant: "entry.0000000015", consent: "entry.0000000016"
+  };
+  const ANALYTICS_ENABLED = false;      // keep false until a privacy-safe ID is pasted below
+  const META_PIXEL_ID = "";             // e.g. "123456789012345"; loaded only after cookie consent
+  const LANDING_VARIANT = "A";          // change per headline variant for A/B tests
+  // -------------------------------------------------
+
+  const form = document.getElementById("signup");
+  const msg = document.getElementById("formmsg");
+
+  // Capture UTM tags from the URL, remembered for this visit.
+  const params = new URLSearchParams(location.search);
+  ["utm_source", "utm_medium", "utm_campaign", "utm_content"].forEach(function (k) {
+    let v = params.get(k);
+    try { if (v) sessionStorage.setItem(k, v); else v = sessionStorage.getItem(k); } catch (e) {}
+    form.elements[k].value = (v || (k === "utm_source" ? "direct" : "")).slice(0, 100);
+  });
+  form.elements.landing_variant.value = LANDING_VARIANT;
+
+  function show(text, ok) {
+    msg.className = "msg " + (ok ? "ok" : "err");
+    msg.textContent = text;
+    msg.focus && msg.setAttribute("tabindex", "-1");
+  }
+
+  function collect() {
+    const data = {};
+    new FormData(form).forEach(function (v, k) { if (k !== "website") data[k] = String(v).trim(); });
+    data.timestamp = new Date().toISOString();
+    return data;
+  }
+
+  function send(data) {
+    if (FORM_ENDPOINT.indexOf("PASTE_") === 0) {
+      console.warn("FORM_ENDPOINT not set. Submission not sent:", data);
+      return Promise.resolve("demo");
+    }
+    if (FORM_ENDPOINT.indexOf("docs.google.com/forms") !== -1) {
+      const url = FORM_ENDPOINT.replace(/\/viewform.*$/, "/formResponse");
+      const body = new URLSearchParams();
+      Object.keys(GOOGLE_ENTRY_IDS).forEach(function (k) {
+        if (data[k]) body.append(GOOGLE_ENTRY_IDS[k], data[k]);
+      });
+      // Google Forms gives no readable response cross-origin; a network error still rejects.
+      return fetch(url, { method: "POST", mode: "no-cors", body: body }).then(function () { return "ok"; });
+    }
+    const fd = new FormData();
+    Object.keys(data).forEach(function (k) { fd.append(k, data[k]); });
+    return fetch(FORM_ENDPOINT, { method: "POST", body: fd, headers: { Accept: "application/json" } })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return "ok"; });
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (form.elements.website.value) return; // bot trap
+    const email = form.elements.email;
+    if (!email.value || !email.checkValidity()) { show("Please enter a valid email address.", false); email.focus(); return; }
+    if (!form.elements.consent.checked) { show("Please tick the consent box so we can store your answers.", false); form.elements.consent.focus(); return; }
+    const btn = form.querySelector("button[type=submit]");
+    btn.disabled = true;
+    send(collect()).then(function (r) {
+      form.reset();
+      show(r === "demo" ? "Demo mode: the form isn't connected yet, so nothing was sent." :
+        "You're on the list. We'll email you when the first batch is ready.", r !== "demo");
+      if (r === "ok" && window.fbq) window.fbq("track", "Lead");
+    }).catch(function () {
+      show("Sorry, that didn't send. Please check your connection and try again.", false);
+    }).then(function () { btn.disabled = false; });
+  });
+
+  // Cookie consent: analytics stay off unless accepted.
+  const banner = document.getElementById("cookie");
+  function getConsent() { try { return localStorage.getItem("cookie_consent"); } catch (e) { return null; } }
+  function setConsent(v) { try { localStorage.setItem("cookie_consent", v); } catch (e) {} }
+  function loadAnalytics() {
+    if (!ANALYTICS_ENABLED || !META_PIXEL_ID || window.fbq) return;
+    /* Standard Meta Pixel loader, inserted only after consent. */
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,"script","https://connect.facebook.net/en_US/fbevents.js");
+    window.fbq("init", META_PIXEL_ID);
+    window.fbq("track", "PageView");
+  }
+  if (ANALYTICS_ENABLED) {
+    const c = getConsent();
+    if (c === "yes") loadAnalytics();
+    else if (c !== "no") banner.style.display = "block";
+  }
+  document.getElementById("cookie-accept").onclick = function () { setConsent("yes"); banner.style.display = "none"; loadAnalytics(); };
+  document.getElementById("cookie-reject").onclick = function () { setConsent("no"); banner.style.display = "none"; };
+  document.getElementById("cookie-settings").onclick = function () {
+    if (!ANALYTICS_ENABLED) { alert("No analytics or tracking cookies are used on this page."); return; }
+    banner.style.display = "block";
+  };
+})();
+</script>
+</body>
+</html>
