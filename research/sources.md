@@ -422,6 +422,17 @@ All read via web-search summaries only (page fetches blocked); none read in full
 | RL5 | Lenhart & Chey (2017) polyols systematic review, Adv Nutr 8(4) | https://pmc.ncbi.nlm.nih.gov/articles/PMC5508768 | 21 Oct 2026 | Polyol GI effects | search-extract |
 | RL6 | Jäger et al. (2017) ISSN protein position stand, doi:10.1186/s12970-017-0177-8 | https://doaj.org/article/fcc34534a75d466aa37abda0042df7a7 | 21 Oct 2026 | Protein guidance | search-extract |
 
+## Combat-sports market segments (22 Oct 2026, `37-combat-sports-market.md`)
+| ID | Source | URL | Accessed | Used for | Type |
+|---|---|---|---|---|---|
+| CS1 | Muay Thai Records: "The rise of Muay Thai in the UK" (100k+ practitioners, 750+ gyms; unsourced, 2023) | https://muaythairecords.com/blog/the-rise-of-muay-thai-in-the-uk | 22 Oct 2026 | Muay Thai size (weak) | search-extract |
+| CS2 | England Boxing: progress vs strategic objectives (1,086 clubs, 36k+ members 2024/25); commercial slide deck (women 2,920 in May 2024) | https://www.englandboxing.org/about/what-we-do/progress-against-key-strategic-objectives-for-2022-2027/ ; https://www.englandboxing.org/wp-content/uploads/2025/11/Commercial-Slide-Deck.pdf | 22 Oct 2026 | Boxing size, women's growth | search-extract |
+| CS3 | Safe MMA: English MMA partnership (Sept 2025) and the register | https://safemma.org/2025/09/25/english-mma-partners-with-safe-mma/ ; https://safemma.org/the-register/ | 22 Oct 2026 | MMA competitor register | search-extract |
+| CS4 | Sustain Health: BJJ UK growth (UKBJJA ~40k in 2025; weak) | https://sustainhealth.fit/lifestyle/brazilian-jiu-jitsu-uk-growth/ | 22 Oct 2026 | BJJ size (weak) | search-extract |
+| CS5 | White-collar boxing: Country Life 2019 (~20k a year); Fundraising UK 2017 (36k signed up, 100 towns) | https://www.pressreader.com/uk/country-life/20191106/283175790302383 ; https://fundraising.co.uk/2017/11/30/ultra-white-collar-boxing-raises-10m-cruk-four-years/ | 22 Oct 2026 | White-collar size (promoter) | search-extract |
+| CS6 | National World: top 10 UK cities for combat sports 2025 (Durham #2) | https://www.nationalworld.com/sport/data-reveals-the-top-10-cities-dominating-combat-sports-in-2025-5170157 | 22 Oct 2026 | Durham local market | search-extract (weak) |
+| CS7 | University of Portsmouth: BUCS Boxing 2025 (240+ boxers, 72 unis); BUCS judo page | https://sport.port.ac.uk/news-events-and-blogs/news/student-wins-gold-at-the-bucs-national-boxing-championships ; https://bucs.org.uk/sports-page/judo.html | 22 Oct 2026 | University combat sport | search-extract |
+
 ## Ingredient prices (pilot = retail)
 | # | Item | URL | Accessed | Price | Status |
 |---|---|---|---|---|---|
