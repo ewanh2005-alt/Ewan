@@ -1,7 +1,7 @@
 # 37: UK combat-sports market: who to target first (secondary research)
 
 **Date:** 22 Oct 2026 · **Script:** `research/37_combat_segments.py` (scores and ranking) · **Sources:** CS1–CS7 (new, in `research/sources.md`) plus earlier U, X and WA IDs. Search summaries only: check any figure before it goes on a slide.
-**Primary evidence it builds on:** 8 MMA fighters want a natural, high-protein, high-carb, low-sugar snack after training . Women said a good-tasting real-food bar is something they'd "definitely consider" . **Counts per point are still not recorded** .
+**Primary evidence it builds on:** 8 MMA fighters want a natural, high-protein, high-carb, low-sugar snack after training `[EVIDENCE: C11–C18]`. Women said a good-tasting real-food bar is something they'd "definitely consider" `[EVIDENCE: Ewan]`. **Counts per point are still not recorded** `[GAP]`.
 
 ## The UK combat-sports market in numbers
 | Group | Size | Year | Tag |
